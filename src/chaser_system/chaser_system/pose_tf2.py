@@ -10,6 +10,8 @@ from geometry_msgs.msg import PoseStamped
 from geometry_msgs.msg import TransformStamped
 from mymsg.msg import Transform,MultiTransform
 
+
+pre_time = time.time()
 class pose_tf2(Node):
     def __init__(self):
         super().__init__('SateliteBroadcaster')
@@ -54,19 +56,15 @@ class pose_tf2(Node):
         id = 0
         id_2 = 0
         broadcast2 = TransformBroadcaster(self)
+        ids = data.id
         
         #print(len(data.transforms))
-        
-        for n in range(len(data.transforms)):
-            text_id = 'human_{}'.format(id)
-            people.append(text_id)
-            id += 1
         
         for num in range(len(data.transforms)):
             msg = TransformStamped()
             msg.header.stamp = self.get_clock().now().to_msg()
             msg.header.frame_id = "camera"
-            msg.child_frame_id = people[id_2]
+            msg.child_frame_id = ids[num]
             #print(data.transforms[0])
             
             msg.transform.translation.x = data.transforms[id_2].transform.translation.z
@@ -85,7 +83,7 @@ class pose_tf2(Node):
             gsg = TransformStamped()
             broadcast3 = TransformBroadcaster(self)
             gsg.header.stamp = self.get_clock().now().to_msg()
-            gsg.header.frame_id = "odom"
+            gsg.header.frame_id = "camera"
             gsg.child_frame_id = "RAISE_HAND"
             gsg.transform.translation.x = data.transform.translation.z
             gsg.transform.translation.y = data.transform.translation.x * -1
@@ -99,6 +97,7 @@ class pose_tf2(Node):
             time_now = time.time()
             if( time_now - pre_time > 10):
                 self.writing_waypoints(gsg)
+                pre_time = time.time()
                 
     #WayPoints CSV Writer
     def writing_waypoints(self,data): 
@@ -124,7 +123,7 @@ class pose_tf2(Node):
             
             go = PoseStamped()
             go.header.frame_id = "map"
-            go.header.stamp = rclpy.time.time()
+            go.header.stamp = self.get_clock().now().to_msg()
             go.pose.position.x = data_row[0]
             go.pose.position.y = data_row[1]
             go.pose.position.z = data_row[2]

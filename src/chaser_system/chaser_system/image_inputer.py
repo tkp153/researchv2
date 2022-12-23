@@ -270,8 +270,9 @@ class Image_Input(Node):
             pmsg.keypoints = i.data
             msg.poses.append(pmsg)
         msg.id = id
-        
-        self.pub.publish(msg)
+        # IDの個数　と　OpenPifpaf の人の検出人数　同じのみ　パブリッシュする
+        if(len(id) == len(data)):
+            self.pub.publish(msg)
         
 def main():
     

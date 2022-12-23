@@ -40,6 +40,9 @@ class person_checker(Node):
         
         global timer_previous
         
+        # パプリッシュ軽減処理の変数
+        Publish_Checker = False
+        
         
         for person in data.poses:
             
@@ -64,6 +67,8 @@ class person_checker(Node):
             r_num = 0
             L_Raise_Hand = False
             R_Raise_Hand = False
+            
+            
             #一人の処理↓
             for k in keypoints:
                 float_value = np.array(k[:3] / 200.0,dtype=float)
@@ -117,6 +122,7 @@ class person_checker(Node):
                         r_num += 1
                     if(key_num == 11):
                         Point_B = Point_O - np.array([0,50,0])
+                        r_num += 1
                     if(r_num == 3):
                         L_Raise_theta = self.deg_checker(Point_A, Point_B,Point_O)
                         Hand_Switch = "Left"
@@ -161,6 +167,8 @@ class person_checker(Node):
                         Output1.transform.rotation.z = 0.0
                         Output1.transform.rotation.w = 1.0
                         
+                        Publish_Checker = True
+                        
                         Output0.transforms.append(Output1)
                     
                     
@@ -182,15 +190,21 @@ class person_checker(Node):
 
                         
         Output0.id = data.id                
-        #人の重心座標パブリッシュ
-        self.pub_1.publish(Output0)       
+        
+        # パブリッシュ軽減処理
+        if(Publish_Checker == True):    
+            #人の重心座標パブリッシュ
+            self.pub_1.publish(Output0)
+            
+        else:
+            pass       
                 
     #重心計算メゾット
     def CenterOfGravity(self,x_sum,y_sum,z_sum):
         X_data = x_sum
         Y_data = y_sum
         Z_data = z_sum 
-        print("CH")
+        #print("CH")
         #キーポイント検索（キーポイント未検出があるかどうか）
         # 含まれていなかったらTRUEを返す。
         #X_data_result = 0.0 not in X_data
@@ -202,7 +216,7 @@ class person_checker(Node):
         Z_data_result = True
         
         if(X_data_result == True and Y_data_result == True and Z_data_result == True):
-            print("MJ")
+            #print("MJ")
             #重心計算
             X_Center = sum(X_data) / 4 
             Y_Center = sum(Y_data) / 4
@@ -234,8 +248,8 @@ class person_checker(Node):
         #print(Theta)
         if Theta is None:
             Theta = 180
-            print("Object is None")
-        #print(Theta)
+            #print("Object is None")
+        print(Theta)
         return Theta
     
     def raise_hand_checker(self,Theta,Point1,Point2,hand_switch):
