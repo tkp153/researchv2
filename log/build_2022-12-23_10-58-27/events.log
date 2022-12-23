@@ -1,0 +1,519 @@
+[0.000000] (-) TimerEvent: {}
+[0.000783] (chaser_system) JobQueued: {'identifier': 'chaser_system', 'dependencies': OrderedDict()}
+[0.000958] (mymsg) JobQueued: {'identifier': 'mymsg', 'dependencies': OrderedDict()}
+[0.001369] (chaser_system) JobStarted: {'identifier': 'chaser_system'}
+[0.036131] (mymsg) JobStarted: {'identifier': 'mymsg'}
+[0.099616] (-) TimerEvent: {}
+[0.200226] (-) TimerEvent: {}
+[0.300564] (-) TimerEvent: {}
+[0.400894] (-) TimerEvent: {}
+[0.501220] (-) TimerEvent: {}
+[0.573848] (mymsg) JobProgress: {'identifier': 'mymsg', 'progress': 'cmake'}
+[0.575217] (mymsg) JobProgress: {'identifier': 'mymsg', 'progress': 'build'}
+[0.577086] (mymsg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/researchv2/build/mymsg', '--', '-j12', '-l12'], 'cwd': '/root/researchv2/build/mymsg', 'env': OrderedDict([('SHELL', '/bin/bash'), ('ROS_VERSION', '2'), ('NV_LIBCUBLAS_VERSION', '11.8.1.74-1'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('NVIDIA_DRIVERS_CAPABILITIES', 'all'), ('COLORTERM', 'truecolor'), ('NV_NVML_DEV_VERSION', '11.6.55-1'), ('NV_CUDNN_PACKAGE_NAME', 'libcudnn8'), ('TERM_PROGRAM_VERSION', '1.74.2'), ('NV_LIBNCCL_DEV_PACKAGE', 'libnccl-dev=2.12.10-1+cuda11.6'), ('NV_LIBNCCL_DEV_PACKAGE_VERSION', '2.12.10-1'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', 'tkp153-P65-Creator-8RE'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.6 brand=tesla,driver>=418,driver<419 brand=tesla,driver>=450,driver<451 brand=tesla,driver>=470,driver<471 brand=unknown,driver>=470,driver<471 brand=nvidia,driver>=470,driver<471 brand=nvidiartx,driver>=470,driver<471 brand=geforce,driver>=470,driver<471 brand=geforcertx,driver>=470,driver<471 brand=quadro,driver>=470,driver<471 brand=quadrortx,driver>=470,driver<471 brand=titan,driver>=470,driver<471 brand=titanrtx,driver>=470,driver<471'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-d3fb1a6c1aba5cc38add87fb98b35976e7eb3306.sock'), ('NV_LIBCUBLAS_DEV_PACKAGE', 'libcublas-dev-11-6=11.8.1.74-1'), ('NV_NVTX_VERSION', '11.6.55-1'), ('NV_CUDA_CUDART_DEV_VERSION', '11.6.55-1'), ('APT_KEY_DONT_WARN_ON_DANGEROUS_USAGE', '1'), ('NV_LIBCUSPARSE_VERSION', '11.7.1.55-1'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-d3fb1a6c1aba5cc38add87fb98b35976e7eb3306.sock'), ('NV_LIBNPP_VERSION', '11.6.0.55-1'), ('NCCL_VERSION', '2.12.10-1'), ('PWD', '/root/researchv2/build/mymsg'), ('NV_CUDNN_PACKAGE', 'libcudnn8=8.4.0.27-1+cuda11.6'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility'), ('NV_NVPROF_DEV_PACKAGE', 'cuda-nvprof-11-6=11.6.55-1'), ('ROS_DOMAIN_ID', '30'), ('NV_LIBNPP_PACKAGE', 'libnpp-11-6=11.6.0.55-1'), ('NV_LIBNCCL_DEV_PACKAGE_NAME', 'libnccl-dev'), ('TZ', 'Asia/Tokyo'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/node'), ('NV_LIBCUBLAS_DEV_VERSION', '11.8.1.74-1'), ('NV_LIBCUBLAS_DEV_PACKAGE_NAME', 'libcublas-dev-11-6'), ('NV_CUDA_CUDART_VERSION', '11.6.55-1'), ('HOME', '/root'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('REMOTE_CONTAINERS', 'true'), ('CUDA_VERSION', '11.6.0'), ('NV_LIBCUBLAS_PACKAGE', 'libcublas-11-6=11.8.1.74-1'), ('AMENT_PREFIX_PATH', '/root/researchv2/install/mymsg:/root/researchv2/install/chaser_system:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/realsense2_description:/root/openpifpaf_ros2/install/realsense2_camera:/root/openpifpaf_ros2/install/realsense2_camera_msgs:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node:/root/openpifpaf_ros2/install/openpifpaf_ros2_msgs:/opt/ros/foxy'), ('GIT_ASKPASS', '/root/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/extensions/git/dist/askpass.sh'), ('CMAKE_PREFIX_PATH', '/root/researchv2/install/mymsg:/root/openpifpaf_ros2/install/realsense2_description:/root/openpifpaf_ros2/install/realsense2_camera:/root/openpifpaf_ros2/install/realsense2_camera_msgs:/root/openpifpaf_ros2/install/openpifpaf_ros2_msgs:/root/researchv2/install/chaser_system:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node:/opt/ros/foxy'), ('COLCON_PREFIX_PATH', '/root/researchv2/install:/root/openpifpaf_ros2/install:/root/colcon_ws/install'), ('NV_LIBNPP_DEV_PACKAGE', 'libnpp-dev-11-6=11.6.0.55-1'), ('NV_LIBCUBLAS_PACKAGE_NAME', 'libcublas-11-6'), ('NV_LIBNPP_DEV_VERSION', '11.6.0.55-1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PYTHONPATH', '/root/researchv2/install/mymsg/lib/python3.8/site-packages:/root/researchv2/install/chaser_system/lib/python3.8/site-packages:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2/lib/python3.8/site-packages:/root/openpifpaf_ros2/install/realsense2_camera_msgs/lib/python3.8/site-packages:/root/openpifpaf_ros2/install/pose_checker/lib/python3.8/site-packages:/root/openpifpaf_ros2/install/openpifpaf_ros2_node/lib/python3.8/site-packages:/root/openpifpaf_ros2/install/openpifpaf_ros2_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-256color'), ('NV_LIBCUSPARSE_DEV_VERSION', '11.7.1.55-1'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-d3fb1a6c1aba5cc38add87fb98b35976e7eb3306.sock","/root/.gnupg/S.gpg-agent"]'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('NV_CUDNN_VERSION', '8.4.0.27'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-f37de6060a.sock'), ('DISPLAY', ':1'), ('SHLVL', '3'), ('NV_CUDA_LIB_VERSION', '11.6.0-1'), ('NVARCH', 'x86_64'), ('NV_CUDNN_PACKAGE_DEV', 'libcudnn8-dev=8.4.0.27-1+cuda11.6'), ('NV_CUDA_COMPAT_PACKAGE', 'cuda-compat-11-6'), ('NV_LIBNCCL_PACKAGE', 'libnccl2=2.12.10-1+cuda11.6'), ('LD_LIBRARY_PATH', '/root/researchv2/install/mymsg/lib:/root/openpifpaf_ros2/install/realsense2_camera/lib:/root/openpifpaf_ros2/install/realsense2_camera_msgs/lib:/root/openpifpaf_ros2/install/openpifpaf_ros2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/11.6.0/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'), ('ROS_LOCALHOST_ONLY', '0'), ('NV_NVPROF_VERSION', '11.6.55-1'), ('LC_ALL', 'C.UTF-8'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/extensions/git/dist/askpass-main.js'), ('BROWSER', '/root/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/bin/helpers/browser.sh'), ('PATH', '/root/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/bin/remote-cli:/opt/ros/foxy/bin:= /usr/local/11.6.0/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('NV_LIBNCCL_PACKAGE_NAME', 'libnccl2'), ('NV_LIBNCCL_PACKAGE_VERSION', '2.12.10-1'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'foxy'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-2cb52954-4379-44bd-9653-6da0a108fe0a.sock'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.601400] (-) TimerEvent: {}
+[0.646357] (mymsg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.701098] (mymsg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.701557] (-) TimerEvent: {}
+[0.701759] (mymsg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.801674] (-) TimerEvent: {}
+[0.902024] (-) TimerEvent: {}
+[1.002366] (-) TimerEvent: {}
+[1.102720] (-) TimerEvent: {}
+[1.141131] (mymsg) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[1.202830] (-) TimerEvent: {}
+[1.226517] (mymsg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.240016] (mymsg) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.302940] (-) TimerEvent: {}
+[1.403248] (-) TimerEvent: {}
+[1.425184] (chaser_system) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/chaser_system', 'build', '--build-base', '/root/researchv2/build/chaser_system/build', 'install', '--prefix', '/root/researchv2/install/chaser_system', '--record', '/root/researchv2/build/chaser_system/install.log', '--single-version-externally-managed'], 'cwd': '/root/researchv2/src/chaser_system', 'env': {'SHELL': '/bin/bash', 'ROS_VERSION': '2', 'NV_LIBCUBLAS_VERSION': '11.8.1.74-1', 'NVIDIA_VISIBLE_DEVICES': 'all', 'NVIDIA_DRIVERS_CAPABILITIES': 'all', 'COLORTERM': 'truecolor', 'NV_NVML_DEV_VERSION': '11.6.55-1', 'NV_CUDNN_PACKAGE_NAME': 'libcudnn8', 'TERM_PROGRAM_VERSION': '1.74.2', 'NV_LIBNCCL_DEV_PACKAGE': 'libnccl-dev=2.12.10-1+cuda11.6', 'NV_LIBNCCL_DEV_PACKAGE_VERSION': '2.12.10-1', 'ROS_PYTHON_VERSION': '3', 'HOSTNAME': 'tkp153-P65-Creator-8RE', 'NVIDIA_REQUIRE_CUDA': 'cuda>=11.6 brand=tesla,driver>=418,driver<419 brand=tesla,driver>=450,driver<451 brand=tesla,driver>=470,driver<471 brand=unknown,driver>=470,driver<471 brand=nvidia,driver>=470,driver<471 brand=nvidiartx,driver>=470,driver<471 brand=geforce,driver>=470,driver<471 brand=geforcertx,driver>=470,driver<471 brand=quadro,driver>=470,driver<471 brand=quadrortx,driver>=470,driver<471 brand=titan,driver>=470,driver<471 brand=titanrtx,driver>=470,driver<471', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-d3fb1a6c1aba5cc38add87fb98b35976e7eb3306.sock', 'NV_LIBCUBLAS_DEV_PACKAGE': 'libcublas-dev-11-6=11.8.1.74-1', 'NV_NVTX_VERSION': '11.6.55-1', 'NV_CUDA_CUDART_DEV_VERSION': '11.6.55-1', 'APT_KEY_DONT_WARN_ON_DANGEROUS_USAGE': '1', 'NV_LIBCUSPARSE_VERSION': '11.7.1.55-1', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-d3fb1a6c1aba5cc38add87fb98b35976e7eb3306.sock', 'NV_LIBNPP_VERSION': '11.6.0.55-1', 'NCCL_VERSION': '2.12.10-1', 'PWD': '/root/researchv2/build/chaser_system', 'NV_CUDNN_PACKAGE': 'libcudnn8=8.4.0.27-1+cuda11.6', 'NVIDIA_DRIVER_CAPABILITIES': 'compute,utility', 'NV_NVPROF_DEV_PACKAGE': 'cuda-nvprof-11-6=11.6.55-1', 'ROS_DOMAIN_ID': '30', 'NV_LIBNPP_PACKAGE': 'libnpp-11-6=11.6.0.55-1', 'NV_LIBNCCL_DEV_PACKAGE_NAME': 'libnccl-dev', 'TZ': 'Asia/Tokyo', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/node', 'NV_LIBCUBLAS_DEV_VERSION': '11.8.1.74-1', 'NV_LIBCUBLAS_DEV_PACKAGE_NAME': 'libcublas-dev-11-6', 'NV_CUDA_CUDART_VERSION': '11.6.55-1', 'HOME': '/root', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'REMOTE_CONTAINERS': 'true', 'CUDA_VERSION': '11.6.0', 'NV_LIBCUBLAS_PACKAGE': 'libcublas-11-6=11.8.1.74-1', 'AMENT_PREFIX_PATH': '/root/researchv2/install/mymsg:/root/researchv2/install/chaser_system:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/realsense2_description:/root/openpifpaf_ros2/install/realsense2_camera:/root/openpifpaf_ros2/install/realsense2_camera_msgs:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node:/root/openpifpaf_ros2/install/openpifpaf_ros2_msgs:/opt/ros/foxy', 'GIT_ASKPASS': '/root/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/extensions/git/dist/askpass.sh', 'CMAKE_PREFIX_PATH': '/root/researchv2/install/mymsg:/root/openpifpaf_ros2/install/realsense2_description:/root/openpifpaf_ros2/install/realsense2_camera:/root/openpifpaf_ros2/install/realsense2_camera_msgs:/root/openpifpaf_ros2/install/openpifpaf_ros2_msgs', 'COLCON_PREFIX_PATH': '/root/researchv2/install:/root/openpifpaf_ros2/install:/root/colcon_ws/install', 'NV_LIBNPP_DEV_PACKAGE': 'libnpp-dev-11-6=11.6.0.55-1', 'NV_LIBCUBLAS_PACKAGE_NAME': 'libcublas-11-6', 'NV_LIBNPP_DEV_VERSION': '11.6.0.55-1', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PYTHONPATH': '/root/researchv2/install/chaser_system/lib/python3.8/site-packages:/root/researchv2/install/mymsg/lib/python3.8/site-packages:/root/researchv2/install/chaser_system/lib/python3.8/site-packages:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2/lib/python3.8/site-packages:/root/openpifpaf_ros2/install/realsense2_camera_msgs/lib/python3.8/site-packages:/root/openpifpaf_ros2/install/pose_checker/lib/python3.8/site-packages:/root/openpifpaf_ros2/install/openpifpaf_ros2_node/lib/python3.8/site-packages:/root/openpifpaf_ros2/install/openpifpaf_ros2_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'TERM': 'xterm-256color', 'NV_LIBCUSPARSE_DEV_VERSION': '11.7.1.55-1', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-d3fb1a6c1aba5cc38add87fb98b35976e7eb3306.sock","/root/.gnupg/S.gpg-agent"]', 'LIBRARY_PATH': '/usr/local/cuda/lib64/stubs', 'NV_CUDNN_VERSION': '8.4.0.27', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-f37de6060a.sock', 'DISPLAY': ':1', 'SHLVL': '3', 'NV_CUDA_LIB_VERSION': '11.6.0-1', 'NVARCH': 'x86_64', 'NV_CUDNN_PACKAGE_DEV': 'libcudnn8-dev=8.4.0.27-1+cuda11.6', 'NV_CUDA_COMPAT_PACKAGE': 'cuda-compat-11-6', 'NV_LIBNCCL_PACKAGE': 'libnccl2=2.12.10-1+cuda11.6', 'LD_LIBRARY_PATH': '/root/researchv2/install/mymsg/lib:/root/openpifpaf_ros2/install/realsense2_camera/lib:/root/openpifpaf_ros2/install/realsense2_camera_msgs/lib:/root/openpifpaf_ros2/install/openpifpaf_ros2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/11.6.0/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64', 'ROS_LOCALHOST_ONLY': '0', 'NV_NVPROF_VERSION': '11.6.55-1', 'LC_ALL': 'C.UTF-8', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/extensions/git/dist/askpass-main.js', 'BROWSER': '/root/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/bin/helpers/browser.sh', 'PATH': '/root/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/bin/remote-cli:/opt/ros/foxy/bin:= /usr/local/11.6.0/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'NV_LIBNCCL_PACKAGE_NAME': 'libnccl2', 'NV_LIBNCCL_PACKAGE_VERSION': '2.12.10-1', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_DISTRO': 'foxy', 'TERM_PROGRAM': 'vscode', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-2cb52954-4379-44bd-9653-6da0a108fe0a.sock', '_': '/usr/bin/env'}, 'shell': False}
+[1.503392] (-) TimerEvent: {}
+[1.603766] (-) TimerEvent: {}
+[1.617597] (mymsg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.703866] (-) TimerEvent: {}
+[1.804211] (-) TimerEvent: {}
+[1.811871] (mymsg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.838349] (mymsg) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[1.842540] (chaser_system) StdoutLine: {'line': b'running egg_info\n'}
+[1.843783] (chaser_system) StdoutLine: {'line': b'writing ../../build/chaser_system/chaser_system.egg-info/PKG-INFO\n'}
+[1.844200] (chaser_system) StdoutLine: {'line': b'writing dependency_links to ../../build/chaser_system/chaser_system.egg-info/dependency_links.txt\n'}
+[1.844588] (chaser_system) StdoutLine: {'line': b'writing entry points to ../../build/chaser_system/chaser_system.egg-info/entry_points.txt\n'}
+[1.844932] (chaser_system) StdoutLine: {'line': b'writing requirements to ../../build/chaser_system/chaser_system.egg-info/requires.txt\n'}
+[1.845227] (chaser_system) StdoutLine: {'line': b'writing top-level names to ../../build/chaser_system/chaser_system.egg-info/top_level.txt\n'}
+[1.904312] (-) TimerEvent: {}
+[1.920929] (chaser_system) StdoutLine: {'line': b"reading manifest file '../../build/chaser_system/chaser_system.egg-info/SOURCES.txt'\n"}
+[1.922531] (chaser_system) StdoutLine: {'line': b"writing manifest file '../../build/chaser_system/chaser_system.egg-info/SOURCES.txt'\n"}
+[1.922928] (chaser_system) StdoutLine: {'line': b'running build\n'}
+[1.923121] (chaser_system) StdoutLine: {'line': b'running build_py\n'}
+[1.924209] (chaser_system) StdoutLine: {'line': b'running install\n'}
+[1.925968] (chaser_system) StdoutLine: {'line': b'running install_lib\n'}
+[1.929602] (chaser_system) StdoutLine: {'line': b'running install_data\n'}
+[1.930672] (chaser_system) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.934908] (chaser_system) StdoutLine: {'line': b"removing '/root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[1.935569] (chaser_system) StdoutLine: {'line': b'Copying ../../build/chaser_system/chaser_system.egg-info to /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system-0.0.0-py3.8.egg-info\n'}
+[1.937562] (chaser_system) StdoutLine: {'line': b'running install_scripts\n'}
+[1.975487] (chaser_system) StdoutLine: {'line': b'Installing image_inputer script to /root/researchv2/install/chaser_system/lib/chaser_system\n'}
+[1.975841] (chaser_system) StdoutLine: {'line': b'Installing person_check script to /root/researchv2/install/chaser_system/lib/chaser_system\n'}
+[1.976121] (chaser_system) StdoutLine: {'line': b'Installing pose_tf2 script to /root/researchv2/install/chaser_system/lib/chaser_system\n'}
+[1.976420] (chaser_system) StdoutLine: {'line': b'Installing rgbd_generator script to /root/researchv2/install/chaser_system/lib/chaser_system\n'}
+[1.976684] (chaser_system) StdoutLine: {'line': b'Installing three_d_pose_analysis script to /root/researchv2/install/chaser_system/lib/chaser_system\n'}
+[1.977383] (chaser_system) StdoutLine: {'line': b"writing list of installed files to '/root/researchv2/build/chaser_system/install.log'\n"}
+[2.004413] (-) TimerEvent: {}
+[2.015717] (chaser_system) CommandEnded: {'returncode': 0}
+[2.051443] (mymsg) StdoutLine: {'line': b'-- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)\n'}
+[2.057463] (chaser_system) JobEnded: {'identifier': 'chaser_system', 'rc': 0}
+[2.104521] (-) TimerEvent: {}
+[2.204950] (-) TimerEvent: {}
+[2.305536] (-) TimerEvent: {}
+[2.325506] (mymsg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[2.405644] (-) TimerEvent: {}
+[2.506028] (-) TimerEvent: {}
+[2.606401] (-) TimerEvent: {}
+[2.706747] (-) TimerEvent: {}
+[2.807078] (-) TimerEvent: {}
+[2.868809] (mymsg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[2.907212] (-) TimerEvent: {}
+[3.007591] (-) TimerEvent: {}
+[3.107933] (-) TimerEvent: {}
+[3.208270] (-) TimerEvent: {}
+[3.308594] (-) TimerEvent: {}
+[3.408950] (-) TimerEvent: {}
+[3.509291] (-) TimerEvent: {}
+[3.609636] (-) TimerEvent: {}
+[3.709975] (-) TimerEvent: {}
+[3.810323] (-) TimerEvent: {}
+[3.910674] (-) TimerEvent: {}
+[3.911977] (mymsg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.010773] (-) TimerEvent: {}
+[4.111153] (-) TimerEvent: {}
+[4.211496] (-) TimerEvent: {}
+[4.311890] (-) TimerEvent: {}
+[4.412755] (-) TimerEvent: {}
+[4.472871] (mymsg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.512864] (-) TimerEvent: {}
+[4.554627] (mymsg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[4.556174] (mymsg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[4.612964] (-) TimerEvent: {}
+[4.621896] (mymsg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.622231] (mymsg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[4.622440] (mymsg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[4.713072] (-) TimerEvent: {}
+[4.813464] (-) TimerEvent: {}
+[4.882791] (mymsg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[4.913560] (-) TimerEvent: {}
+[4.929985] (mymsg) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.935256] (mymsg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.936701] (mymsg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.937833] (mymsg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[4.940870] (mymsg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.952853] (mymsg) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.013661] (-) TimerEvent: {}
+[5.114121] (-) TimerEvent: {}
+[5.210041] (mymsg) StdoutLine: {'line': b'-- Generating done\n'}
+[5.214187] (-) TimerEvent: {}
+[5.220772] (mymsg) StdoutLine: {'line': b'-- Build files have been written to: /root/researchv2/build/mymsg\n'}
+[5.282661] (mymsg) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.305619] (mymsg) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.314288] (-) TimerEvent: {}
+[5.414632] (-) TimerEvent: {}
+[5.514990] (-) TimerEvent: {}
+[5.615351] (-) TimerEvent: {}
+[5.715722] (-) TimerEvent: {}
+[5.816064] (-) TimerEvent: {}
+[5.916378] (-) TimerEvent: {}
+[6.016703] (-) TimerEvent: {}
+[6.117048] (-) TimerEvent: {}
+[6.217405] (-) TimerEvent: {}
+[6.317758] (-) TimerEvent: {}
+[6.355098] (mymsg) StdoutLine: {'line': b'[  3%] Built target mymsg__cpp\n'}
+[6.384086] (mymsg) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[6.386317] (mymsg) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.387726] (mymsg) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.417867] (-) TimerEvent: {}
+[6.518266] (-) TimerEvent: {}
+[6.554674] (mymsg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target mymsg__rosidl_generator_c\x1b[0m\n'}
+[6.618373] (-) TimerEvent: {}
+[6.663940] (mymsg) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/msg/detail/multi_transform__functions.c.o\x1b[0m\n'}
+[6.665229] (mymsg) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/msg/detail/transform__functions.c.o\x1b[0m\n'}
+[6.668728] (mymsg) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/msg/detail/pose__functions.c.o\x1b[0m\n'}
+[6.673851] (mymsg) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/imagedata__functions.c.o\x1b[0m\n'}
+[6.678685] (mymsg) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/msg/detail/poses__functions.c.o\x1b[0m\n'}
+[6.718481] (-) TimerEvent: {}
+[6.819037] (-) TimerEvent: {}
+[6.920029] (-) TimerEvent: {}
+[6.975970] (mymsg) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking C shared library libmymsg__rosidl_generator_c.so\x1b[0m\n'}
+[7.020131] (-) TimerEvent: {}
+[7.106978] (mymsg) StdoutLine: {'line': b'[ 17%] Built target mymsg__rosidl_generator_c\n'}
+[7.120235] (-) TimerEvent: {}
+[7.135650] (mymsg) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.138469] (mymsg) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[7.207160] (mymsg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target mymsg__rosidl_typesupport_cpp\x1b[0m\n'}
+[7.220360] (-) TimerEvent: {}
+[7.250132] (mymsg) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mymsg/msg/pose__type_support.cpp.o\x1b[0m\n'}
+[7.302990] (mymsg) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mymsg/msg/poses__type_support.cpp.o\x1b[0m\n'}
+[7.311344] (mymsg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mymsg/msg/multi_transform__type_support.cpp.o\x1b[0m\n'}
+[7.320471] (-) TimerEvent: {}
+[7.321703] (mymsg) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mymsg/msg/transform__type_support.cpp.o\x1b[0m\n'}
+[7.325845] (mymsg) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mymsg/srv/imagedata__type_support.cpp.o\x1b[0m\n'}
+[7.420584] (-) TimerEvent: {}
+[7.424483] (mymsg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target mymsg__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[7.513578] (mymsg) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mymsg/msg/detail/pose__type_support.cpp.o\x1b[0m\n'}
+[7.517222] (mymsg) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mymsg/msg/detail/transform__type_support.cpp.o\x1b[0m\n'}
+[7.520697] (-) TimerEvent: {}
+[7.529125] (mymsg) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mymsg/msg/detail/poses__type_support.cpp.o\x1b[0m\n'}
+[7.544125] (mymsg) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mymsg/msg/detail/multi_transform__type_support.cpp.o\x1b[0m\n'}
+[7.620816] (-) TimerEvent: {}
+[7.721242] (-) TimerEvent: {}
+[7.822646] (-) TimerEvent: {}
+[7.919614] (mymsg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target mymsg__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[7.922762] (-) TimerEvent: {}
+[8.023168] (-) TimerEvent: {}
+[8.057863] (mymsg) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mymsg/msg/detail/dds_fastrtps/pose__type_support.cpp.o\x1b[0m\n'}
+[8.123282] (-) TimerEvent: {}
+[8.223829] (-) TimerEvent: {}
+[8.322370] (mymsg) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mymsg/msg/detail/dds_fastrtps/poses__type_support.cpp.o\x1b[0m\n'}
+[8.323932] (-) TimerEvent: {}
+[8.356512] (mymsg) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mymsg/srv/detail/imagedata__type_support.cpp.o\x1b[0m\n'}
+[8.379537] (mymsg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target mymsg__rosidl_typesupport_c\x1b[0m\n'}
+[8.403940] (mymsg) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mymsg/msg/detail/dds_fastrtps/transform__type_support.cpp.o\x1b[0m\n'}
+[8.424061] (-) TimerEvent: {}
+[8.433499] (mymsg) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libmymsg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[8.459332] (mymsg) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mymsg/msg/detail/dds_fastrtps/multi_transform__type_support.cpp.o\x1b[0m\n'}
+[8.474203] (mymsg) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_c.dir/rosidl_typesupport_c/mymsg/msg/pose__type_support.cpp.o\x1b[0m\n'}
+[8.492436] (mymsg) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mymsg/srv/detail/dds_fastrtps/imagedata__type_support.cpp.o\x1b[0m\n'}
+[8.524190] (-) TimerEvent: {}
+[8.625765] (-) TimerEvent: {}
+[8.628275] (mymsg) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_c.dir/rosidl_typesupport_c/mymsg/msg/poses__type_support.cpp.o\x1b[0m\n'}
+[8.665737] (mymsg) StdoutLine: {'line': b'[ 49%] Built target mymsg__rosidl_typesupport_cpp\n'}
+[8.670232] (mymsg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_c.dir/rosidl_typesupport_c/mymsg/msg/transform__type_support.cpp.o\x1b[0m\n'}
+[8.725917] (-) TimerEvent: {}
+[8.743826] (mymsg) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_c.dir/rosidl_typesupport_c/mymsg/msg/multi_transform__type_support.cpp.o\x1b[0m\n'}
+[8.757390] (mymsg) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_c.dir/rosidl_typesupport_c/mymsg/srv/imagedata__type_support.cpp.o\x1b[0m\n'}
+[8.826038] (-) TimerEvent: {}
+[8.881353] (mymsg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target mymsg__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[8.912255] (mymsg) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libmymsg__rosidl_typesupport_c.so\x1b[0m\n'}
+[8.926163] (-) TimerEvent: {}
+[8.947115] (mymsg) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/mymsg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mymsg/msg/detail/pose__type_support.c.o\x1b[0m\n'}
+[8.948771] (mymsg) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/mymsg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mymsg/msg/detail/transform__type_support.c.o\x1b[0m\n'}
+[8.971824] (mymsg) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/mymsg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mymsg/msg/detail/multi_transform__type_support.c.o\x1b[0m\n'}
+[8.974232] (mymsg) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/mymsg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mymsg/srv/detail/imagedata__type_support.c.o\x1b[0m\n'}
+[8.975776] (mymsg) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/mymsg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mymsg/msg/detail/poses__type_support.c.o\x1b[0m\n'}
+[9.026294] (-) TimerEvent: {}
+[9.127583] (mymsg) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking C shared library libmymsg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.127992] (-) TimerEvent: {}
+[9.137674] (mymsg) StdoutLine: {'line': b'[ 65%] Built target mymsg__rosidl_typesupport_c\n'}
+[9.225375] (mymsg) StdoutLine: {'line': b'[ 65%] Built target mymsg__rosidl_typesupport_introspection_c\n'}
+[9.228133] (-) TimerEvent: {}
+[9.302504] (mymsg) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libmymsg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[9.328248] (-) TimerEvent: {}
+[9.429387] (-) TimerEvent: {}
+[9.519129] (mymsg) StdoutLine: {'line': b'[ 66%] Built target mymsg__rosidl_typesupport_introspection_cpp\n'}
+[9.529504] (-) TimerEvent: {}
+[9.629904] (-) TimerEvent: {}
+[9.730297] (-) TimerEvent: {}
+[9.826298] (mymsg) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libmymsg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[9.830387] (-) TimerEvent: {}
+[9.930804] (-) TimerEvent: {}
+[10.031350] (-) TimerEvent: {}
+[10.066660] (mymsg) StdoutLine: {'line': b'[ 68%] Built target mymsg__rosidl_typesupport_fastrtps_cpp\n'}
+[10.093103] (mymsg) StdoutLine: {'line': b'[ 69%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[10.131447] (-) TimerEvent: {}
+[10.231853] (-) TimerEvent: {}
+[10.333086] (-) TimerEvent: {}
+[10.433473] (-) TimerEvent: {}
+[10.533805] (-) TimerEvent: {}
+[10.634751] (-) TimerEvent: {}
+[10.735093] (-) TimerEvent: {}
+[10.835444] (-) TimerEvent: {}
+[10.935788] (-) TimerEvent: {}
+[11.019500] (mymsg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target mymsg__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[11.035894] (-) TimerEvent: {}
+[11.082874] (mymsg) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mymsg/msg/detail/poses__type_support_c.cpp.o\x1b[0m\n'}
+[11.083610] (mymsg) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mymsg/msg/detail/pose__type_support_c.cpp.o\x1b[0m\n'}
+[11.086013] (mymsg) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mymsg/msg/detail/multi_transform__type_support_c.cpp.o\x1b[0m\n'}
+[11.086742] (mymsg) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mymsg/msg/detail/transform__type_support_c.cpp.o\x1b[0m\n'}
+[11.087185] (mymsg) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mymsg/srv/detail/imagedata__type_support_c.cpp.o\x1b[0m\n'}
+[11.136010] (-) TimerEvent: {}
+[11.236430] (-) TimerEvent: {}
+[11.336848] (-) TimerEvent: {}
+[11.437266] (-) TimerEvent: {}
+[11.537770] (-) TimerEvent: {}
+[11.638353] (-) TimerEvent: {}
+[11.738758] (-) TimerEvent: {}
+[11.839156] (-) TimerEvent: {}
+[11.939564] (-) TimerEvent: {}
+[12.032901] (mymsg) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libmymsg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[12.039664] (-) TimerEvent: {}
+[12.140061] (-) TimerEvent: {}
+[12.240498] (-) TimerEvent: {}
+[12.240889] (mymsg) StdoutLine: {'line': b'[ 79%] Built target mymsg__rosidl_typesupport_fastrtps_c\n'}
+[12.288450] (mymsg) StdoutLine: {'line': b'[ 79%] Built target mymsg\n'}
+[12.333582] (mymsg) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[12.340594] (-) TimerEvent: {}
+[12.440982] (-) TimerEvent: {}
+[12.541368] (-) TimerEvent: {}
+[12.641689] (-) TimerEvent: {}
+[12.742073] (-) TimerEvent: {}
+[12.842490] (-) TimerEvent: {}
+[12.942972] (-) TimerEvent: {}
+[13.043386] (-) TimerEvent: {}
+[13.143880] (-) TimerEvent: {}
+[13.244227] (-) TimerEvent: {}
+[13.344574] (-) TimerEvent: {}
+[13.444980] (-) TimerEvent: {}
+[13.545318] (-) TimerEvent: {}
+[13.645644] (-) TimerEvent: {}
+[13.746016] (-) TimerEvent: {}
+[13.846372] (-) TimerEvent: {}
+[13.946835] (-) TimerEvent: {}
+[14.047309] (-) TimerEvent: {}
+[14.082025] (mymsg) StdoutLine: {'line': b'[ 80%] Built target mymsg__py\n'}
+[14.108932] (mymsg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target mymsg__python\x1b[0m\n'}
+[14.147414] (-) TimerEvent: {}
+[14.185403] (mymsg) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/mymsg__python.dir/rosidl_generator_py/mymsg/msg/_poses_s.c.o\x1b[0m\n'}
+[14.187233] (mymsg) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/mymsg__python.dir/rosidl_generator_py/mymsg/msg/_pose_s.c.o\x1b[0m\n'}
+[14.189941] (mymsg) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/mymsg__python.dir/rosidl_generator_py/mymsg/srv/_imagedata_s.c.o\x1b[0m\n'}
+[14.191305] (mymsg) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/mymsg__python.dir/rosidl_generator_py/mymsg/msg/_multi_transform_s.c.o\x1b[0m\n'}
+[14.194899] (mymsg) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/mymsg__python.dir/rosidl_generator_py/mymsg/msg/_transform_s.c.o\x1b[0m\n'}
+[14.247543] (-) TimerEvent: {}
+[14.348026] (-) TimerEvent: {}
+[14.448410] (-) TimerEvent: {}
+[14.507161] (mymsg) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/mymsg/libmymsg__python.so\x1b[0m\n'}
+[14.548504] (-) TimerEvent: {}
+[14.641756] (mymsg) StdoutLine: {'line': b'[ 90%] Built target mymsg__python\n'}
+[14.648617] (-) TimerEvent: {}
+[14.669679] (mymsg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target mymsg__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[14.670125] (mymsg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target mymsg__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[14.670636] (mymsg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target mymsg__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[14.724684] (mymsg) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/mymsg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/mymsg/_mymsg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[14.725716] (mymsg) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/mymsg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/mymsg/_mymsg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[14.730367] (mymsg) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/mymsg/_mymsg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[14.748729] (-) TimerEvent: {}
+[14.849121] (-) TimerEvent: {}
+[14.949581] (-) TimerEvent: {}
+[14.983386] (mymsg) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/mymsg/mymsg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.987418] (mymsg) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/mymsg/mymsg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.990813] (mymsg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/mymsg/mymsg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[15.049684] (-) TimerEvent: {}
+[15.100838] (mymsg) StdoutLine: {'line': b'[100%] Built target mymsg__rosidl_typesupport_c__pyext\n'}
+[15.103873] (mymsg) StdoutLine: {'line': b'[100%] Built target mymsg__rosidl_typesupport_introspection_c__pyext\n'}
+[15.149774] (-) TimerEvent: {}
+[15.186209] (mymsg) StdoutLine: {'line': b'[100%] Built target mymsg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[15.210227] (mymsg) CommandEnded: {'returncode': 0}
+[15.249945] (-) TimerEvent: {}
+[15.350436] (-) TimerEvent: {}
+[15.450794] (-) TimerEvent: {}
+[15.551152] (-) TimerEvent: {}
+[15.651663] (-) TimerEvent: {}
+[15.683037] (mymsg) JobProgress: {'identifier': 'mymsg', 'progress': 'install'}
+[15.704013] (mymsg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/researchv2/build/mymsg'], 'cwd': '/root/researchv2/build/mymsg', 'env': OrderedDict([('SHELL', '/bin/bash'), ('ROS_VERSION', '2'), ('NV_LIBCUBLAS_VERSION', '11.8.1.74-1'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('NVIDIA_DRIVERS_CAPABILITIES', 'all'), ('COLORTERM', 'truecolor'), ('NV_NVML_DEV_VERSION', '11.6.55-1'), ('NV_CUDNN_PACKAGE_NAME', 'libcudnn8'), ('TERM_PROGRAM_VERSION', '1.74.2'), ('NV_LIBNCCL_DEV_PACKAGE', 'libnccl-dev=2.12.10-1+cuda11.6'), ('NV_LIBNCCL_DEV_PACKAGE_VERSION', '2.12.10-1'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', 'tkp153-P65-Creator-8RE'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.6 brand=tesla,driver>=418,driver<419 brand=tesla,driver>=450,driver<451 brand=tesla,driver>=470,driver<471 brand=unknown,driver>=470,driver<471 brand=nvidia,driver>=470,driver<471 brand=nvidiartx,driver>=470,driver<471 brand=geforce,driver>=470,driver<471 brand=geforcertx,driver>=470,driver<471 brand=quadro,driver>=470,driver<471 brand=quadrortx,driver>=470,driver<471 brand=titan,driver>=470,driver<471 brand=titanrtx,driver>=470,driver<471'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-d3fb1a6c1aba5cc38add87fb98b35976e7eb3306.sock'), ('NV_LIBCUBLAS_DEV_PACKAGE', 'libcublas-dev-11-6=11.8.1.74-1'), ('NV_NVTX_VERSION', '11.6.55-1'), ('NV_CUDA_CUDART_DEV_VERSION', '11.6.55-1'), ('APT_KEY_DONT_WARN_ON_DANGEROUS_USAGE', '1'), ('NV_LIBCUSPARSE_VERSION', '11.7.1.55-1'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-d3fb1a6c1aba5cc38add87fb98b35976e7eb3306.sock'), ('NV_LIBNPP_VERSION', '11.6.0.55-1'), ('NCCL_VERSION', '2.12.10-1'), ('PWD', '/root/researchv2/build/mymsg'), ('NV_CUDNN_PACKAGE', 'libcudnn8=8.4.0.27-1+cuda11.6'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility'), ('NV_NVPROF_DEV_PACKAGE', 'cuda-nvprof-11-6=11.6.55-1'), ('ROS_DOMAIN_ID', '30'), ('NV_LIBNPP_PACKAGE', 'libnpp-11-6=11.6.0.55-1'), ('NV_LIBNCCL_DEV_PACKAGE_NAME', 'libnccl-dev'), ('TZ', 'Asia/Tokyo'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/node'), ('NV_LIBCUBLAS_DEV_VERSION', '11.8.1.74-1'), ('NV_LIBCUBLAS_DEV_PACKAGE_NAME', 'libcublas-dev-11-6'), ('NV_CUDA_CUDART_VERSION', '11.6.55-1'), ('HOME', '/root'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('REMOTE_CONTAINERS', 'true'), ('CUDA_VERSION', '11.6.0'), ('NV_LIBCUBLAS_PACKAGE', 'libcublas-11-6=11.8.1.74-1'), ('AMENT_PREFIX_PATH', '/root/researchv2/install/mymsg:/root/researchv2/install/chaser_system:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/realsense2_description:/root/openpifpaf_ros2/install/realsense2_camera:/root/openpifpaf_ros2/install/realsense2_camera_msgs:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node:/root/openpifpaf_ros2/install/openpifpaf_ros2_msgs:/opt/ros/foxy'), ('GIT_ASKPASS', '/root/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/extensions/git/dist/askpass.sh'), ('CMAKE_PREFIX_PATH', '/root/researchv2/install/mymsg:/root/openpifpaf_ros2/install/realsense2_description:/root/openpifpaf_ros2/install/realsense2_camera:/root/openpifpaf_ros2/install/realsense2_camera_msgs:/root/openpifpaf_ros2/install/openpifpaf_ros2_msgs:/root/researchv2/install/chaser_system:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node:/opt/ros/foxy'), ('COLCON_PREFIX_PATH', '/root/researchv2/install:/root/openpifpaf_ros2/install:/root/colcon_ws/install'), ('NV_LIBNPP_DEV_PACKAGE', 'libnpp-dev-11-6=11.6.0.55-1'), ('NV_LIBCUBLAS_PACKAGE_NAME', 'libcublas-11-6'), ('NV_LIBNPP_DEV_VERSION', '11.6.0.55-1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PYTHONPATH', '/root/researchv2/install/mymsg/lib/python3.8/site-packages:/root/researchv2/install/chaser_system/lib/python3.8/site-packages:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2/lib/python3.8/site-packages:/root/openpifpaf_ros2/install/realsense2_camera_msgs/lib/python3.8/site-packages:/root/openpifpaf_ros2/install/pose_checker/lib/python3.8/site-packages:/root/openpifpaf_ros2/install/openpifpaf_ros2_node/lib/python3.8/site-packages:/root/openpifpaf_ros2/install/openpifpaf_ros2_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-256color'), ('NV_LIBCUSPARSE_DEV_VERSION', '11.7.1.55-1'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-d3fb1a6c1aba5cc38add87fb98b35976e7eb3306.sock","/root/.gnupg/S.gpg-agent"]'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('NV_CUDNN_VERSION', '8.4.0.27'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-f37de6060a.sock'), ('DISPLAY', ':1'), ('SHLVL', '3'), ('NV_CUDA_LIB_VERSION', '11.6.0-1'), ('NVARCH', 'x86_64'), ('NV_CUDNN_PACKAGE_DEV', 'libcudnn8-dev=8.4.0.27-1+cuda11.6'), ('NV_CUDA_COMPAT_PACKAGE', 'cuda-compat-11-6'), ('NV_LIBNCCL_PACKAGE', 'libnccl2=2.12.10-1+cuda11.6'), ('LD_LIBRARY_PATH', '/root/researchv2/install/mymsg/lib:/root/openpifpaf_ros2/install/realsense2_camera/lib:/root/openpifpaf_ros2/install/realsense2_camera_msgs/lib:/root/openpifpaf_ros2/install/openpifpaf_ros2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/11.6.0/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'), ('ROS_LOCALHOST_ONLY', '0'), ('NV_NVPROF_VERSION', '11.6.55-1'), ('LC_ALL', 'C.UTF-8'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/extensions/git/dist/askpass-main.js'), ('BROWSER', '/root/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/bin/helpers/browser.sh'), ('PATH', '/root/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/bin/remote-cli:/opt/ros/foxy/bin:= /usr/local/11.6.0/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('NV_LIBNCCL_PACKAGE_NAME', 'libnccl2'), ('NV_LIBNCCL_PACKAGE_VERSION', '2.12.10-1'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'foxy'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-2cb52954-4379-44bd-9653-6da0a108fe0a.sock'), ('_', '/usr/bin/env')]), 'shell': False}
+[15.726399] (mymsg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.727027] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/share/ament_index/resource_index/rosidl_interfaces/mymsg\n'}
+[15.727261] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/include/mymsg\n'}
+[15.727546] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/srv\n'}
+[15.727775] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/srv/imagedata.h\n'}
+[15.728122] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/srv/detail\n'}
+[15.728436] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/srv/detail/imagedata__functions.c\n'}
+[15.728780] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/srv/detail/imagedata__functions.h\n'}
+[15.729063] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/srv/detail/imagedata__struct.h\n'}
+[15.729448] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/srv/detail/imagedata__type_support.h\n'}
+[15.730269] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/msg\n'}
+[15.730636] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/multi_transform.h\n'}
+[15.730968] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/msg/rosidl_generator_c__visibility_control.h\n'}
+[15.731238] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/poses.h\n'}
+[15.731602] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/msg/detail\n'}
+[15.731826] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/multi_transform__type_support.h\n'}
+[15.732105] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/pose__functions.h\n'}
+[15.732386] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/multi_transform__functions.h\n'}
+[15.735839] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/transform__functions.c\n'}
+[15.736238] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/pose__struct.h\n'}
+[15.736494] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/multi_transform__struct.h\n'}
+[15.736957] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/pose__type_support.h\n'}
+[15.737703] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/poses__type_support.h\n'}
+[15.737884] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/transform__type_support.h\n'}
+[15.738266] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/transform__struct.h\n'}
+[15.738726] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/poses__functions.c\n'}
+[15.739230] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/multi_transform__functions.c\n'}
+[15.739746] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/transform__functions.h\n'}
+[15.740137] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/poses__struct.h\n'}
+[15.740748] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/pose__functions.c\n'}
+[15.741220] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/poses__functions.h\n'}
+[15.741688] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/transform.h\n'}
+[15.742081] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/pose.h\n'}
+[15.742663] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/share/mymsg/environment/library_path.sh\n'}
+[15.742912] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/share/mymsg/environment/library_path.dsv\n'}
+[15.743773] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/lib/libmymsg__rosidl_generator_c.so\n'}
+[15.745130] (mymsg) StdoutLine: {'line': b'-- Set runtime path of "/root/researchv2/install/mymsg/lib/libmymsg__rosidl_generator_c.so" to ""\n'}
+[15.745826] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/include/mymsg\n'}
+[15.746147] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/srv\n'}
+[15.746555] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/srv/detail\n'}
+[15.746880] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/srv/detail/imagedata__rosidl_typesupport_fastrtps_c.h\n'}
+[15.747209] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/msg\n'}
+[15.747553] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/msg/detail\n'}
+[15.747795] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/poses__rosidl_typesupport_fastrtps_c.h\n'}
+[15.748101] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/multi_transform__rosidl_typesupport_fastrtps_c.h\n'}
+[15.748404] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/transform__rosidl_typesupport_fastrtps_c.h\n'}
+[15.748739] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[15.749010] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[15.749357] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/lib/libmymsg__rosidl_typesupport_fastrtps_c.so\n'}
+[15.750405] (mymsg) StdoutLine: {'line': b'-- Set runtime path of "/root/researchv2/install/mymsg/lib/libmymsg__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[15.750780] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/include/mymsg\n'}
+[15.751104] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/srv\n'}
+[15.751418] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/srv/detail\n'}
+[15.751813] (-) TimerEvent: {}
+[15.752091] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/srv/detail/imagedata__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.752378] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/srv/detail/dds_fastrtps\n'}
+[15.752710] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/msg\n'}
+[15.753021] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/msg/detail\n'}
+[15.753316] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/multi_transform__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.753639] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.754015] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/transform__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.754285] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/poses__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.754536] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/msg/detail/dds_fastrtps\n'}
+[15.754827] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[15.755079] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/lib/libmymsg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[15.756305] (mymsg) StdoutLine: {'line': b'-- Set runtime path of "/root/researchv2/install/mymsg/lib/libmymsg__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[15.756615] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/include/mymsg\n'}
+[15.756913] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/srv\n'}
+[15.757124] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/srv/detail\n'}
+[15.757432] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/srv/detail/imagedata__type_support.c\n'}
+[15.757778] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/srv/detail/imagedata__rosidl_typesupport_introspection_c.h\n'}
+[15.758052] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/msg\n'}
+[15.758348] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/msg/detail\n'}
+[15.758590] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[15.758852] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/transform__type_support.c\n'}
+[15.759137] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/multi_transform__rosidl_typesupport_introspection_c.h\n'}
+[15.759375] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/transform__rosidl_typesupport_introspection_c.h\n'}
+[15.759690] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/multi_transform__type_support.c\n'}
+[15.759961] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/poses__type_support.c\n'}
+[15.760273] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/pose__type_support.c\n'}
+[15.760590] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/poses__rosidl_typesupport_introspection_c.h\n'}
+[15.760981] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[15.761619] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/lib/libmymsg__rosidl_typesupport_introspection_c.so\n'}
+[15.763106] (mymsg) StdoutLine: {'line': b'-- Set runtime path of "/root/researchv2/install/mymsg/lib/libmymsg__rosidl_typesupport_introspection_c.so" to ""\n'}
+[15.763658] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/lib/libmymsg__rosidl_typesupport_c.so\n'}
+[15.764720] (mymsg) StdoutLine: {'line': b'-- Set runtime path of "/root/researchv2/install/mymsg/lib/libmymsg__rosidl_typesupport_c.so" to ""\n'}
+[15.765196] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/include/mymsg\n'}
+[15.765526] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/srv\n'}
+[15.765779] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/srv/detail\n'}
+[15.766094] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/srv/detail/imagedata__traits.hpp\n'}
+[15.766330] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/srv/detail/imagedata__builder.hpp\n'}
+[15.766578] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/srv/detail/imagedata__struct.hpp\n'}
+[15.766917] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/srv/imagedata.hpp\n'}
+[15.767321] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/msg\n'}
+[15.767565] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/multi_transform.hpp\n'}
+[15.767900] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/transform.hpp\n'}
+[15.768702] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/msg/detail\n'}
+[15.769012] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/poses__struct.hpp\n'}
+[15.769302] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/multi_transform__struct.hpp\n'}
+[15.769784] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/multi_transform__traits.hpp\n'}
+[15.770180] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/poses__builder.hpp\n'}
+[15.770622] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/transform__struct.hpp\n'}
+[15.771066] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/pose__struct.hpp\n'}
+[15.771469] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/pose__traits.hpp\n'}
+[15.771842] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/transform__traits.hpp\n'}
+[15.772179] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/poses__traits.hpp\n'}
+[15.772544] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/transform__builder.hpp\n'}
+[15.772849] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/multi_transform__builder.hpp\n'}
+[15.773205] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/pose__builder.hpp\n'}
+[15.773518] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/pose.hpp\n'}
+[15.773864] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/poses.hpp\n'}
+[15.774741] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/include/mymsg\n'}
+[15.775260] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/srv\n'}
+[15.775568] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/srv/detail\n'}
+[15.776345] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/srv/detail/imagedata__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.776996] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/srv/detail/imagedata__type_support.cpp\n'}
+[15.777325] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/msg\n'}
+[15.777879] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/msg/detail\n'}
+[15.778356] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/poses__type_support.cpp\n'}
+[15.779630] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/multi_transform__type_support.cpp\n'}
+[15.781153] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/transform__type_support.cpp\n'}
+[15.781845] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/pose__type_support.cpp\n'}
+[15.782151] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/multi_transform__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.782412] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.782740] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/transform__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.782980] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/poses__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.783615] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/lib/libmymsg__rosidl_typesupport_introspection_cpp.so\n'}
+[15.785392] (mymsg) StdoutLine: {'line': b'-- Set runtime path of "/root/researchv2/install/mymsg/lib/libmymsg__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[15.786069] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/lib/libmymsg__rosidl_typesupport_cpp.so\n'}
+[15.787689] (mymsg) StdoutLine: {'line': b'-- Set runtime path of "/root/researchv2/install/mymsg/lib/libmymsg__rosidl_typesupport_cpp.so" to ""\n'}
+[15.788191] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/share/mymsg/environment/pythonpath.sh\n'}
+[15.788410] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/share/mymsg/environment/pythonpath.dsv\n'}
+[15.788798] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/__init__.py\n'}
+[15.851919] (-) TimerEvent: {}
+[15.867121] (mymsg) StdoutLine: {'line': b"Compiling '/root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/__init__.py'...\n"}
+[15.875499] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/msg\n'}
+[15.875900] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/msg/_transform_s.c\n'}
+[15.876818] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/msg/_multi_transform_s.c\n'}
+[15.877270] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/msg/_pose_s.c\n'}
+[15.877776] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/msg/_transform.py\n'}
+[15.878149] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/msg/_poses_s.c\n'}
+[15.878607] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/msg/_poses.py\n'}
+[15.879054] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/msg/__init__.py\n'}
+[15.879453] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/msg/_pose.py\n'}
+[15.879851] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/msg/_multi_transform.py\n'}
+[15.880395] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/srv\n'}
+[15.880637] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/srv/_imagedata_s.c\n'}
+[15.880939] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/srv/_imagedata.py\n'}
+[15.881368] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/srv/__init__.py\n'}
+[15.882707] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/mymsg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[15.884094] (mymsg) StdoutLine: {'line': b'-- Set runtime path of "/root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/mymsg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[15.884890] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/mymsg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[15.886293] (mymsg) StdoutLine: {'line': b'-- Set runtime path of "/root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/mymsg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[15.887017] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/mymsg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[15.888222] (mymsg) StdoutLine: {'line': b'-- Set runtime path of "/root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/mymsg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[15.888796] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/lib/libmymsg__python.so\n'}
+[15.890016] (mymsg) StdoutLine: {'line': b'-- Set runtime path of "/root/researchv2/install/mymsg/lib/libmymsg__python.so" to ""\n'}
+[15.890291] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/share/mymsg/msg/Pose.idl\n'}
+[15.890561] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/share/mymsg/msg/Poses.idl\n'}
+[15.890809] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/share/mymsg/msg/Transform.idl\n'}
+[15.891002] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/share/mymsg/msg/MultiTransform.idl\n'}
+[15.891354] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/share/mymsg/srv/Imagedata.idl\n'}
+[15.891671] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/share/mymsg/msg/Pose.msg\n'}
+[15.891953] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/share/mymsg/msg/Poses.msg\n'}
+[15.892136] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/share/mymsg/msg/Transform.msg\n'}
+[15.892365] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/share/mymsg/msg/MultiTransform.msg\n'}
+[15.892601] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/share/mymsg/srv/Imagedata.srv\n'}
+[15.892898] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/share/mymsg/srv/Imagedata_Request.msg\n'}
+[15.893160] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/share/mymsg/srv/Imagedata_Response.msg\n'}
+[15.893397] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/share/ament_index/resource_index/package_run_dependencies/mymsg\n'}
+[15.893592] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/share/ament_index/resource_index/parent_prefix_path/mymsg\n'}
+[15.893791] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/share/mymsg/environment/ament_prefix_path.sh\n'}
+[15.893991] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/share/mymsg/environment/ament_prefix_path.dsv\n'}
+[15.894272] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/share/mymsg/environment/path.sh\n'}
+[15.894483] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/share/mymsg/environment/path.dsv\n'}
+[15.894729] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/share/mymsg/local_setup.bash\n'}
+[15.895013] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/share/mymsg/local_setup.sh\n'}
+[15.895263] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/share/mymsg/local_setup.zsh\n'}
+[15.895520] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/share/mymsg/local_setup.dsv\n'}
+[15.895760] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/share/mymsg/package.dsv\n'}
+[15.896002] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/share/ament_index/resource_index/packages/mymsg\n'}
+[15.896341] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/share/mymsg/cmake/mymsg__rosidl_generator_cExport.cmake\n'}
+[15.896592] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/share/mymsg/cmake/mymsg__rosidl_generator_cExport-noconfig.cmake\n'}
+[15.897256] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/share/mymsg/cmake/mymsg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[15.897523] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/share/mymsg/cmake/mymsg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[15.898040] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/share/mymsg/cmake/mymsg__rosidl_typesupport_cExport.cmake\n'}
+[15.898276] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/share/mymsg/cmake/mymsg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[15.898879] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/share/mymsg/cmake/mymsg__rosidl_generator_cppExport.cmake\n'}
+[15.899246] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/share/mymsg/cmake/mymsg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[15.899591] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/share/mymsg/cmake/mymsg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[15.900108] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/share/mymsg/cmake/mymsg__rosidl_typesupport_cppExport.cmake\n'}
+[15.900430] (mymsg) StdoutLine: {'line': b'-- Installing: /root/researchv2/install/mymsg/share/mymsg/cmake/mymsg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[15.900802] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/share/mymsg/cmake/rosidl_cmake-extras.cmake\n'}
+[15.901113] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/share/mymsg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[15.901533] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/share/mymsg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[15.901870] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/share/mymsg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[15.902205] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/share/mymsg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[15.902411] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/share/mymsg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[15.902638] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/share/mymsg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[15.902855] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/share/mymsg/cmake/mymsgConfig.cmake\n'}
+[15.903050] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/share/mymsg/cmake/mymsgConfig-version.cmake\n'}
+[15.903240] (mymsg) StdoutLine: {'line': b'-- Up-to-date: /root/researchv2/install/mymsg/share/mymsg/package.xml\n'}
+[15.905911] (mymsg) CommandEnded: {'returncode': 0}
+[15.952446] (-) TimerEvent: {}
+[16.053374] (-) TimerEvent: {}
+[16.153737] (-) TimerEvent: {}
+[16.254060] (-) TimerEvent: {}
+[16.354411] (-) TimerEvent: {}
+[16.451462] (mymsg) JobEnded: {'identifier': 'mymsg', 'rc': 0}
+[16.452854] (-) EventReactorShutdown: {}
