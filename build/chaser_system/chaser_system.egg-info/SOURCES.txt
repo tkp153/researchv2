@@ -17,7 +17,10 @@ chaser_system/raise_navi.py
 chaser_system/rgbd_generator.py
 chaser_system/three_d_pose_analysis.py
 chaser_system/xbox.py
+config/first_navigation.yaml
+map/hayashi_15_com.yaml
 resource/chaser_system
+rviz/nav2_view.rviz
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py

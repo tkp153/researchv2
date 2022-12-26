@@ -1,4 +1,6 @@
 from setuptools import setup
+import os
+from glob import glob
 
 package_name = 'chaser_system'
 
@@ -10,6 +12,12 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        (os.path.join('share', package_name), glob('launch/*_launch.py')),
+        (os.path.join('share', package_name, 'urdf'), glob('urdf/*')),
+        (os.path.join('share', package_name, 'rviz'), glob('rviz/*')),
+        (os.path.join('share', package_name, 'config'), glob('config/*')),
+        (os.path.join('share', package_name, 'world'), glob('world/*')),
+        (os.path.join('share', package_name, 'map'), glob('map/*')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -26,7 +34,7 @@ setup(
             'rgbd_generator = chaser_system.rgbd_generator:main',
             'person_check = chaser_system.person_check:main',
             'xbox = chaser_system.xbox:main',
-            'raise_navi = chaser_system.raise_navi:main',
+            'raise_navi = chaser_system.raise_navi:main'
         ],
     },
 )
