@@ -3,3 +3,4 @@
 /root/researchv2/build/mymsg/rosidl_adapter/mymsg:msg/Transform.idl
 /root/researchv2/build/mymsg/rosidl_adapter/mymsg:msg/MultiTransform.idl
 /root/researchv2/build/mymsg/rosidl_adapter/mymsg:srv/Imagedata.idl
+/root/researchv2/build/mymsg/rosidl_adapter/mymsg:srv/Waypoints.idl

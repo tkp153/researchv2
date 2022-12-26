@@ -510,6 +510,33 @@ rosidl_generator_c/mymsg/srv/detail/imagedata__functions.c.s:
 	$(MAKE) -f CMakeFiles/mymsg__rosidl_generator_c.dir/build.make CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/imagedata__functions.c.s
 .PHONY : rosidl_generator_c/mymsg/srv/detail/imagedata__functions.c.s
 
+rosidl_generator_c/mymsg/srv/detail/waypoints__functions.o: rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.o
+
+.PHONY : rosidl_generator_c/mymsg/srv/detail/waypoints__functions.o
+
+# target to build an object file
+rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.o:
+	$(MAKE) -f CMakeFiles/mymsg__rosidl_generator_c.dir/build.make CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.o
+.PHONY : rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.o
+
+rosidl_generator_c/mymsg/srv/detail/waypoints__functions.i: rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.i
+
+.PHONY : rosidl_generator_c/mymsg/srv/detail/waypoints__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.i:
+	$(MAKE) -f CMakeFiles/mymsg__rosidl_generator_c.dir/build.make CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.i
+.PHONY : rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.i
+
+rosidl_generator_c/mymsg/srv/detail/waypoints__functions.s: rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.s
+
+.PHONY : rosidl_generator_c/mymsg/srv/detail/waypoints__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.s:
+	$(MAKE) -f CMakeFiles/mymsg__rosidl_generator_c.dir/build.make CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.s
+.PHONY : rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.s
+
 rosidl_generator_py/mymsg/_mymsg_s.ep.rosidl_typesupport_c.o: rosidl_generator_py/mymsg/_mymsg_s.ep.rosidl_typesupport_c.c.o
 
 .PHONY : rosidl_generator_py/mymsg/_mymsg_s.ep.rosidl_typesupport_c.o
@@ -726,6 +753,33 @@ rosidl_generator_py/mymsg/srv/_imagedata_s.c.s:
 	$(MAKE) -f CMakeFiles/mymsg__python.dir/build.make CMakeFiles/mymsg__python.dir/rosidl_generator_py/mymsg/srv/_imagedata_s.c.s
 .PHONY : rosidl_generator_py/mymsg/srv/_imagedata_s.c.s
 
+rosidl_generator_py/mymsg/srv/_waypoints_s.o: rosidl_generator_py/mymsg/srv/_waypoints_s.c.o
+
+.PHONY : rosidl_generator_py/mymsg/srv/_waypoints_s.o
+
+# target to build an object file
+rosidl_generator_py/mymsg/srv/_waypoints_s.c.o:
+	$(MAKE) -f CMakeFiles/mymsg__python.dir/build.make CMakeFiles/mymsg__python.dir/rosidl_generator_py/mymsg/srv/_waypoints_s.c.o
+.PHONY : rosidl_generator_py/mymsg/srv/_waypoints_s.c.o
+
+rosidl_generator_py/mymsg/srv/_waypoints_s.i: rosidl_generator_py/mymsg/srv/_waypoints_s.c.i
+
+.PHONY : rosidl_generator_py/mymsg/srv/_waypoints_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/mymsg/srv/_waypoints_s.c.i:
+	$(MAKE) -f CMakeFiles/mymsg__python.dir/build.make CMakeFiles/mymsg__python.dir/rosidl_generator_py/mymsg/srv/_waypoints_s.c.i
+.PHONY : rosidl_generator_py/mymsg/srv/_waypoints_s.c.i
+
+rosidl_generator_py/mymsg/srv/_waypoints_s.s: rosidl_generator_py/mymsg/srv/_waypoints_s.c.s
+
+.PHONY : rosidl_generator_py/mymsg/srv/_waypoints_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/mymsg/srv/_waypoints_s.c.s:
+	$(MAKE) -f CMakeFiles/mymsg__python.dir/build.make CMakeFiles/mymsg__python.dir/rosidl_generator_py/mymsg/srv/_waypoints_s.c.s
+.PHONY : rosidl_generator_py/mymsg/srv/_waypoints_s.c.s
+
 rosidl_typesupport_c/mymsg/msg/multi_transform__type_support.o: rosidl_typesupport_c/mymsg/msg/multi_transform__type_support.cpp.o
 
 .PHONY : rosidl_typesupport_c/mymsg/msg/multi_transform__type_support.o
@@ -860,6 +914,33 @@ rosidl_typesupport_c/mymsg/srv/imagedata__type_support.s: rosidl_typesupport_c/m
 rosidl_typesupport_c/mymsg/srv/imagedata__type_support.cpp.s:
 	$(MAKE) -f CMakeFiles/mymsg__rosidl_typesupport_c.dir/build.make CMakeFiles/mymsg__rosidl_typesupport_c.dir/rosidl_typesupport_c/mymsg/srv/imagedata__type_support.cpp.s
 .PHONY : rosidl_typesupport_c/mymsg/srv/imagedata__type_support.cpp.s
+
+rosidl_typesupport_c/mymsg/srv/waypoints__type_support.o: rosidl_typesupport_c/mymsg/srv/waypoints__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_c/mymsg/srv/waypoints__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/mymsg/srv/waypoints__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/mymsg__rosidl_typesupport_c.dir/build.make CMakeFiles/mymsg__rosidl_typesupport_c.dir/rosidl_typesupport_c/mymsg/srv/waypoints__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/mymsg/srv/waypoints__type_support.cpp.o
+
+rosidl_typesupport_c/mymsg/srv/waypoints__type_support.i: rosidl_typesupport_c/mymsg/srv/waypoints__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_c/mymsg/srv/waypoints__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/mymsg/srv/waypoints__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/mymsg__rosidl_typesupport_c.dir/build.make CMakeFiles/mymsg__rosidl_typesupport_c.dir/rosidl_typesupport_c/mymsg/srv/waypoints__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/mymsg/srv/waypoints__type_support.cpp.i
+
+rosidl_typesupport_c/mymsg/srv/waypoints__type_support.s: rosidl_typesupport_c/mymsg/srv/waypoints__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_c/mymsg/srv/waypoints__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/mymsg/srv/waypoints__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/mymsg__rosidl_typesupport_c.dir/build.make CMakeFiles/mymsg__rosidl_typesupport_c.dir/rosidl_typesupport_c/mymsg/srv/waypoints__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/mymsg/srv/waypoints__type_support.cpp.s
 
 rosidl_typesupport_cpp/mymsg/msg/multi_transform__type_support.o: rosidl_typesupport_cpp/mymsg/msg/multi_transform__type_support.cpp.o
 
@@ -996,6 +1077,33 @@ rosidl_typesupport_cpp/mymsg/srv/imagedata__type_support.cpp.s:
 	$(MAKE) -f CMakeFiles/mymsg__rosidl_typesupport_cpp.dir/build.make CMakeFiles/mymsg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mymsg/srv/imagedata__type_support.cpp.s
 .PHONY : rosidl_typesupport_cpp/mymsg/srv/imagedata__type_support.cpp.s
 
+rosidl_typesupport_cpp/mymsg/srv/waypoints__type_support.o: rosidl_typesupport_cpp/mymsg/srv/waypoints__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_cpp/mymsg/srv/waypoints__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/mymsg/srv/waypoints__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/mymsg__rosidl_typesupport_cpp.dir/build.make CMakeFiles/mymsg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mymsg/srv/waypoints__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/mymsg/srv/waypoints__type_support.cpp.o
+
+rosidl_typesupport_cpp/mymsg/srv/waypoints__type_support.i: rosidl_typesupport_cpp/mymsg/srv/waypoints__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_cpp/mymsg/srv/waypoints__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/mymsg/srv/waypoints__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/mymsg__rosidl_typesupport_cpp.dir/build.make CMakeFiles/mymsg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mymsg/srv/waypoints__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/mymsg/srv/waypoints__type_support.cpp.i
+
+rosidl_typesupport_cpp/mymsg/srv/waypoints__type_support.s: rosidl_typesupport_cpp/mymsg/srv/waypoints__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_cpp/mymsg/srv/waypoints__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/mymsg/srv/waypoints__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/mymsg__rosidl_typesupport_cpp.dir/build.make CMakeFiles/mymsg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mymsg/srv/waypoints__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/mymsg/srv/waypoints__type_support.cpp.s
+
 rosidl_typesupport_fastrtps_c/mymsg/msg/detail/multi_transform__type_support_c.o: rosidl_typesupport_fastrtps_c/mymsg/msg/detail/multi_transform__type_support_c.cpp.o
 
 .PHONY : rosidl_typesupport_fastrtps_c/mymsg/msg/detail/multi_transform__type_support_c.o
@@ -1130,6 +1238,33 @@ rosidl_typesupport_fastrtps_c/mymsg/srv/detail/imagedata__type_support_c.s: rosi
 rosidl_typesupport_fastrtps_c/mymsg/srv/detail/imagedata__type_support_c.cpp.s:
 	$(MAKE) -f CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mymsg/srv/detail/imagedata__type_support_c.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_c/mymsg/srv/detail/imagedata__type_support_c.cpp.s
+
+rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__type_support_c.o: rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__type_support_c.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__type_support_c.cpp.o:
+	$(MAKE) -f CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__type_support_c.i: rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__type_support_c.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__type_support_c.cpp.i:
+	$(MAKE) -f CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__type_support_c.s: rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__type_support_c.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__type_support_c.cpp.s:
+	$(MAKE) -f CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__type_support_c.cpp.s
 
 rosidl_typesupport_fastrtps_cpp/mymsg/msg/detail/dds_fastrtps/multi_transform__type_support.o: rosidl_typesupport_fastrtps_cpp/mymsg/msg/detail/dds_fastrtps/multi_transform__type_support.cpp.o
 
@@ -1266,6 +1401,33 @@ rosidl_typesupport_fastrtps_cpp/mymsg/srv/detail/dds_fastrtps/imagedata__type_su
 	$(MAKE) -f CMakeFiles/mymsg__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/mymsg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mymsg/srv/detail/dds_fastrtps/imagedata__type_support.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_cpp/mymsg/srv/detail/dds_fastrtps/imagedata__type_support.cpp.s
 
+rosidl_typesupport_fastrtps_cpp/mymsg/srv/detail/dds_fastrtps/waypoints__type_support.o: rosidl_typesupport_fastrtps_cpp/mymsg/srv/detail/dds_fastrtps/waypoints__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/mymsg/srv/detail/dds_fastrtps/waypoints__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/mymsg/srv/detail/dds_fastrtps/waypoints__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/mymsg__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/mymsg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mymsg/srv/detail/dds_fastrtps/waypoints__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/mymsg/srv/detail/dds_fastrtps/waypoints__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/mymsg/srv/detail/dds_fastrtps/waypoints__type_support.i: rosidl_typesupport_fastrtps_cpp/mymsg/srv/detail/dds_fastrtps/waypoints__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/mymsg/srv/detail/dds_fastrtps/waypoints__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/mymsg/srv/detail/dds_fastrtps/waypoints__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/mymsg__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/mymsg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mymsg/srv/detail/dds_fastrtps/waypoints__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/mymsg/srv/detail/dds_fastrtps/waypoints__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/mymsg/srv/detail/dds_fastrtps/waypoints__type_support.s: rosidl_typesupport_fastrtps_cpp/mymsg/srv/detail/dds_fastrtps/waypoints__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/mymsg/srv/detail/dds_fastrtps/waypoints__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/mymsg/srv/detail/dds_fastrtps/waypoints__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/mymsg__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/mymsg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mymsg/srv/detail/dds_fastrtps/waypoints__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/mymsg/srv/detail/dds_fastrtps/waypoints__type_support.cpp.s
+
 rosidl_typesupport_introspection_c/mymsg/msg/detail/multi_transform__type_support.o: rosidl_typesupport_introspection_c/mymsg/msg/detail/multi_transform__type_support.c.o
 
 .PHONY : rosidl_typesupport_introspection_c/mymsg/msg/detail/multi_transform__type_support.o
@@ -1400,6 +1562,33 @@ rosidl_typesupport_introspection_c/mymsg/srv/detail/imagedata__type_support.s: r
 rosidl_typesupport_introspection_c/mymsg/srv/detail/imagedata__type_support.c.s:
 	$(MAKE) -f CMakeFiles/mymsg__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/mymsg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mymsg/srv/detail/imagedata__type_support.c.s
 .PHONY : rosidl_typesupport_introspection_c/mymsg/srv/detail/imagedata__type_support.c.s
+
+rosidl_typesupport_introspection_c/mymsg/srv/detail/waypoints__type_support.o: rosidl_typesupport_introspection_c/mymsg/srv/detail/waypoints__type_support.c.o
+
+.PHONY : rosidl_typesupport_introspection_c/mymsg/srv/detail/waypoints__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/mymsg/srv/detail/waypoints__type_support.c.o:
+	$(MAKE) -f CMakeFiles/mymsg__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/mymsg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mymsg/srv/detail/waypoints__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/mymsg/srv/detail/waypoints__type_support.c.o
+
+rosidl_typesupport_introspection_c/mymsg/srv/detail/waypoints__type_support.i: rosidl_typesupport_introspection_c/mymsg/srv/detail/waypoints__type_support.c.i
+
+.PHONY : rosidl_typesupport_introspection_c/mymsg/srv/detail/waypoints__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/mymsg/srv/detail/waypoints__type_support.c.i:
+	$(MAKE) -f CMakeFiles/mymsg__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/mymsg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mymsg/srv/detail/waypoints__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/mymsg/srv/detail/waypoints__type_support.c.i
+
+rosidl_typesupport_introspection_c/mymsg/srv/detail/waypoints__type_support.s: rosidl_typesupport_introspection_c/mymsg/srv/detail/waypoints__type_support.c.s
+
+.PHONY : rosidl_typesupport_introspection_c/mymsg/srv/detail/waypoints__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/mymsg/srv/detail/waypoints__type_support.c.s:
+	$(MAKE) -f CMakeFiles/mymsg__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/mymsg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mymsg/srv/detail/waypoints__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/mymsg/srv/detail/waypoints__type_support.c.s
 
 rosidl_typesupport_introspection_cpp/mymsg/msg/detail/multi_transform__type_support.o: rosidl_typesupport_introspection_cpp/mymsg/msg/detail/multi_transform__type_support.cpp.o
 
@@ -1536,6 +1725,33 @@ rosidl_typesupport_introspection_cpp/mymsg/srv/detail/imagedata__type_support.cp
 	$(MAKE) -f CMakeFiles/mymsg__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/mymsg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mymsg/srv/detail/imagedata__type_support.cpp.s
 .PHONY : rosidl_typesupport_introspection_cpp/mymsg/srv/detail/imagedata__type_support.cpp.s
 
+rosidl_typesupport_introspection_cpp/mymsg/srv/detail/waypoints__type_support.o: rosidl_typesupport_introspection_cpp/mymsg/srv/detail/waypoints__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_introspection_cpp/mymsg/srv/detail/waypoints__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/mymsg/srv/detail/waypoints__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/mymsg__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/mymsg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mymsg/srv/detail/waypoints__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/mymsg/srv/detail/waypoints__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/mymsg/srv/detail/waypoints__type_support.i: rosidl_typesupport_introspection_cpp/mymsg/srv/detail/waypoints__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_introspection_cpp/mymsg/srv/detail/waypoints__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/mymsg/srv/detail/waypoints__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/mymsg__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/mymsg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mymsg/srv/detail/waypoints__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/mymsg/srv/detail/waypoints__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/mymsg/srv/detail/waypoints__type_support.s: rosidl_typesupport_introspection_cpp/mymsg/srv/detail/waypoints__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_introspection_cpp/mymsg/srv/detail/waypoints__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/mymsg/srv/detail/waypoints__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/mymsg__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/mymsg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mymsg/srv/detail/waypoints__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/mymsg/srv/detail/waypoints__type_support.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1580,6 +1796,9 @@ help:
 	@echo "... rosidl_generator_c/mymsg/srv/detail/imagedata__functions.o"
 	@echo "... rosidl_generator_c/mymsg/srv/detail/imagedata__functions.i"
 	@echo "... rosidl_generator_c/mymsg/srv/detail/imagedata__functions.s"
+	@echo "... rosidl_generator_c/mymsg/srv/detail/waypoints__functions.o"
+	@echo "... rosidl_generator_c/mymsg/srv/detail/waypoints__functions.i"
+	@echo "... rosidl_generator_c/mymsg/srv/detail/waypoints__functions.s"
 	@echo "... rosidl_generator_py/mymsg/_mymsg_s.ep.rosidl_typesupport_c.o"
 	@echo "... rosidl_generator_py/mymsg/_mymsg_s.ep.rosidl_typesupport_c.i"
 	@echo "... rosidl_generator_py/mymsg/_mymsg_s.ep.rosidl_typesupport_c.s"
@@ -1604,6 +1823,9 @@ help:
 	@echo "... rosidl_generator_py/mymsg/srv/_imagedata_s.o"
 	@echo "... rosidl_generator_py/mymsg/srv/_imagedata_s.i"
 	@echo "... rosidl_generator_py/mymsg/srv/_imagedata_s.s"
+	@echo "... rosidl_generator_py/mymsg/srv/_waypoints_s.o"
+	@echo "... rosidl_generator_py/mymsg/srv/_waypoints_s.i"
+	@echo "... rosidl_generator_py/mymsg/srv/_waypoints_s.s"
 	@echo "... rosidl_typesupport_c/mymsg/msg/multi_transform__type_support.o"
 	@echo "... rosidl_typesupport_c/mymsg/msg/multi_transform__type_support.i"
 	@echo "... rosidl_typesupport_c/mymsg/msg/multi_transform__type_support.s"
@@ -1619,6 +1841,9 @@ help:
 	@echo "... rosidl_typesupport_c/mymsg/srv/imagedata__type_support.o"
 	@echo "... rosidl_typesupport_c/mymsg/srv/imagedata__type_support.i"
 	@echo "... rosidl_typesupport_c/mymsg/srv/imagedata__type_support.s"
+	@echo "... rosidl_typesupport_c/mymsg/srv/waypoints__type_support.o"
+	@echo "... rosidl_typesupport_c/mymsg/srv/waypoints__type_support.i"
+	@echo "... rosidl_typesupport_c/mymsg/srv/waypoints__type_support.s"
 	@echo "... rosidl_typesupport_cpp/mymsg/msg/multi_transform__type_support.o"
 	@echo "... rosidl_typesupport_cpp/mymsg/msg/multi_transform__type_support.i"
 	@echo "... rosidl_typesupport_cpp/mymsg/msg/multi_transform__type_support.s"
@@ -1634,6 +1859,9 @@ help:
 	@echo "... rosidl_typesupport_cpp/mymsg/srv/imagedata__type_support.o"
 	@echo "... rosidl_typesupport_cpp/mymsg/srv/imagedata__type_support.i"
 	@echo "... rosidl_typesupport_cpp/mymsg/srv/imagedata__type_support.s"
+	@echo "... rosidl_typesupport_cpp/mymsg/srv/waypoints__type_support.o"
+	@echo "... rosidl_typesupport_cpp/mymsg/srv/waypoints__type_support.i"
+	@echo "... rosidl_typesupport_cpp/mymsg/srv/waypoints__type_support.s"
 	@echo "... rosidl_typesupport_fastrtps_c/mymsg/msg/detail/multi_transform__type_support_c.o"
 	@echo "... rosidl_typesupport_fastrtps_c/mymsg/msg/detail/multi_transform__type_support_c.i"
 	@echo "... rosidl_typesupport_fastrtps_c/mymsg/msg/detail/multi_transform__type_support_c.s"
@@ -1649,6 +1877,9 @@ help:
 	@echo "... rosidl_typesupport_fastrtps_c/mymsg/srv/detail/imagedata__type_support_c.o"
 	@echo "... rosidl_typesupport_fastrtps_c/mymsg/srv/detail/imagedata__type_support_c.i"
 	@echo "... rosidl_typesupport_fastrtps_c/mymsg/srv/detail/imagedata__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__type_support_c.s"
 	@echo "... rosidl_typesupport_fastrtps_cpp/mymsg/msg/detail/dds_fastrtps/multi_transform__type_support.o"
 	@echo "... rosidl_typesupport_fastrtps_cpp/mymsg/msg/detail/dds_fastrtps/multi_transform__type_support.i"
 	@echo "... rosidl_typesupport_fastrtps_cpp/mymsg/msg/detail/dds_fastrtps/multi_transform__type_support.s"
@@ -1664,6 +1895,9 @@ help:
 	@echo "... rosidl_typesupport_fastrtps_cpp/mymsg/srv/detail/dds_fastrtps/imagedata__type_support.o"
 	@echo "... rosidl_typesupport_fastrtps_cpp/mymsg/srv/detail/dds_fastrtps/imagedata__type_support.i"
 	@echo "... rosidl_typesupport_fastrtps_cpp/mymsg/srv/detail/dds_fastrtps/imagedata__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/mymsg/srv/detail/dds_fastrtps/waypoints__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/mymsg/srv/detail/dds_fastrtps/waypoints__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/mymsg/srv/detail/dds_fastrtps/waypoints__type_support.s"
 	@echo "... rosidl_typesupport_introspection_c/mymsg/msg/detail/multi_transform__type_support.o"
 	@echo "... rosidl_typesupport_introspection_c/mymsg/msg/detail/multi_transform__type_support.i"
 	@echo "... rosidl_typesupport_introspection_c/mymsg/msg/detail/multi_transform__type_support.s"
@@ -1679,6 +1913,9 @@ help:
 	@echo "... rosidl_typesupport_introspection_c/mymsg/srv/detail/imagedata__type_support.o"
 	@echo "... rosidl_typesupport_introspection_c/mymsg/srv/detail/imagedata__type_support.i"
 	@echo "... rosidl_typesupport_introspection_c/mymsg/srv/detail/imagedata__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/mymsg/srv/detail/waypoints__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/mymsg/srv/detail/waypoints__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/mymsg/srv/detail/waypoints__type_support.s"
 	@echo "... rosidl_typesupport_introspection_cpp/mymsg/msg/detail/multi_transform__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/mymsg/msg/detail/multi_transform__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/mymsg/msg/detail/multi_transform__type_support.s"
@@ -1694,6 +1931,9 @@ help:
 	@echo "... rosidl_typesupport_introspection_cpp/mymsg/srv/detail/imagedata__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/mymsg/srv/detail/imagedata__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/mymsg/srv/detail/imagedata__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/mymsg/srv/detail/waypoints__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/mymsg/srv/detail/waypoints__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/mymsg/srv/detail/waypoints__type_support.s"
 .PHONY : help
 
 

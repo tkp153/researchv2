@@ -23,7 +23,11 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/root/researchv2/build/mymsg/rosidl_generator_cpp/mymsg/srv/detail/imagedata__builder.hpp" "/root/researchv2/build/mymsg/rosidl_generator_cpp/mymsg/msg/pose.hpp"
   "/root/researchv2/build/mymsg/rosidl_generator_cpp/mymsg/srv/detail/imagedata__struct.hpp" "/root/researchv2/build/mymsg/rosidl_generator_cpp/mymsg/msg/pose.hpp"
   "/root/researchv2/build/mymsg/rosidl_generator_cpp/mymsg/srv/detail/imagedata__traits.hpp" "/root/researchv2/build/mymsg/rosidl_generator_cpp/mymsg/msg/pose.hpp"
+  "/root/researchv2/build/mymsg/rosidl_generator_cpp/mymsg/srv/detail/waypoints__builder.hpp" "/root/researchv2/build/mymsg/rosidl_generator_cpp/mymsg/msg/pose.hpp"
+  "/root/researchv2/build/mymsg/rosidl_generator_cpp/mymsg/srv/detail/waypoints__struct.hpp" "/root/researchv2/build/mymsg/rosidl_generator_cpp/mymsg/msg/pose.hpp"
+  "/root/researchv2/build/mymsg/rosidl_generator_cpp/mymsg/srv/detail/waypoints__traits.hpp" "/root/researchv2/build/mymsg/rosidl_generator_cpp/mymsg/msg/pose.hpp"
   "/root/researchv2/build/mymsg/rosidl_generator_cpp/mymsg/srv/imagedata.hpp" "/root/researchv2/build/mymsg/rosidl_generator_cpp/mymsg/msg/pose.hpp"
+  "/root/researchv2/build/mymsg/rosidl_generator_cpp/mymsg/srv/waypoints.hpp" "/root/researchv2/build/mymsg/rosidl_generator_cpp/mymsg/msg/pose.hpp"
   )
 
 

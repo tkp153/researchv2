@@ -60,6 +60,9 @@ CMakeFiles/mymsg: /root/researchv2/src/mymsg/msg/MultiTransform.msg
 CMakeFiles/mymsg: /root/researchv2/src/mymsg/srv/Imagedata.srv
 CMakeFiles/mymsg: rosidl_cmake/srv/Imagedata_Request.msg
 CMakeFiles/mymsg: rosidl_cmake/srv/Imagedata_Response.msg
+CMakeFiles/mymsg: /root/researchv2/src/mymsg/srv/Waypoints.srv
+CMakeFiles/mymsg: rosidl_cmake/srv/Waypoints_Request.msg
+CMakeFiles/mymsg: rosidl_cmake/srv/Waypoints_Response.msg
 CMakeFiles/mymsg: /opt/ros/foxy/share/std_msgs/msg/Bool.idl
 CMakeFiles/mymsg: /opt/ros/foxy/share/std_msgs/msg/Byte.idl
 CMakeFiles/mymsg: /opt/ros/foxy/share/std_msgs/msg/ByteMultiArray.idl

@@ -92,3 +92,25 @@ CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/ima
 CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/imagedata__functions.c.o: rosidl_generator_c/mymsg/srv/detail/imagedata__functions.h
 CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/imagedata__functions.c.o: rosidl_generator_c/mymsg/srv/detail/imagedata__struct.h
 
+CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.o: /opt/ros/foxy/include/builtin_interfaces/msg/detail/time__struct.h
+CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.o: /opt/ros/foxy/include/geometry_msgs/msg/detail/point__struct.h
+CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.o: /opt/ros/foxy/include/geometry_msgs/msg/detail/pose__struct.h
+CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.o: /opt/ros/foxy/include/geometry_msgs/msg/detail/pose_stamped__functions.h
+CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.o: /opt/ros/foxy/include/geometry_msgs/msg/detail/pose_stamped__struct.h
+CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.o: /opt/ros/foxy/include/geometry_msgs/msg/detail/quaternion__struct.h
+CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.o: /opt/ros/foxy/include/geometry_msgs/msg/rosidl_generator_c__visibility_control.h
+CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.o: /opt/ros/foxy/include/rcutils/allocator.h
+CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.o: /opt/ros/foxy/include/rcutils/macros.h
+CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.o: /opt/ros/foxy/include/rcutils/testing/fault_injection.h
+CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.o: /opt/ros/foxy/include/rcutils/types/rcutils_ret.h
+CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.o: /opt/ros/foxy/include/rcutils/visibility_control.h
+CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.o: /opt/ros/foxy/include/rcutils/visibility_control_macros.h
+CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.o: /opt/ros/foxy/include/rosidl_runtime_c/primitives_sequence.h
+CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.o: /opt/ros/foxy/include/rosidl_runtime_c/string.h
+CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.o: /opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
+CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.o: /opt/ros/foxy/include/std_msgs/msg/detail/header__struct.h
+CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.o: rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c
+CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.o: rosidl_generator_c/mymsg/msg/rosidl_generator_c__visibility_control.h
+CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.o: rosidl_generator_c/mymsg/srv/detail/waypoints__functions.h
+CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.o: rosidl_generator_c/mymsg/srv/detail/waypoints__struct.h
+

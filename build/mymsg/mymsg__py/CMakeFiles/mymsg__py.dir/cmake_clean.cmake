@@ -14,6 +14,8 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/mymsg/srv/__init__.py"
   "../rosidl_generator_py/mymsg/srv/_imagedata.py"
   "../rosidl_generator_py/mymsg/srv/_imagedata_s.c"
+  "../rosidl_generator_py/mymsg/srv/_waypoints.py"
+  "../rosidl_generator_py/mymsg/srv/_waypoints_s.c"
   "CMakeFiles/mymsg__py"
 )
 

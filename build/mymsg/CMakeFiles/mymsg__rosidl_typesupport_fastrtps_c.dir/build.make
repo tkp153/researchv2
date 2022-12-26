@@ -70,6 +70,7 @@ rosidl_typesupport_fastrtps_c/mymsg/msg/detail/pose__rosidl_typesupport_fastrtps
 rosidl_typesupport_fastrtps_c/mymsg/msg/detail/pose__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/mymsg/msg/Transform.idl
 rosidl_typesupport_fastrtps_c/mymsg/msg/detail/pose__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/mymsg/msg/MultiTransform.idl
 rosidl_typesupport_fastrtps_c/mymsg/msg/detail/pose__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/mymsg/srv/Imagedata.idl
+rosidl_typesupport_fastrtps_c/mymsg/msg/detail/pose__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/mymsg/srv/Waypoints.idl
 rosidl_typesupport_fastrtps_c/mymsg/msg/detail/pose__rosidl_typesupport_fastrtps_c.h: /opt/ros/foxy/share/std_msgs/msg/Bool.idl
 rosidl_typesupport_fastrtps_c/mymsg/msg/detail/pose__rosidl_typesupport_fastrtps_c.h: /opt/ros/foxy/share/std_msgs/msg/Byte.idl
 rosidl_typesupport_fastrtps_c/mymsg/msg/detail/pose__rosidl_typesupport_fastrtps_c.h: /opt/ros/foxy/share/std_msgs/msg/ByteMultiArray.idl
@@ -200,6 +201,12 @@ rosidl_typesupport_fastrtps_c/mymsg/srv/detail/imagedata__rosidl_typesupport_fas
 rosidl_typesupport_fastrtps_c/mymsg/srv/detail/imagedata__type_support_c.cpp: rosidl_typesupport_fastrtps_c/mymsg/msg/detail/pose__rosidl_typesupport_fastrtps_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/mymsg/srv/detail/imagedata__type_support_c.cpp
 
+rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/mymsg/msg/detail/pose__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__rosidl_typesupport_fastrtps_c.h
+
+rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__type_support_c.cpp: rosidl_typesupport_fastrtps_c/mymsg/msg/detail/pose__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__type_support_c.cpp
+
 CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mymsg/msg/detail/pose__type_support_c.cpp.o: CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/flags.make
 CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mymsg/msg/detail/pose__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/mymsg/msg/detail/pose__type_support_c.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/researchv2/build/mymsg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mymsg/msg/detail/pose__type_support_c.cpp.o"
@@ -265,13 +272,27 @@ CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mymsg/srv/detail/imagedata__type_support_c.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/researchv2/build/mymsg/rosidl_typesupport_fastrtps_c/mymsg/srv/detail/imagedata__type_support_c.cpp -o CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mymsg/srv/detail/imagedata__type_support_c.cpp.s
 
+CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__type_support_c.cpp.o: CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/flags.make
+CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__type_support_c.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/researchv2/build/mymsg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__type_support_c.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__type_support_c.cpp.o -c /root/researchv2/build/mymsg/rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__type_support_c.cpp
+
+CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__type_support_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__type_support_c.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/researchv2/build/mymsg/rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__type_support_c.cpp > CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__type_support_c.cpp.i
+
+CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__type_support_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__type_support_c.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/researchv2/build/mymsg/rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__type_support_c.cpp -o CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__type_support_c.cpp.s
+
 # Object files for target mymsg__rosidl_typesupport_fastrtps_c
 mymsg__rosidl_typesupport_fastrtps_c_OBJECTS = \
 "CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mymsg/msg/detail/pose__type_support_c.cpp.o" \
 "CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mymsg/msg/detail/poses__type_support_c.cpp.o" \
 "CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mymsg/msg/detail/transform__type_support_c.cpp.o" \
 "CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mymsg/msg/detail/multi_transform__type_support_c.cpp.o" \
-"CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mymsg/srv/detail/imagedata__type_support_c.cpp.o"
+"CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mymsg/srv/detail/imagedata__type_support_c.cpp.o" \
+"CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__type_support_c.cpp.o"
 
 # External object files for target mymsg__rosidl_typesupport_fastrtps_c
 mymsg__rosidl_typesupport_fastrtps_c_EXTERNAL_OBJECTS =
@@ -281,6 +302,7 @@ libmymsg__rosidl_typesupport_fastrtps_c.so: CMakeFiles/mymsg__rosidl_typesupport
 libmymsg__rosidl_typesupport_fastrtps_c.so: CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mymsg/msg/detail/transform__type_support_c.cpp.o
 libmymsg__rosidl_typesupport_fastrtps_c.so: CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mymsg/msg/detail/multi_transform__type_support_c.cpp.o
 libmymsg__rosidl_typesupport_fastrtps_c.so: CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mymsg/srv/detail/imagedata__type_support_c.cpp.o
+libmymsg__rosidl_typesupport_fastrtps_c.so: CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__type_support_c.cpp.o
 libmymsg__rosidl_typesupport_fastrtps_c.so: CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/build.make
 libmymsg__rosidl_typesupport_fastrtps_c.so: /opt/ros/foxy/lib/librosidl_typesupport_fastrtps_c.so
 libmymsg__rosidl_typesupport_fastrtps_c.so: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
@@ -337,7 +359,7 @@ libmymsg__rosidl_typesupport_fastrtps_c.so: /usr/lib/x86_64-linux-gnu/libssl.so
 libmymsg__rosidl_typesupport_fastrtps_c.so: /usr/lib/x86_64-linux-gnu/libcrypto.so
 libmymsg__rosidl_typesupport_fastrtps_c.so: /opt/ros/foxy/lib/libfastcdr.so.1.0.13
 libmymsg__rosidl_typesupport_fastrtps_c.so: CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/researchv2/build/mymsg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX shared library libmymsg__rosidl_typesupport_fastrtps_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/researchv2/build/mymsg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX shared library libmymsg__rosidl_typesupport_fastrtps_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -359,6 +381,8 @@ CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_f
 CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/mymsg/msg/detail/multi_transform__type_support_c.cpp
 CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/mymsg/srv/detail/imagedata__rosidl_typesupport_fastrtps_c.h
 CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/mymsg/srv/detail/imagedata__type_support_c.cpp
+CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__rosidl_typesupport_fastrtps_c.h
+CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__type_support_c.cpp
 	cd /root/researchv2/build/mymsg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/researchv2/src/mymsg /root/researchv2/src/mymsg /root/researchv2/build/mymsg /root/researchv2/build/mymsg /root/researchv2/build/mymsg/CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/depend
 

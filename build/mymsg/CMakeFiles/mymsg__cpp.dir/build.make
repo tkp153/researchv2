@@ -73,6 +73,10 @@ CMakeFiles/mymsg__cpp: rosidl_generator_cpp/mymsg/srv/imagedata.hpp
 CMakeFiles/mymsg__cpp: rosidl_generator_cpp/mymsg/srv/detail/imagedata__builder.hpp
 CMakeFiles/mymsg__cpp: rosidl_generator_cpp/mymsg/srv/detail/imagedata__struct.hpp
 CMakeFiles/mymsg__cpp: rosidl_generator_cpp/mymsg/srv/detail/imagedata__traits.hpp
+CMakeFiles/mymsg__cpp: rosidl_generator_cpp/mymsg/srv/waypoints.hpp
+CMakeFiles/mymsg__cpp: rosidl_generator_cpp/mymsg/srv/detail/waypoints__builder.hpp
+CMakeFiles/mymsg__cpp: rosidl_generator_cpp/mymsg/srv/detail/waypoints__struct.hpp
+CMakeFiles/mymsg__cpp: rosidl_generator_cpp/mymsg/srv/detail/waypoints__traits.hpp
 
 
 rosidl_generator_cpp/mymsg/msg/pose.hpp: /opt/ros/foxy/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -95,6 +99,7 @@ rosidl_generator_cpp/mymsg/msg/pose.hpp: rosidl_adapter/mymsg/msg/Poses.idl
 rosidl_generator_cpp/mymsg/msg/pose.hpp: rosidl_adapter/mymsg/msg/Transform.idl
 rosidl_generator_cpp/mymsg/msg/pose.hpp: rosidl_adapter/mymsg/msg/MultiTransform.idl
 rosidl_generator_cpp/mymsg/msg/pose.hpp: rosidl_adapter/mymsg/srv/Imagedata.idl
+rosidl_generator_cpp/mymsg/msg/pose.hpp: rosidl_adapter/mymsg/srv/Waypoints.idl
 rosidl_generator_cpp/mymsg/msg/pose.hpp: /opt/ros/foxy/share/std_msgs/msg/Bool.idl
 rosidl_generator_cpp/mymsg/msg/pose.hpp: /opt/ros/foxy/share/std_msgs/msg/Byte.idl
 rosidl_generator_cpp/mymsg/msg/pose.hpp: /opt/ros/foxy/share/std_msgs/msg/ByteMultiArray.idl
@@ -255,6 +260,18 @@ rosidl_generator_cpp/mymsg/srv/detail/imagedata__struct.hpp: rosidl_generator_cp
 rosidl_generator_cpp/mymsg/srv/detail/imagedata__traits.hpp: rosidl_generator_cpp/mymsg/msg/pose.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mymsg/srv/detail/imagedata__traits.hpp
 
+rosidl_generator_cpp/mymsg/srv/waypoints.hpp: rosidl_generator_cpp/mymsg/msg/pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mymsg/srv/waypoints.hpp
+
+rosidl_generator_cpp/mymsg/srv/detail/waypoints__builder.hpp: rosidl_generator_cpp/mymsg/msg/pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mymsg/srv/detail/waypoints__builder.hpp
+
+rosidl_generator_cpp/mymsg/srv/detail/waypoints__struct.hpp: rosidl_generator_cpp/mymsg/msg/pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mymsg/srv/detail/waypoints__struct.hpp
+
+rosidl_generator_cpp/mymsg/srv/detail/waypoints__traits.hpp: rosidl_generator_cpp/mymsg/msg/pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mymsg/srv/detail/waypoints__traits.hpp
+
 mymsg__cpp: CMakeFiles/mymsg__cpp
 mymsg__cpp: rosidl_generator_cpp/mymsg/msg/pose.hpp
 mymsg__cpp: rosidl_generator_cpp/mymsg/msg/detail/pose__builder.hpp
@@ -276,6 +293,10 @@ mymsg__cpp: rosidl_generator_cpp/mymsg/srv/imagedata.hpp
 mymsg__cpp: rosidl_generator_cpp/mymsg/srv/detail/imagedata__builder.hpp
 mymsg__cpp: rosidl_generator_cpp/mymsg/srv/detail/imagedata__struct.hpp
 mymsg__cpp: rosidl_generator_cpp/mymsg/srv/detail/imagedata__traits.hpp
+mymsg__cpp: rosidl_generator_cpp/mymsg/srv/waypoints.hpp
+mymsg__cpp: rosidl_generator_cpp/mymsg/srv/detail/waypoints__builder.hpp
+mymsg__cpp: rosidl_generator_cpp/mymsg/srv/detail/waypoints__struct.hpp
+mymsg__cpp: rosidl_generator_cpp/mymsg/srv/detail/waypoints__traits.hpp
 mymsg__cpp: CMakeFiles/mymsg__cpp.dir/build.make
 
 .PHONY : mymsg__cpp

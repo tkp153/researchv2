@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/root/researchv2/build/mymsg/rosidl_typesupport_fastrtps_c/mymsg/msg/detail/poses__type_support_c.cpp" "/root/researchv2/build/mymsg/CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mymsg/msg/detail/poses__type_support_c.cpp.o"
   "/root/researchv2/build/mymsg/rosidl_typesupport_fastrtps_c/mymsg/msg/detail/transform__type_support_c.cpp" "/root/researchv2/build/mymsg/CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mymsg/msg/detail/transform__type_support_c.cpp.o"
   "/root/researchv2/build/mymsg/rosidl_typesupport_fastrtps_c/mymsg/srv/detail/imagedata__type_support_c.cpp" "/root/researchv2/build/mymsg/CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mymsg/srv/detail/imagedata__type_support_c.cpp.o"
+  "/root/researchv2/build/mymsg/rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__type_support_c.cpp" "/root/researchv2/build/mymsg/CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__type_support_c.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -59,6 +60,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/root/researchv2/build/mymsg/rosidl_typesupport_fastrtps_c/mymsg/msg/detail/transform__type_support_c.cpp" "/root/researchv2/build/mymsg/rosidl_typesupport_fastrtps_c/mymsg/msg/detail/pose__rosidl_typesupport_fastrtps_c.h"
   "/root/researchv2/build/mymsg/rosidl_typesupport_fastrtps_c/mymsg/srv/detail/imagedata__rosidl_typesupport_fastrtps_c.h" "/root/researchv2/build/mymsg/rosidl_typesupport_fastrtps_c/mymsg/msg/detail/pose__rosidl_typesupport_fastrtps_c.h"
   "/root/researchv2/build/mymsg/rosidl_typesupport_fastrtps_c/mymsg/srv/detail/imagedata__type_support_c.cpp" "/root/researchv2/build/mymsg/rosidl_typesupport_fastrtps_c/mymsg/msg/detail/pose__rosidl_typesupport_fastrtps_c.h"
+  "/root/researchv2/build/mymsg/rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__rosidl_typesupport_fastrtps_c.h" "/root/researchv2/build/mymsg/rosidl_typesupport_fastrtps_c/mymsg/msg/detail/pose__rosidl_typesupport_fastrtps_c.h"
+  "/root/researchv2/build/mymsg/rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__type_support_c.cpp" "/root/researchv2/build/mymsg/rosidl_typesupport_fastrtps_c/mymsg/msg/detail/pose__rosidl_typesupport_fastrtps_c.h"
   )
 
 

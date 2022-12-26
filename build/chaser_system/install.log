@@ -1,13 +1,17 @@
 /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/rgbd_generator.py
 /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/person_check.py
+/root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/raise_navi.py
 /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/image_cutter.py
+/root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/xbox.py
 /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/image_inputer.py
 /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/three_d_pose_analysis.py
 /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/pose_tf2.py
 /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/__init__.py
 /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/__pycache__/rgbd_generator.cpython-38.pyc
 /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/__pycache__/person_check.cpython-38.pyc
+/root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/__pycache__/raise_navi.cpython-38.pyc
 /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/__pycache__/image_cutter.cpython-38.pyc
+/root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/__pycache__/xbox.cpython-38.pyc
 /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/__pycache__/image_inputer.cpython-38.pyc
 /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/__pycache__/three_d_pose_analysis.cpython-38.pyc
 /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/__pycache__/pose_tf2.cpython-38.pyc
@@ -24,5 +28,7 @@
 /root/researchv2/install/chaser_system/lib/chaser_system/image_inputer
 /root/researchv2/install/chaser_system/lib/chaser_system/person_check
 /root/researchv2/install/chaser_system/lib/chaser_system/pose_tf2
+/root/researchv2/install/chaser_system/lib/chaser_system/raise_navi
 /root/researchv2/install/chaser_system/lib/chaser_system/rgbd_generator
 /root/researchv2/install/chaser_system/lib/chaser_system/three_d_pose_analysis
+/root/researchv2/install/chaser_system/lib/chaser_system/xbox

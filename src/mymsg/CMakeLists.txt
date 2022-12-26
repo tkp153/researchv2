@@ -22,6 +22,7 @@ find_package(std_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(visualization_msgs REQUIRED)
+find_package(nav_msgs REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
@@ -35,6 +36,7 @@ set(msg_files
 
 set(srv_files
 "srv/Imagedata.srv"
+"srv/Waypoints.srv"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}

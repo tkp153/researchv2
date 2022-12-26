@@ -19,7 +19,11 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/mymsg/srv/detail/imagedata__builder.hpp"
   "rosidl_generator_cpp/mymsg/srv/detail/imagedata__struct.hpp"
   "rosidl_generator_cpp/mymsg/srv/detail/imagedata__traits.hpp"
+  "rosidl_generator_cpp/mymsg/srv/detail/waypoints__builder.hpp"
+  "rosidl_generator_cpp/mymsg/srv/detail/waypoints__struct.hpp"
+  "rosidl_generator_cpp/mymsg/srv/detail/waypoints__traits.hpp"
   "rosidl_generator_cpp/mymsg/srv/imagedata.hpp"
+  "rosidl_generator_cpp/mymsg/srv/waypoints.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

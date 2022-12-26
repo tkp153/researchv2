@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/root/researchv2/build/mymsg/rosidl_generator_c/mymsg/msg/detail/poses__functions.c" "/root/researchv2/build/mymsg/CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/msg/detail/poses__functions.c.o"
   "/root/researchv2/build/mymsg/rosidl_generator_c/mymsg/msg/detail/transform__functions.c" "/root/researchv2/build/mymsg/CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/msg/detail/transform__functions.c.o"
   "/root/researchv2/build/mymsg/rosidl_generator_c/mymsg/srv/detail/imagedata__functions.c" "/root/researchv2/build/mymsg/CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/imagedata__functions.c.o"
+  "/root/researchv2/build/mymsg/rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c" "/root/researchv2/build/mymsg/CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -50,7 +51,12 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/root/researchv2/build/mymsg/rosidl_generator_c/mymsg/srv/detail/imagedata__functions.h" "/root/researchv2/build/mymsg/rosidl_generator_c/mymsg/msg/pose.h"
   "/root/researchv2/build/mymsg/rosidl_generator_c/mymsg/srv/detail/imagedata__struct.h" "/root/researchv2/build/mymsg/rosidl_generator_c/mymsg/msg/pose.h"
   "/root/researchv2/build/mymsg/rosidl_generator_c/mymsg/srv/detail/imagedata__type_support.h" "/root/researchv2/build/mymsg/rosidl_generator_c/mymsg/msg/pose.h"
+  "/root/researchv2/build/mymsg/rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c" "/root/researchv2/build/mymsg/rosidl_generator_c/mymsg/msg/pose.h"
+  "/root/researchv2/build/mymsg/rosidl_generator_c/mymsg/srv/detail/waypoints__functions.h" "/root/researchv2/build/mymsg/rosidl_generator_c/mymsg/msg/pose.h"
+  "/root/researchv2/build/mymsg/rosidl_generator_c/mymsg/srv/detail/waypoints__struct.h" "/root/researchv2/build/mymsg/rosidl_generator_c/mymsg/msg/pose.h"
+  "/root/researchv2/build/mymsg/rosidl_generator_c/mymsg/srv/detail/waypoints__type_support.h" "/root/researchv2/build/mymsg/rosidl_generator_c/mymsg/msg/pose.h"
   "/root/researchv2/build/mymsg/rosidl_generator_c/mymsg/srv/imagedata.h" "/root/researchv2/build/mymsg/rosidl_generator_c/mymsg/msg/pose.h"
+  "/root/researchv2/build/mymsg/rosidl_generator_c/mymsg/srv/waypoints.h" "/root/researchv2/build/mymsg/rosidl_generator_c/mymsg/msg/pose.h"
   )
 
 

@@ -2,6 +2,8 @@
 image_inputer = chaser_system.image_inputer:main
 person_check = chaser_system.person_check:main
 pose_tf2 = chaser_system.pose_tf2:main
+raise_navi = chaser_system.raise_navi:main
 rgbd_generator = chaser_system.rgbd_generator:main
 three_d_pose_analysis = chaser_system.three_d_pose_analysis:main
+xbox = chaser_system.xbox:main
 

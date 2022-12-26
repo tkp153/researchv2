@@ -75,6 +75,7 @@ rosidl_generator_c/mymsg/msg/pose.h: rosidl_adapter/mymsg/msg/Poses.idl
 rosidl_generator_c/mymsg/msg/pose.h: rosidl_adapter/mymsg/msg/Transform.idl
 rosidl_generator_c/mymsg/msg/pose.h: rosidl_adapter/mymsg/msg/MultiTransform.idl
 rosidl_generator_c/mymsg/msg/pose.h: rosidl_adapter/mymsg/srv/Imagedata.idl
+rosidl_generator_c/mymsg/msg/pose.h: rosidl_adapter/mymsg/srv/Waypoints.idl
 rosidl_generator_c/mymsg/msg/pose.h: /opt/ros/foxy/share/std_msgs/msg/Bool.idl
 rosidl_generator_c/mymsg/msg/pose.h: /opt/ros/foxy/share/std_msgs/msg/Byte.idl
 rosidl_generator_c/mymsg/msg/pose.h: /opt/ros/foxy/share/std_msgs/msg/ByteMultiArray.idl
@@ -235,6 +236,18 @@ rosidl_generator_c/mymsg/srv/detail/imagedata__struct.h: rosidl_generator_c/myms
 rosidl_generator_c/mymsg/srv/detail/imagedata__type_support.h: rosidl_generator_c/mymsg/msg/pose.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/mymsg/srv/detail/imagedata__type_support.h
 
+rosidl_generator_c/mymsg/srv/waypoints.h: rosidl_generator_c/mymsg/msg/pose.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/mymsg/srv/waypoints.h
+
+rosidl_generator_c/mymsg/srv/detail/waypoints__functions.h: rosidl_generator_c/mymsg/msg/pose.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/mymsg/srv/detail/waypoints__functions.h
+
+rosidl_generator_c/mymsg/srv/detail/waypoints__struct.h: rosidl_generator_c/mymsg/msg/pose.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/mymsg/srv/detail/waypoints__struct.h
+
+rosidl_generator_c/mymsg/srv/detail/waypoints__type_support.h: rosidl_generator_c/mymsg/msg/pose.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/mymsg/srv/detail/waypoints__type_support.h
+
 rosidl_generator_c/mymsg/msg/detail/pose__functions.c: rosidl_generator_c/mymsg/msg/pose.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/mymsg/msg/detail/pose__functions.c
 
@@ -249,6 +262,9 @@ rosidl_generator_c/mymsg/msg/detail/multi_transform__functions.c: rosidl_generat
 
 rosidl_generator_c/mymsg/srv/detail/imagedata__functions.c: rosidl_generator_c/mymsg/msg/pose.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/mymsg/srv/detail/imagedata__functions.c
+
+rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c: rosidl_generator_c/mymsg/msg/pose.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c
 
 CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/msg/detail/pose__functions.c.o: CMakeFiles/mymsg__rosidl_generator_c.dir/flags.make
 CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/msg/detail/pose__functions.c.o: rosidl_generator_c/mymsg/msg/detail/pose__functions.c
@@ -315,13 +331,27 @@ CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/ima
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/imagedata__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/researchv2/build/mymsg/rosidl_generator_c/mymsg/srv/detail/imagedata__functions.c -o CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/imagedata__functions.c.s
 
+CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.o: CMakeFiles/mymsg__rosidl_generator_c.dir/flags.make
+CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.o: rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/researchv2/build/mymsg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.o   -c /root/researchv2/build/mymsg/rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c
+
+CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/researchv2/build/mymsg/rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c > CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.i
+
+CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/researchv2/build/mymsg/rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c -o CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.s
+
 # Object files for target mymsg__rosidl_generator_c
 mymsg__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/msg/detail/pose__functions.c.o" \
 "CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/msg/detail/poses__functions.c.o" \
 "CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/msg/detail/transform__functions.c.o" \
 "CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/msg/detail/multi_transform__functions.c.o" \
-"CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/imagedata__functions.c.o"
+"CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/imagedata__functions.c.o" \
+"CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.o"
 
 # External object files for target mymsg__rosidl_generator_c
 mymsg__rosidl_generator_c_EXTERNAL_OBJECTS =
@@ -331,6 +361,7 @@ libmymsg__rosidl_generator_c.so: CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl
 libmymsg__rosidl_generator_c.so: CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/msg/detail/transform__functions.c.o
 libmymsg__rosidl_generator_c.so: CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/msg/detail/multi_transform__functions.c.o
 libmymsg__rosidl_generator_c.so: CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/imagedata__functions.c.o
+libmymsg__rosidl_generator_c.so: CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.o
 libmymsg__rosidl_generator_c.so: CMakeFiles/mymsg__rosidl_generator_c.dir/build.make
 libmymsg__rosidl_generator_c.so: /opt/ros/foxy/lib/libvisualization_msgs__rosidl_typesupport_introspection_c.so
 libmymsg__rosidl_generator_c.so: /opt/ros/foxy/lib/libvisualization_msgs__rosidl_typesupport_c.so
@@ -365,7 +396,7 @@ libmymsg__rosidl_generator_c.so: /opt/ros/foxy/lib/librosidl_runtime_c.so
 libmymsg__rosidl_generator_c.so: /opt/ros/foxy/lib/librcpputils.so
 libmymsg__rosidl_generator_c.so: /opt/ros/foxy/lib/librcutils.so
 libmymsg__rosidl_generator_c.so: CMakeFiles/mymsg__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/researchv2/build/mymsg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C shared library libmymsg__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/researchv2/build/mymsg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C shared library libmymsg__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mymsg__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -397,11 +428,16 @@ CMakeFiles/mymsg__rosidl_generator_c.dir/depend: rosidl_generator_c/mymsg/srv/im
 CMakeFiles/mymsg__rosidl_generator_c.dir/depend: rosidl_generator_c/mymsg/srv/detail/imagedata__functions.h
 CMakeFiles/mymsg__rosidl_generator_c.dir/depend: rosidl_generator_c/mymsg/srv/detail/imagedata__struct.h
 CMakeFiles/mymsg__rosidl_generator_c.dir/depend: rosidl_generator_c/mymsg/srv/detail/imagedata__type_support.h
+CMakeFiles/mymsg__rosidl_generator_c.dir/depend: rosidl_generator_c/mymsg/srv/waypoints.h
+CMakeFiles/mymsg__rosidl_generator_c.dir/depend: rosidl_generator_c/mymsg/srv/detail/waypoints__functions.h
+CMakeFiles/mymsg__rosidl_generator_c.dir/depend: rosidl_generator_c/mymsg/srv/detail/waypoints__struct.h
+CMakeFiles/mymsg__rosidl_generator_c.dir/depend: rosidl_generator_c/mymsg/srv/detail/waypoints__type_support.h
 CMakeFiles/mymsg__rosidl_generator_c.dir/depend: rosidl_generator_c/mymsg/msg/detail/pose__functions.c
 CMakeFiles/mymsg__rosidl_generator_c.dir/depend: rosidl_generator_c/mymsg/msg/detail/poses__functions.c
 CMakeFiles/mymsg__rosidl_generator_c.dir/depend: rosidl_generator_c/mymsg/msg/detail/transform__functions.c
 CMakeFiles/mymsg__rosidl_generator_c.dir/depend: rosidl_generator_c/mymsg/msg/detail/multi_transform__functions.c
 CMakeFiles/mymsg__rosidl_generator_c.dir/depend: rosidl_generator_c/mymsg/srv/detail/imagedata__functions.c
+CMakeFiles/mymsg__rosidl_generator_c.dir/depend: rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c
 	cd /root/researchv2/build/mymsg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/researchv2/src/mymsg /root/researchv2/src/mymsg /root/researchv2/build/mymsg /root/researchv2/build/mymsg /root/researchv2/build/mymsg/CMakeFiles/mymsg__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/mymsg__rosidl_generator_c.dir/depend
 

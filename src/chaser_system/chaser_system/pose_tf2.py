@@ -9,6 +9,8 @@ import math
 from geometry_msgs.msg import PoseStamped
 from geometry_msgs.msg import TransformStamped
 from mymsg.msg import Transform,MultiTransform
+from mymsg.srv import Waypoints
+from functools import partial
 
 
 pre_time = time.time()
@@ -33,11 +35,28 @@ class pose_tf2(Node):
         broadcaster = StaticTransformBroadcaster(self)
         broadcaster.sendTransform(Transform_stamped)
         
+        # 基準点
+        Transform_stamped_b = TransformStamped()
+        Transform_stamped_b.header.stamp = self.get_clock().now().to_msg()
+        Transform_stamped_b.header.frame_id = "base_footprint"
+        Transform_stamped_b.child_frame_id = 'base_link'
+        Transform_stamped_b.transform.translation.x = 0.0
+        Transform_stamped_b.transform.translation.y = 0.0
+        Transform_stamped_b.transform.translation.z = 0.0
+        Transform_stamped_b.transform.rotation.x = 0.0
+        Transform_stamped_b.transform.rotation.y = 0.0
+        Transform_stamped_b.transform.rotation.z = 0.0
+        Transform_stamped_b.transform.rotation.w = 1.0
+        broadcaster99 = StaticTransformBroadcaster(self)
+        broadcaster99.sendTransform(Transform_stamped_b)
+        
+        
+        
         video_qos = rclpy.qos.QoSProfile(depth = 10)
         video_qos.reliability = rclpy.qos.QoSReliabilityPolicy.BEST_EFFORT
         self.temp = 0
         
-        self.target_frame = "base_footprint"
+        self.target_frame = "odom"
         self.tf_buffer = Buffer()
         self.tf_listener = TransformListener(self.tf_buffer,self)
         self.filename = "waypoint_data.csv"
@@ -49,6 +68,8 @@ class pose_tf2(Node):
         self.sub2 = self.create_subscription(Transform,"/raise_hand_info",self.raise_hand_tf,1)
         #self.sub3 = self.create_subscription(Imu,"/camera/imu",self.IMU,video_qos)
         self.pub = self.create_publisher(PoseStamped,"goal_data",10)
+        
+        self.completed = False
 
     def human(self,data):
         people =[]
@@ -131,9 +152,30 @@ class pose_tf2(Node):
             go.pose.orientation.y = data_row[4]
             go.pose.orientation.z = data_row[5]
             go.pose.orientation.w = data_row[6]
-            self.pub.publish(go)
+            #self.pub.publish(go)
+        
+            ## service client
+            cli = self.create_client(Waypoints,"waypoint")
+            # サーバー接続まで待機
+            while not cli.wait_for_service(timeout_sec=1.0):
+                self.get_logger().info("service not available...")
+            
+            if(self.completed == False):
+                
+                request = Waypoints.Request()
+                request.waypoint = go
+                future = cli.call_async(request)
+                future.add_done_callback(partial(self.services_callback))
+        
             
         except TransformException:
+            pass
+        
+    def services_callback(self, future):
+        try:
+            response = future.result()
+            self.completed =response.complete
+        except Exception as e:
             pass
         
 def main():

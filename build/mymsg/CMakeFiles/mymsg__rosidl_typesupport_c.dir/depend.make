@@ -78,3 +78,24 @@ CMakeFiles/mymsg__rosidl_typesupport_c.dir/rosidl_typesupport_c/mymsg/srv/imaged
 CMakeFiles/mymsg__rosidl_typesupport_c.dir/rosidl_typesupport_c/mymsg/srv/imagedata__type_support.cpp.o: rosidl_generator_c/mymsg/srv/detail/imagedata__struct.h
 CMakeFiles/mymsg__rosidl_typesupport_c.dir/rosidl_typesupport_c/mymsg/srv/imagedata__type_support.cpp.o: rosidl_typesupport_c/mymsg/msg/rosidl_typesupport_c__visibility_control.h
 
+CMakeFiles/mymsg__rosidl_typesupport_c.dir/rosidl_typesupport_c/mymsg/srv/waypoints__type_support.cpp.o: /opt/ros/foxy/include/builtin_interfaces/msg/detail/time__struct.h
+CMakeFiles/mymsg__rosidl_typesupport_c.dir/rosidl_typesupport_c/mymsg/srv/waypoints__type_support.cpp.o: /opt/ros/foxy/include/geometry_msgs/msg/detail/point__struct.h
+CMakeFiles/mymsg__rosidl_typesupport_c.dir/rosidl_typesupport_c/mymsg/srv/waypoints__type_support.cpp.o: /opt/ros/foxy/include/geometry_msgs/msg/detail/pose__struct.h
+CMakeFiles/mymsg__rosidl_typesupport_c.dir/rosidl_typesupport_c/mymsg/srv/waypoints__type_support.cpp.o: /opt/ros/foxy/include/geometry_msgs/msg/detail/pose_stamped__struct.h
+CMakeFiles/mymsg__rosidl_typesupport_c.dir/rosidl_typesupport_c/mymsg/srv/waypoints__type_support.cpp.o: /opt/ros/foxy/include/geometry_msgs/msg/detail/quaternion__struct.h
+CMakeFiles/mymsg__rosidl_typesupport_c.dir/rosidl_typesupport_c/mymsg/srv/waypoints__type_support.cpp.o: /opt/ros/foxy/include/rosidl_runtime_c/message_type_support_struct.h
+CMakeFiles/mymsg__rosidl_typesupport_c.dir/rosidl_typesupport_c/mymsg/srv/waypoints__type_support.cpp.o: /opt/ros/foxy/include/rosidl_runtime_c/primitives_sequence.h
+CMakeFiles/mymsg__rosidl_typesupport_c.dir/rosidl_typesupport_c/mymsg/srv/waypoints__type_support.cpp.o: /opt/ros/foxy/include/rosidl_runtime_c/service_type_support_struct.h
+CMakeFiles/mymsg__rosidl_typesupport_c.dir/rosidl_typesupport_c/mymsg/srv/waypoints__type_support.cpp.o: /opt/ros/foxy/include/rosidl_runtime_c/string.h
+CMakeFiles/mymsg__rosidl_typesupport_c.dir/rosidl_typesupport_c/mymsg/srv/waypoints__type_support.cpp.o: /opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
+CMakeFiles/mymsg__rosidl_typesupport_c.dir/rosidl_typesupport_c/mymsg/srv/waypoints__type_support.cpp.o: /opt/ros/foxy/include/rosidl_typesupport_c/identifier.h
+CMakeFiles/mymsg__rosidl_typesupport_c.dir/rosidl_typesupport_c/mymsg/srv/waypoints__type_support.cpp.o: /opt/ros/foxy/include/rosidl_typesupport_c/message_type_support_dispatch.h
+CMakeFiles/mymsg__rosidl_typesupport_c.dir/rosidl_typesupport_c/mymsg/srv/waypoints__type_support.cpp.o: /opt/ros/foxy/include/rosidl_typesupport_c/service_type_support_dispatch.h
+CMakeFiles/mymsg__rosidl_typesupport_c.dir/rosidl_typesupport_c/mymsg/srv/waypoints__type_support.cpp.o: /opt/ros/foxy/include/rosidl_typesupport_c/type_support_map.h
+CMakeFiles/mymsg__rosidl_typesupport_c.dir/rosidl_typesupport_c/mymsg/srv/waypoints__type_support.cpp.o: /opt/ros/foxy/include/rosidl_typesupport_c/visibility_control.h
+CMakeFiles/mymsg__rosidl_typesupport_c.dir/rosidl_typesupport_c/mymsg/srv/waypoints__type_support.cpp.o: /opt/ros/foxy/include/rosidl_typesupport_interface/macros.h
+CMakeFiles/mymsg__rosidl_typesupport_c.dir/rosidl_typesupport_c/mymsg/srv/waypoints__type_support.cpp.o: /opt/ros/foxy/include/std_msgs/msg/detail/header__struct.h
+CMakeFiles/mymsg__rosidl_typesupport_c.dir/rosidl_typesupport_c/mymsg/srv/waypoints__type_support.cpp.o: rosidl_typesupport_c/mymsg/srv/waypoints__type_support.cpp
+CMakeFiles/mymsg__rosidl_typesupport_c.dir/rosidl_typesupport_c/mymsg/srv/waypoints__type_support.cpp.o: rosidl_generator_c/mymsg/srv/detail/waypoints__struct.h
+CMakeFiles/mymsg__rosidl_typesupport_c.dir/rosidl_typesupport_c/mymsg/srv/waypoints__type_support.cpp.o: rosidl_typesupport_c/mymsg/msg/rosidl_typesupport_c__visibility_control.h
+

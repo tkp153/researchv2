@@ -5,6 +5,7 @@
     "/root/researchv2/src/mymsg:msg/Poses.msg",
     "/root/researchv2/src/mymsg:msg/Transform.msg",
     "/root/researchv2/src/mymsg:msg/MultiTransform.msg",
-    "/root/researchv2/src/mymsg:srv/Imagedata.srv"
+    "/root/researchv2/src/mymsg:srv/Imagedata.srv",
+    "/root/researchv2/src/mymsg:srv/Waypoints.srv"
   ]
 }

@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/root/researchv2/build/mymsg/rosidl_typesupport_fastrtps_cpp/mymsg/msg/detail/dds_fastrtps/poses__type_support.cpp" "/root/researchv2/build/mymsg/CMakeFiles/mymsg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mymsg/msg/detail/dds_fastrtps/poses__type_support.cpp.o"
   "/root/researchv2/build/mymsg/rosidl_typesupport_fastrtps_cpp/mymsg/msg/detail/dds_fastrtps/transform__type_support.cpp" "/root/researchv2/build/mymsg/CMakeFiles/mymsg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mymsg/msg/detail/dds_fastrtps/transform__type_support.cpp.o"
   "/root/researchv2/build/mymsg/rosidl_typesupport_fastrtps_cpp/mymsg/srv/detail/dds_fastrtps/imagedata__type_support.cpp" "/root/researchv2/build/mymsg/CMakeFiles/mymsg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mymsg/srv/detail/dds_fastrtps/imagedata__type_support.cpp.o"
+  "/root/researchv2/build/mymsg/rosidl_typesupport_fastrtps_cpp/mymsg/srv/detail/dds_fastrtps/waypoints__type_support.cpp" "/root/researchv2/build/mymsg/CMakeFiles/mymsg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mymsg/srv/detail/dds_fastrtps/waypoints__type_support.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -41,7 +42,9 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/root/researchv2/build/mymsg/rosidl_typesupport_fastrtps_cpp/mymsg/msg/detail/poses__rosidl_typesupport_fastrtps_cpp.hpp" "/root/researchv2/build/mymsg/rosidl_typesupport_fastrtps_cpp/mymsg/msg/detail/dds_fastrtps/pose__type_support.cpp"
   "/root/researchv2/build/mymsg/rosidl_typesupport_fastrtps_cpp/mymsg/msg/detail/transform__rosidl_typesupport_fastrtps_cpp.hpp" "/root/researchv2/build/mymsg/rosidl_typesupport_fastrtps_cpp/mymsg/msg/detail/dds_fastrtps/pose__type_support.cpp"
   "/root/researchv2/build/mymsg/rosidl_typesupport_fastrtps_cpp/mymsg/srv/detail/dds_fastrtps/imagedata__type_support.cpp" "/root/researchv2/build/mymsg/rosidl_typesupport_fastrtps_cpp/mymsg/msg/detail/dds_fastrtps/pose__type_support.cpp"
+  "/root/researchv2/build/mymsg/rosidl_typesupport_fastrtps_cpp/mymsg/srv/detail/dds_fastrtps/waypoints__type_support.cpp" "/root/researchv2/build/mymsg/rosidl_typesupport_fastrtps_cpp/mymsg/msg/detail/dds_fastrtps/pose__type_support.cpp"
   "/root/researchv2/build/mymsg/rosidl_typesupport_fastrtps_cpp/mymsg/srv/detail/imagedata__rosidl_typesupport_fastrtps_cpp.hpp" "/root/researchv2/build/mymsg/rosidl_typesupport_fastrtps_cpp/mymsg/msg/detail/dds_fastrtps/pose__type_support.cpp"
+  "/root/researchv2/build/mymsg/rosidl_typesupport_fastrtps_cpp/mymsg/srv/detail/waypoints__rosidl_typesupport_fastrtps_cpp.hpp" "/root/researchv2/build/mymsg/rosidl_typesupport_fastrtps_cpp/mymsg/msg/detail/dds_fastrtps/pose__type_support.cpp"
   )
 
 

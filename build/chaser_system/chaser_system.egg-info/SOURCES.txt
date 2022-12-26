@@ -13,8 +13,10 @@ chaser_system/image_cutter.py
 chaser_system/image_inputer.py
 chaser_system/person_check.py
 chaser_system/pose_tf2.py
+chaser_system/raise_navi.py
 chaser_system/rgbd_generator.py
 chaser_system/three_d_pose_analysis.py
+chaser_system/xbox.py
 resource/chaser_system
 test/test_copyright.py
 test/test_flake8.py

@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/msg/detail/poses__functions.c.o"
   "CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/msg/detail/transform__functions.c.o"
   "CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/imagedata__functions.c.o"
+  "CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.o"
   "libmymsg__rosidl_generator_c.pdb"
   "libmymsg__rosidl_generator_c.so"
   "rosidl_generator_c/mymsg/msg/detail/multi_transform__functions.c"
@@ -30,7 +31,12 @@ file(REMOVE_RECURSE
   "rosidl_generator_c/mymsg/srv/detail/imagedata__functions.h"
   "rosidl_generator_c/mymsg/srv/detail/imagedata__struct.h"
   "rosidl_generator_c/mymsg/srv/detail/imagedata__type_support.h"
+  "rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c"
+  "rosidl_generator_c/mymsg/srv/detail/waypoints__functions.h"
+  "rosidl_generator_c/mymsg/srv/detail/waypoints__struct.h"
+  "rosidl_generator_c/mymsg/srv/detail/waypoints__type_support.h"
   "rosidl_generator_c/mymsg/srv/imagedata.h"
+  "rosidl_generator_c/mymsg/srv/waypoints.h"
 )
 
 # Per-language clean rules from dependency scanning.

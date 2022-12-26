@@ -1,9 +1,14 @@
 /root/researchv2/install/mymsg/share/ament_index/resource_index/rosidl_interfaces/mymsg
 /root/researchv2/install/mymsg/include/mymsg/srv/imagedata.h
+/root/researchv2/install/mymsg/include/mymsg/srv/detail/waypoints__type_support.h
+/root/researchv2/install/mymsg/include/mymsg/srv/detail/waypoints__functions.c
 /root/researchv2/install/mymsg/include/mymsg/srv/detail/imagedata__functions.c
 /root/researchv2/install/mymsg/include/mymsg/srv/detail/imagedata__functions.h
 /root/researchv2/install/mymsg/include/mymsg/srv/detail/imagedata__struct.h
+/root/researchv2/install/mymsg/include/mymsg/srv/detail/waypoints__struct.h
 /root/researchv2/install/mymsg/include/mymsg/srv/detail/imagedata__type_support.h
+/root/researchv2/install/mymsg/include/mymsg/srv/detail/waypoints__functions.h
+/root/researchv2/install/mymsg/include/mymsg/srv/waypoints.h
 /root/researchv2/install/mymsg/include/mymsg/msg/multi_transform.h
 /root/researchv2/install/mymsg/include/mymsg/msg/rosidl_generator_c__visibility_control.h
 /root/researchv2/install/mymsg/include/mymsg/msg/poses.h
@@ -29,6 +34,7 @@
 /root/researchv2/install/mymsg/share/mymsg/environment/library_path.dsv
 /root/researchv2/install/mymsg/lib/libmymsg__rosidl_generator_c.so
 /root/researchv2/install/mymsg/include/mymsg/srv/detail/imagedata__rosidl_typesupport_fastrtps_c.h
+/root/researchv2/install/mymsg/include/mymsg/srv/detail/waypoints__rosidl_typesupport_fastrtps_c.h
 /root/researchv2/install/mymsg/include/mymsg/msg/detail/poses__rosidl_typesupport_fastrtps_c.h
 /root/researchv2/install/mymsg/include/mymsg/msg/detail/multi_transform__rosidl_typesupport_fastrtps_c.h
 /root/researchv2/install/mymsg/include/mymsg/msg/detail/transform__rosidl_typesupport_fastrtps_c.h
@@ -36,6 +42,7 @@
 /root/researchv2/install/mymsg/include/mymsg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
 /root/researchv2/install/mymsg/lib/libmymsg__rosidl_typesupport_fastrtps_c.so
 /root/researchv2/install/mymsg/include/mymsg/srv/detail/imagedata__rosidl_typesupport_fastrtps_cpp.hpp
+/root/researchv2/install/mymsg/include/mymsg/srv/detail/waypoints__rosidl_typesupport_fastrtps_cpp.hpp
 /root/researchv2/install/mymsg/include/mymsg/msg/detail/multi_transform__rosidl_typesupport_fastrtps_cpp.hpp
 /root/researchv2/install/mymsg/include/mymsg/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp
 /root/researchv2/install/mymsg/include/mymsg/msg/detail/transform__rosidl_typesupport_fastrtps_cpp.hpp
@@ -43,6 +50,8 @@
 /root/researchv2/install/mymsg/include/mymsg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
 /root/researchv2/install/mymsg/lib/libmymsg__rosidl_typesupport_fastrtps_cpp.so
 /root/researchv2/install/mymsg/include/mymsg/srv/detail/imagedata__type_support.c
+/root/researchv2/install/mymsg/include/mymsg/srv/detail/waypoints__rosidl_typesupport_introspection_c.h
+/root/researchv2/install/mymsg/include/mymsg/srv/detail/waypoints__type_support.c
 /root/researchv2/install/mymsg/include/mymsg/srv/detail/imagedata__rosidl_typesupport_introspection_c.h
 /root/researchv2/install/mymsg/include/mymsg/msg/detail/pose__rosidl_typesupport_introspection_c.h
 /root/researchv2/install/mymsg/include/mymsg/msg/detail/transform__type_support.c
@@ -55,9 +64,13 @@
 /root/researchv2/install/mymsg/include/mymsg/msg/rosidl_typesupport_introspection_c__visibility_control.h
 /root/researchv2/install/mymsg/lib/libmymsg__rosidl_typesupport_introspection_c.so
 /root/researchv2/install/mymsg/lib/libmymsg__rosidl_typesupport_c.so
+/root/researchv2/install/mymsg/include/mymsg/srv/waypoints.hpp
+/root/researchv2/install/mymsg/include/mymsg/srv/detail/waypoints__struct.hpp
 /root/researchv2/install/mymsg/include/mymsg/srv/detail/imagedata__traits.hpp
+/root/researchv2/install/mymsg/include/mymsg/srv/detail/waypoints__traits.hpp
 /root/researchv2/install/mymsg/include/mymsg/srv/detail/imagedata__builder.hpp
 /root/researchv2/install/mymsg/include/mymsg/srv/detail/imagedata__struct.hpp
+/root/researchv2/install/mymsg/include/mymsg/srv/detail/waypoints__builder.hpp
 /root/researchv2/install/mymsg/include/mymsg/srv/imagedata.hpp
 /root/researchv2/install/mymsg/include/mymsg/msg/multi_transform.hpp
 /root/researchv2/install/mymsg/include/mymsg/msg/transform.hpp
@@ -77,6 +90,8 @@
 /root/researchv2/install/mymsg/include/mymsg/msg/poses.hpp
 /root/researchv2/install/mymsg/include/mymsg/srv/detail/imagedata__rosidl_typesupport_introspection_cpp.hpp
 /root/researchv2/install/mymsg/include/mymsg/srv/detail/imagedata__type_support.cpp
+/root/researchv2/install/mymsg/include/mymsg/srv/detail/waypoints__type_support.cpp
+/root/researchv2/install/mymsg/include/mymsg/srv/detail/waypoints__rosidl_typesupport_introspection_cpp.hpp
 /root/researchv2/install/mymsg/include/mymsg/msg/detail/poses__type_support.cpp
 /root/researchv2/install/mymsg/include/mymsg/msg/detail/multi_transform__type_support.cpp
 /root/researchv2/install/mymsg/include/mymsg/msg/detail/transform__type_support.cpp
@@ -99,7 +114,9 @@
 /root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/msg/__init__.py
 /root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/msg/_pose.py
 /root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/msg/_multi_transform.py
+/root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/srv/_waypoints.py
 /root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/srv/_imagedata_s.c
+/root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/srv/_waypoints_s.c
 /root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/srv/_imagedata.py
 /root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/srv/__init__.py
 /root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/mymsg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
@@ -111,6 +128,7 @@
 /root/researchv2/install/mymsg/share/mymsg/msg/Transform.idl
 /root/researchv2/install/mymsg/share/mymsg/msg/MultiTransform.idl
 /root/researchv2/install/mymsg/share/mymsg/srv/Imagedata.idl
+/root/researchv2/install/mymsg/share/mymsg/srv/Waypoints.idl
 /root/researchv2/install/mymsg/share/mymsg/msg/Pose.msg
 /root/researchv2/install/mymsg/share/mymsg/msg/Poses.msg
 /root/researchv2/install/mymsg/share/mymsg/msg/Transform.msg
@@ -118,6 +136,9 @@
 /root/researchv2/install/mymsg/share/mymsg/srv/Imagedata.srv
 /root/researchv2/install/mymsg/share/mymsg/srv/Imagedata_Request.msg
 /root/researchv2/install/mymsg/share/mymsg/srv/Imagedata_Response.msg
+/root/researchv2/install/mymsg/share/mymsg/srv/Waypoints.srv
+/root/researchv2/install/mymsg/share/mymsg/srv/Waypoints_Request.msg
+/root/researchv2/install/mymsg/share/mymsg/srv/Waypoints_Response.msg
 /root/researchv2/install/mymsg/share/ament_index/resource_index/package_run_dependencies/mymsg
 /root/researchv2/install/mymsg/share/ament_index/resource_index/parent_prefix_path/mymsg
 /root/researchv2/install/mymsg/share/mymsg/environment/ament_prefix_path.sh

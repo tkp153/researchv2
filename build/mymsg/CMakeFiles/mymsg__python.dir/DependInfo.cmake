@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/root/researchv2/build/mymsg/rosidl_generator_py/mymsg/msg/_poses_s.c" "/root/researchv2/build/mymsg/CMakeFiles/mymsg__python.dir/rosidl_generator_py/mymsg/msg/_poses_s.c.o"
   "/root/researchv2/build/mymsg/rosidl_generator_py/mymsg/msg/_transform_s.c" "/root/researchv2/build/mymsg/CMakeFiles/mymsg__python.dir/rosidl_generator_py/mymsg/msg/_transform_s.c.o"
   "/root/researchv2/build/mymsg/rosidl_generator_py/mymsg/srv/_imagedata_s.c" "/root/researchv2/build/mymsg/CMakeFiles/mymsg__python.dir/rosidl_generator_py/mymsg/srv/_imagedata_s.c.o"
+  "/root/researchv2/build/mymsg/rosidl_generator_py/mymsg/srv/_waypoints_s.c" "/root/researchv2/build/mymsg/CMakeFiles/mymsg__python.dir/rosidl_generator_py/mymsg/srv/_waypoints_s.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

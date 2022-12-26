@@ -1,0 +1,64 @@
+[0.740s] Invoking command in '/root/researchv2/src/chaser_system': PYTHONPATH=/root/researchv2/build/chaser_system/prefix_override:/root/researchv2/install/chaser_system/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/chaser_system build --build-base /root/researchv2/build/chaser_system/build install --record /root/researchv2/build/chaser_system/install.log --install-scripts $base/lib/chaser_system --single-version-externally-managed
+[0.984s] running egg_info
+[0.985s] creating ../../build/chaser_system/chaser_system.egg-info
+[0.985s] writing ../../build/chaser_system/chaser_system.egg-info/PKG-INFO
+[0.985s] writing dependency_links to ../../build/chaser_system/chaser_system.egg-info/dependency_links.txt
+[0.986s] writing entry points to ../../build/chaser_system/chaser_system.egg-info/entry_points.txt
+[0.986s] writing requirements to ../../build/chaser_system/chaser_system.egg-info/requires.txt
+[0.986s] writing top-level names to ../../build/chaser_system/chaser_system.egg-info/top_level.txt
+[0.987s] writing manifest file '../../build/chaser_system/chaser_system.egg-info/SOURCES.txt'
+[1.015s] reading manifest file '../../build/chaser_system/chaser_system.egg-info/SOURCES.txt'
+[1.016s] writing manifest file '../../build/chaser_system/chaser_system.egg-info/SOURCES.txt'
+[1.016s] running build
+[1.016s] running build_py
+[1.016s] creating /root/researchv2/build/chaser_system/build
+[1.018s] creating /root/researchv2/build/chaser_system/build/lib
+[1.018s] creating /root/researchv2/build/chaser_system/build/lib/chaser_system
+[1.019s] copying chaser_system/rgbd_generator.py -> /root/researchv2/build/chaser_system/build/lib/chaser_system
+[1.019s] copying chaser_system/person_check.py -> /root/researchv2/build/chaser_system/build/lib/chaser_system
+[1.019s] copying chaser_system/raise_navi.py -> /root/researchv2/build/chaser_system/build/lib/chaser_system
+[1.019s] copying chaser_system/image_cutter.py -> /root/researchv2/build/chaser_system/build/lib/chaser_system
+[1.019s] copying chaser_system/xbox.py -> /root/researchv2/build/chaser_system/build/lib/chaser_system
+[1.020s] copying chaser_system/image_inputer.py -> /root/researchv2/build/chaser_system/build/lib/chaser_system
+[1.020s] copying chaser_system/three_d_pose_analysis.py -> /root/researchv2/build/chaser_system/build/lib/chaser_system
+[1.020s] copying chaser_system/pose_tf2.py -> /root/researchv2/build/chaser_system/build/lib/chaser_system
+[1.020s] copying chaser_system/__init__.py -> /root/researchv2/build/chaser_system/build/lib/chaser_system
+[1.020s] running install
+[1.021s] running install_lib
+[1.022s] creating /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system
+[1.023s] copying /root/researchv2/build/chaser_system/build/lib/chaser_system/rgbd_generator.py -> /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system
+[1.023s] copying /root/researchv2/build/chaser_system/build/lib/chaser_system/person_check.py -> /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system
+[1.023s] copying /root/researchv2/build/chaser_system/build/lib/chaser_system/raise_navi.py -> /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system
+[1.023s] copying /root/researchv2/build/chaser_system/build/lib/chaser_system/image_cutter.py -> /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system
+[1.024s] copying /root/researchv2/build/chaser_system/build/lib/chaser_system/xbox.py -> /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system
+[1.024s] copying /root/researchv2/build/chaser_system/build/lib/chaser_system/image_inputer.py -> /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system
+[1.024s] copying /root/researchv2/build/chaser_system/build/lib/chaser_system/three_d_pose_analysis.py -> /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system
+[1.024s] copying /root/researchv2/build/chaser_system/build/lib/chaser_system/pose_tf2.py -> /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system
+[1.024s] copying /root/researchv2/build/chaser_system/build/lib/chaser_system/__init__.py -> /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system
+[1.025s] byte-compiling /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/rgbd_generator.py to rgbd_generator.cpython-38.pyc
+[1.027s] byte-compiling /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/person_check.py to person_check.cpython-38.pyc
+[1.029s] byte-compiling /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/raise_navi.py to raise_navi.cpython-38.pyc
+[1.029s] byte-compiling /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/image_cutter.py to image_cutter.cpython-38.pyc
+[1.029s] byte-compiling /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/xbox.py to xbox.cpython-38.pyc
+[1.030s] byte-compiling /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/image_inputer.py to image_inputer.cpython-38.pyc
+[1.031s] byte-compiling /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/three_d_pose_analysis.py to three_d_pose_analysis.cpython-38.pyc
+[1.032s] byte-compiling /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/pose_tf2.py to pose_tf2.cpython-38.pyc
+[1.033s] byte-compiling /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/__init__.py to __init__.cpython-38.pyc
+[1.033s] running install_data
+[1.034s] creating /root/researchv2/install/chaser_system/share/ament_index
+[1.034s] creating /root/researchv2/install/chaser_system/share/ament_index/resource_index
+[1.034s] creating /root/researchv2/install/chaser_system/share/ament_index/resource_index/packages
+[1.034s] copying resource/chaser_system -> /root/researchv2/install/chaser_system/share/ament_index/resource_index/packages
+[1.034s] copying package.xml -> /root/researchv2/install/chaser_system/share/chaser_system
+[1.034s] running install_egg_info
+[1.036s] Copying ../../build/chaser_system/chaser_system.egg-info to /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system-0.0.0-py3.8.egg-info
+[1.036s] running install_scripts
+[1.050s] Installing image_inputer script to /root/researchv2/install/chaser_system/lib/chaser_system
+[1.050s] Installing person_check script to /root/researchv2/install/chaser_system/lib/chaser_system
+[1.051s] Installing pose_tf2 script to /root/researchv2/install/chaser_system/lib/chaser_system
+[1.051s] Installing raise_navi script to /root/researchv2/install/chaser_system/lib/chaser_system
+[1.051s] Installing rgbd_generator script to /root/researchv2/install/chaser_system/lib/chaser_system
+[1.051s] Installing three_d_pose_analysis script to /root/researchv2/install/chaser_system/lib/chaser_system
+[1.051s] Installing xbox script to /root/researchv2/install/chaser_system/lib/chaser_system
+[1.051s] writing list of installed files to '/root/researchv2/build/chaser_system/install.log'
+[1.075s] Invoked command in '/root/researchv2/src/chaser_system' returned '0': PYTHONPATH=/root/researchv2/build/chaser_system/prefix_override:/root/researchv2/install/chaser_system/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/chaser_system build --build-base /root/researchv2/build/chaser_system/build install --record /root/researchv2/build/chaser_system/install.log --install-scripts $base/lib/chaser_system --single-version-externally-managed

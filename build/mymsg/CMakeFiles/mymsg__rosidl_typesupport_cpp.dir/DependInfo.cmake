@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/root/researchv2/build/mymsg/rosidl_typesupport_cpp/mymsg/msg/poses__type_support.cpp" "/root/researchv2/build/mymsg/CMakeFiles/mymsg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mymsg/msg/poses__type_support.cpp.o"
   "/root/researchv2/build/mymsg/rosidl_typesupport_cpp/mymsg/msg/transform__type_support.cpp" "/root/researchv2/build/mymsg/CMakeFiles/mymsg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mymsg/msg/transform__type_support.cpp.o"
   "/root/researchv2/build/mymsg/rosidl_typesupport_cpp/mymsg/srv/imagedata__type_support.cpp" "/root/researchv2/build/mymsg/CMakeFiles/mymsg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mymsg/srv/imagedata__type_support.cpp.o"
+  "/root/researchv2/build/mymsg/rosidl_typesupport_cpp/mymsg/srv/waypoints__type_support.cpp" "/root/researchv2/build/mymsg/CMakeFiles/mymsg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mymsg/srv/waypoints__type_support.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -31,6 +32,7 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/root/researchv2/build/mymsg/rosidl_typesupport_cpp/mymsg/msg/poses__type_support.cpp" "/root/researchv2/build/mymsg/rosidl_typesupport_cpp/mymsg/msg/pose__type_support.cpp"
   "/root/researchv2/build/mymsg/rosidl_typesupport_cpp/mymsg/msg/transform__type_support.cpp" "/root/researchv2/build/mymsg/rosidl_typesupport_cpp/mymsg/msg/pose__type_support.cpp"
   "/root/researchv2/build/mymsg/rosidl_typesupport_cpp/mymsg/srv/imagedata__type_support.cpp" "/root/researchv2/build/mymsg/rosidl_typesupport_cpp/mymsg/msg/pose__type_support.cpp"
+  "/root/researchv2/build/mymsg/rosidl_typesupport_cpp/mymsg/srv/waypoints__type_support.cpp" "/root/researchv2/build/mymsg/rosidl_typesupport_cpp/mymsg/msg/pose__type_support.cpp"
   )
 
 

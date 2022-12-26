@@ -19,6 +19,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/root/researchv2/build/mymsg/rosidl_generator_py/mymsg/srv/__init__.py" "/root/researchv2/build/mymsg/rosidl_generator_py/mymsg/_mymsg_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/root/researchv2/build/mymsg/rosidl_generator_py/mymsg/srv/_imagedata.py" "/root/researchv2/build/mymsg/rosidl_generator_py/mymsg/_mymsg_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/root/researchv2/build/mymsg/rosidl_generator_py/mymsg/srv/_imagedata_s.c" "/root/researchv2/build/mymsg/rosidl_generator_py/mymsg/_mymsg_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/root/researchv2/build/mymsg/rosidl_generator_py/mymsg/srv/_waypoints.py" "/root/researchv2/build/mymsg/rosidl_generator_py/mymsg/_mymsg_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/root/researchv2/build/mymsg/rosidl_generator_py/mymsg/srv/_waypoints_s.c" "/root/researchv2/build/mymsg/rosidl_generator_py/mymsg/_mymsg_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

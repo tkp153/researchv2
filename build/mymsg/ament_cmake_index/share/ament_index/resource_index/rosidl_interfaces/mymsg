@@ -10,3 +10,7 @@ srv/Imagedata.idl
 srv/Imagedata.srv
 srv/Imagedata_Request.msg
 srv/Imagedata_Response.msg
+srv/Waypoints.idl
+srv/Waypoints.srv
+srv/Waypoints_Request.msg
+srv/Waypoints_Response.msg

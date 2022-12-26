@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/root/researchv2/build/mymsg/rosidl_typesupport_introspection_c/mymsg/msg/detail/poses__type_support.c" "/root/researchv2/build/mymsg/CMakeFiles/mymsg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mymsg/msg/detail/poses__type_support.c.o"
   "/root/researchv2/build/mymsg/rosidl_typesupport_introspection_c/mymsg/msg/detail/transform__type_support.c" "/root/researchv2/build/mymsg/CMakeFiles/mymsg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mymsg/msg/detail/transform__type_support.c.o"
   "/root/researchv2/build/mymsg/rosidl_typesupport_introspection_c/mymsg/srv/detail/imagedata__type_support.c" "/root/researchv2/build/mymsg/CMakeFiles/mymsg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mymsg/srv/detail/imagedata__type_support.c.o"
+  "/root/researchv2/build/mymsg/rosidl_typesupport_introspection_c/mymsg/srv/detail/waypoints__type_support.c" "/root/researchv2/build/mymsg/CMakeFiles/mymsg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mymsg/srv/detail/waypoints__type_support.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -37,6 +38,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/root/researchv2/build/mymsg/rosidl_typesupport_introspection_c/mymsg/msg/detail/transform__type_support.c" "/root/researchv2/build/mymsg/rosidl_typesupport_introspection_c/mymsg/msg/detail/pose__rosidl_typesupport_introspection_c.h"
   "/root/researchv2/build/mymsg/rosidl_typesupport_introspection_c/mymsg/srv/detail/imagedata__rosidl_typesupport_introspection_c.h" "/root/researchv2/build/mymsg/rosidl_typesupport_introspection_c/mymsg/msg/detail/pose__rosidl_typesupport_introspection_c.h"
   "/root/researchv2/build/mymsg/rosidl_typesupport_introspection_c/mymsg/srv/detail/imagedata__type_support.c" "/root/researchv2/build/mymsg/rosidl_typesupport_introspection_c/mymsg/msg/detail/pose__rosidl_typesupport_introspection_c.h"
+  "/root/researchv2/build/mymsg/rosidl_typesupport_introspection_c/mymsg/srv/detail/waypoints__rosidl_typesupport_introspection_c.h" "/root/researchv2/build/mymsg/rosidl_typesupport_introspection_c/mymsg/msg/detail/pose__rosidl_typesupport_introspection_c.h"
+  "/root/researchv2/build/mymsg/rosidl_typesupport_introspection_c/mymsg/srv/detail/waypoints__type_support.c" "/root/researchv2/build/mymsg/rosidl_typesupport_introspection_c/mymsg/msg/detail/pose__rosidl_typesupport_introspection_c.h"
   )
 
 

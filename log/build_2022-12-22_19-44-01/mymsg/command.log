@@ -1,1 +1,0 @@
-Invoking command in '/root/researchv2/build/mymsg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /root/researchv2/src/mymsg -DCMAKE_INSTALL_PREFIX=/root/researchv2/install/mymsg
