@@ -13,7 +13,7 @@ def generate_launch_description():
     #urdf = os.path.join(package_dir, "urdf" , "first_robot.urdf")
     use_sim_time = LaunchConfiguration('use_sim_time', default='true')
     #world_path = os.path.join(package_dir, 'world', 'first_robot.sdf')
-    map_path = os.path.join(package_dir, "map", 'map.yaml')
+    map_path = os.path.join(package_dir, "map", 'hayashi_15_com.yaml')
     nav_params_path = os.path.join(package_dir, "config", 'first_navigation.yaml')
     nav2_launch_file_dir = os.path.join(get_package_share_directory('nav2_bringup'), 'launch')
     #rviz = os.path.join(package_dir, "rviz" , "first_robot.rviz")
