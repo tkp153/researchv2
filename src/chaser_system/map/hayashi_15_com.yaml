@@ -1,5 +1,5 @@
 image: hayashi_15_com.pgm
-resolution: 0.100000
+resolution: 1.05000
 origin: [-360.049957, -360.049957, 0.000000]
 negate: 0
 occupied_thresh: 0.65
