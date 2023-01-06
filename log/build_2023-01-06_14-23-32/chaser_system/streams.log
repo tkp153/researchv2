@@ -1,0 +1,28 @@
+[0.796s] Invoking command in '/root/researchv2/src/chaser_system': CMAKE_PREFIX_PATH=/root/researchv2/install/mymsg:/root/researchv2/install/urg_node:/root/researchv2/install/urg_node_msgs:/root/researchv2/install/slam_toolbox LD_LIBRARY_PATH=/root/researchv2/install/mymsg/lib:/root/researchv2/install/urg_node/lib:/root/researchv2/install/urg_node_msgs/lib:/root/researchv2/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/11.6.0/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 PYTHONPATH=/root/researchv2/build/chaser_system/prefix_override:/root/researchv2/install/chaser_system/lib/python3.8/site-packages:/root/researchv2/install/mymsg/lib/python3.8/site-packages:/root/researchv2/install/urg_node_msgs/lib/python3.8/site-packages:/root/researchv2/install/slam_toolbox/lib/python3.8/site-packages:/root/researchv2/install/chaser_system/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/chaser_system build --build-base /root/researchv2/build/chaser_system/build install --record /root/researchv2/build/chaser_system/install.log --install-scripts $base/lib/chaser_system --single-version-externally-managed
+[1.031s] running egg_info
+[1.032s] writing ../../build/chaser_system/chaser_system.egg-info/PKG-INFO
+[1.032s] writing dependency_links to ../../build/chaser_system/chaser_system.egg-info/dependency_links.txt
+[1.032s] writing entry points to ../../build/chaser_system/chaser_system.egg-info/entry_points.txt
+[1.032s] writing requirements to ../../build/chaser_system/chaser_system.egg-info/requires.txt
+[1.032s] writing top-level names to ../../build/chaser_system/chaser_system.egg-info/top_level.txt
+[1.062s] reading manifest file '../../build/chaser_system/chaser_system.egg-info/SOURCES.txt'
+[1.063s] writing manifest file '../../build/chaser_system/chaser_system.egg-info/SOURCES.txt'
+[1.063s] running build
+[1.063s] running build_py
+[1.064s] running install
+[1.065s] running install_lib
+[1.067s] running install_data
+[1.067s] copying map/hayashi_15_com.yaml -> /root/researchv2/install/chaser_system/share/chaser_system/map
+[1.068s] running install_egg_info
+[1.070s] removing '/root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system-0.0.0-py3.8.egg-info' (and everything under it)
+[1.070s] Copying ../../build/chaser_system/chaser_system.egg-info to /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system-0.0.0-py3.8.egg-info
+[1.071s] running install_scripts
+[1.085s] Installing image_inputer script to /root/researchv2/install/chaser_system/lib/chaser_system
+[1.085s] Installing person_check script to /root/researchv2/install/chaser_system/lib/chaser_system
+[1.086s] Installing pose_tf2 script to /root/researchv2/install/chaser_system/lib/chaser_system
+[1.086s] Installing raise_navi script to /root/researchv2/install/chaser_system/lib/chaser_system
+[1.086s] Installing rgbd_generator script to /root/researchv2/install/chaser_system/lib/chaser_system
+[1.086s] Installing three_d_pose_analysis script to /root/researchv2/install/chaser_system/lib/chaser_system
+[1.086s] Installing xbox script to /root/researchv2/install/chaser_system/lib/chaser_system
+[1.087s] writing list of installed files to '/root/researchv2/build/chaser_system/install.log'
+[1.105s] Invoked command in '/root/researchv2/src/chaser_system' returned '0': CMAKE_PREFIX_PATH=/root/researchv2/install/mymsg:/root/researchv2/install/urg_node:/root/researchv2/install/urg_node_msgs:/root/researchv2/install/slam_toolbox LD_LIBRARY_PATH=/root/researchv2/install/mymsg/lib:/root/researchv2/install/urg_node/lib:/root/researchv2/install/urg_node_msgs/lib:/root/researchv2/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/11.6.0/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 PYTHONPATH=/root/researchv2/build/chaser_system/prefix_override:/root/researchv2/install/chaser_system/lib/python3.8/site-packages:/root/researchv2/install/mymsg/lib/python3.8/site-packages:/root/researchv2/install/urg_node_msgs/lib/python3.8/site-packages:/root/researchv2/install/slam_toolbox/lib/python3.8/site-packages:/root/researchv2/install/chaser_system/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/chaser_system build --build-base /root/researchv2/build/chaser_system/build install --record /root/researchv2/build/chaser_system/install.log --install-scripts $base/lib/chaser_system --single-version-externally-managed

@@ -26,16 +26,18 @@ class Raise_navi(Node):
         goal_msg = NavigateToPose.Goal()
         
         # Request　処理
-        pose = Pose()
-        pose.pose.position.x = request.waypoints.pose.position.x
-        pose.pose.position.y = request.waypoints.pose.position.y
-        pose.pose.position.z = 0
-        pose.pose.orientation.x = request.waypoints.pose.orientation.x
-        pose.pose.orientation.y = request.waypoints.pose.orientation.y
-        pose.pose.orientation.z = request.waypoints.pose.orientation.z
-        pose.pose.orientation.w = request.waypoints.pose.orientation.w
+        goal = PoseStamped()
+        goal.header.stamp = self.get_clock().now().to_msg()
+        goal.header.frame_id = "map"
+        goal.pose.position.x = request.waypoints.pose.position.x
+        goal.pose.position.y = request.waypoints.pose.position.y
+        goal.pose.position.z = 0.00
+        goal.pose.orientation.x = request.waypoints.pose.orientation.x
+        goal.pose.orientation.y = request.waypoints.pose.orientation.y
+        goal.pose.orientation.z = request.waypoints.pose.orientation.z
+        goal.pose.orientation.w = request.waypoints.pose.orientation.w
         
-        goal_msg = pose
+        goal_msg.pose = goal
         
         send_goal_future = self.nav_to_pose_client.send_goal_async(goal_msg,feedback_callback= self.feedback_callback)
         rclpy.spin_until_future_complete(self, send_goal_future)

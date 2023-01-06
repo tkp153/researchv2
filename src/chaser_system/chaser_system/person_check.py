@@ -71,8 +71,7 @@ class person_checker(Node):
             
             #一人の処理↓
             for k in keypoints:
-                float_value = np.array(k[:3] / 200.0,dtype=float)
-                #float_value = np.array(keypoints[k][:3] / 200.0,dtype=float)
+                float_value = np.array(k[:3] / 1100.0,dtype=float)
                 #座標抽出
                 x_pos,y_pos,z_pos = float_value
                 

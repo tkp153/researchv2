@@ -155,7 +155,7 @@ class pose_tf2(Node):
             #self.pub.publish(go)
         
             ## service client
-            cli = self.create_client(Waypoints,"waypoint")
+            cli = self.create_client(Waypoints,"raise_navi")
             # サーバー接続まで待機
             while not cli.wait_for_service(timeout_sec=1.0):
                 self.get_logger().info("service not available...")
@@ -163,7 +163,7 @@ class pose_tf2(Node):
             if(self.completed == False):
                 
                 request = Waypoints.Request()
-                request.waypoint = go
+                request.waypoints = go
                 future = cli.call_async(request)
                 future.add_done_callback(partial(self.services_callback))
         
