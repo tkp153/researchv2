@@ -49,6 +49,8 @@ class Raise_navi(Node):
         self.result_future = self.goal_handle.get_result_async()
         response.complete = self.result_future.add_done_callback(self.get_result_callback)
         
+        return response
+        
     def get_result_callback(self, future): 
         if future.result().status == GoalStatus.STATUS_SUCCEEDED:
             mission = True
