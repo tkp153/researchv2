@@ -18,7 +18,7 @@
 /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/__pycache__/__init__.cpython-38.pyc
 /root/researchv2/install/chaser_system/share/ament_index/resource_index/packages/chaser_system
 /root/researchv2/install/chaser_system/share/chaser_system/package.xml
-/root/researchv2/install/chaser_system/share/chaser_system
+/root/researchv2/install/chaser_system/share/chaser_system/first_navigation.launch.py
 /root/researchv2/install/chaser_system/share/chaser_system/urdf
 /root/researchv2/install/chaser_system/share/chaser_system/rviz/nav2_view.rviz
 /root/researchv2/install/chaser_system/share/chaser_system/config/first_navigation.yaml

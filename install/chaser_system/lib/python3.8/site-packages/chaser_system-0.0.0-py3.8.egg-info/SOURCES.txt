@@ -18,6 +18,7 @@ chaser_system/rgbd_generator.py
 chaser_system/three_d_pose_analysis.py
 chaser_system/xbox.py
 config/first_navigation.yaml
+launch/first_navigation.launch.py
 map/hayashi_15_com.pgm
 map/hayashi_15_com.yaml
 resource/chaser_system
