@@ -71,7 +71,7 @@ class person_checker(Node):
             
             #一人の処理↓
             for k in keypoints:
-                float_value = np.array(k[:3] / 1100.0,dtype=float)
+                float_value = np.array(k[:3] / 1050.0,dtype=float)
                 #座標抽出
                 x_pos,y_pos,z_pos = float_value
                 
@@ -248,7 +248,7 @@ class person_checker(Node):
         if Theta is None:
             Theta = 180
             #print("Object is None")
-        print(Theta)
+        #print(Theta)
         return Theta
     
     def raise_hand_checker(self,Theta,Point1,Point2,hand_switch):

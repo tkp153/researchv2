@@ -1,0 +1,450 @@
+[0.140s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[0.140s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7efd048067f0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7efd048067f0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7efd048124f0>)[0m
+[0.164s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.164s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.164s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.164s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.164s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.164s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.165s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/root/researchv2'
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.192s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.192s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.192s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.192s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.192s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.192s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.192s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.192s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.193s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.193s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.193s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.193s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.193s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.193s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.193s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.193s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.194s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.194s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.194s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.194s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.194s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.194s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.194s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.194s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.194s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/chaser_system) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/chaser_system) by extension 'ignore'
+[0.194s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/chaser_system) by extension 'ignore_ament_install'
+[0.194s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/chaser_system) by extensions ['colcon_pkg']
+[0.194s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/chaser_system) by extension 'colcon_pkg'
+[0.195s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/chaser_system) by extensions ['colcon_meta']
+[0.195s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/chaser_system) by extension 'colcon_meta'
+[0.195s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/chaser_system) by extensions ['ros']
+[0.195s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/chaser_system) by extension 'ros'
+[0.199s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/chaser_system' with type 'ros.ament_python' and name 'chaser_system'[0m
+[0.199s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mymsg) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mymsg) by extension 'ignore'
+[0.199s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mymsg) by extension 'ignore_ament_install'
+[0.200s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mymsg) by extensions ['colcon_pkg']
+[0.200s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mymsg) by extension 'colcon_pkg'
+[0.200s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mymsg) by extensions ['colcon_meta']
+[0.200s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mymsg) by extension 'colcon_meta'
+[0.200s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mymsg) by extensions ['ros']
+[0.200s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mymsg) by extension 'ros'
+[0.201s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/mymsg' with type 'ros.ament_cmake' and name 'mymsg'[0m
+[0.202s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/slam_toolbox) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/slam_toolbox) by extension 'ignore'
+[0.202s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/slam_toolbox) by extension 'ignore_ament_install'
+[0.202s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/slam_toolbox) by extensions ['colcon_pkg']
+[0.202s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/slam_toolbox) by extension 'colcon_pkg'
+[0.202s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/slam_toolbox) by extensions ['colcon_meta']
+[0.202s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/slam_toolbox) by extension 'colcon_meta'
+[0.202s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/slam_toolbox) by extensions ['ros']
+[0.202s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/slam_toolbox) by extension 'ros'
+[0.206s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/slam_toolbox' with type 'ros.ament_cmake' and name 'slam_toolbox'[0m
+[0.206s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/urg_node) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/urg_node) by extension 'ignore'
+[0.206s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/urg_node) by extension 'ignore_ament_install'
+[0.206s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/urg_node) by extensions ['colcon_pkg']
+[0.206s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/urg_node) by extension 'colcon_pkg'
+[0.206s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/urg_node) by extensions ['colcon_meta']
+[0.206s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/urg_node) by extension 'colcon_meta'
+[0.206s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/urg_node) by extensions ['ros']
+[0.206s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/urg_node) by extension 'ros'
+[0.209s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/urg_node' with type 'ros.ament_cmake' and name 'urg_node'[0m
+[0.209s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/urg_node_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/urg_node_msgs) by extension 'ignore'
+[0.209s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/urg_node_msgs) by extension 'ignore_ament_install'
+[0.209s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/urg_node_msgs) by extensions ['colcon_pkg']
+[0.209s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/urg_node_msgs) by extension 'colcon_pkg'
+[0.209s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/urg_node_msgs) by extensions ['colcon_meta']
+[0.209s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/urg_node_msgs) by extension 'colcon_meta'
+[0.210s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/urg_node_msgs) by extensions ['ros']
+[0.210s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/urg_node_msgs) by extension 'ros'
+[0.211s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/urg_node_msgs' with type 'ros.ament_cmake' and name 'urg_node_msgs'[0m
+[0.211s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.211s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.211s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.211s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.211s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.229s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.229s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.233s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 5 installed packages in /root/researchv2/install[0m
+[0.235s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 369 installed packages in /opt/ros/foxy[0m
+[0.237s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.315s] [34mcolcon.colcon_core.package_selection[0m [1;30mWARNING[0m [33mSome selected packages are already built in one or more underlay workspaces:
+	'slam_toolbox' is in: /root/researchv2/install/slam_toolbox, /opt/ros/foxy
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding slam_toolbox
+
+This may be promoted to an error in a future release of colcon-override-check.[0m
+[0.316s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mymsg' build argument 'cmake_args' from command line to 'None'
+[0.316s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mymsg' build argument 'cmake_target' from command line to 'None'
+[0.316s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mymsg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.317s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mymsg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.317s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mymsg' build argument 'cmake_clean_first' from command line to 'False'
+[0.317s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mymsg' build argument 'cmake_force_configure' from command line to 'False'
+[0.317s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mymsg' build argument 'ament_cmake_args' from command line to 'None'
+[0.317s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mymsg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.317s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mymsg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.317s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'mymsg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/researchv2/build/mymsg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/researchv2/install/mymsg', 'merge_install': False, 'path': '/root/researchv2/src/mymsg', 'symlink_install': False, 'test_result_base': None}[0m
+[0.318s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'slam_toolbox' build argument 'cmake_args' from command line to 'None'
+[0.318s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'slam_toolbox' build argument 'cmake_target' from command line to 'None'
+[0.318s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'slam_toolbox' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.319s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'slam_toolbox' build argument 'cmake_clean_cache' from command line to 'False'
+[0.319s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'slam_toolbox' build argument 'cmake_clean_first' from command line to 'False'
+[0.319s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'slam_toolbox' build argument 'cmake_force_configure' from command line to 'False'
+[0.319s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'slam_toolbox' build argument 'ament_cmake_args' from command line to 'None'
+[0.319s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'slam_toolbox' build argument 'catkin_cmake_args' from command line to 'None'
+[0.319s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'slam_toolbox' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.319s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'slam_toolbox' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/researchv2/build/slam_toolbox', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/researchv2/install/slam_toolbox', 'merge_install': False, 'path': '/root/researchv2/src/slam_toolbox', 'symlink_install': False, 'test_result_base': None}[0m
+[0.321s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'urg_node_msgs' build argument 'cmake_args' from command line to 'None'
+[0.321s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'urg_node_msgs' build argument 'cmake_target' from command line to 'None'
+[0.321s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'urg_node_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.321s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'urg_node_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.321s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'urg_node_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.321s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'urg_node_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.321s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'urg_node_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.321s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'urg_node_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.321s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'urg_node_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.321s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'urg_node_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/researchv2/build/urg_node_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/researchv2/install/urg_node_msgs', 'merge_install': False, 'path': '/root/researchv2/src/urg_node_msgs', 'symlink_install': False, 'test_result_base': None}[0m
+[0.323s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'chaser_system' build argument 'cmake_args' from command line to 'None'
+[0.323s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'chaser_system' build argument 'cmake_target' from command line to 'None'
+[0.323s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'chaser_system' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.323s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'chaser_system' build argument 'cmake_clean_cache' from command line to 'False'
+[0.323s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'chaser_system' build argument 'cmake_clean_first' from command line to 'False'
+[0.323s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'chaser_system' build argument 'cmake_force_configure' from command line to 'False'
+[0.323s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'chaser_system' build argument 'ament_cmake_args' from command line to 'None'
+[0.323s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'chaser_system' build argument 'catkin_cmake_args' from command line to 'None'
+[0.323s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'chaser_system' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.323s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'chaser_system' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/researchv2/build/chaser_system', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/researchv2/install/chaser_system', 'merge_install': False, 'path': '/root/researchv2/src/chaser_system', 'symlink_install': False, 'test_result_base': None}[0m
+[0.325s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'urg_node' build argument 'cmake_args' from command line to 'None'
+[0.325s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'urg_node' build argument 'cmake_target' from command line to 'None'
+[0.325s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'urg_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.325s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'urg_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.325s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'urg_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.325s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'urg_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.325s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'urg_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.325s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'urg_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.325s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'urg_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.325s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'urg_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/researchv2/build/urg_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/researchv2/install/urg_node', 'merge_install': False, 'path': '/root/researchv2/src/urg_node', 'symlink_install': False, 'test_result_base': None}[0m
+[0.327s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.332s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.332s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/root/researchv2/src/mymsg' with build type 'ament_cmake'
+[0.332s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/root/researchv2/src/mymsg'
+[0.336s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.336s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.336s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.343s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/root/researchv2/src/urg_node_msgs' with build type 'ament_cmake'
+[0.344s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/root/researchv2/src/urg_node_msgs'
+[0.346s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.346s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.357s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/root/researchv2/src/slam_toolbox' with build type 'ament_cmake'
+[0.357s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/root/researchv2/src/slam_toolbox'
+[0.360s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.360s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.378s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/root/researchv2/build/mymsg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/researchv2/install/chaser_system:/opt/ros/foxy /usr/bin/cmake --build /root/researchv2/build/mymsg -- -j12 -l12[0m
+[0.390s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/root/researchv2/build/urg_node_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/researchv2/install/chaser_system:/opt/ros/foxy /usr/bin/cmake --build /root/researchv2/build/urg_node_msgs -- -j12 -l12[0m
+[0.400s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/root/researchv2/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/researchv2/install/chaser_system:/opt/ros/foxy /usr/bin/cmake --build /root/researchv2/build/slam_toolbox -- -j12 -l12[0m
+[0.760s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/root/researchv2/build/urg_node_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/researchv2/install/chaser_system:/opt/ros/foxy /usr/bin/cmake --build /root/researchv2/build/urg_node_msgs -- -j12 -l12[0m
+[0.784s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/root/researchv2/build/mymsg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/researchv2/install/chaser_system:/opt/ros/foxy /usr/bin/cmake --build /root/researchv2/build/mymsg -- -j12 -l12[0m
+[0.901s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/root/researchv2/build/urg_node_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/researchv2/install/chaser_system:/opt/ros/foxy /usr/bin/cmake --install /root/researchv2/build/urg_node_msgs[0m
+[0.950s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/root/researchv2/build/slam_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/researchv2/install/chaser_system:/opt/ros/foxy /usr/bin/cmake --build /root/researchv2/build/slam_toolbox -- -j12 -l12[0m
+[1.003s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(urg_node_msgs)
+[1.008s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/root/researchv2/build/urg_node_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/researchv2/install/chaser_system:/opt/ros/foxy /usr/bin/cmake --install /root/researchv2/build/urg_node_msgs[0m
+[1.015s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/urg_node_msgs' for CMake module files
+[1.017s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/urg_node_msgs' for CMake config files
+[1.017s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('urg_node_msgs', 'cmake_prefix_path')
+[1.020s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/urg_node_msgs/share/urg_node_msgs/hook/cmake_prefix_path.ps1'
+[1.022s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/root/researchv2/install/urg_node_msgs/share/urg_node_msgs/hook/cmake_prefix_path.dsv'
+[1.022s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/urg_node_msgs/share/urg_node_msgs/hook/cmake_prefix_path.sh'
+[1.024s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/urg_node_msgs/lib'
+[1.024s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('urg_node_msgs', 'ld_library_path_lib')
+[1.027s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/urg_node_msgs/share/urg_node_msgs/hook/ld_library_path_lib.ps1'
+[1.028s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/root/researchv2/install/urg_node_msgs/share/urg_node_msgs/hook/ld_library_path_lib.dsv'
+[1.028s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/urg_node_msgs/share/urg_node_msgs/hook/ld_library_path_lib.sh'
+[1.029s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/urg_node_msgs/bin'
+[1.029s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/urg_node_msgs/lib/pkgconfig/urg_node_msgs.pc'
+[1.030s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/urg_node_msgs/lib/python3.8/site-packages'
+[1.030s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('urg_node_msgs', 'pythonpath')
+[1.033s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/urg_node_msgs/share/urg_node_msgs/hook/pythonpath.ps1'
+[1.034s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/root/researchv2/install/urg_node_msgs/share/urg_node_msgs/hook/pythonpath.dsv'
+[1.034s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/urg_node_msgs/share/urg_node_msgs/hook/pythonpath.sh'
+[1.035s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/urg_node_msgs/bin'
+[1.038s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/researchv2/install/urg_node_msgs/share/urg_node_msgs/package.ps1'
+[1.040s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/root/researchv2/install/urg_node_msgs/share/urg_node_msgs/package.dsv'
+[1.042s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/researchv2/install/urg_node_msgs/share/urg_node_msgs/package.sh'
+[1.043s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/researchv2/install/urg_node_msgs/share/urg_node_msgs/package.bash'
+[1.045s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/researchv2/install/urg_node_msgs/share/urg_node_msgs/package.zsh'
+[1.046s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/root/researchv2/install/urg_node_msgs/share/colcon-core/packages/urg_node_msgs)
+[1.056s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/root/researchv2/build/mymsg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/researchv2/install/chaser_system:/opt/ros/foxy /usr/bin/cmake --install /root/researchv2/build/mymsg[0m
+[1.133s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(urg_node_msgs)
+[1.136s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/urg_node_msgs' for CMake module files
+[1.138s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/urg_node_msgs' for CMake config files
+[1.138s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('urg_node_msgs', 'cmake_prefix_path')
+[1.141s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/urg_node_msgs/share/urg_node_msgs/hook/cmake_prefix_path.ps1'
+[1.141s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/root/researchv2/install/urg_node_msgs/share/urg_node_msgs/hook/cmake_prefix_path.dsv'
+[1.143s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/urg_node_msgs/share/urg_node_msgs/hook/cmake_prefix_path.sh'
+[1.144s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/urg_node_msgs/lib'
+[1.145s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('urg_node_msgs', 'ld_library_path_lib')
+[1.148s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/urg_node_msgs/share/urg_node_msgs/hook/ld_library_path_lib.ps1'
+[1.150s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/root/researchv2/install/urg_node_msgs/share/urg_node_msgs/hook/ld_library_path_lib.dsv'
+[1.151s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/urg_node_msgs/share/urg_node_msgs/hook/ld_library_path_lib.sh'
+[1.152s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/urg_node_msgs/bin'
+[1.152s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/urg_node_msgs/lib/pkgconfig/urg_node_msgs.pc'
+[1.153s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/urg_node_msgs/lib/python3.8/site-packages'
+[1.153s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('urg_node_msgs', 'pythonpath')
+[1.156s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/urg_node_msgs/share/urg_node_msgs/hook/pythonpath.ps1'
+[1.157s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/root/researchv2/install/urg_node_msgs/share/urg_node_msgs/hook/pythonpath.dsv'
+[1.158s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/urg_node_msgs/share/urg_node_msgs/hook/pythonpath.sh'
+[1.159s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/urg_node_msgs/bin'
+[1.162s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/researchv2/install/urg_node_msgs/share/urg_node_msgs/package.ps1'
+[1.164s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/root/researchv2/install/urg_node_msgs/share/urg_node_msgs/package.dsv'
+[1.165s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/researchv2/install/urg_node_msgs/share/urg_node_msgs/package.sh'
+[1.167s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/researchv2/install/urg_node_msgs/share/urg_node_msgs/package.bash'
+[1.168s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/researchv2/install/urg_node_msgs/share/urg_node_msgs/package.zsh'
+[1.169s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/root/researchv2/install/urg_node_msgs/share/colcon-core/packages/urg_node_msgs)
+[1.170s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/root/researchv2/src/urg_node' with build type 'ament_cmake'
+[1.171s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/root/researchv2/src/urg_node'
+[1.173s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.174s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.189s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(mymsg)
+[1.194s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/mymsg' for CMake module files
+[1.196s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/root/researchv2/build/mymsg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/researchv2/install/chaser_system:/opt/ros/foxy /usr/bin/cmake --install /root/researchv2/build/mymsg[0m
+[1.197s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/mymsg' for CMake config files
+[1.198s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('mymsg', 'cmake_prefix_path')
+[1.201s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/mymsg/share/mymsg/hook/cmake_prefix_path.ps1'
+[1.201s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/root/researchv2/install/mymsg/share/mymsg/hook/cmake_prefix_path.dsv'
+[1.202s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/mymsg/share/mymsg/hook/cmake_prefix_path.sh'
+[1.203s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/mymsg/lib'
+[1.203s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('mymsg', 'ld_library_path_lib')
+[1.206s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/mymsg/share/mymsg/hook/ld_library_path_lib.ps1'
+[1.207s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/root/researchv2/install/mymsg/share/mymsg/hook/ld_library_path_lib.dsv'
+[1.207s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/mymsg/share/mymsg/hook/ld_library_path_lib.sh'
+[1.208s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/mymsg/bin'
+[1.208s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/mymsg/lib/pkgconfig/mymsg.pc'
+[1.208s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/mymsg/lib/python3.8/site-packages'
+[1.208s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('mymsg', 'pythonpath')
+[1.211s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/mymsg/share/mymsg/hook/pythonpath.ps1'
+[1.212s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/root/researchv2/install/mymsg/share/mymsg/hook/pythonpath.dsv'
+[1.212s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/mymsg/share/mymsg/hook/pythonpath.sh'
+[1.213s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/mymsg/bin'
+[1.217s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/researchv2/install/mymsg/share/mymsg/package.ps1'
+[1.217s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/root/researchv2/install/mymsg/share/mymsg/package.dsv'
+[1.218s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/researchv2/install/mymsg/share/mymsg/package.sh'
+[1.219s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/researchv2/install/mymsg/share/mymsg/package.bash'
+[1.219s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/researchv2/install/mymsg/share/mymsg/package.zsh'
+[1.219s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/root/researchv2/install/mymsg/share/colcon-core/packages/mymsg)
+[1.231s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/root/researchv2/build/urg_node': CMAKE_PREFIX_PATH=/root/researchv2/install/urg_node_msgs:/root/researchv2/install/urg_node:/root/researchv2/install/slam_toolbox:/root/researchv2/install/mymsg:/root/researchv2/install/chaser_system:/opt/ros/foxy LD_LIBRARY_PATH=/root/researchv2/install/urg_node_msgs/lib:/root/researchv2/install/urg_node/lib:/root/researchv2/install/slam_toolbox/lib:/root/researchv2/install/mymsg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/11.6.0/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 /usr/bin/cmake --build /root/researchv2/build/urg_node -- -j12 -l12[0m
+[1.342s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/root/researchv2/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/researchv2/install/chaser_system:/opt/ros/foxy /usr/bin/cmake --install /root/researchv2/build/slam_toolbox[0m
+[1.407s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/root/researchv2/build/urg_node' returned '0': CMAKE_PREFIX_PATH=/root/researchv2/install/urg_node_msgs:/root/researchv2/install/urg_node:/root/researchv2/install/slam_toolbox:/root/researchv2/install/mymsg:/root/researchv2/install/chaser_system:/opt/ros/foxy LD_LIBRARY_PATH=/root/researchv2/install/urg_node_msgs/lib:/root/researchv2/install/urg_node/lib:/root/researchv2/install/slam_toolbox/lib:/root/researchv2/install/mymsg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/11.6.0/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 /usr/bin/cmake --build /root/researchv2/build/urg_node -- -j12 -l12[0m
+[1.440s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(mymsg)
+[1.445s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/mymsg' for CMake module files
+[1.451s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/mymsg' for CMake config files
+[1.458s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('mymsg', 'cmake_prefix_path')
+[1.461s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/mymsg/share/mymsg/hook/cmake_prefix_path.ps1'
+[1.465s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/root/researchv2/install/mymsg/share/mymsg/hook/cmake_prefix_path.dsv'
+[1.466s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/mymsg/share/mymsg/hook/cmake_prefix_path.sh'
+[1.469s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/mymsg/lib'
+[1.470s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('mymsg', 'ld_library_path_lib')
+[1.473s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/mymsg/share/mymsg/hook/ld_library_path_lib.ps1'
+[1.474s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/root/researchv2/install/mymsg/share/mymsg/hook/ld_library_path_lib.dsv'
+[1.475s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/mymsg/share/mymsg/hook/ld_library_path_lib.sh'
+[1.476s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/mymsg/bin'
+[1.476s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/mymsg/lib/pkgconfig/mymsg.pc'
+[1.477s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/mymsg/lib/python3.8/site-packages'
+[1.477s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('mymsg', 'pythonpath')
+[1.480s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/mymsg/share/mymsg/hook/pythonpath.ps1'
+[1.481s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/root/researchv2/install/mymsg/share/mymsg/hook/pythonpath.dsv'
+[1.483s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/mymsg/share/mymsg/hook/pythonpath.sh'
+[1.484s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/mymsg/bin'
+[1.487s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/researchv2/install/mymsg/share/mymsg/package.ps1'
+[1.489s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/root/researchv2/install/mymsg/share/mymsg/package.dsv'
+[1.491s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/researchv2/install/mymsg/share/mymsg/package.sh'
+[1.492s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/researchv2/install/mymsg/share/mymsg/package.bash'
+[1.493s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/researchv2/install/mymsg/share/mymsg/package.zsh'
+[1.494s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/root/researchv2/install/mymsg/share/colcon-core/packages/mymsg)
+[1.496s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/root/researchv2/src/chaser_system' with build type 'ament_python'
+[1.497s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('chaser_system', 'ament_prefix_path')
+[1.499s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/chaser_system/share/chaser_system/hook/ament_prefix_path.ps1'
+[1.500s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/root/researchv2/install/chaser_system/share/chaser_system/hook/ament_prefix_path.dsv'
+[1.501s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/chaser_system/share/chaser_system/hook/ament_prefix_path.sh'
+[1.506s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.506s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.529s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(slam_toolbox)
+[1.533s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/slam_toolbox' for CMake module files
+[1.535s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/slam_toolbox' for CMake config files
+[1.536s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/root/researchv2/build/slam_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/researchv2/install/chaser_system:/opt/ros/foxy /usr/bin/cmake --install /root/researchv2/build/slam_toolbox[0m
+[1.537s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('slam_toolbox', 'cmake_prefix_path')
+[1.541s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/slam_toolbox/share/slam_toolbox/hook/cmake_prefix_path.ps1'
+[1.542s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/root/researchv2/install/slam_toolbox/share/slam_toolbox/hook/cmake_prefix_path.dsv'
+[1.543s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/slam_toolbox/share/slam_toolbox/hook/cmake_prefix_path.sh'
+[1.544s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/slam_toolbox/lib'
+[1.544s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('slam_toolbox', 'ld_library_path_lib')
+[1.546s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/slam_toolbox/share/slam_toolbox/hook/ld_library_path_lib.ps1'
+[1.547s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/root/researchv2/install/slam_toolbox/share/slam_toolbox/hook/ld_library_path_lib.dsv'
+[1.547s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/slam_toolbox/share/slam_toolbox/hook/ld_library_path_lib.sh'
+[1.548s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/slam_toolbox/bin'
+[1.548s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/slam_toolbox/lib/pkgconfig/slam_toolbox.pc'
+[1.549s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/slam_toolbox/lib/python3.8/site-packages'
+[1.549s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('slam_toolbox', 'pythonpath')
+[1.552s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/slam_toolbox/share/slam_toolbox/hook/pythonpath.ps1'
+[1.553s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/root/researchv2/install/slam_toolbox/share/slam_toolbox/hook/pythonpath.dsv'
+[1.554s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/slam_toolbox/share/slam_toolbox/hook/pythonpath.sh'
+[1.554s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/slam_toolbox/bin'
+[1.558s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/researchv2/install/slam_toolbox/share/slam_toolbox/package.ps1'
+[1.559s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/root/researchv2/install/slam_toolbox/share/slam_toolbox/package.dsv'
+[1.559s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/researchv2/install/slam_toolbox/share/slam_toolbox/package.sh'
+[1.560s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/researchv2/install/slam_toolbox/share/slam_toolbox/package.bash'
+[1.560s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/researchv2/install/slam_toolbox/share/slam_toolbox/package.zsh'
+[1.561s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/root/researchv2/install/slam_toolbox/share/colcon-core/packages/slam_toolbox)
+[1.571s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/root/researchv2/build/urg_node': CMAKE_PREFIX_PATH=/root/researchv2/install/urg_node_msgs:/root/researchv2/install/urg_node:/root/researchv2/install/slam_toolbox:/root/researchv2/install/mymsg:/root/researchv2/install/chaser_system:/opt/ros/foxy LD_LIBRARY_PATH=/root/researchv2/install/urg_node_msgs/lib:/root/researchv2/install/urg_node/lib:/root/researchv2/install/slam_toolbox/lib:/root/researchv2/install/mymsg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/11.6.0/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 /usr/bin/cmake --install /root/researchv2/build/urg_node[0m
+[2.037s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/root/researchv2/src/chaser_system'
+[2.041s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.041s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[2.054s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(urg_node)
+[2.058s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/urg_node' for CMake module files
+[2.059s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/root/researchv2/build/urg_node' returned '0': CMAKE_PREFIX_PATH=/root/researchv2/install/urg_node_msgs:/root/researchv2/install/urg_node:/root/researchv2/install/slam_toolbox:/root/researchv2/install/mymsg:/root/researchv2/install/chaser_system:/opt/ros/foxy LD_LIBRARY_PATH=/root/researchv2/install/urg_node_msgs/lib:/root/researchv2/install/urg_node/lib:/root/researchv2/install/slam_toolbox/lib:/root/researchv2/install/mymsg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/11.6.0/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 /usr/bin/cmake --install /root/researchv2/build/urg_node[0m
+[2.060s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/urg_node' for CMake config files
+[2.060s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('urg_node', 'cmake_prefix_path')
+[2.062s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/urg_node/share/urg_node/hook/cmake_prefix_path.ps1'
+[2.063s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/root/researchv2/install/urg_node/share/urg_node/hook/cmake_prefix_path.dsv'
+[2.064s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/urg_node/share/urg_node/hook/cmake_prefix_path.sh'
+[2.064s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/urg_node/lib'
+[2.064s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('urg_node', 'ld_library_path_lib')
+[2.067s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/urg_node/share/urg_node/hook/ld_library_path_lib.ps1'
+[2.067s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/root/researchv2/install/urg_node/share/urg_node/hook/ld_library_path_lib.dsv'
+[2.068s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/urg_node/share/urg_node/hook/ld_library_path_lib.sh'
+[2.068s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/urg_node/bin'
+[2.068s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/urg_node/lib/pkgconfig/urg_node.pc'
+[2.069s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/urg_node/lib/python3.8/site-packages'
+[2.069s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/urg_node/bin'
+[2.071s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/researchv2/install/urg_node/share/urg_node/package.ps1'
+[2.072s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/root/researchv2/install/urg_node/share/urg_node/package.dsv'
+[2.073s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/researchv2/install/urg_node/share/urg_node/package.sh'
+[2.073s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/researchv2/install/urg_node/share/urg_node/package.bash'
+[2.074s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/researchv2/install/urg_node/share/urg_node/package.zsh'
+[2.074s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/root/researchv2/install/urg_node/share/colcon-core/packages/urg_node)
+[2.082s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(slam_toolbox)
+[2.085s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/slam_toolbox' for CMake module files
+[2.087s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/slam_toolbox' for CMake config files
+[2.088s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('slam_toolbox', 'cmake_prefix_path')
+[2.090s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/slam_toolbox/share/slam_toolbox/hook/cmake_prefix_path.ps1'
+[2.091s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/root/researchv2/install/slam_toolbox/share/slam_toolbox/hook/cmake_prefix_path.dsv'
+[2.091s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/slam_toolbox/share/slam_toolbox/hook/cmake_prefix_path.sh'
+[2.092s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/slam_toolbox/lib'
+[2.092s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('slam_toolbox', 'ld_library_path_lib')
+[2.095s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/slam_toolbox/share/slam_toolbox/hook/ld_library_path_lib.ps1'
+[2.095s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/root/researchv2/install/slam_toolbox/share/slam_toolbox/hook/ld_library_path_lib.dsv'
+[2.095s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/slam_toolbox/share/slam_toolbox/hook/ld_library_path_lib.sh'
+[2.096s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/slam_toolbox/bin'
+[2.096s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/slam_toolbox/lib/pkgconfig/slam_toolbox.pc'
+[2.096s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/slam_toolbox/lib/python3.8/site-packages'
+[2.097s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('slam_toolbox', 'pythonpath')
+[2.099s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/slam_toolbox/share/slam_toolbox/hook/pythonpath.ps1'
+[2.099s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/root/researchv2/install/slam_toolbox/share/slam_toolbox/hook/pythonpath.dsv'
+[2.100s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/slam_toolbox/share/slam_toolbox/hook/pythonpath.sh'
+[2.100s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/slam_toolbox/bin'
+[2.103s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/researchv2/install/slam_toolbox/share/slam_toolbox/package.ps1'
+[2.104s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/root/researchv2/install/slam_toolbox/share/slam_toolbox/package.dsv'
+[2.105s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/researchv2/install/slam_toolbox/share/slam_toolbox/package.sh'
+[2.105s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/researchv2/install/slam_toolbox/share/slam_toolbox/package.bash'
+[2.106s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/researchv2/install/slam_toolbox/share/slam_toolbox/package.zsh'
+[2.106s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/root/researchv2/install/slam_toolbox/share/colcon-core/packages/slam_toolbox)
+[2.123s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(urg_node)
+[2.127s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/urg_node' for CMake module files
+[2.128s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/urg_node' for CMake config files
+[2.128s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('urg_node', 'cmake_prefix_path')
+[2.131s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/urg_node/share/urg_node/hook/cmake_prefix_path.ps1'
+[2.132s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/root/researchv2/install/urg_node/share/urg_node/hook/cmake_prefix_path.dsv'
+[2.132s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/urg_node/share/urg_node/hook/cmake_prefix_path.sh'
+[2.133s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/urg_node/lib'
+[2.133s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('urg_node', 'ld_library_path_lib')
+[2.136s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/urg_node/share/urg_node/hook/ld_library_path_lib.ps1'
+[2.136s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/root/researchv2/install/urg_node/share/urg_node/hook/ld_library_path_lib.dsv'
+[2.137s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/urg_node/share/urg_node/hook/ld_library_path_lib.sh'
+[2.137s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/urg_node/bin'
+[2.137s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/urg_node/lib/pkgconfig/urg_node.pc'
+[2.138s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/urg_node/lib/python3.8/site-packages'
+[2.138s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/urg_node/bin'
+[2.141s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/researchv2/install/urg_node/share/urg_node/package.ps1'
+[2.142s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/root/researchv2/install/urg_node/share/urg_node/package.dsv'
+[2.143s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/researchv2/install/urg_node/share/urg_node/package.sh'
+[2.144s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/researchv2/install/urg_node/share/urg_node/package.bash'
+[2.144s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/researchv2/install/urg_node/share/urg_node/package.zsh'
+[2.145s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/root/researchv2/install/urg_node/share/colcon-core/packages/urg_node)
+[2.778s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/root/researchv2/src/chaser_system': CMAKE_PREFIX_PATH=/root/researchv2/install/mymsg:/root/researchv2/install/urg_node:/root/researchv2/install/urg_node_msgs:/root/researchv2/install/slam_toolbox LD_LIBRARY_PATH=/root/researchv2/install/mymsg/lib:/root/researchv2/install/urg_node/lib:/root/researchv2/install/urg_node_msgs/lib:/root/researchv2/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/11.6.0/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 PYTHONPATH=/root/researchv2/build/chaser_system/prefix_override:/root/researchv2/install/chaser_system/lib/python3.8/site-packages:/root/researchv2/install/mymsg/lib/python3.8/site-packages:/root/researchv2/install/urg_node_msgs/lib/python3.8/site-packages:/root/researchv2/install/slam_toolbox/lib/python3.8/site-packages:/root/researchv2/install/chaser_system/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/chaser_system build --build-base /root/researchv2/build/chaser_system/build install --record /root/researchv2/build/chaser_system/install.log --install-scripts $base/lib/chaser_system --single-version-externally-managed[0m
+[3.315s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/chaser_system' for CMake module files
+[3.317s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/root/researchv2/src/chaser_system' returned '0': CMAKE_PREFIX_PATH=/root/researchv2/install/mymsg:/root/researchv2/install/urg_node:/root/researchv2/install/urg_node_msgs:/root/researchv2/install/slam_toolbox LD_LIBRARY_PATH=/root/researchv2/install/mymsg/lib:/root/researchv2/install/urg_node/lib:/root/researchv2/install/urg_node_msgs/lib:/root/researchv2/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/11.6.0/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 PYTHONPATH=/root/researchv2/build/chaser_system/prefix_override:/root/researchv2/install/chaser_system/lib/python3.8/site-packages:/root/researchv2/install/mymsg/lib/python3.8/site-packages:/root/researchv2/install/urg_node_msgs/lib/python3.8/site-packages:/root/researchv2/install/slam_toolbox/lib/python3.8/site-packages:/root/researchv2/install/chaser_system/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/chaser_system build --build-base /root/researchv2/build/chaser_system/build install --record /root/researchv2/build/chaser_system/install.log --install-scripts $base/lib/chaser_system --single-version-externally-managed[0m
+[3.317s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/chaser_system' for CMake config files
+[3.318s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/chaser_system/lib'
+[3.318s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/chaser_system/bin'
+[3.318s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/chaser_system/lib/pkgconfig/chaser_system.pc'
+[3.319s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/chaser_system/lib/python3.8/site-packages'
+[3.319s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('chaser_system', 'pythonpath')
+[3.320s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/chaser_system/share/chaser_system/hook/pythonpath.ps1'
+[3.321s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/root/researchv2/install/chaser_system/share/chaser_system/hook/pythonpath.dsv'
+[3.321s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/root/researchv2/install/chaser_system/share/chaser_system/hook/pythonpath.sh'
+[3.321s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/root/researchv2/install/chaser_system/bin'
+[3.321s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(chaser_system)
+[3.324s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/researchv2/install/chaser_system/share/chaser_system/package.ps1'
+[3.324s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/root/researchv2/install/chaser_system/share/chaser_system/package.dsv'
+[3.325s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/researchv2/install/chaser_system/share/chaser_system/package.sh'
+[3.325s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/researchv2/install/chaser_system/share/chaser_system/package.bash'
+[3.326s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/root/researchv2/install/chaser_system/share/chaser_system/package.zsh'
+[3.326s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/root/researchv2/install/chaser_system/share/colcon-core/packages/chaser_system)
+[3.327s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[3.327s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[3.327s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[3.327s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[3.338s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[3.338s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.339s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.339s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[3.347s] [34mcolcon.colcon_notification.desktop_notification.notify2[0m [1;30mDEBUG[0m [32mFailed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files[0m
+[3.348s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[3.351s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/root/researchv2/install/local_setup.ps1'
+[3.353s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/root/researchv2/install/_local_setup_util_ps1.py'
+[3.356s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/root/researchv2/install/setup.ps1'
+[3.359s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/root/researchv2/install/local_setup.sh'
+[3.360s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/root/researchv2/install/_local_setup_util_sh.py'
+[3.360s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/root/researchv2/install/setup.sh'
+[3.363s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/root/researchv2/install/local_setup.bash'
+[3.364s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/root/researchv2/install/setup.bash'
+[3.366s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/root/researchv2/install/local_setup.zsh'
+[3.367s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/root/researchv2/install/setup.zsh'

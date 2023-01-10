@@ -18,6 +18,8 @@ class pose_tf2(Node):
     def __init__(self):
         super().__init__('SateliteBroadcaster')
         
+        ## service client
+        self.cli = self.create_client(Waypoints,"raise_navi")
         
         # 基準点
         Transform_stamped = TransformStamped()
@@ -69,7 +71,7 @@ class pose_tf2(Node):
         #self.sub3 = self.create_subscription(Imu,"/camera/imu",self.IMU,video_qos)
         self.pub = self.create_publisher(PoseStamped,"goal_data",10)
         
-        self.completed = False
+        self.completed = True
 
     def human(self,data):
         people =[]
@@ -116,7 +118,7 @@ class pose_tf2(Node):
         
             broadcast3.sendTransform(gsg)
             time_now = time.time()
-            if( time_now - pre_time > 10):
+            if( time_now - pre_time > 0):
                 self.writing_waypoints(gsg)
                 pre_time = time.time()
                 
@@ -136,35 +138,39 @@ class pose_tf2(Node):
             rot_w = trans.transform.rotation.w
             
             data_row = [pos_x, pos_y, pos_z, rot_x, rot_y,rot_z,rot_w]
+            '''
             f =open(self.filename, "a",encoding="utf_8")
             writer = csv.writer(f)
             writer.writerow(data_row)
             print("write data to file")
             f.close()
+            '''
             
-            go = PoseStamped()
-            go.header.frame_id = "map"
-            go.header.stamp = self.get_clock().now().to_msg()
-            go.pose.position.x = data_row[0]
-            go.pose.position.y = data_row[1]
-            go.pose.position.z = data_row[2]
-            go.pose.orientation.x = data_row[3]
-            go.pose.orientation.y = data_row[4]
-            go.pose.orientation.z = data_row[5]
-            go.pose.orientation.w = data_row[6]
+            
+            
             #self.pub.publish(go)
         
-            ## service client
-            cli = self.create_client(Waypoints,"raise_navi")
-            # サーバー接続まで待機
-            while not cli.wait_for_service(timeout_sec=1.0):
-                self.get_logger().info("service not available...")
             
-            if(self.completed == False):
-                
+            
+            if(self.completed == True):
+                go = PoseStamped()
+                go.header.frame_id = "map"
+                go.header.stamp = self.get_clock().now().to_msg()
+                go.pose.position.x = data_row[0]
+                go.pose.position.y = data_row[1]
+                go.pose.position.z = data_row[2]
+                go.pose.orientation.x = data_row[3]
+                go.pose.orientation.y = data_row[4]
+                go.pose.orientation.z = data_row[5]
+                go.pose.orientation.w = data_row[6]
+                #self.completed = False
+                # サーバー接続まで待機
+                while not self.cli.wait_for_service(timeout_sec=1.0):
+                    self.get_logger().info("service not available...")
+                #print("request....")
                 request = Waypoints.Request()
                 request.waypoints = go
-                future = cli.call_async(request)
+                future = self.cli.call_async(request)
                 future.add_done_callback(partial(self.services_callback))
         
             

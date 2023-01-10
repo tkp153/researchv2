@@ -71,7 +71,7 @@ class person_checker(Node):
             
             #一人の処理↓
             for k in keypoints:
-                float_value = np.array(k[:3] / 1100.0,dtype=float)
+                float_value = np.array(k[:3] / 1050.0,dtype=float)
                 #座標抽出
                 x_pos,y_pos,z_pos = float_value
                 
@@ -142,7 +142,7 @@ class person_checker(Node):
                     if(l_num == 3):
                         R_Raise_theta = self.deg_checker(Point_C,Point_D,Point_X)
                         Hand_Switch ="Right"
-                        R_Raise_Hand = self.raise_hand_checker(R_Raise_theta,Point_A,Point_B,Hand_Switch)
+                        R_Raise_Hand = self.raise_hand_checker(R_Raise_theta,Point_C,Point_D,Hand_Switch)
                             
                 
                 #カウント増加
@@ -179,11 +179,11 @@ class person_checker(Node):
                             self.pub_2.publish(Output1)
                             timer_previous = timer
                         elif(L_Raise_Hand == True):
-                            print("You are Raise the Hand")
+                            print("You are Raise the Left Hand")
                             self.pub_2.publish(Output1)
                             timer_previous = timer
                         elif(R_Raise_Hand == True):
-                            print("You are Raise the Hand")
+                            print("You are Raise the  right Hand")
                             self.pub_2.publish(Output1)
                             timer_previous = timer
 
@@ -248,7 +248,7 @@ class person_checker(Node):
         if Theta is None:
             Theta = 180
             #print("Object is None")
-        print(Theta)
+        #print(Theta)
         return Theta
     
     def raise_hand_checker(self,Theta,Point1,Point2,hand_switch):

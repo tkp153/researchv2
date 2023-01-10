@@ -15,6 +15,7 @@ class Raise_navi(Node):
     def __init__(self):
         super().__init__('raise_navi')
         self.init_pos = [0.0, 0.0]
+        self.mission = True
         
         self.nav_to_pose_client = ActionClient(self, NavigateToPose, 'navigate_to_pose')
     
@@ -39,24 +40,25 @@ class Raise_navi(Node):
         
         goal_msg.pose = goal
         
-        send_goal_future = self.nav_to_pose_client.send_goal_async(goal_msg,feedback_callback= self.feedback_callback)
+        send_goal_future = self.nav_to_pose_client.send_goal_async(goal_msg,self.feedback_callback)
         rclpy.spin_until_future_complete(self, send_goal_future)
         self.goal_handle = send_goal_future.result()
         
         if not self.goal_handle.accepted:
-            pass
+            return
         
         self.result_future = self.goal_handle.get_result_async()
-        response.complete = self.result_future.add_done_callback(self.get_result_callback)
-        
+        print(self.result_future)
+        self.result_future.add_done_callback(self.get_result_callback)
+        response.complete = self.mission
+        print(response.complete)
         return response
         
     def get_result_callback(self, future): 
         if future.result().status == GoalStatus.STATUS_SUCCEEDED:
-            mission = True
-            return mission 
+            self.mission = True 
         elif future.result().status == GoalStatus.STATUS_CANCELED:
-            return False
+            self.mission = False
         
     def feedback_callback(self, msg):
         self.feedback = msg.feedback
