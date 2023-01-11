@@ -1,0 +1,22 @@
+running develop
+running egg_info
+writing chaser_system.egg-info/PKG-INFO
+writing dependency_links to chaser_system.egg-info/dependency_links.txt
+writing entry points to chaser_system.egg-info/entry_points.txt
+writing requirements to chaser_system.egg-info/requires.txt
+writing top-level names to chaser_system.egg-info/top_level.txt
+reading manifest file 'chaser_system.egg-info/SOURCES.txt'
+writing manifest file 'chaser_system.egg-info/SOURCES.txt'
+running build_ext
+Creating /root/researchv2/install/chaser_system/lib/python3.8/site-packages/site.py
+Creating /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser-system.egg-link (link to .)
+Installing image_inputer script to /root/researchv2/install/chaser_system/lib/chaser_system
+Installing person_check script to /root/researchv2/install/chaser_system/lib/chaser_system
+Installing pose_tf2 script to /root/researchv2/install/chaser_system/lib/chaser_system
+Installing raise_navi script to /root/researchv2/install/chaser_system/lib/chaser_system
+Installing rgbd_generator script to /root/researchv2/install/chaser_system/lib/chaser_system
+Installing three_d_pose_analysis script to /root/researchv2/install/chaser_system/lib/chaser_system
+Installing xbox script to /root/researchv2/install/chaser_system/lib/chaser_system
+
+Installed /root/researchv2/build/chaser_system
+running install_data

@@ -1,0 +1,29 @@
+[0.033s] Invoking command in '/root/researchv2/build/turtlebot3_simulations': CMAKE_PREFIX_PATH=/root/researchv2/install/turtlebot3_gazebo:/root/researchv2/install/turtlebot3_fake_node:/root/researchv2/install/urg_node:/root/researchv2/install/urg_node_msgs:/root/researchv2/install/turtlebot3_simulations:/root/researchv2/install/slam_toolbox:/root/researchv2/install/mymsg:/root/researchv2/install/chaser_system:/opt/ros/foxy /usr/bin/cmake /root/researchv2/src/turtlebot3_simulations/turtlebot3_simulations -DCMAKE_INSTALL_PREFIX=/root/researchv2/install/turtlebot3_simulations
+[0.060s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.122s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.572s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.757s] -- Configuring done
+[0.770s] -- Generating done
+[0.773s] -- Build files have been written to: /root/researchv2/build/turtlebot3_simulations
+[0.782s] Invoked command in '/root/researchv2/build/turtlebot3_simulations' returned '0': CMAKE_PREFIX_PATH=/root/researchv2/install/turtlebot3_gazebo:/root/researchv2/install/turtlebot3_fake_node:/root/researchv2/install/urg_node:/root/researchv2/install/urg_node_msgs:/root/researchv2/install/turtlebot3_simulations:/root/researchv2/install/slam_toolbox:/root/researchv2/install/mymsg:/root/researchv2/install/chaser_system:/opt/ros/foxy /usr/bin/cmake /root/researchv2/src/turtlebot3_simulations/turtlebot3_simulations -DCMAKE_INSTALL_PREFIX=/root/researchv2/install/turtlebot3_simulations
+[0.784s] Invoking command in '/root/researchv2/build/turtlebot3_simulations': CMAKE_PREFIX_PATH=/root/researchv2/install/turtlebot3_gazebo:/root/researchv2/install/turtlebot3_fake_node:/root/researchv2/install/urg_node:/root/researchv2/install/urg_node_msgs:/root/researchv2/install/turtlebot3_simulations:/root/researchv2/install/slam_toolbox:/root/researchv2/install/mymsg:/root/researchv2/install/chaser_system:/opt/ros/foxy /usr/bin/cmake --build /root/researchv2/build/turtlebot3_simulations -- -j12 -l12
+[0.862s] Invoked command in '/root/researchv2/build/turtlebot3_simulations' returned '0': CMAKE_PREFIX_PATH=/root/researchv2/install/turtlebot3_gazebo:/root/researchv2/install/turtlebot3_fake_node:/root/researchv2/install/urg_node:/root/researchv2/install/urg_node_msgs:/root/researchv2/install/turtlebot3_simulations:/root/researchv2/install/slam_toolbox:/root/researchv2/install/mymsg:/root/researchv2/install/chaser_system:/opt/ros/foxy /usr/bin/cmake --build /root/researchv2/build/turtlebot3_simulations -- -j12 -l12
+[0.907s] Invoking command in '/root/researchv2/build/turtlebot3_simulations': CMAKE_PREFIX_PATH=/root/researchv2/install/turtlebot3_gazebo:/root/researchv2/install/turtlebot3_fake_node:/root/researchv2/install/urg_node:/root/researchv2/install/urg_node_msgs:/root/researchv2/install/turtlebot3_simulations:/root/researchv2/install/slam_toolbox:/root/researchv2/install/mymsg:/root/researchv2/install/chaser_system:/opt/ros/foxy /usr/bin/cmake --install /root/researchv2/build/turtlebot3_simulations
+[0.924s] -- Install configuration: ""
+[0.925s] -- Execute custom install script
+[0.925s] -- Up-to-date symlink: /root/researchv2/install/turtlebot3_simulations/share/ament_index/resource_index/package_run_dependencies/turtlebot3_simulations
+[0.926s] -- Up-to-date symlink: /root/researchv2/install/turtlebot3_simulations/share/ament_index/resource_index/parent_prefix_path/turtlebot3_simulations
+[0.926s] -- Up-to-date symlink: /root/researchv2/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/ament_prefix_path.sh
+[0.927s] -- Up-to-date symlink: /root/researchv2/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/ament_prefix_path.dsv
+[0.927s] -- Up-to-date symlink: /root/researchv2/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/path.sh
+[0.928s] -- Up-to-date symlink: /root/researchv2/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/path.dsv
+[0.928s] -- Up-to-date symlink: /root/researchv2/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.bash
+[0.929s] -- Up-to-date symlink: /root/researchv2/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.sh
+[0.929s] -- Up-to-date symlink: /root/researchv2/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.zsh
+[0.930s] -- Up-to-date symlink: /root/researchv2/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.dsv
+[0.930s] -- Symlinking: /root/researchv2/install/turtlebot3_simulations/share/turtlebot3_simulations/package.dsv
+[0.947s] -- Up-to-date symlink: /root/researchv2/install/turtlebot3_simulations/share/ament_index/resource_index/packages/turtlebot3_simulations
+[0.948s] -- Up-to-date symlink: /root/researchv2/install/turtlebot3_simulations/share/turtlebot3_simulations/cmake/turtlebot3_simulationsConfig.cmake
+[0.948s] -- Up-to-date symlink: /root/researchv2/install/turtlebot3_simulations/share/turtlebot3_simulations/cmake/turtlebot3_simulationsConfig-version.cmake
+[0.949s] -- Up-to-date symlink: /root/researchv2/install/turtlebot3_simulations/share/turtlebot3_simulations/package.xml
+[0.957s] Invoked command in '/root/researchv2/build/turtlebot3_simulations' returned '0': CMAKE_PREFIX_PATH=/root/researchv2/install/turtlebot3_gazebo:/root/researchv2/install/turtlebot3_fake_node:/root/researchv2/install/urg_node:/root/researchv2/install/urg_node_msgs:/root/researchv2/install/turtlebot3_simulations:/root/researchv2/install/slam_toolbox:/root/researchv2/install/mymsg:/root/researchv2/install/chaser_system:/opt/ros/foxy /usr/bin/cmake --install /root/researchv2/build/turtlebot3_simulations

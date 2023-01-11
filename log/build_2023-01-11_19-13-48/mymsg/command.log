@@ -1,0 +1,2 @@
+Invoking command in '/root/researchv2/build/mymsg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/researchv2/src/mymsg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/researchv2/install/mymsg
+Invoked command in '/root/researchv2/build/mymsg' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/researchv2/src/mymsg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/researchv2/install/mymsg

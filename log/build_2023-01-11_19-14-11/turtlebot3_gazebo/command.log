@@ -1,0 +1,6 @@
+Invoking command in '/root/researchv2/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/researchv2/src/turtlebot3_simulations/turtlebot3_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/researchv2/install/turtlebot3_gazebo
+Invoked command in '/root/researchv2/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/researchv2/src/turtlebot3_simulations/turtlebot3_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/researchv2/install/turtlebot3_gazebo
+Invoking command in '/root/researchv2/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/researchv2/build/turtlebot3_gazebo -- -j12 -l12
+Invoked command in '/root/researchv2/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/researchv2/build/turtlebot3_gazebo -- -j12 -l12
+Invoking command in '/root/researchv2/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/researchv2/build/turtlebot3_gazebo
+Invoked command in '/root/researchv2/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/researchv2/build/turtlebot3_gazebo

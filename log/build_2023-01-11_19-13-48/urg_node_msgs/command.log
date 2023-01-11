@@ -1,0 +1,4 @@
+Invoking command in '/root/researchv2/build/urg_node_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/researchv2/src/urg_node_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/researchv2/install/urg_node_msgs
+Invoked command in '/root/researchv2/build/urg_node_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/researchv2/src/urg_node_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/researchv2/install/urg_node_msgs
+Invoking command in '/root/researchv2/build/urg_node_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/researchv2/build/urg_node_msgs -- -j12 -l12
+Invoked command in '/root/researchv2/build/urg_node_msgs' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/researchv2/build/urg_node_msgs -- -j12 -l12
