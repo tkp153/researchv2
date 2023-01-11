@@ -28,6 +28,18 @@ class person_checker(Node):
         self.count_L = 0
         self.count_R = 0
         
+        self.save_id = "abcdef"
+        
+        init = Transform()
+        init.transform.translation.x = 0.0
+        init.transform.translation.y = 0.0
+        init.transform.translation.z = 0.0
+        init.transform.rotation.x = 0.0
+        init.transform.rotation.y = 0.0
+        init.transform.rotation.z = 0.0
+        init.transform.rotation.w = 1.0
+        self.save_pos = init
+        
         
         
         
@@ -201,8 +213,16 @@ class person_checker(Node):
                         
         Output0.id = data.id 
         
-        #ソート実施 -- 一番遠い手を挙げている人
-        self.pub_1.publish(data_raise_hand_translation(data_raise_hand_mater.index(max(data_raise_hand_mater))))
+        #もし前回のIDが含まれた場合優先的にパブリッシュを行う。
+        if(self.save_id in data.id):
+            self.pub_2.publish(self.save_pos)
+        else:
+            #ソート実施 -- 一番遠い手を挙げている人
+            self.pub_2.publish(data_raise_hand_translation(data_raise_hand_mater.index(max(data_raise_hand_mater))))
+        
+            #キャッシュ生成
+            self.save_id = data.id[data_raise_hand_mater.index(max(data_raise_hand_mater))]
+            self.save_pos = Output1
         
         # パブリッシュ軽減処理
         if(Publish_Checker == True):    
