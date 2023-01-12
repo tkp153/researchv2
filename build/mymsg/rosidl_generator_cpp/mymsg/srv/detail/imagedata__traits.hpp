@@ -6,8 +6,10 @@
 #define MYMSG__SRV__DETAIL__IMAGEDATA__TRAITS_HPP_
 
 #include "mymsg/srv/detail/imagedata__struct.hpp"
-#include <rosidl_runtime_cpp/traits.hpp>
 #include <stdint.h>
+#include <rosidl_runtime_cpp/traits.hpp>
+#include <sstream>
+#include <string>
 #include <type_traits>
 
 // Include directives for member types
@@ -16,6 +18,37 @@
 
 namespace rosidl_generator_traits
 {
+
+inline void to_yaml(
+  const mymsg::srv::Imagedata_Request & msg,
+  std::ostream & out, size_t indentation = 0)
+{
+  // member: input_data
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "input_data:\n";
+    to_yaml(msg.input_data, out, indentation + 2);
+  }
+
+  // member: input_count
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "input_count: ";
+    value_to_yaml(msg.input_count, out);
+    out << "\n";
+  }
+}  // NOLINT(readability/fn_size)
+
+inline std::string to_yaml(const mymsg::srv::Imagedata_Request & msg)
+{
+  std::ostringstream out;
+  to_yaml(msg, out);
+  return out.str();
+}
 
 template<>
 inline const char * data_type<mymsg::srv::Imagedata_Request>()
@@ -50,6 +83,47 @@ struct is_message<mymsg::srv::Imagedata_Request>
 
 namespace rosidl_generator_traits
 {
+
+inline void to_yaml(
+  const mymsg::srv::Imagedata_Response & msg,
+  std::ostream & out, size_t indentation = 0)
+{
+  // member: output_cut
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "output_cut: ";
+    value_to_yaml(msg.output_cut, out);
+    out << "\n";
+  }
+
+  // member: output_count
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "output_count: ";
+    value_to_yaml(msg.output_count, out);
+    out << "\n";
+  }
+
+  // member: output_data
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "output_data:\n";
+    to_yaml(msg.output_data, out, indentation + 2);
+  }
+}  // NOLINT(readability/fn_size)
+
+inline std::string to_yaml(const mymsg::srv::Imagedata_Response & msg)
+{
+  std::ostringstream out;
+  to_yaml(msg, out);
+  return out.str();
+}
 
 template<>
 inline const char * data_type<mymsg::srv::Imagedata_Response>()

@@ -1,1 +1,0 @@
-Invoking command in '/root/researchv2/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/researchv2/turtlebot3_simulations/turtlebot3_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/researchv2/install/turtlebot3_gazebo

@@ -6,8 +6,10 @@
 #define MYMSG__SRV__DETAIL__WAYPOINTS__TRAITS_HPP_
 
 #include "mymsg/srv/detail/waypoints__struct.hpp"
-#include <rosidl_runtime_cpp/traits.hpp>
 #include <stdint.h>
+#include <rosidl_runtime_cpp/traits.hpp>
+#include <sstream>
+#include <string>
 #include <type_traits>
 
 // Include directives for member types
@@ -16,6 +18,27 @@
 
 namespace rosidl_generator_traits
 {
+
+inline void to_yaml(
+  const mymsg::srv::Waypoints_Request & msg,
+  std::ostream & out, size_t indentation = 0)
+{
+  // member: waypoints
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "waypoints:\n";
+    to_yaml(msg.waypoints, out, indentation + 2);
+  }
+}  // NOLINT(readability/fn_size)
+
+inline std::string to_yaml(const mymsg::srv::Waypoints_Request & msg)
+{
+  std::ostringstream out;
+  to_yaml(msg, out);
+  return out.str();
+}
 
 template<>
 inline const char * data_type<mymsg::srv::Waypoints_Request>()
@@ -45,6 +68,28 @@ struct is_message<mymsg::srv::Waypoints_Request>
 
 namespace rosidl_generator_traits
 {
+
+inline void to_yaml(
+  const mymsg::srv::Waypoints_Response & msg,
+  std::ostream & out, size_t indentation = 0)
+{
+  // member: complete
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "complete: ";
+    value_to_yaml(msg.complete, out);
+    out << "\n";
+  }
+}  // NOLINT(readability/fn_size)
+
+inline std::string to_yaml(const mymsg::srv::Waypoints_Response & msg)
+{
+  std::ostringstream out;
+  to_yaml(msg, out);
+  return out.str();
+}
 
 template<>
 inline const char * data_type<mymsg::srv::Waypoints_Response>()

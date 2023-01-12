@@ -126,7 +126,8 @@ static bool _MultiTransform__cdr_deserialize(
       mymsg__msg__Transform__Sequence__fini(&ros_message->transforms);
     }
     if (!mymsg__msg__Transform__Sequence__init(&ros_message->transforms, size)) {
-      return "failed to create array for field 'transforms'";
+      fprintf(stderr, "failed to create array for field 'transforms'");
+      return false;
     }
     auto array_ptr = ros_message->transforms.data;
     for (size_t i = 0; i < size; ++i) {
@@ -147,7 +148,8 @@ static bool _MultiTransform__cdr_deserialize(
       rosidl_runtime_c__String__Sequence__fini(&ros_message->id);
     }
     if (!rosidl_runtime_c__String__Sequence__init(&ros_message->id, size)) {
-      return "failed to create array for field 'id'";
+      fprintf(stderr, "failed to create array for field 'id'");
+      return false;
     }
     auto array_ptr = ros_message->id.data;
     for (size_t i = 0; i < size; ++i) {
@@ -168,7 +170,7 @@ static bool _MultiTransform__cdr_deserialize(
   }
 
   return true;
-}
+}  // NOLINT(readability/fn_size)
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_mymsg
 size_t get_serialized_size_mymsg__msg__MultiTransform(

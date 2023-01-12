@@ -1,6 +1,0 @@
-Invoking command in '/root/researchv2/build/slam_toolbox': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/researchv2/src/slam_toolbox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/researchv2/install/slam_toolbox
-Invoked command in '/root/researchv2/build/slam_toolbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/researchv2/src/slam_toolbox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/researchv2/install/slam_toolbox
-Invoking command in '/root/researchv2/build/slam_toolbox': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/researchv2/build/slam_toolbox -- -j12 -l12
-Invoked command in '/root/researchv2/build/slam_toolbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/researchv2/build/slam_toolbox -- -j12 -l12
-Invoking command in '/root/researchv2/build/slam_toolbox': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/researchv2/build/slam_toolbox
-Invoked command in '/root/researchv2/build/slam_toolbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/researchv2/build/slam_toolbox

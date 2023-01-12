@@ -45,12 +45,12 @@ struct Pose_
 
   // field types and members
   using _keypoints_type =
-    std::vector<float, typename ContainerAllocator::template rebind<float>::other>;
+    std::vector<float, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<float>>;
   _keypoints_type keypoints;
 
   // setters for named parameter idiom
   Type & set__keypoints(
-    const std::vector<float, typename ContainerAllocator::template rebind<float>::other> & _arg)
+    const std::vector<float, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<float>> & _arg)
   {
     this->keypoints = _arg;
     return *this;

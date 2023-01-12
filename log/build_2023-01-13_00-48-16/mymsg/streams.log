@@ -1,0 +1,373 @@
+[0.080s] Invoking command in '/root/researchv2/build/mymsg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node:/root/researchv2/install/chaser_system:/opt/ros/galactic /usr/bin/cmake /root/researchv2/src/mymsg -DCMAKE_INSTALL_PREFIX=/root/researchv2/install/mymsg
+[0.178s] -- The C compiler identification is GNU 9.4.0
+[0.292s] -- The CXX compiler identification is GNU 9.4.0
+[0.304s] -- Check for working C compiler: /usr/bin/cc
+[0.430s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.431s] -- Detecting C compiler ABI info
+[0.562s] -- Detecting C compiler ABI info - done
+[0.589s] -- Detecting C compile features
+[0.590s] -- Detecting C compile features - done
+[0.595s] -- Check for working CXX compiler: /usr/bin/c++
+[0.742s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.744s] -- Detecting CXX compiler ABI info
+[0.890s] -- Detecting CXX compiler ABI info - done
+[0.918s] -- Detecting CXX compile features
+[0.919s] -- Detecting CXX compile features - done
+[0.928s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.987s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.987s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.200s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[1.313s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.342s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.623s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.723s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.951s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.191s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[2.241s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[2.415s] -- Found visualization_msgs: 2.2.4 (/opt/ros/galactic/share/visualization_msgs/cmake)
+[2.596s] -- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)
+[2.803s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.369s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+[4.323s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.757s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.827s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[4.835s] -- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+[4.908s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[4.909s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.909s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[4.909s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[4.971s] -- Found PythonExtra: .so  
+[5.371s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[5.471s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.476s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.479s] -- Added test 'lint_cmake' to check CMake code style
+[5.480s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[5.484s] -- Added test 'xmllint' to check XML markup files
+[5.501s] -- Configuring done
+[5.731s] -- Generating done
+[5.739s] -- Build files have been written to: /root/researchv2/build/mymsg
+[5.755s] Invoked command in '/root/researchv2/build/mymsg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node:/root/researchv2/install/chaser_system:/opt/ros/galactic /usr/bin/cmake /root/researchv2/src/mymsg -DCMAKE_INSTALL_PREFIX=/root/researchv2/install/mymsg
+[5.759s] Invoking command in '/root/researchv2/build/mymsg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node:/root/researchv2/install/chaser_system:/opt/ros/galactic /usr/bin/cmake --build /root/researchv2/build/mymsg -- -j12 -l12
+[5.850s] [35m[1mScanning dependencies of target mymsg__cpp[0m
+[5.858s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.872s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.947s] [35m[1mScanning dependencies of target mymsg__rosidl_generator_c[0m
+[7.003s] [  4%] [32mBuilding C object CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/msg/detail/pose__functions.c.o[0m
+[7.005s] [  5%] [32mBuilding C object CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/msg/detail/poses__functions.c.o[0m
+[7.006s] [  7%] [32mBuilding C object CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/msg/detail/transform__functions.c.o[0m
+[7.017s] [  8%] [32mBuilding C object CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/msg/detail/multi_transform__functions.c.o[0m
+[7.025s] [  9%] [32mBuilding C object CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/imagedata__functions.c.o[0m
+[7.032s] [ 11%] [32mBuilding C object CMakeFiles/mymsg__rosidl_generator_c.dir/rosidl_generator_c/mymsg/srv/detail/waypoints__functions.c.o[0m
+[7.056s] [ 11%] Built target mymsg__cpp
+[7.103s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.110s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.128s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.163s] [ 16%] [32m[1mLinking C shared library libmymsg__rosidl_generator_c.so[0m
+[7.261s] [ 16%] Built target mymsg__rosidl_generator_c
+[7.287s] [ 18%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[7.291s] [ 19%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.919s] [35m[1mScanning dependencies of target mymsg__rosidl_typesupport_cpp[0m
+[8.001s] [ 21%] [32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mymsg/msg/poses__type_support.cpp.o[0m
+[8.014s] [ 22%] [32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mymsg/msg/transform__type_support.cpp.o[0m
+[8.018s] [ 23%] [32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mymsg/msg/pose__type_support.cpp.o[0m
+[8.036s] [ 25%] [32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mymsg/srv/imagedata__type_support.cpp.o[0m
+[8.050s] [ 26%] [32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mymsg/msg/multi_transform__type_support.cpp.o[0m
+[8.063s] [ 28%] [32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mymsg/srv/waypoints__type_support.cpp.o[0m
+[8.154s] [35m[1mScanning dependencies of target mymsg__rosidl_typesupport_c[0m
+[8.238s] [ 29%] [32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_c.dir/rosidl_typesupport_c/mymsg/msg/pose__type_support.cpp.o[0m
+[8.298s] [35m[1mScanning dependencies of target mymsg__rosidl_typesupport_introspection_cpp[0m
+[8.382s] [ 30%] [32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_c.dir/rosidl_typesupport_c/mymsg/msg/poses__type_support.cpp.o[0m
+[8.423s] [35m[1mScanning dependencies of target mymsg__rosidl_typesupport_fastrtps_cpp[0m
+[8.424s] [ 32%] [32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mymsg/msg/detail/pose__type_support.cpp.o[0m
+[8.429s] [ 33%] [32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_c.dir/rosidl_typesupport_c/mymsg/msg/transform__type_support.cpp.o[0m
+[8.510s] [ 35%] [32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_c.dir/rosidl_typesupport_c/mymsg/msg/multi_transform__type_support.cpp.o[0m
+[8.551s] [ 36%] [32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_c.dir/rosidl_typesupport_c/mymsg/srv/imagedata__type_support.cpp.o[0m
+[8.593s] [ 38%] [32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mymsg/msg/detail/dds_fastrtps/pose__type_support.cpp.o[0m
+[8.649s] [ 39%] [32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mymsg/msg/detail/dds_fastrtps/poses__type_support.cpp.o[0m
+[8.672s] [ 40%] [32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_c.dir/rosidl_typesupport_c/mymsg/srv/waypoints__type_support.cpp.o[0m
+[8.707s] [35m[1mScanning dependencies of target mymsg__rosidl_typesupport_introspection_c[0m
+[8.736s] [ 42%] [32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mymsg/msg/detail/poses__type_support.cpp.o[0m
+[8.767s] [ 43%] [32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mymsg/msg/detail/transform__type_support.cpp.o[0m
+[8.785s] [ 45%] [32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mymsg/msg/detail/dds_fastrtps/transform__type_support.cpp.o[0m
+[8.864s] [ 46%] [32mBuilding C object CMakeFiles/mymsg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mymsg/msg/detail/pose__type_support.c.o[0m
+[8.864s] [ 47%] [32m[1mLinking CXX shared library libmymsg__rosidl_typesupport_c.so[0m
+[8.915s] [ 49%] [32mBuilding C object CMakeFiles/mymsg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mymsg/msg/detail/poses__type_support.c.o[0m
+[8.916s] [ 50%] [32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mymsg/msg/detail/dds_fastrtps/multi_transform__type_support.cpp.o[0m
+[8.949s] [ 52%] [32mBuilding C object CMakeFiles/mymsg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mymsg/msg/detail/transform__type_support.c.o[0m
+[8.973s] [ 53%] [32m[1mLinking CXX shared library libmymsg__rosidl_typesupport_cpp.so[0m
+[9.044s] [ 53%] Built target mymsg__rosidl_typesupport_c
+[9.089s] [ 54%] [32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mymsg/msg/detail/multi_transform__type_support.cpp.o[0m
+[9.104s] [ 56%] [32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mymsg/srv/detail/imagedata__type_support.cpp.o[0m
+[9.118s] [ 56%] Built target mymsg__rosidl_typesupport_cpp
+[9.131s] [ 57%] [32mBuilding C object CMakeFiles/mymsg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mymsg/msg/detail/multi_transform__type_support.c.o[0m
+[9.170s] [ 59%] [32mBuilding C object CMakeFiles/mymsg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mymsg/srv/detail/imagedata__type_support.c.o[0m
+[9.187s] [ 60%] [32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mymsg/srv/detail/waypoints__type_support.cpp.o[0m
+[9.277s] [ 61%] [32mBuilding C object CMakeFiles/mymsg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mymsg/srv/detail/waypoints__type_support.c.o[0m
+[9.366s] [ 63%] [32m[1mLinking C shared library libmymsg__rosidl_typesupport_introspection_c.so[0m
+[9.393s] [ 64%] [32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mymsg/srv/detail/dds_fastrtps/imagedata__type_support.cpp.o[0m
+[9.507s] [ 66%] [32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mymsg/srv/detail/dds_fastrtps/waypoints__type_support.cpp.o[0m
+[9.510s] [ 66%] Built target mymsg__rosidl_typesupport_introspection_c
+[10.142s] [ 67%] [32m[1mLinking CXX shared library libmymsg__rosidl_typesupport_introspection_cpp.so[0m
+[10.332s] [ 67%] Built target mymsg__rosidl_typesupport_introspection_cpp
+[10.602s] [ 69%] [32m[1mLinking CXX shared library libmymsg__rosidl_typesupport_fastrtps_cpp.so[0m
+[10.806s] [ 69%] Built target mymsg__rosidl_typesupport_fastrtps_cpp
+[10.830s] [ 70%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[11.843s] [35m[1mScanning dependencies of target mymsg__rosidl_typesupport_fastrtps_c[0m
+[11.909s] [ 71%] [32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mymsg/msg/detail/pose__type_support_c.cpp.o[0m
+[11.910s] [ 73%] [32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mymsg/msg/detail/poses__type_support_c.cpp.o[0m
+[11.912s] [ 74%] [32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mymsg/msg/detail/transform__type_support_c.cpp.o[0m
+[11.914s] [ 76%] [32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mymsg/msg/detail/multi_transform__type_support_c.cpp.o[0m
+[11.915s] [ 77%] [32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mymsg/srv/detail/waypoints__type_support_c.cpp.o[0m
+[11.916s] [ 78%] [32mBuilding CXX object CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mymsg/srv/detail/imagedata__type_support_c.cpp.o[0m
+[12.678s] [ 80%] [32m[1mLinking CXX shared library libmymsg__rosidl_typesupport_fastrtps_c.so[0m
+[12.863s] [ 80%] Built target mymsg__rosidl_typesupport_fastrtps_c
+[12.884s] [35m[1mScanning dependencies of target mymsg[0m
+[12.906s] [ 80%] Built target mymsg
+[12.925s] [35m[1mScanning dependencies of target mymsg__py[0m
+[12.947s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[15.021s] [ 81%] Built target mymsg__py
+[15.042s] [35m[1mScanning dependencies of target mymsg__python[0m
+[15.116s] [ 83%] [32mBuilding C object CMakeFiles/mymsg__python.dir/rosidl_generator_py/mymsg/msg/_poses_s.c.o[0m
+[15.116s] [ 84%] [32mBuilding C object CMakeFiles/mymsg__python.dir/rosidl_generator_py/mymsg/msg/_pose_s.c.o[0m
+[15.117s] [ 85%] [32mBuilding C object CMakeFiles/mymsg__python.dir/rosidl_generator_py/mymsg/msg/_transform_s.c.o[0m
+[15.119s] [ 88%] [32mBuilding C object CMakeFiles/mymsg__python.dir/rosidl_generator_py/mymsg/srv/_imagedata_s.c.o[0m
+[15.119s] [ 90%] [32mBuilding C object CMakeFiles/mymsg__python.dir/rosidl_generator_py/mymsg/srv/_waypoints_s.c.o[0m
+[15.119s] [ 90%] [32mBuilding C object CMakeFiles/mymsg__python.dir/rosidl_generator_py/mymsg/msg/_multi_transform_s.c.o[0m
+[15.331s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/mymsg/libmymsg__python.so[0m
+[15.428s] [ 91%] Built target mymsg__python
+[15.448s] [35m[1mScanning dependencies of target mymsg__rosidl_typesupport_c__pyext[0m
+[15.448s] [35m[1mScanning dependencies of target mymsg__rosidl_typesupport_introspection_c__pyext[0m
+[15.449s] [35m[1mScanning dependencies of target mymsg__rosidl_typesupport_fastrtps_c__pyext[0m
+[15.498s] [ 92%] [32mBuilding C object CMakeFiles/mymsg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/mymsg/_mymsg_s.ep.rosidl_typesupport_c.c.o[0m
+[15.499s] [ 94%] [32mBuilding C object CMakeFiles/mymsg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/mymsg/_mymsg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[15.510s] [ 95%] [32mBuilding C object CMakeFiles/mymsg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/mymsg/_mymsg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[15.703s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/mymsg/mymsg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[15.704s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/mymsg/mymsg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[15.720s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/mymsg/mymsg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[15.790s] [100%] Built target mymsg__rosidl_typesupport_c__pyext
+[15.793s] [100%] Built target mymsg__rosidl_typesupport_introspection_c__pyext
+[15.868s] [100%] Built target mymsg__rosidl_typesupport_fastrtps_c__pyext
+[15.889s] Invoked command in '/root/researchv2/build/mymsg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node:/root/researchv2/install/chaser_system:/opt/ros/galactic /usr/bin/cmake --build /root/researchv2/build/mymsg -- -j12 -l12
+[16.194s] Invoking command in '/root/researchv2/build/mymsg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node:/root/researchv2/install/chaser_system:/opt/ros/galactic /usr/bin/cmake --install /root/researchv2/build/mymsg
+[16.208s] -- Install configuration: ""
+[16.208s] -- Installing: /root/researchv2/install/mymsg/share/ament_index/resource_index/rosidl_interfaces/mymsg
+[16.208s] -- Installing: /root/researchv2/install/mymsg/include/mymsg
+[16.209s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/srv
+[16.209s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/srv/imagedata.h
+[16.209s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/srv/detail
+[16.209s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/srv/detail/waypoints__type_support.h
+[16.210s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/srv/detail/waypoints__functions.c
+[16.210s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/srv/detail/imagedata__functions.c
+[16.210s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/srv/detail/imagedata__functions.h
+[16.210s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/srv/detail/imagedata__struct.h
+[16.211s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/srv/detail/waypoints__struct.h
+[16.211s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/srv/detail/imagedata__type_support.h
+[16.211s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/srv/detail/waypoints__functions.h
+[16.211s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/srv/waypoints.h
+[16.212s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg
+[16.212s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/multi_transform.h
+[16.212s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/rosidl_generator_c__visibility_control.h
+[16.212s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/poses.h
+[16.212s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail
+[16.213s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/multi_transform__type_support.h
+[16.213s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/pose__functions.h
+[16.213s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/multi_transform__functions.h
+[16.213s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/transform__functions.c
+[16.214s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/pose__struct.h
+[16.214s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/multi_transform__struct.h
+[16.214s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/pose__type_support.h
+[16.215s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/poses__type_support.h
+[16.215s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/transform__type_support.h
+[16.215s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/transform__struct.h
+[16.215s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/poses__functions.c
+[16.216s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/multi_transform__functions.c
+[16.216s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/transform__functions.h
+[16.216s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/poses__struct.h
+[16.217s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/pose__functions.c
+[16.217s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/poses__functions.h
+[16.217s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/transform.h
+[16.217s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/pose.h
+[16.218s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/environment/library_path.sh
+[16.218s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/environment/library_path.dsv
+[16.219s] -- Installing: /root/researchv2/install/mymsg/lib/libmymsg__rosidl_generator_c.so
+[16.220s] -- Set runtime path of "/root/researchv2/install/mymsg/lib/libmymsg__rosidl_generator_c.so" to ""
+[16.220s] -- Up-to-date: /root/researchv2/install/mymsg/include/mymsg
+[16.220s] -- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/srv
+[16.220s] -- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/srv/detail
+[16.221s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/srv/detail/imagedata__rosidl_typesupport_fastrtps_c.h
+[16.221s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/srv/detail/waypoints__rosidl_typesupport_fastrtps_c.h
+[16.221s] -- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/msg
+[16.221s] -- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/msg/detail
+[16.221s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/poses__rosidl_typesupport_fastrtps_c.h
+[16.221s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/multi_transform__rosidl_typesupport_fastrtps_c.h
+[16.222s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/transform__rosidl_typesupport_fastrtps_c.h
+[16.222s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/pose__rosidl_typesupport_fastrtps_c.h
+[16.222s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[16.222s] -- Installing: /root/researchv2/install/mymsg/lib/libmymsg__rosidl_typesupport_fastrtps_c.so
+[16.223s] -- Set runtime path of "/root/researchv2/install/mymsg/lib/libmymsg__rosidl_typesupport_fastrtps_c.so" to ""
+[16.224s] -- Up-to-date: /root/researchv2/install/mymsg/include/mymsg
+[16.224s] -- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/srv
+[16.224s] -- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/srv/detail
+[16.224s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/srv/detail/imagedata__rosidl_typesupport_fastrtps_cpp.hpp
+[16.225s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/srv/detail/waypoints__rosidl_typesupport_fastrtps_cpp.hpp
+[16.225s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/srv/detail/dds_fastrtps
+[16.225s] -- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/msg
+[16.225s] -- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/msg/detail
+[16.226s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/multi_transform__rosidl_typesupport_fastrtps_cpp.hpp
+[16.226s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp
+[16.226s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/transform__rosidl_typesupport_fastrtps_cpp.hpp
+[16.226s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/poses__rosidl_typesupport_fastrtps_cpp.hpp
+[16.227s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/dds_fastrtps
+[16.227s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[16.227s] -- Installing: /root/researchv2/install/mymsg/lib/libmymsg__rosidl_typesupport_fastrtps_cpp.so
+[16.228s] -- Set runtime path of "/root/researchv2/install/mymsg/lib/libmymsg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[16.228s] -- Up-to-date: /root/researchv2/install/mymsg/include/mymsg
+[16.229s] -- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/srv
+[16.229s] -- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/srv/detail
+[16.229s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/srv/detail/imagedata__type_support.c
+[16.229s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/srv/detail/waypoints__rosidl_typesupport_introspection_c.h
+[16.229s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/srv/detail/waypoints__type_support.c
+[16.230s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/srv/detail/imagedata__rosidl_typesupport_introspection_c.h
+[16.230s] -- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/msg
+[16.230s] -- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/msg/detail
+[16.230s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/pose__rosidl_typesupport_introspection_c.h
+[16.231s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/transform__type_support.c
+[16.231s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/multi_transform__rosidl_typesupport_introspection_c.h
+[16.231s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/transform__rosidl_typesupport_introspection_c.h
+[16.231s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/multi_transform__type_support.c
+[16.231s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/poses__type_support.c
+[16.232s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/pose__type_support.c
+[16.232s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/poses__rosidl_typesupport_introspection_c.h
+[16.232s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[16.232s] -- Installing: /root/researchv2/install/mymsg/lib/libmymsg__rosidl_typesupport_introspection_c.so
+[16.233s] -- Set runtime path of "/root/researchv2/install/mymsg/lib/libmymsg__rosidl_typesupport_introspection_c.so" to ""
+[16.234s] -- Installing: /root/researchv2/install/mymsg/lib/libmymsg__rosidl_typesupport_c.so
+[16.234s] -- Set runtime path of "/root/researchv2/install/mymsg/lib/libmymsg__rosidl_typesupport_c.so" to ""
+[16.235s] -- Up-to-date: /root/researchv2/install/mymsg/include/mymsg
+[16.235s] -- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/srv
+[16.235s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/srv/waypoints.hpp
+[16.235s] -- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/srv/detail
+[16.236s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/srv/detail/waypoints__struct.hpp
+[16.236s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/srv/detail/imagedata__traits.hpp
+[16.236s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/srv/detail/waypoints__traits.hpp
+[16.236s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/srv/detail/imagedata__builder.hpp
+[16.236s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/srv/detail/imagedata__struct.hpp
+[16.237s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/srv/detail/waypoints__builder.hpp
+[16.237s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/srv/imagedata.hpp
+[16.237s] -- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/msg
+[16.237s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/multi_transform.hpp
+[16.238s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/transform.hpp
+[16.238s] -- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/msg/detail
+[16.238s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/poses__struct.hpp
+[16.238s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/multi_transform__struct.hpp
+[16.238s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/multi_transform__traits.hpp
+[16.239s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/poses__builder.hpp
+[16.239s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/transform__struct.hpp
+[16.239s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/pose__struct.hpp
+[16.240s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/pose__traits.hpp
+[16.240s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/transform__traits.hpp
+[16.240s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/poses__traits.hpp
+[16.240s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/transform__builder.hpp
+[16.241s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/multi_transform__builder.hpp
+[16.241s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/pose__builder.hpp
+[16.241s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/pose.hpp
+[16.242s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/poses.hpp
+[16.242s] -- Up-to-date: /root/researchv2/install/mymsg/include/mymsg
+[16.242s] -- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/srv
+[16.243s] -- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/srv/detail
+[16.243s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/srv/detail/imagedata__rosidl_typesupport_introspection_cpp.hpp
+[16.243s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/srv/detail/imagedata__type_support.cpp
+[16.243s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/srv/detail/waypoints__type_support.cpp
+[16.243s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/srv/detail/waypoints__rosidl_typesupport_introspection_cpp.hpp
+[16.244s] -- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/msg
+[16.244s] -- Up-to-date: /root/researchv2/install/mymsg/include/mymsg/msg/detail
+[16.244s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/poses__type_support.cpp
+[16.244s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/multi_transform__type_support.cpp
+[16.245s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/transform__type_support.cpp
+[16.245s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/pose__type_support.cpp
+[16.245s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/multi_transform__rosidl_typesupport_introspection_cpp.hpp
+[16.245s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp
+[16.245s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/transform__rosidl_typesupport_introspection_cpp.hpp
+[16.246s] -- Installing: /root/researchv2/install/mymsg/include/mymsg/msg/detail/poses__rosidl_typesupport_introspection_cpp.hpp
+[16.246s] -- Installing: /root/researchv2/install/mymsg/lib/libmymsg__rosidl_typesupport_introspection_cpp.so
+[16.248s] -- Set runtime path of "/root/researchv2/install/mymsg/lib/libmymsg__rosidl_typesupport_introspection_cpp.so" to ""
+[16.248s] -- Installing: /root/researchv2/install/mymsg/lib/libmymsg__rosidl_typesupport_cpp.so
+[16.249s] -- Set runtime path of "/root/researchv2/install/mymsg/lib/libmymsg__rosidl_typesupport_cpp.so" to ""
+[16.249s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/environment/pythonpath.sh
+[16.249s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/environment/pythonpath.dsv
+[16.250s] -- Installing: /root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/__init__.py
+[16.308s] Compiling '/root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/__init__.py'...
+[16.315s] -- Installing: /root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/msg
+[16.316s] -- Installing: /root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/msg/_transform_s.c
+[16.316s] -- Installing: /root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/msg/_multi_transform_s.c
+[16.316s] -- Installing: /root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/msg/_pose_s.c
+[16.316s] -- Installing: /root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/msg/_transform.py
+[16.317s] -- Installing: /root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/msg/_poses_s.c
+[16.317s] -- Installing: /root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/msg/_poses.py
+[16.317s] -- Installing: /root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/msg/__init__.py
+[16.318s] -- Installing: /root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/msg/_pose.py
+[16.318s] -- Installing: /root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/msg/_multi_transform.py
+[16.318s] -- Installing: /root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/srv
+[16.319s] -- Installing: /root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/srv/_waypoints.py
+[16.319s] -- Installing: /root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/srv/_imagedata_s.c
+[16.319s] -- Installing: /root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/srv/_waypoints_s.c
+[16.319s] -- Installing: /root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/srv/_imagedata.py
+[16.320s] -- Installing: /root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/srv/__init__.py
+[16.320s] -- Installing: /root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/mymsg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[16.322s] -- Set runtime path of "/root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/mymsg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[16.322s] -- Installing: /root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/mymsg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[16.323s] -- Set runtime path of "/root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/mymsg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[16.323s] -- Installing: /root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/mymsg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[16.324s] -- Set runtime path of "/root/researchv2/install/mymsg/lib/python3.8/site-packages/mymsg/mymsg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[16.325s] -- Installing: /root/researchv2/install/mymsg/lib/libmymsg__python.so
+[16.326s] -- Set runtime path of "/root/researchv2/install/mymsg/lib/libmymsg__python.so" to ""
+[16.326s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/msg/Pose.idl
+[16.326s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/msg/Poses.idl
+[16.327s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/msg/Transform.idl
+[16.327s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/msg/MultiTransform.idl
+[16.328s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/srv/Imagedata.idl
+[16.328s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/srv/Waypoints.idl
+[16.328s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/msg/Pose.msg
+[16.329s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/msg/Poses.msg
+[16.329s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/msg/Transform.msg
+[16.330s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/msg/MultiTransform.msg
+[16.330s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/srv/Imagedata.srv
+[16.330s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/srv/Imagedata_Request.msg
+[16.331s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/srv/Imagedata_Response.msg
+[16.331s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/srv/Waypoints.srv
+[16.331s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/srv/Waypoints_Request.msg
+[16.332s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/srv/Waypoints_Response.msg
+[16.332s] -- Installing: /root/researchv2/install/mymsg/share/ament_index/resource_index/package_run_dependencies/mymsg
+[16.333s] -- Installing: /root/researchv2/install/mymsg/share/ament_index/resource_index/parent_prefix_path/mymsg
+[16.333s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/environment/ament_prefix_path.sh
+[16.334s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/environment/ament_prefix_path.dsv
+[16.334s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/environment/path.sh
+[16.334s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/environment/path.dsv
+[16.335s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/local_setup.bash
+[16.335s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/local_setup.sh
+[16.335s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/local_setup.zsh
+[16.336s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/local_setup.dsv
+[16.336s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/package.dsv
+[16.337s] -- Installing: /root/researchv2/install/mymsg/share/ament_index/resource_index/packages/mymsg
+[16.337s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/cmake/mymsg__rosidl_generator_cExport.cmake
+[16.337s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/cmake/mymsg__rosidl_generator_cExport-noconfig.cmake
+[16.338s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/cmake/mymsg__rosidl_typesupport_introspection_cExport.cmake
+[16.338s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/cmake/mymsg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[16.339s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/cmake/mymsg__rosidl_typesupport_cExport.cmake
+[16.339s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/cmake/mymsg__rosidl_typesupport_cExport-noconfig.cmake
+[16.340s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/cmake/mymsg__rosidl_generator_cppExport.cmake
+[16.340s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/cmake/mymsg__rosidl_typesupport_introspection_cppExport.cmake
+[16.341s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/cmake/mymsg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[16.341s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/cmake/mymsg__rosidl_typesupport_cppExport.cmake
+[16.342s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/cmake/mymsg__rosidl_typesupport_cppExport-noconfig.cmake
+[16.342s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/cmake/rosidl_cmake-extras.cmake
+[16.343s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.343s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/cmake/ament_cmake_export_libraries-extras.cmake
+[16.344s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/cmake/ament_cmake_export_targets-extras.cmake
+[16.344s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.345s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[16.345s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[16.346s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/cmake/mymsgConfig.cmake
+[16.346s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/cmake/mymsgConfig-version.cmake
+[16.346s] -- Installing: /root/researchv2/install/mymsg/share/mymsg/package.xml
+[16.356s] Invoked command in '/root/researchv2/build/mymsg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node:/root/researchv2/install/chaser_system:/opt/ros/galactic /usr/bin/cmake --install /root/researchv2/build/mymsg

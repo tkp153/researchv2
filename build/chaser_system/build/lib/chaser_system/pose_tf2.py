@@ -71,6 +71,8 @@ class pose_tf2(Node):
         #self.sub3 = self.create_subscription(Imu,"/camera/imu",self.IMU,video_qos)
         self.pub = self.create_publisher(PoseStamped,"goal_data",10)
         
+        self.test_pub = self.create_publisher(PoseStamped,"waypoints",10)
+        
         self.completed = True
 
     def human(self,data):
@@ -118,7 +120,7 @@ class pose_tf2(Node):
         
             broadcast3.sendTransform(gsg)
             time_now = time.time()
-            if( time_now - pre_time > 0):
+            if( time_now - pre_time > 5):
                 self.writing_waypoints(gsg)
                 pre_time = time.time()
                 
@@ -138,6 +140,8 @@ class pose_tf2(Node):
             rot_w = trans.transform.rotation.w
             
             data_row = [pos_x, pos_y, pos_z, rot_x, rot_y,rot_z,rot_w]
+            
+            
             '''
             f =open(self.filename, "a",encoding="utf_8")
             writer = csv.writer(f)
@@ -163,6 +167,8 @@ class pose_tf2(Node):
                 go.pose.orientation.y = data_row[4]
                 go.pose.orientation.z = data_row[5]
                 go.pose.orientation.w = data_row[6]
+                
+                '''
                 #self.completed = False
                 # サーバー接続まで待機
                 while not self.cli.wait_for_service(timeout_sec=1.0):
@@ -172,7 +178,9 @@ class pose_tf2(Node):
                 request.waypoints = go
                 future = self.cli.call_async(request)
                 future.add_done_callback(partial(self.services_callback))
-        
+                '''
+                
+                self.test_pub.publish(go)
             
         except TransformException:
             pass

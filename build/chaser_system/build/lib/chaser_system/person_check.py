@@ -3,6 +3,7 @@ from rclpy.node import Node
 import numpy as np
 from mymsg.msg import Poses,MultiTransform,Transform
 import time
+import math
 '''
 <Memo>
 このプログラムは、openpifpafの3次元のデータのkeypointsのデータをサブスクライバーし、keypointsの重心を求めそれぞれの人の座標を入手するのを加えて人が挙手したらその情報を記録するプログラムである。
@@ -26,6 +27,18 @@ class person_checker(Node):
         
         self.count_L = 0
         self.count_R = 0
+        
+        self.save_id = "abcdef"
+        
+        init = Transform()
+        init.transform.translation.x = 0.0
+        init.transform.translation.y = 0.0
+        init.transform.translation.z = 0.0
+        init.transform.rotation.x = 0.0
+        init.transform.rotation.y = 0.0
+        init.transform.rotation.z = 0.0
+        init.transform.rotation.w = 1.0
+        self.save_pos = init
         
         
         
@@ -68,6 +81,9 @@ class person_checker(Node):
             L_Raise_Hand = False
             R_Raise_Hand = False
             
+            # 手を上げた人のデータ
+            data_raise_hand_translation = []
+            data_raise_hand_mater = []
             
             #一人の処理↓
             for k in keypoints:
@@ -176,19 +192,37 @@ class person_checker(Node):
                     if(Result_Of_Center_Gravity is not None):
                     
                         if(L_Raise_Hand == True and R_Raise_Hand == True):
-                            self.pub_2.publish(Output1)
+                            #self.pub_2.publish(Output1)
+                            data_raise_hand_translation.append(Output1)
+                            data_raise_hand_mater.append(self.calc_mater(Output1))
                             timer_previous = timer
                         elif(L_Raise_Hand == True):
                             print("You are Raise the Left Hand")
-                            self.pub_2.publish(Output1)
+                            #self.pub_2.publish(Output1)
+                            data_raise_hand_translation.append(Output1)
+                            data_raise_hand_mater.append(self.calc_mater(Output1))
                             timer_previous = timer
                         elif(R_Raise_Hand == True):
                             print("You are Raise the  right Hand")
-                            self.pub_2.publish(Output1)
+                            #self.pub_2.publish(Output1)
+                            data_raise_hand_translation.append(Output1)
+                            data_raise_hand_mater.append(self.calc_mater(Output1))
                             timer_previous = timer
 
+        #全員分↓
                         
-        Output0.id = data.id                
+        Output0.id = data.id 
+        
+        #もし前回のIDが含まれた場合優先的にパブリッシュを行う。
+        if(self.save_id in data.id):
+            self.pub_2.publish(self.save_pos)
+        else:
+            #ソート実施 -- 一番遠い手を挙げている人
+            self.pub_2.publish(data_raise_hand_translation(data_raise_hand_mater.index(max(data_raise_hand_mater))))
+        
+            #キャッシュ生成
+            self.save_id = data.id[data_raise_hand_mater.index(max(data_raise_hand_mater))]
+            self.save_pos = Output1
         
         # パブリッシュ軽減処理
         if(Publish_Checker == True):    
@@ -285,6 +319,18 @@ class person_checker(Node):
                     return False
         else:
             self.get_logger().error(" out of range !!! 変数の中身確認！！！")
+            
+    def calc_mater(self,data):
+        
+        x = data.transform.translation.x
+        y = data.transform.translation.y
+        z = data.transform.translation.z
+        
+        #ｷｮﾘ計算（原点からの）
+        mater = math.sqrt(x * x + y * y + z * z)
+        
+        return mater
+        
             
 def main():
     

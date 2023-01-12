@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/root/researchv2/build/urg_node_msgs/rosidl_generator_py/urg_node_msgs/liburg_node_msgs__python.so" "TARGETS" "urg_node_msgs__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

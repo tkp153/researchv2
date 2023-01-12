@@ -6,8 +6,10 @@
 #define MYMSG__MSG__DETAIL__TRANSFORM__TRAITS_HPP_
 
 #include "mymsg/msg/detail/transform__struct.hpp"
-#include <rosidl_runtime_cpp/traits.hpp>
 #include <stdint.h>
+#include <rosidl_runtime_cpp/traits.hpp>
+#include <sstream>
+#include <string>
 #include <type_traits>
 
 // Include directives for member types
@@ -16,6 +18,27 @@
 
 namespace rosidl_generator_traits
 {
+
+inline void to_yaml(
+  const mymsg::msg::Transform & msg,
+  std::ostream & out, size_t indentation = 0)
+{
+  // member: transform
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "transform:\n";
+    to_yaml(msg.transform, out, indentation + 2);
+  }
+}  // NOLINT(readability/fn_size)
+
+inline std::string to_yaml(const mymsg::msg::Transform & msg)
+{
+  std::ostringstream out;
+  to_yaml(msg, out);
+  return out.str();
+}
 
 template<>
 inline const char * data_type<mymsg::msg::Transform>()

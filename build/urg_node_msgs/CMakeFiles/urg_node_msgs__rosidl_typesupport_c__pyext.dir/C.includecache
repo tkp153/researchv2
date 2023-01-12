@@ -6,31 +6,31 @@
 
 #IncludeRegexTransform: 
 
-/opt/ros/foxy/include/rosidl_runtime_c/action_type_support_struct.h
+/opt/ros/galactic/include/rosidl_runtime_c/action_type_support_struct.h
 rosidl_runtime_c/message_type_support_struct.h
-/opt/ros/foxy/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h
+/opt/ros/galactic/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h
 rosidl_runtime_c/service_type_support_struct.h
-/opt/ros/foxy/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h
+/opt/ros/galactic/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h
 rosidl_runtime_c/visibility_control.h
-/opt/ros/foxy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h
+/opt/ros/galactic/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h
 rosidl_typesupport_interface/macros.h
-/opt/ros/foxy/include/rosidl_runtime_c/rosidl_typesupport_interface/macros.h
+/opt/ros/galactic/include/rosidl_runtime_c/rosidl_typesupport_interface/macros.h
 
-/opt/ros/foxy/include/rosidl_runtime_c/message_type_support_struct.h
+/opt/ros/galactic/include/rosidl_runtime_c/message_type_support_struct.h
 rosidl_runtime_c/visibility_control.h
-/opt/ros/foxy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h
+/opt/ros/galactic/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h
 rosidl_typesupport_interface/macros.h
-/opt/ros/foxy/include/rosidl_runtime_c/rosidl_typesupport_interface/macros.h
+/opt/ros/galactic/include/rosidl_runtime_c/rosidl_typesupport_interface/macros.h
 
-/opt/ros/foxy/include/rosidl_runtime_c/service_type_support_struct.h
+/opt/ros/galactic/include/rosidl_runtime_c/service_type_support_struct.h
 rosidl_runtime_c/visibility_control.h
-/opt/ros/foxy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h
+/opt/ros/galactic/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h
 rosidl_typesupport_interface/macros.h
-/opt/ros/foxy/include/rosidl_runtime_c/rosidl_typesupport_interface/macros.h
+/opt/ros/galactic/include/rosidl_runtime_c/rosidl_typesupport_interface/macros.h
 
-/opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
+/opt/ros/galactic/include/rosidl_runtime_c/visibility_control.h
 
-/opt/ros/foxy/include/rosidl_typesupport_interface/macros.h
+/opt/ros/galactic/include/rosidl_typesupport_interface/macros.h
 
 /root/researchv2/build/urg_node_msgs/rosidl_generator_py/urg_node_msgs/_urg_node_msgs_s.ep.rosidl_typesupport_c.c
 Python.h

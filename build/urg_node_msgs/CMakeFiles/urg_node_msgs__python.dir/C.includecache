@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
+/opt/ros/galactic/include/rosidl_runtime_c/visibility_control.h
 
 /root/researchv2/build/urg_node_msgs/rosidl_generator_py/urg_node_msgs/msg/_status_s.c
 Python.h

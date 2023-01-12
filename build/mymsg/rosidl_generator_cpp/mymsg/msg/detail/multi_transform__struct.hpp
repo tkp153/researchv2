@@ -49,21 +49,21 @@ struct MultiTransform_
 
   // field types and members
   using _transforms_type =
-    std::vector<mymsg::msg::Transform_<ContainerAllocator>, typename ContainerAllocator::template rebind<mymsg::msg::Transform_<ContainerAllocator>>::other>;
+    std::vector<mymsg::msg::Transform_<ContainerAllocator>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<mymsg::msg::Transform_<ContainerAllocator>>>;
   _transforms_type transforms;
   using _id_type =
-    std::vector<std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other>, typename ContainerAllocator::template rebind<std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other>>::other>;
+    std::vector<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>>;
   _id_type id;
 
   // setters for named parameter idiom
   Type & set__transforms(
-    const std::vector<mymsg::msg::Transform_<ContainerAllocator>, typename ContainerAllocator::template rebind<mymsg::msg::Transform_<ContainerAllocator>>::other> & _arg)
+    const std::vector<mymsg::msg::Transform_<ContainerAllocator>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<mymsg::msg::Transform_<ContainerAllocator>>> & _arg)
   {
     this->transforms = _arg;
     return *this;
   }
   Type & set__id(
-    const std::vector<std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other>, typename ContainerAllocator::template rebind<std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other>>::other> & _arg)
+    const std::vector<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>> & _arg)
   {
     this->id = _arg;
     return *this;

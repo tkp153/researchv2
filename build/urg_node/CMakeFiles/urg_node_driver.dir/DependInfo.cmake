@@ -10,14 +10,13 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
-  "DEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp"
+  "DEFAULT_RMW_IMPLEMENTATION=rmw_cyclonedds_cpp"
   "RCUTILS_ENABLE_FAULT_INJECTION"
-  "SPDLOG_COMPILED_LIB"
   )
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/opt/ros/foxy/include"
+  "/opt/ros/galactic/include"
   )
 
 # Targets to which this target links.

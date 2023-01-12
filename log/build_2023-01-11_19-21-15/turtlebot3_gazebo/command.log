@@ -1,4 +1,0 @@
-Invoking command in '/root/researchv2/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/researchv2/build/turtlebot3_gazebo -- -j12 -l12
-Invoked command in '/root/researchv2/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/researchv2/build/turtlebot3_gazebo -- -j12 -l12
-Invoking command in '/root/researchv2/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/researchv2/build/turtlebot3_gazebo
-Invoked command in '/root/researchv2/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/researchv2/build/turtlebot3_gazebo

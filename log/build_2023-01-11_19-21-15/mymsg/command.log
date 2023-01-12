@@ -1,4 +1,0 @@
-Invoking command in '/root/researchv2/build/mymsg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/researchv2/build/mymsg -- -j12 -l12
-Invoked command in '/root/researchv2/build/mymsg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/researchv2/build/mymsg -- -j12 -l12
-Invoking command in '/root/researchv2/build/mymsg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/researchv2/build/mymsg
-Invoked command in '/root/researchv2/build/mymsg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/researchv2/build/mymsg

@@ -8,8 +8,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "rcutils/allocator.h"
-
 
 // Include directives for member types
 // Member `header`
@@ -116,15 +114,14 @@ mymsg__msg__Poses__copy(
 mymsg__msg__Poses *
 mymsg__msg__Poses__create()
 {
-  rcutils_allocator_t allocator = rcutils_get_default_allocator();
-  mymsg__msg__Poses * msg = (mymsg__msg__Poses *)allocator.allocate(sizeof(mymsg__msg__Poses), allocator.state);
+  mymsg__msg__Poses * msg = (mymsg__msg__Poses *)malloc(sizeof(mymsg__msg__Poses));
   if (!msg) {
     return NULL;
   }
   memset(msg, 0, sizeof(mymsg__msg__Poses));
   bool success = mymsg__msg__Poses__init(msg);
   if (!success) {
-    allocator.deallocate(msg, allocator.state);
+    free(msg);
     return NULL;
   }
   return msg;
@@ -133,11 +130,10 @@ mymsg__msg__Poses__create()
 void
 mymsg__msg__Poses__destroy(mymsg__msg__Poses * msg)
 {
-  rcutils_allocator_t allocator = rcutils_get_default_allocator();
   if (msg) {
     mymsg__msg__Poses__fini(msg);
   }
-  allocator.deallocate(msg, allocator.state);
+  free(msg);
 }
 
 
@@ -147,11 +143,9 @@ mymsg__msg__Poses__Sequence__init(mymsg__msg__Poses__Sequence * array, size_t si
   if (!array) {
     return false;
   }
-  rcutils_allocator_t allocator = rcutils_get_default_allocator();
   mymsg__msg__Poses * data = NULL;
-
   if (size) {
-    data = (mymsg__msg__Poses *)allocator.zero_allocate(size, sizeof(mymsg__msg__Poses), allocator.state);
+    data = (mymsg__msg__Poses *)calloc(size, sizeof(mymsg__msg__Poses));
     if (!data) {
       return false;
     }
@@ -168,7 +162,7 @@ mymsg__msg__Poses__Sequence__init(mymsg__msg__Poses__Sequence * array, size_t si
       for (; i > 0; --i) {
         mymsg__msg__Poses__fini(&data[i - 1]);
       }
-      allocator.deallocate(data, allocator.state);
+      free(data);
       return false;
     }
   }
@@ -184,8 +178,6 @@ mymsg__msg__Poses__Sequence__fini(mymsg__msg__Poses__Sequence * array)
   if (!array) {
     return;
   }
-  rcutils_allocator_t allocator = rcutils_get_default_allocator();
-
   if (array->data) {
     // ensure that data and capacity values are consistent
     assert(array->capacity > 0);
@@ -193,7 +185,7 @@ mymsg__msg__Poses__Sequence__fini(mymsg__msg__Poses__Sequence * array)
     for (size_t i = 0; i < array->capacity; ++i) {
       mymsg__msg__Poses__fini(&array->data[i]);
     }
-    allocator.deallocate(array->data, allocator.state);
+    free(array->data);
     array->data = NULL;
     array->size = 0;
     array->capacity = 0;
@@ -207,14 +199,13 @@ mymsg__msg__Poses__Sequence__fini(mymsg__msg__Poses__Sequence * array)
 mymsg__msg__Poses__Sequence *
 mymsg__msg__Poses__Sequence__create(size_t size)
 {
-  rcutils_allocator_t allocator = rcutils_get_default_allocator();
-  mymsg__msg__Poses__Sequence * array = (mymsg__msg__Poses__Sequence *)allocator.allocate(sizeof(mymsg__msg__Poses__Sequence), allocator.state);
+  mymsg__msg__Poses__Sequence * array = (mymsg__msg__Poses__Sequence *)malloc(sizeof(mymsg__msg__Poses__Sequence));
   if (!array) {
     return NULL;
   }
   bool success = mymsg__msg__Poses__Sequence__init(array, size);
   if (!success) {
-    allocator.deallocate(array, allocator.state);
+    free(array);
     return NULL;
   }
   return array;
@@ -223,11 +214,10 @@ mymsg__msg__Poses__Sequence__create(size_t size)
 void
 mymsg__msg__Poses__Sequence__destroy(mymsg__msg__Poses__Sequence * array)
 {
-  rcutils_allocator_t allocator = rcutils_get_default_allocator();
   if (array) {
     mymsg__msg__Poses__Sequence__fini(array);
   }
-  allocator.deallocate(array, allocator.state);
+  free(array);
 }
 
 bool

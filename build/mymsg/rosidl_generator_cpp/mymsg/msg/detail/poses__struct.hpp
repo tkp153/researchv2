@@ -55,10 +55,10 @@ struct Poses_
     std_msgs::msg::Header_<ContainerAllocator>;
   _header_type header;
   using _poses_type =
-    std::vector<mymsg::msg::Pose_<ContainerAllocator>, typename ContainerAllocator::template rebind<mymsg::msg::Pose_<ContainerAllocator>>::other>;
+    std::vector<mymsg::msg::Pose_<ContainerAllocator>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<mymsg::msg::Pose_<ContainerAllocator>>>;
   _poses_type poses;
   using _id_type =
-    std::vector<std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other>, typename ContainerAllocator::template rebind<std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other>>::other>;
+    std::vector<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>>;
   _id_type id;
 
   // setters for named parameter idiom
@@ -69,13 +69,13 @@ struct Poses_
     return *this;
   }
   Type & set__poses(
-    const std::vector<mymsg::msg::Pose_<ContainerAllocator>, typename ContainerAllocator::template rebind<mymsg::msg::Pose_<ContainerAllocator>>::other> & _arg)
+    const std::vector<mymsg::msg::Pose_<ContainerAllocator>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<mymsg::msg::Pose_<ContainerAllocator>>> & _arg)
   {
     this->poses = _arg;
     return *this;
   }
   Type & set__id(
-    const std::vector<std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other>, typename ContainerAllocator::template rebind<std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other>>::other> & _arg)
+    const std::vector<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>> & _arg)
   {
     this->id = _arg;
     return *this;
