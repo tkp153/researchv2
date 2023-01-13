@@ -1,0 +1,342 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  
+-- Found diagnostic_updater: 2.1.3 (/opt/ros/galactic/share/diagnostic_updater/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/galactic/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found laser_proc: 1.0.2 (/root/researchv2/install/laser_proc/share/laser_proc/cmake)
+-- Found rclcpp_components: 9.2.2 (/opt/ros/galactic/share/rclcpp_components/cmake)
+-- Found std_srvs: 2.2.4 (/opt/ros/galactic/share/std_srvs/cmake)
+-- Found urg_c: 1.0.4001 (/root/researchv2/install/urg_c/share/urg_c/cmake)
+-- Found urg_node_msgs: 1.0.1 (/root/researchv2/install/urg_node_msgs/share/urg_node_msgs/cmake)
+-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/root/researchv2/src/urg_node/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/researchv2/build/urg_node
+[35m[1mScanning dependencies of target urg_node[0m
+[35m[1mScanning dependencies of target urg_node_driver[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/urg_node_driver.dir/rclcpp_components/node_main_urg_node_driver.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/urg_node.dir/src/urg_c_wrapper.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/urg_node.dir/src/urg_node.cpp.o[0m
+[01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:[m[K In constructor ‘[01m[Kurg_node::URGCWrapper::URGCWrapper(const urg_node::EthernetConnection&, bool&, bool&, const rclcpp::Logger&)[m[K’:
+[01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:57:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp::Duration::Duration(rcl_duration_value_t)[m[K’ is deprecated: Use Duration::from_nanoseconds instead or std::chrono_literals. For example:rclcpp::Duration::from_nanoseconds(int64_variable);rclcpp::Duration(0ns); [[01;35m[K-Wdeprecated-declarations[m[K]
+   57 |   logger_(logger[01;35m[K)[m[K
+      |                 [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/root/researchv2/src/urg_node/include/urg_node/urg_c_wrapper.hpp:44[m[K,
+                 from [01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:34[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/duration.hpp:46:12:[m[K [01;36m[Knote: [m[Kdeclared here
+   46 |   explicit [01;36m[KDuration[m[K(rcl_duration_value_t nanoseconds);
+      |            [01;36m[K^~~~~~~~[m[K
+[01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:57:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp::Duration::Duration(rcl_duration_value_t)[m[K’ is deprecated: Use Duration::from_nanoseconds instead or std::chrono_literals. For example:rclcpp::Duration::from_nanoseconds(int64_variable);rclcpp::Duration(0ns); [[01;35m[K-Wdeprecated-declarations[m[K]
+   57 |   logger_(logger[01;35m[K)[m[K
+      |                 [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/root/researchv2/src/urg_node/include/urg_node/urg_c_wrapper.hpp:44[m[K,
+                 from [01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:34[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/duration.hpp:46:12:[m[K [01;36m[Knote: [m[Kdeclared here
+   46 |   explicit [01;36m[KDuration[m[K(rcl_duration_value_t nanoseconds);
+      |            [01;36m[K^~~~~~~~[m[K
+[01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:[m[K In constructor ‘[01m[Kurg_node::URGCWrapper::URGCWrapper(const urg_node::SerialConnection&, bool&, bool&, const rclcpp::Logger&)[m[K’:
+[01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:87:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp::Duration::Duration(rcl_duration_value_t)[m[K’ is deprecated: Use Duration::from_nanoseconds instead or std::chrono_literals. For example:rclcpp::Duration::from_nanoseconds(int64_variable);rclcpp::Duration(0ns); [[01;35m[K-Wdeprecated-declarations[m[K]
+   87 |   logger_(logger[01;35m[K)[m[K
+      |                 [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/root/researchv2/src/urg_node/include/urg_node/urg_c_wrapper.hpp:44[m[K,
+                 from [01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:34[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/duration.hpp:46:12:[m[K [01;36m[Knote: [m[Kdeclared here
+   46 |   explicit [01;36m[KDuration[m[K(rcl_duration_value_t nanoseconds);
+      |            [01;36m[K^~~~~~~~[m[K
+[01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:87:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp::Duration::Duration(rcl_duration_value_t)[m[K’ is deprecated: Use Duration::from_nanoseconds instead or std::chrono_literals. For example:rclcpp::Duration::from_nanoseconds(int64_variable);rclcpp::Duration(0ns); [[01;35m[K-Wdeprecated-declarations[m[K]
+   87 |   logger_(logger[01;35m[K)[m[K
+      |                 [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/root/researchv2/src/urg_node/include/urg_node/urg_c_wrapper.hpp:44[m[K,
+                 from [01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:34[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/duration.hpp:46:12:[m[K [01;36m[Knote: [m[Kdeclared here
+   46 |   explicit [01;36m[KDuration[m[K(rcl_duration_value_t nanoseconds);
+      |            [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/root/researchv2/src/urg_node/include/urg_node/urg_c_wrapper.hpp:44[m[K,
+                 from [01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:34[m[K:
+[01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:[m[K In member function ‘[01m[Kstd::string urg_node::URGCWrapper::sendCommand(std::string)[m[K’:
+[01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:588:16:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%lu[m[K’ expects argument of type ‘[01m[Klong unsigned int[m[K’, but argument 5 has type ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  588 |       logger_, [01;35m[K"Buffer creation bounds exceeded, shouldn't allocate: %lu bytes"[m[K,
+      |                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  589 |       [32m[Karr_size[m[K);
+      |       [32m[K~~~~~~~~[m[K  
+      |       [32m[K|[m[K
+      |       [32m[Kuint32_t {aka unsigned int}[m[K
+[01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:588:72:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  588 |       logger_, "Buffer creation bounds exceeded, shouldn't allocate: [01;36m[K%lu[m[K bytes",
+      |                                                                      [01;36m[K~~^[m[K
+      |                                                                        [01;36m[K|[m[K
+      |                                                                        [01;36m[Klong unsigned int[m[K
+      |                                                                      [32m[K%u[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/root/researchv2/src/urg_node/include/urg_node/urg_c_wrapper.hpp:44[m[K,
+                 from [01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:34[m[K:
+[01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:594:25:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%lu[m[K’ expects argument of type ‘[01m[Klong unsigned int[m[K’, but argument 5 has type ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  594 |   RCLCPP_DEBUG(logger_, [01;35m[K"Creating buffer read of arr_Size: %lu bytes"[m[K, [32m[Karr_size[m[K);
+      |                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~[m[K
+      |                                                                        [32m[K|[m[K
+      |                                                                        [32m[Kuint32_t {aka unsigned int}[m[K
+[01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:594:62:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  594 |   RCLCPP_DEBUG(logger_, "Creating buffer read of arr_Size: [01;36m[K%lu[m[K bytes", arr_size);
+      |                                                            [01;36m[K~~^[m[K
+      |                                                              [01;36m[K|[m[K
+      |                                                              [01;36m[Klong unsigned int[m[K
+      |                                                            [32m[K%u[m[K
+[01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:[m[K In member function ‘[01m[Kvoid urg_node::URGCWrapper::setUserLatency(double)[m[K’:
+[01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:775:49:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp::Duration::Duration(rcl_duration_value_t)[m[K’ is deprecated: Use Duration::from_nanoseconds instead or std::chrono_literals. For example:rclcpp::Duration::from_nanoseconds(int64_variable);rclcpp::Duration(0ns); [[01;35m[K-Wdeprecated-declarations[m[K]
+  775 |   user_latency_ = rclcpp::Duration(1e9 * latency[01;35m[K)[m[K;
+      |                                                 [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/root/researchv2/src/urg_node/include/urg_node/urg_c_wrapper.hpp:44[m[K,
+                 from [01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:34[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/duration.hpp:46:12:[m[K [01;36m[Knote: [m[Kdeclared here
+   46 |   explicit [01;36m[KDuration[m[K(rcl_duration_value_t nanoseconds);
+      |            [01;36m[K^~~~~~~~[m[K
+[01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:[m[K In member function ‘[01m[Krclcpp::Duration urg_node::URGCWrapper::getAngularTimeOffset() const[m[K’:
+[01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:864:68:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp::Duration::Duration(rcl_duration_value_t)[m[K’ is deprecated: Use Duration::from_nanoseconds instead or std::chrono_literals. For example:rclcpp::Duration::from_nanoseconds(int64_variable);rclcpp::Duration(0ns); [[01;35m[K-Wdeprecated-declarations[m[K]
+  864 |   return rclcpp::Duration((circle_fraction * getScanPeriod()) * 1e9[01;35m[K)[m[K;
+      |                                                                    [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/root/researchv2/src/urg_node/include/urg_node/urg_c_wrapper.hpp:44[m[K,
+                 from [01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:34[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/duration.hpp:46:12:[m[K [01;36m[Knote: [m[Kdeclared here
+   46 |   explicit [01;36m[KDuration[m[K(rcl_duration_value_t nanoseconds);
+      |            [01;36m[K^~~~~~~~[m[K
+[01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:[m[K In member function ‘[01m[Krclcpp::Duration urg_node::URGCWrapper::computeLatency(size_t)[m[K’:
+[01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:869:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp::Duration::Duration(rcl_duration_value_t)[m[K’ is deprecated: Use Duration::from_nanoseconds instead or std::chrono_literals. For example:rclcpp::Duration::from_nanoseconds(int64_variable);rclcpp::Duration(0ns); [[01;35m[K-Wdeprecated-declarations[m[K]
+  869 |   system_latency_ = rclcpp::Duration(0[01;35m[K)[m[K;
+      |                                       [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/root/researchv2/src/urg_node/include/urg_node/urg_c_wrapper.hpp:44[m[K,
+                 from [01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:34[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/duration.hpp:46:12:[m[K [01;36m[Knote: [m[Kdeclared here
+   46 |   explicit [01;36m[KDuration[m[K(rcl_duration_value_t nanoseconds);
+      |            [01;36m[K^~~~~~~~[m[K
+[01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:872:37:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp::Duration::Duration(rcl_duration_value_t)[m[K’ is deprecated: Use Duration::from_nanoseconds instead or std::chrono_literals. For example:rclcpp::Duration::from_nanoseconds(int64_variable);rclcpp::Duration(0ns); [[01;35m[K-Wdeprecated-declarations[m[K]
+  872 |   rclcpp::Duration previous_offset(0[01;35m[K)[m[K;
+      |                                     [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/root/researchv2/src/urg_node/include/urg_node/urg_c_wrapper.hpp:44[m[K,
+                 from [01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:34[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/duration.hpp:46:12:[m[K [01;36m[Knote: [m[Kdeclared here
+   46 |   explicit [01;36m[KDuration[m[K(rcl_duration_value_t nanoseconds);
+      |            [01;36m[K^~~~~~~~[m[K
+[01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:881:85:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp::Duration::Duration(rcl_duration_value_t)[m[K’ is deprecated: Use Duration::from_nanoseconds instead or std::chrono_literals. For example:rclcpp::Duration::from_nanoseconds(int64_variable);rclcpp::Duration(0ns); [[01;35m[K-Wdeprecated-declarations[m[K]
+  881 |       adjusted_post_offset.nanoseconds() / 2.0 + previous_offset.nanoseconds() / 2.0[01;35m[K)[m[K;
+      |                                                                                     [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/root/researchv2/src/urg_node/include/urg_node/urg_c_wrapper.hpp:44[m[K,
+                 from [01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:34[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/duration.hpp:46:12:[m[K [01;36m[Knote: [m[Kdeclared here
+   46 |   explicit [01;36m[KDuration[m[K(rcl_duration_value_t nanoseconds);
+      |            [01;36m[K^~~~~~~~[m[K
+[ 57%] [32m[1mLinking CXX executable urg_node_driver[0m
+[ 57%] Built target urg_node_driver
+[ 71%] [32m[1mLinking CXX shared library liburg_node.so[0m
+[ 71%] Built target urg_node
+[35m[1mScanning dependencies of target getID[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/getID.dir/src/get_id.cpp.o[0m
+[100%] [32m[1mLinking CXX executable getID[0m
+[100%] Built target getID
+-- Install configuration: ""
+-- Installing: /root/researchv2/install/urg_node/lib/urg_node/urg_node_driver
+-- Set runtime path of "/root/researchv2/install/urg_node/lib/urg_node/urg_node_driver" to ""
+-- Installing: /root/researchv2/install/urg_node/lib/liburg_node.so
+-- Set runtime path of "/root/researchv2/install/urg_node/lib/liburg_node.so" to ""
+-- Installing: /root/researchv2/install/urg_node/lib/urg_node/getID
+-- Set runtime path of "/root/researchv2/install/urg_node/lib/urg_node/getID" to ""
+-- Installing: /root/researchv2/install/urg_node/include
+-- Installing: /root/researchv2/install/urg_node/include/urg_node
+-- Installing: /root/researchv2/install/urg_node/include/urg_node/urg_node.hpp
+-- Installing: /root/researchv2/install/urg_node/include/urg_node/urg_c_wrapper.hpp
+-- Installing: /root/researchv2/install/urg_node/lib/urg_node/set_urg_ip.py
+-- Installing: /root/researchv2/install/urg_node/share/urg_node/launch
+-- Installing: /root/researchv2/install/urg_node/share/urg_node/launch/urg_node_ethernet.yaml
+-- Installing: /root/researchv2/install/urg_node/share/urg_node/launch/urg_node_serial.yaml
+-- Installing: /root/researchv2/install/urg_node/share/urg_node/launch/hokuyo_laser.urdf
+-- Installing: /root/researchv2/install/urg_node/share/urg_node/launch/urg_lidar.launch.xml
+-- Installing: /root/researchv2/install/urg_node/share/urg_node/launch/urg_node_launch.py
+-- Installing: /root/researchv2/install/urg_node/share/urg_node/environment/library_path.sh
+-- Installing: /root/researchv2/install/urg_node/share/urg_node/environment/library_path.dsv
+-- Installing: /root/researchv2/install/urg_node/share/ament_index/resource_index/package_run_dependencies/urg_node
+-- Installing: /root/researchv2/install/urg_node/share/ament_index/resource_index/parent_prefix_path/urg_node
+-- Installing: /root/researchv2/install/urg_node/share/urg_node/environment/ament_prefix_path.sh
+-- Installing: /root/researchv2/install/urg_node/share/urg_node/environment/ament_prefix_path.dsv
+-- Installing: /root/researchv2/install/urg_node/share/urg_node/environment/path.sh
+-- Installing: /root/researchv2/install/urg_node/share/urg_node/environment/path.dsv
+-- Installing: /root/researchv2/install/urg_node/share/urg_node/local_setup.bash
+-- Installing: /root/researchv2/install/urg_node/share/urg_node/local_setup.sh
+-- Installing: /root/researchv2/install/urg_node/share/urg_node/local_setup.zsh
+-- Installing: /root/researchv2/install/urg_node/share/urg_node/local_setup.dsv
+-- Installing: /root/researchv2/install/urg_node/share/urg_node/package.dsv
+-- Installing: /root/researchv2/install/urg_node/share/ament_index/resource_index/packages/urg_node
+-- Installing: /root/researchv2/install/urg_node/share/ament_index/resource_index/rclcpp_components/urg_node
+-- Installing: /root/researchv2/install/urg_node/share/urg_node/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /root/researchv2/install/urg_node/share/urg_node/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /root/researchv2/install/urg_node/share/urg_node/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /root/researchv2/install/urg_node/share/urg_node/cmake/urg_nodeConfig.cmake
+-- Installing: /root/researchv2/install/urg_node/share/urg_node/cmake/urg_nodeConfig-version.cmake
+-- Installing: /root/researchv2/install/urg_node/share/urg_node/package.xml

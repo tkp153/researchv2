@@ -56,6 +56,10 @@ class person_checker(Node):
         # パプリッシュ軽減処理の変数
         Publish_Checker = False
         
+        # 手を上げた人のデータ
+        data_raise_hand_translation = []
+        data_raise_hand_mater = []
+        
         
         for person in data.poses:
             
@@ -81,9 +85,6 @@ class person_checker(Node):
             L_Raise_Hand = False
             R_Raise_Hand = False
             
-            # 手を上げた人のデータ
-            data_raise_hand_translation = []
-            data_raise_hand_mater = []
             
             #一人の処理↓
             for k in keypoints:
@@ -216,13 +217,19 @@ class person_checker(Node):
         #もし前回のIDが含まれた場合優先的にパブリッシュを行う。
         if(self.save_id in data.id):
             self.pub_2.publish(self.save_pos)
-        else:
+        elif(len(data_raise_hand_translation) > 0):
             #ソート実施 -- 一番遠い手を挙げている人
-            self.pub_2.publish(data_raise_hand_translation(data_raise_hand_mater.index(max(data_raise_hand_mater))))
+            print(data_raise_hand_mater)
+            print(data_raise_hand_translation)
+            max_value = max(data_raise_hand_mater)
+            max_index = data_raise_hand_mater.index(max_value)
+            self.pub_2.publish(data_raise_hand_translation[max_index])
+            
+            #self.pub_2.publish(data_raise_hand_translation(data_raise_hand_mater.index(max(data_raise_hand_mater))))
         
             #キャッシュ生成
-            self.save_id = data.id[data_raise_hand_mater.index(max(data_raise_hand_mater))]
-            self.save_pos = Output1
+            self.save_id = data.id[max_index]
+            self.save_pos = data_raise_hand_translation[max_index]
         
         # パブリッシュ軽減処理
         if(Publish_Checker == True):    

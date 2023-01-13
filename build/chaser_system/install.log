@@ -35,10 +35,11 @@
 /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system-0.0.0-py3.8.egg-info/dependency_links.txt
 /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system-0.0.0-py3.8.egg-info/zip-safe
 /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system-0.0.0-py3.8.egg-info/top_level.txt
+/root/researchv2/install/chaser_system/lib/chaser_system/approach_navi
 /root/researchv2/install/chaser_system/lib/chaser_system/image_inputer
 /root/researchv2/install/chaser_system/lib/chaser_system/person_check
 /root/researchv2/install/chaser_system/lib/chaser_system/pose_tf2
-/root/researchv2/install/chaser_system/lib/chaser_system/raise_navi = chaser_system.raise_navi:mainapproach_navi
+/root/researchv2/install/chaser_system/lib/chaser_system/raise_navi
 /root/researchv2/install/chaser_system/lib/chaser_system/rgbd_generator
 /root/researchv2/install/chaser_system/lib/chaser_system/three_d_pose_analysis
 /root/researchv2/install/chaser_system/lib/chaser_system/xbox

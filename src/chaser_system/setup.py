@@ -34,7 +34,7 @@ setup(
             'rgbd_generator = chaser_system.rgbd_generator:main',
             'person_check = chaser_system.person_check:main',
             'xbox = chaser_system.xbox:main',
-            'raise_navi = chaser_system.raise_navi:main'
+            'raise_navi = chaser_system.raise_navi:main',
             'approach_navi = chaser_system.approach_navi:main',
         ],
     },
