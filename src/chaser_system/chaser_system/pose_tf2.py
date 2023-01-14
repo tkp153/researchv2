@@ -13,7 +13,7 @@ from mymsg.srv import Waypoints
 from functools import partial
 
 
-pre_time = time.time()
+pre_time = 0
 class pose_tf2(Node):
     def __init__(self):
         super().__init__('SateliteBroadcaster')

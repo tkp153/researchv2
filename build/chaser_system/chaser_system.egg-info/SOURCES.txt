@@ -12,6 +12,7 @@ chaser_system/__init__.py
 chaser_system/approach_navi.py
 chaser_system/image_cutter.py
 chaser_system/image_inputer.py
+chaser_system/move.py
 chaser_system/person_check.py
 chaser_system/pose_tf2.py
 chaser_system/raise_navi.py

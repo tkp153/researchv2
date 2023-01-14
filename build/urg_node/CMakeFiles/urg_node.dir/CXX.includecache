@@ -5252,20 +5252,6 @@ urg_node_msgs/msg/status.hpp
 urg_node/urg_c_wrapper.hpp
 /root/researchv2/src/urg_node/include/urg_node/urg_node/urg_c_wrapper.hpp
 
-/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp
-urg_node/urg_c_wrapper.hpp
--
-limits
--
-memory
--
-string
--
-vector
--
-boost/crc.hpp
-/root/researchv2/src/urg_node/src/boost/crc.hpp
-
 /root/researchv2/src/urg_node/src/urg_node.cpp
 urg_node/urg_node.hpp
 /root/researchv2/src/urg_node/src/urg_node/urg_node.hpp
