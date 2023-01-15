@@ -36,7 +36,9 @@ setup(
             'xbox = chaser_system.xbox:main',
             'raise_navi = chaser_system.raise_navi:main',
             'approach_navi = chaser_system.approach_navi:main',
-            'move = chaser_system.move:main',
+            'approachv2 = chaser_system.approachv2:main',
+            'approachv3 = chaser_system.approachv3:main',
+            
         ],
     },
 )
