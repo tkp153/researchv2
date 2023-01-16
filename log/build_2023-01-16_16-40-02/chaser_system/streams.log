@@ -1,0 +1,30 @@
+[1.398s] Invoking command in '/root/researchv2/src/chaser_system': AMENT_PREFIX_PATH=/root/researchv2/install/mymsg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/researchv2/install/mymsg:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/root/researchv2/install/mymsg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/researchv2/build/chaser_system/prefix_override:/root/researchv2/install/chaser_system/lib/python3.8/site-packages:/root/researchv2/install/mymsg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/chaser_system build --build-base /root/researchv2/build/chaser_system/build install --record /root/researchv2/build/chaser_system/install.log --install-scripts $base/lib/chaser_system --single-version-externally-managed
+[1.865s] running egg_info
+[1.866s] writing ../../build/chaser_system/chaser_system.egg-info/PKG-INFO
+[1.866s] writing dependency_links to ../../build/chaser_system/chaser_system.egg-info/dependency_links.txt
+[1.866s] writing entry points to ../../build/chaser_system/chaser_system.egg-info/entry_points.txt
+[1.867s] writing requirements to ../../build/chaser_system/chaser_system.egg-info/requires.txt
+[1.867s] writing top-level names to ../../build/chaser_system/chaser_system.egg-info/top_level.txt
+[1.939s] reading manifest file '../../build/chaser_system/chaser_system.egg-info/SOURCES.txt'
+[1.941s] writing manifest file '../../build/chaser_system/chaser_system.egg-info/SOURCES.txt'
+[1.941s] running build
+[1.941s] running build_py
+[1.943s] running install
+[1.944s] running install_lib
+[1.947s] running install_data
+[1.949s] running install_egg_info
+[1.955s] removing '/root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system-0.0.0-py3.8.egg-info' (and everything under it)
+[1.956s] Copying ../../build/chaser_system/chaser_system.egg-info to /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system-0.0.0-py3.8.egg-info
+[1.956s] running install_scripts
+[1.980s] Installing approach_navi script to /root/researchv2/install/chaser_system/lib/chaser_system
+[1.980s] Installing approachv2 script to /root/researchv2/install/chaser_system/lib/chaser_system
+[1.981s] Installing approachv3 script to /root/researchv2/install/chaser_system/lib/chaser_system
+[1.981s] Installing image_inputer script to /root/researchv2/install/chaser_system/lib/chaser_system
+[1.981s] Installing person_check script to /root/researchv2/install/chaser_system/lib/chaser_system
+[1.981s] Installing pose_tf2 script to /root/researchv2/install/chaser_system/lib/chaser_system
+[1.982s] Installing raise_navi script to /root/researchv2/install/chaser_system/lib/chaser_system
+[1.982s] Installing rgbd_generator script to /root/researchv2/install/chaser_system/lib/chaser_system
+[1.982s] Installing three_d_pose_analysis script to /root/researchv2/install/chaser_system/lib/chaser_system
+[1.983s] Installing xbox script to /root/researchv2/install/chaser_system/lib/chaser_system
+[1.983s] writing list of installed files to '/root/researchv2/build/chaser_system/install.log'
+[2.024s] Invoked command in '/root/researchv2/src/chaser_system' returned '0': AMENT_PREFIX_PATH=/root/researchv2/install/mymsg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/researchv2/install/mymsg:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/root/researchv2/install/mymsg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/researchv2/build/chaser_system/prefix_override:/root/researchv2/install/chaser_system/lib/python3.8/site-packages:/root/researchv2/install/mymsg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/chaser_system build --build-base /root/researchv2/build/chaser_system/build install --record /root/researchv2/build/chaser_system/install.log --install-scripts $base/lib/chaser_system --single-version-externally-managed

@@ -1,0 +1,39 @@
+[0.023s] Invoking command in '/root/researchv2/build/urg_node': AMENT_PREFIX_PATH=/root/researchv2/install/urg_node_msgs:/root/researchv2/install/urg_c:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/researchv2/install/urg_node_msgs:/root/researchv2/install/urg_c:/root/openpifpaf_ros2/install/realsense2_description:/root/openpifpaf_ros2/install/realsense2_camera:/root/openpifpaf_ros2/install/realsense2_camera_msgs:/root/openpifpaf_ros2/install/openpifpaf_ros2_msgs:/opt/ros/galactic:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node LD_LIBRARY_PATH=/root/researchv2/install/urg_node_msgs/lib:/root/researchv2/install/urg_c/lib:${LD_LIBRARY_PATH} PATH=/root/researchv2/install/urg_c/bin:${PATH} PYTHONPATH=/root/researchv2/install/urg_node_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /root/researchv2/src/urg_node -DCMAKE_INSTALL_PREFIX=/root/researchv2/install/urg_node
+[0.107s] -- The C compiler identification is GNU 9.4.0
+[0.194s] -- The CXX compiler identification is GNU 9.4.0
+[0.203s] -- Check for working C compiler: /usr/bin/cc
+[0.298s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.300s] -- Detecting C compiler ABI info
+[0.394s] -- Detecting C compiler ABI info - done
+[0.419s] -- Detecting C compile features
+[0.420s] -- Detecting C compile features - done
+[0.424s] -- Check for working CXX compiler: /usr/bin/c++
+[0.527s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.528s] -- Detecting CXX compiler ABI info
+[0.635s] -- Detecting CXX compiler ABI info - done
+[0.659s] -- Detecting CXX compile features
+[0.659s] -- Detecting CXX compile features - done
+[0.663s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.703s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.703s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.850s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  
+[0.893s] CMake Error at CMakeLists.txt:22 (find_package):
+[0.893s]   By not providing "Finddiagnostic_updater.cmake" in CMAKE_MODULE_PATH this
+[0.893s]   project has asked CMake to find a package configuration file provided by
+[0.893s]   "diagnostic_updater", but CMake did not find one.
+[0.893s] 
+[0.893s]   Could not find a package configuration file provided by
+[0.894s]   "diagnostic_updater" with any of the following names:
+[0.894s] 
+[0.894s]     diagnostic_updaterConfig.cmake
+[0.894s]     diagnostic_updater-config.cmake
+[0.894s] 
+[0.894s]   Add the installation prefix of "diagnostic_updater" to CMAKE_PREFIX_PATH or
+[0.894s]   set "diagnostic_updater_DIR" to a directory containing one of the above
+[0.894s]   files.  If "diagnostic_updater" provides a separate development package or
+[0.895s]   SDK, be sure it has been installed.
+[0.895s] 
+[0.895s] 
+[0.895s] -- Configuring incomplete, errors occurred!
+[0.895s] See also "/root/researchv2/build/urg_node/CMakeFiles/CMakeOutput.log".
+[0.899s] Invoked command in '/root/researchv2/build/urg_node' returned '1': AMENT_PREFIX_PATH=/root/researchv2/install/urg_node_msgs:/root/researchv2/install/urg_c:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/researchv2/install/urg_node_msgs:/root/researchv2/install/urg_c:/root/openpifpaf_ros2/install/realsense2_description:/root/openpifpaf_ros2/install/realsense2_camera:/root/openpifpaf_ros2/install/realsense2_camera_msgs:/root/openpifpaf_ros2/install/openpifpaf_ros2_msgs:/opt/ros/galactic:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node LD_LIBRARY_PATH=/root/researchv2/install/urg_node_msgs/lib:/root/researchv2/install/urg_c/lib:${LD_LIBRARY_PATH} PATH=/root/researchv2/install/urg_c/bin:${PATH} PYTHONPATH=/root/researchv2/install/urg_node_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /root/researchv2/src/urg_node -DCMAKE_INSTALL_PREFIX=/root/researchv2/install/urg_node

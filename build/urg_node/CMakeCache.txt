@@ -395,7 +395,7 @@ console_bridge_DIR:PATH=/opt/ros/galactic/lib/x86_64-linux-gnu/console_bridge/cm
 diagnostic_msgs_DIR:PATH=/opt/ros/galactic/share/diagnostic_msgs/cmake
 
 //The directory containing a CMake configuration file for diagnostic_updater.
-diagnostic_updater_DIR:PATH=/opt/ros/galactic/share/diagnostic_updater/cmake
+diagnostic_updater_DIR:PATH=/root/researchv2/install/diagnostic_updater/share/diagnostic_updater/cmake
 
 //The directory containing a CMake configuration file for fastcdr.
 fastcdr_DIR:PATH=/opt/ros/galactic/lib/cmake/fastcdr

@@ -19,6 +19,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/root/researchv2/src/urg_node/include"
   "/root/researchv2/install/urg_c/include"
   "/root/researchv2/install/laser_proc/include"
+  "/root/researchv2/install/diagnostic_updater/include"
   "/opt/ros/galactic/include"
   "/root/researchv2/install/urg_node_msgs/include"
   )

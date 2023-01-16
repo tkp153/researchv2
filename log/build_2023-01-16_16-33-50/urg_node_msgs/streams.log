@@ -1,0 +1,217 @@
+[0.039s] Invoking command in '/root/researchv2/build/urg_node_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node /usr/bin/cmake /root/researchv2/src/urg_node_msgs -DCMAKE_INSTALL_PREFIX=/root/researchv2/install/urg_node_msgs
+[0.116s] -- The C compiler identification is GNU 9.4.0
+[0.202s] -- The CXX compiler identification is GNU 9.4.0
+[0.210s] -- Check for working C compiler: /usr/bin/cc
+[0.301s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.302s] -- Detecting C compiler ABI info
+[0.396s] -- Detecting C compiler ABI info - done
+[0.419s] -- Detecting C compile features
+[0.419s] -- Detecting C compile features - done
+[0.424s] -- Check for working CXX compiler: /usr/bin/c++
+[0.531s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.533s] -- Detecting CXX compiler ABI info
+[0.644s] -- Detecting CXX compiler ABI info - done
+[0.667s] -- Detecting CXX compile features
+[0.669s] -- Detecting CXX compile features - done
+[0.672s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.715s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.715s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.854s] -- Found builtin_interfaces: 1.0.3 (/opt/ros/galactic/share/builtin_interfaces/cmake)
+[0.905s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.915s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.068s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.151s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.338s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.395s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[1.420s] -- Found std_msgs: 2.2.4 (/opt/ros/galactic/share/std_msgs/cmake)
+[1.499s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.819s] -- Found ament_cmake_cppcheck: 0.10.7 (/opt/ros/galactic/share/ament_cmake_cppcheck/cmake)
+[1.823s] -- Found ament_cmake_cpplint: 0.10.7 (/opt/ros/galactic/share/ament_cmake_cpplint/cmake)
+[1.827s] -- Found ament_cmake_uncrustify: 0.10.7 (/opt/ros/galactic/share/ament_cmake_uncrustify/cmake)
+[1.831s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+[2.381s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.534s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.583s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[2.586s] -- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+[2.636s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[2.636s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.636s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[2.636s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[2.676s] -- Found PythonExtra: .so  
+[2.800s] -- Found ament_cmake_flake8: 0.10.7 (/opt/ros/galactic/share/ament_cmake_flake8/cmake)
+[2.803s] -- Found ament_cmake_pep257: 0.10.7 (/opt/ros/galactic/share/ament_cmake_pep257/cmake)
+[2.823s] -- Configuring done
+[2.918s] -- Generating done
+[2.923s] -- Build files have been written to: /root/researchv2/build/urg_node_msgs
+[2.932s] Invoked command in '/root/researchv2/build/urg_node_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node /usr/bin/cmake /root/researchv2/src/urg_node_msgs -DCMAKE_INSTALL_PREFIX=/root/researchv2/install/urg_node_msgs
+[2.935s] Invoking command in '/root/researchv2/build/urg_node_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node /usr/bin/cmake --build /root/researchv2/build/urg_node_msgs -- -j12 -l12
+[2.986s] [35m[1mScanning dependencies of target urg_node_msgs__cpp[0m
+[2.987s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.001s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.528s] [  6%] Built target urg_node_msgs__cpp
+[3.544s] [  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.545s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.545s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.553s] [35m[1mScanning dependencies of target urg_node_msgs__rosidl_generator_c[0m
+[3.569s] [ 19%] [32mBuilding C object CMakeFiles/urg_node_msgs__rosidl_generator_c.dir/rosidl_generator_c/urg_node_msgs/msg/detail/status__functions.c.o[0m
+[3.638s] [ 22%] [32m[1mLinking C shared library liburg_node_msgs__rosidl_generator_c.so[0m
+[3.694s] [ 22%] Built target urg_node_msgs__rosidl_generator_c
+[3.711s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.712s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.066s] [35m[1mScanning dependencies of target urg_node_msgs__rosidl_typesupport_cpp[0m
+[4.082s] [ 32%] [32mBuilding CXX object CMakeFiles/urg_node_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/urg_node_msgs/msg/status__type_support.cpp.o[0m
+[4.083s] [35m[1mScanning dependencies of target urg_node_msgs__rosidl_typesupport_introspection_cpp[0m
+[4.101s] [ 35%] [32mBuilding CXX object CMakeFiles/urg_node_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/urg_node_msgs/msg/detail/status__type_support.cpp.o[0m
+[4.126s] [35m[1mScanning dependencies of target urg_node_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[4.150s] [ 38%] [32mBuilding CXX object CMakeFiles/urg_node_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/urg_node_msgs/msg/detail/dds_fastrtps/status__type_support.cpp.o[0m
+[4.247s] [35m[1mScanning dependencies of target urg_node_msgs__rosidl_typesupport_introspection_c[0m
+[4.247s] [35m[1mScanning dependencies of target urg_node_msgs__rosidl_typesupport_c[0m
+[4.264s] [ 41%] [32mBuilding CXX object CMakeFiles/urg_node_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/urg_node_msgs/msg/status__type_support.cpp.o[0m
+[4.264s] [ 45%] [32mBuilding C object CMakeFiles/urg_node_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/urg_node_msgs/msg/detail/status__type_support.c.o[0m
+[4.312s] [ 48%] [32m[1mLinking CXX shared library liburg_node_msgs__rosidl_typesupport_c.so[0m
+[4.315s] [ 51%] [32m[1mLinking C shared library liburg_node_msgs__rosidl_typesupport_introspection_c.so[0m
+[4.361s] [ 51%] Built target urg_node_msgs__rosidl_typesupport_introspection_c
+[4.374s] [ 51%] Built target urg_node_msgs__rosidl_typesupport_c
+[4.506s] [ 54%] [32m[1mLinking CXX shared library liburg_node_msgs__rosidl_typesupport_cpp.so[0m
+[4.521s] [ 58%] [32m[1mLinking CXX shared library liburg_node_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[4.565s] [ 58%] Built target urg_node_msgs__rosidl_typesupport_cpp
+[4.580s] [ 58%] Built target urg_node_msgs__rosidl_typesupport_introspection_cpp
+[4.702s] [ 61%] [32m[1mLinking CXX shared library liburg_node_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.819s] [ 61%] Built target urg_node_msgs__rosidl_typesupport_fastrtps_cpp
+[4.831s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.227s] [35m[1mScanning dependencies of target urg_node_msgs__rosidl_typesupport_fastrtps_c[0m
+[5.245s] [ 67%] [32mBuilding CXX object CMakeFiles/urg_node_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/urg_node_msgs/msg/detail/status__type_support_c.cpp.o[0m
+[5.632s] [ 70%] [32m[1mLinking CXX shared library liburg_node_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[5.748s] [ 70%] Built target urg_node_msgs__rosidl_typesupport_fastrtps_c
+[5.760s] [35m[1mScanning dependencies of target urg_node_msgs[0m
+[5.773s] [ 70%] Built target urg_node_msgs
+[5.785s] [35m[1mScanning dependencies of target urg_node_msgs__py[0m
+[5.799s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.311s] [ 74%] Built target urg_node_msgs__py
+[6.322s] [35m[1mScanning dependencies of target urg_node_msgs__python[0m
+[6.348s] [ 77%] [32mBuilding C object CMakeFiles/urg_node_msgs__python.dir/rosidl_generator_py/urg_node_msgs/msg/_status_s.c.o[0m
+[6.451s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/urg_node_msgs/liburg_node_msgs__python.so[0m
+[6.507s] [ 80%] Built target urg_node_msgs__python
+[6.518s] [35m[1mScanning dependencies of target urg_node_msgs__rosidl_typesupport_c__pyext[0m
+[6.519s] [35m[1mScanning dependencies of target urg_node_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[6.519s] [35m[1mScanning dependencies of target urg_node_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[6.546s] [ 83%] [32mBuilding C object CMakeFiles/urg_node_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/urg_node_msgs/_urg_node_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[6.546s] [ 87%] [32mBuilding C object CMakeFiles/urg_node_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/urg_node_msgs/_urg_node_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.549s] [ 90%] [32mBuilding C object CMakeFiles/urg_node_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/urg_node_msgs/_urg_node_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.664s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/urg_node_msgs/urg_node_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[6.670s] [ 96%] [32m[1mLinking CXX shared library rosidl_generator_py/urg_node_msgs/urg_node_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[6.672s] [100%] [32m[1mLinking C shared library rosidl_generator_py/urg_node_msgs/urg_node_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[6.715s] [100%] Built target urg_node_msgs__rosidl_typesupport_introspection_c__pyext
+[6.726s] [100%] Built target urg_node_msgs__rosidl_typesupport_c__pyext
+[6.761s] [100%] Built target urg_node_msgs__rosidl_typesupport_fastrtps_c__pyext
+[6.775s] Invoked command in '/root/researchv2/build/urg_node_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node /usr/bin/cmake --build /root/researchv2/build/urg_node_msgs -- -j12 -l12
+[6.844s] Invoking command in '/root/researchv2/build/urg_node_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node /usr/bin/cmake --install /root/researchv2/build/urg_node_msgs
+[6.855s] -- Install configuration: ""
+[6.855s] -- Installing: /root/researchv2/install/urg_node_msgs/share/ament_index/resource_index/rosidl_interfaces/urg_node_msgs
+[6.856s] -- Installing: /root/researchv2/install/urg_node_msgs/include/urg_node_msgs
+[6.856s] -- Installing: /root/researchv2/install/urg_node_msgs/include/urg_node_msgs/msg
+[6.856s] -- Installing: /root/researchv2/install/urg_node_msgs/include/urg_node_msgs/msg/status.h
+[6.856s] -- Installing: /root/researchv2/install/urg_node_msgs/include/urg_node_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.856s] -- Installing: /root/researchv2/install/urg_node_msgs/include/urg_node_msgs/msg/detail
+[6.857s] -- Installing: /root/researchv2/install/urg_node_msgs/include/urg_node_msgs/msg/detail/status__struct.h
+[6.857s] -- Installing: /root/researchv2/install/urg_node_msgs/include/urg_node_msgs/msg/detail/status__type_support.h
+[6.857s] -- Installing: /root/researchv2/install/urg_node_msgs/include/urg_node_msgs/msg/detail/status__functions.h
+[6.857s] -- Installing: /root/researchv2/install/urg_node_msgs/include/urg_node_msgs/msg/detail/status__functions.c
+[6.857s] -- Installing: /root/researchv2/install/urg_node_msgs/share/urg_node_msgs/environment/library_path.sh
+[6.858s] -- Installing: /root/researchv2/install/urg_node_msgs/share/urg_node_msgs/environment/library_path.dsv
+[6.858s] -- Installing: /root/researchv2/install/urg_node_msgs/lib/liburg_node_msgs__rosidl_generator_c.so
+[6.859s] -- Set runtime path of "/root/researchv2/install/urg_node_msgs/lib/liburg_node_msgs__rosidl_generator_c.so" to ""
+[6.859s] -- Up-to-date: /root/researchv2/install/urg_node_msgs/include/urg_node_msgs
+[6.859s] -- Up-to-date: /root/researchv2/install/urg_node_msgs/include/urg_node_msgs/msg
+[6.859s] -- Installing: /root/researchv2/install/urg_node_msgs/include/urg_node_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.859s] -- Up-to-date: /root/researchv2/install/urg_node_msgs/include/urg_node_msgs/msg/detail
+[6.859s] -- Installing: /root/researchv2/install/urg_node_msgs/include/urg_node_msgs/msg/detail/status__rosidl_typesupport_fastrtps_c.h
+[6.860s] -- Installing: /root/researchv2/install/urg_node_msgs/lib/liburg_node_msgs__rosidl_typesupport_fastrtps_c.so
+[6.861s] -- Set runtime path of "/root/researchv2/install/urg_node_msgs/lib/liburg_node_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[6.861s] -- Up-to-date: /root/researchv2/install/urg_node_msgs/include/urg_node_msgs
+[6.861s] -- Up-to-date: /root/researchv2/install/urg_node_msgs/include/urg_node_msgs/msg
+[6.861s] -- Up-to-date: /root/researchv2/install/urg_node_msgs/include/urg_node_msgs/msg/detail
+[6.861s] -- Installing: /root/researchv2/install/urg_node_msgs/include/urg_node_msgs/msg/detail/dds_fastrtps
+[6.861s] -- Installing: /root/researchv2/install/urg_node_msgs/include/urg_node_msgs/msg/detail/status__rosidl_typesupport_fastrtps_cpp.hpp
+[6.862s] -- Installing: /root/researchv2/install/urg_node_msgs/include/urg_node_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.862s] -- Installing: /root/researchv2/install/urg_node_msgs/lib/liburg_node_msgs__rosidl_typesupport_fastrtps_cpp.so
+[6.862s] -- Set runtime path of "/root/researchv2/install/urg_node_msgs/lib/liburg_node_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.862s] -- Up-to-date: /root/researchv2/install/urg_node_msgs/include/urg_node_msgs
+[6.862s] -- Up-to-date: /root/researchv2/install/urg_node_msgs/include/urg_node_msgs/msg
+[6.863s] -- Installing: /root/researchv2/install/urg_node_msgs/include/urg_node_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.863s] -- Up-to-date: /root/researchv2/install/urg_node_msgs/include/urg_node_msgs/msg/detail
+[6.863s] -- Installing: /root/researchv2/install/urg_node_msgs/include/urg_node_msgs/msg/detail/status__rosidl_typesupport_introspection_c.h
+[6.863s] -- Installing: /root/researchv2/install/urg_node_msgs/include/urg_node_msgs/msg/detail/status__type_support.c
+[6.863s] -- Installing: /root/researchv2/install/urg_node_msgs/lib/liburg_node_msgs__rosidl_typesupport_introspection_c.so
+[6.864s] -- Set runtime path of "/root/researchv2/install/urg_node_msgs/lib/liburg_node_msgs__rosidl_typesupport_introspection_c.so" to ""
+[6.864s] -- Installing: /root/researchv2/install/urg_node_msgs/lib/liburg_node_msgs__rosidl_typesupport_c.so
+[6.865s] -- Set runtime path of "/root/researchv2/install/urg_node_msgs/lib/liburg_node_msgs__rosidl_typesupport_c.so" to ""
+[6.865s] -- Up-to-date: /root/researchv2/install/urg_node_msgs/include/urg_node_msgs
+[6.865s] -- Up-to-date: /root/researchv2/install/urg_node_msgs/include/urg_node_msgs/msg
+[6.865s] -- Installing: /root/researchv2/install/urg_node_msgs/include/urg_node_msgs/msg/status.hpp
+[6.865s] -- Up-to-date: /root/researchv2/install/urg_node_msgs/include/urg_node_msgs/msg/detail
+[6.866s] -- Installing: /root/researchv2/install/urg_node_msgs/include/urg_node_msgs/msg/detail/status__builder.hpp
+[6.866s] -- Installing: /root/researchv2/install/urg_node_msgs/include/urg_node_msgs/msg/detail/status__traits.hpp
+[6.866s] -- Installing: /root/researchv2/install/urg_node_msgs/include/urg_node_msgs/msg/detail/status__struct.hpp
+[6.866s] -- Up-to-date: /root/researchv2/install/urg_node_msgs/include/urg_node_msgs
+[6.866s] -- Up-to-date: /root/researchv2/install/urg_node_msgs/include/urg_node_msgs/msg
+[6.866s] -- Up-to-date: /root/researchv2/install/urg_node_msgs/include/urg_node_msgs/msg/detail
+[6.867s] -- Installing: /root/researchv2/install/urg_node_msgs/include/urg_node_msgs/msg/detail/status__type_support.cpp
+[6.867s] -- Installing: /root/researchv2/install/urg_node_msgs/include/urg_node_msgs/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp
+[6.867s] -- Installing: /root/researchv2/install/urg_node_msgs/lib/liburg_node_msgs__rosidl_typesupport_introspection_cpp.so
+[6.867s] -- Set runtime path of "/root/researchv2/install/urg_node_msgs/lib/liburg_node_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[6.868s] -- Installing: /root/researchv2/install/urg_node_msgs/lib/liburg_node_msgs__rosidl_typesupport_cpp.so
+[6.868s] -- Set runtime path of "/root/researchv2/install/urg_node_msgs/lib/liburg_node_msgs__rosidl_typesupport_cpp.so" to ""
+[6.868s] -- Installing: /root/researchv2/install/urg_node_msgs/share/urg_node_msgs/environment/pythonpath.sh
+[6.869s] -- Installing: /root/researchv2/install/urg_node_msgs/share/urg_node_msgs/environment/pythonpath.dsv
+[6.869s] -- Installing: /root/researchv2/install/urg_node_msgs/lib/python3.8/site-packages/urg_node_msgs/__init__.py
+[6.912s] Compiling '/root/researchv2/install/urg_node_msgs/lib/python3.8/site-packages/urg_node_msgs/__init__.py'...
+[6.918s] -- Installing: /root/researchv2/install/urg_node_msgs/lib/python3.8/site-packages/urg_node_msgs/msg
+[6.918s] -- Installing: /root/researchv2/install/urg_node_msgs/lib/python3.8/site-packages/urg_node_msgs/msg/_status.py
+[6.918s] -- Installing: /root/researchv2/install/urg_node_msgs/lib/python3.8/site-packages/urg_node_msgs/msg/_status_s.c
+[6.918s] -- Installing: /root/researchv2/install/urg_node_msgs/lib/python3.8/site-packages/urg_node_msgs/msg/__init__.py
+[6.919s] -- Installing: /root/researchv2/install/urg_node_msgs/lib/python3.8/site-packages/urg_node_msgs/urg_node_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[6.920s] -- Set runtime path of "/root/researchv2/install/urg_node_msgs/lib/python3.8/site-packages/urg_node_msgs/urg_node_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[6.920s] -- Installing: /root/researchv2/install/urg_node_msgs/lib/python3.8/site-packages/urg_node_msgs/urg_node_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[6.921s] -- Set runtime path of "/root/researchv2/install/urg_node_msgs/lib/python3.8/site-packages/urg_node_msgs/urg_node_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[6.921s] -- Installing: /root/researchv2/install/urg_node_msgs/lib/python3.8/site-packages/urg_node_msgs/urg_node_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[6.922s] -- Set runtime path of "/root/researchv2/install/urg_node_msgs/lib/python3.8/site-packages/urg_node_msgs/urg_node_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[6.922s] -- Installing: /root/researchv2/install/urg_node_msgs/lib/liburg_node_msgs__python.so
+[6.923s] -- Set runtime path of "/root/researchv2/install/urg_node_msgs/lib/liburg_node_msgs__python.so" to ""
+[6.923s] -- Installing: /root/researchv2/install/urg_node_msgs/share/urg_node_msgs/msg/Status.idl
+[6.923s] -- Installing: /root/researchv2/install/urg_node_msgs/share/urg_node_msgs/msg/Status.msg
+[6.924s] -- Installing: /root/researchv2/install/urg_node_msgs/share/urg_node_msgs/mapping_rules.yaml
+[6.924s] -- Installing: /root/researchv2/install/urg_node_msgs/share/ament_index/resource_index/package_run_dependencies/urg_node_msgs
+[6.924s] -- Installing: /root/researchv2/install/urg_node_msgs/share/ament_index/resource_index/parent_prefix_path/urg_node_msgs
+[6.924s] -- Installing: /root/researchv2/install/urg_node_msgs/share/urg_node_msgs/environment/ament_prefix_path.sh
+[6.925s] -- Installing: /root/researchv2/install/urg_node_msgs/share/urg_node_msgs/environment/ament_prefix_path.dsv
+[6.925s] -- Installing: /root/researchv2/install/urg_node_msgs/share/urg_node_msgs/environment/path.sh
+[6.925s] -- Installing: /root/researchv2/install/urg_node_msgs/share/urg_node_msgs/environment/path.dsv
+[6.925s] -- Installing: /root/researchv2/install/urg_node_msgs/share/urg_node_msgs/local_setup.bash
+[6.926s] -- Installing: /root/researchv2/install/urg_node_msgs/share/urg_node_msgs/local_setup.sh
+[6.926s] -- Installing: /root/researchv2/install/urg_node_msgs/share/urg_node_msgs/local_setup.zsh
+[6.926s] -- Installing: /root/researchv2/install/urg_node_msgs/share/urg_node_msgs/local_setup.dsv
+[6.926s] -- Installing: /root/researchv2/install/urg_node_msgs/share/urg_node_msgs/package.dsv
+[6.926s] -- Installing: /root/researchv2/install/urg_node_msgs/share/ament_index/resource_index/packages/urg_node_msgs
+[6.927s] -- Installing: /root/researchv2/install/urg_node_msgs/share/urg_node_msgs/cmake/urg_node_msgs__rosidl_generator_cExport.cmake
+[6.927s] -- Installing: /root/researchv2/install/urg_node_msgs/share/urg_node_msgs/cmake/urg_node_msgs__rosidl_generator_cExport-noconfig.cmake
+[6.927s] -- Installing: /root/researchv2/install/urg_node_msgs/share/urg_node_msgs/cmake/urg_node_msgs__rosidl_typesupport_introspection_cExport.cmake
+[6.928s] -- Installing: /root/researchv2/install/urg_node_msgs/share/urg_node_msgs/cmake/urg_node_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.928s] -- Installing: /root/researchv2/install/urg_node_msgs/share/urg_node_msgs/cmake/urg_node_msgs__rosidl_typesupport_cExport.cmake
+[6.928s] -- Installing: /root/researchv2/install/urg_node_msgs/share/urg_node_msgs/cmake/urg_node_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[6.928s] -- Installing: /root/researchv2/install/urg_node_msgs/share/urg_node_msgs/cmake/urg_node_msgs__rosidl_generator_cppExport.cmake
+[6.929s] -- Installing: /root/researchv2/install/urg_node_msgs/share/urg_node_msgs/cmake/urg_node_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[6.929s] -- Installing: /root/researchv2/install/urg_node_msgs/share/urg_node_msgs/cmake/urg_node_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.929s] -- Installing: /root/researchv2/install/urg_node_msgs/share/urg_node_msgs/cmake/urg_node_msgs__rosidl_typesupport_cppExport.cmake
+[6.929s] -- Installing: /root/researchv2/install/urg_node_msgs/share/urg_node_msgs/cmake/urg_node_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[6.930s] -- Installing: /root/researchv2/install/urg_node_msgs/share/urg_node_msgs/cmake/rosidl_cmake-extras.cmake
+[6.930s] -- Installing: /root/researchv2/install/urg_node_msgs/share/urg_node_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.930s] -- Installing: /root/researchv2/install/urg_node_msgs/share/urg_node_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.930s] -- Installing: /root/researchv2/install/urg_node_msgs/share/urg_node_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[6.930s] -- Installing: /root/researchv2/install/urg_node_msgs/share/urg_node_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.931s] -- Installing: /root/researchv2/install/urg_node_msgs/share/urg_node_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.931s] -- Installing: /root/researchv2/install/urg_node_msgs/share/urg_node_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.931s] -- Installing: /root/researchv2/install/urg_node_msgs/share/urg_node_msgs/cmake/urg_node_msgsConfig.cmake
+[6.931s] -- Installing: /root/researchv2/install/urg_node_msgs/share/urg_node_msgs/cmake/urg_node_msgsConfig-version.cmake
+[6.932s] -- Installing: /root/researchv2/install/urg_node_msgs/share/urg_node_msgs/package.xml
+[6.938s] Invoked command in '/root/researchv2/build/urg_node_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node /usr/bin/cmake --install /root/researchv2/build/urg_node_msgs

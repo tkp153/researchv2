@@ -360,10 +360,6 @@ CMakeFiles/urg_node.dir/src/urg_node.cpp.o: /opt/ros/galactic/include/diagnostic
 CMakeFiles/urg_node.dir/src/urg_node.cpp.o: /opt/ros/galactic/include/diagnostic_msgs/msg/detail/key_value__traits.hpp
 CMakeFiles/urg_node.dir/src/urg_node.cpp.o: /opt/ros/galactic/include/diagnostic_msgs/msg/diagnostic_array.hpp
 CMakeFiles/urg_node.dir/src/urg_node.cpp.o: /opt/ros/galactic/include/diagnostic_msgs/msg/diagnostic_status.hpp
-CMakeFiles/urg_node.dir/src/urg_node.cpp.o: /opt/ros/galactic/include/diagnostic_updater/diagnostic_status_wrapper.hpp
-CMakeFiles/urg_node.dir/src/urg_node.cpp.o: /opt/ros/galactic/include/diagnostic_updater/diagnostic_updater.hpp
-CMakeFiles/urg_node.dir/src/urg_node.cpp.o: /opt/ros/galactic/include/diagnostic_updater/publisher.hpp
-CMakeFiles/urg_node.dir/src/urg_node.cpp.o: /opt/ros/galactic/include/diagnostic_updater/update_functions.hpp
 CMakeFiles/urg_node.dir/src/urg_node.cpp.o: /opt/ros/galactic/include/libstatistics_collector/collector/collector.hpp
 CMakeFiles/urg_node.dir/src/urg_node.cpp.o: /opt/ros/galactic/include/libstatistics_collector/collector/generate_statistics_message.hpp
 CMakeFiles/urg_node.dir/src/urg_node.cpp.o: /opt/ros/galactic/include/libstatistics_collector/collector/metric_details_interface.hpp
@@ -686,6 +682,10 @@ CMakeFiles/urg_node.dir/src/urg_node.cpp.o: /opt/ros/galactic/include/tracetools
 CMakeFiles/urg_node.dir/src/urg_node.cpp.o: /opt/ros/galactic/include/tracetools/tracetools.h
 CMakeFiles/urg_node.dir/src/urg_node.cpp.o: /opt/ros/galactic/include/tracetools/utils.hpp
 CMakeFiles/urg_node.dir/src/urg_node.cpp.o: /opt/ros/galactic/include/tracetools/visibility_control.hpp
+CMakeFiles/urg_node.dir/src/urg_node.cpp.o: /root/researchv2/install/diagnostic_updater/include/diagnostic_updater/diagnostic_status_wrapper.hpp
+CMakeFiles/urg_node.dir/src/urg_node.cpp.o: /root/researchv2/install/diagnostic_updater/include/diagnostic_updater/diagnostic_updater.hpp
+CMakeFiles/urg_node.dir/src/urg_node.cpp.o: /root/researchv2/install/diagnostic_updater/include/diagnostic_updater/publisher.hpp
+CMakeFiles/urg_node.dir/src/urg_node.cpp.o: /root/researchv2/install/diagnostic_updater/include/diagnostic_updater/update_functions.hpp
 CMakeFiles/urg_node.dir/src/urg_node.cpp.o: /root/researchv2/install/laser_proc/include/laser_proc/laser_publisher.hpp
 CMakeFiles/urg_node.dir/src/urg_node.cpp.o: /root/researchv2/install/laser_proc/include/laser_proc/visibility_control.hpp
 CMakeFiles/urg_node.dir/src/urg_node.cpp.o: /root/researchv2/install/urg_c/include/urg_c/urg_connection.h

@@ -1,0 +1,137 @@
+[0.077s] Invoking command in '/root/researchv2/build/diagnostic_updater': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node /usr/bin/cmake /root/researchv2/src/diagnostics/diagnostic_updater -DCMAKE_INSTALL_PREFIX=/root/researchv2/install/diagnostic_updater
+[0.176s] -- The C compiler identification is GNU 9.4.0
+[0.316s] -- The CXX compiler identification is GNU 9.4.0
+[0.327s] -- Check for working C compiler: /usr/bin/cc
+[0.433s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.435s] -- Detecting C compiler ABI info
+[0.548s] -- Detecting C compiler ABI info - done
+[0.574s] -- Detecting C compile features
+[0.574s] -- Detecting C compile features - done
+[0.577s] -- Check for working CXX compiler: /usr/bin/c++
+[0.701s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.702s] -- Detecting CXX compiler ABI info
+[0.827s] -- Detecting CXX compiler ABI info - done
+[0.859s] -- Detecting CXX compile features
+[0.859s] -- Detecting CXX compile features - done
+[0.859s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.905s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.906s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.060s] -- Found diagnostic_msgs: 2.2.4 (/opt/ros/galactic/share/diagnostic_msgs/cmake)
+[1.125s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.141s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.311s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.394s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.588s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.755s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[1.862s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.869s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.912s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.914s] -- Looking for pthread.h
+[2.016s] -- Looking for pthread.h - found
+[2.016s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.129s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.130s] -- Looking for pthread_create in pthreads
+[2.222s] -- Looking for pthread_create in pthreads - not found
+[2.222s] -- Looking for pthread_create in pthread
+[2.322s] -- Looking for pthread_create in pthread - found
+[2.324s] -- Found Threads: TRUE  
+[2.577s] -- Found rclpy: 1.9.3 (/opt/ros/galactic/share/rclpy/cmake)
+[2.581s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[2.807s] -- Found gtest sources under '/opt/ros/galactic/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.811s] -- Check if compiler accepts -pthread
+[2.927s] -- Check if compiler accepts -pthread - yes
+[4.908s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.909s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/root/researchv2/src/diagnostics/diagnostic_updater/include>
+[4.909s] -- Configured cppcheck exclude dirs and/or files: 
+[4.912s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.912s] -- Configured cpplint exclude dirs and/or files: 
+[4.913s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.915s] -- Added test 'lint_cmake' to check CMake code style
+[4.916s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[4.919s] -- Added test 'uncrustify' to check C / C++ code style
+[4.919s] -- Configured uncrustify additional arguments: 
+[4.920s] -- Added test 'xmllint' to check XML markup files
+[4.929s] -- Configuring done
+[4.962s] -- Generating done
+[4.967s] -- Build files have been written to: /root/researchv2/build/diagnostic_updater
+[4.980s] Invoked command in '/root/researchv2/build/diagnostic_updater' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node /usr/bin/cmake /root/researchv2/src/diagnostics/diagnostic_updater -DCMAKE_INSTALL_PREFIX=/root/researchv2/install/diagnostic_updater
+[4.984s] Invoking command in '/root/researchv2/build/diagnostic_updater': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node /usr/bin/cmake --build /root/researchv2/build/diagnostic_updater -- -j12 -l12
+[5.045s] [35m[1mScanning dependencies of target ament_cmake_python_copy_diagnostic_updater[0m
+[5.045s] [35m[1mScanning dependencies of target gtest[0m
+[5.049s] [35m[1mScanning dependencies of target gtest_main[0m
+[5.049s] [35m[1mScanning dependencies of target example[0m
+[5.079s] [ 12%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[5.079s] [ 12%] Built target ament_cmake_python_copy_diagnostic_updater
+[5.084s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[5.098s] [35m[1mScanning dependencies of target ament_cmake_python_build_diagnostic_updater_egg[0m
+[5.188s] [ 37%] [32mBuilding CXX object CMakeFiles/example.dir/src/example.cpp.o[0m
+[5.505s] running egg_info
+[5.506s] creating diagnostic_updater.egg-info
+[5.506s] writing diagnostic_updater.egg-info/PKG-INFO
+[5.506s] writing dependency_links to diagnostic_updater.egg-info/dependency_links.txt
+[5.507s] writing top-level names to diagnostic_updater.egg-info/top_level.txt
+[5.508s] writing manifest file 'diagnostic_updater.egg-info/SOURCES.txt'
+[5.552s] reading manifest file 'diagnostic_updater.egg-info/SOURCES.txt'
+[5.553s] writing manifest file 'diagnostic_updater.egg-info/SOURCES.txt'
+[5.588s] [ 37%] Built target ament_cmake_python_build_diagnostic_updater_egg
+[6.359s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[6.411s] [ 50%] Built target gtest_main
+[9.837s] [ 62%] [32m[1mLinking CXX static library libgtest.a[0m
+[9.933s] [ 62%] Built target gtest
+[9.949s] [35m[1mScanning dependencies of target diagnostic_updater_test[0m
+[10.077s] [ 75%] [32mBuilding CXX object CMakeFiles/diagnostic_updater_test.dir/test/diagnostic_updater_test.cpp.o[0m
+[12.899s] [ 87%] [32m[1mLinking CXX executable example[0m
+[13.285s] [ 87%] Built target example
+[17.867s] [100%] [32m[1mLinking CXX executable diagnostic_updater_test[0m
+[18.394s] [100%] Built target diagnostic_updater_test
+[18.412s] Invoked command in '/root/researchv2/build/diagnostic_updater' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node /usr/bin/cmake --build /root/researchv2/build/diagnostic_updater -- -j12 -l12
+[18.464s] Invoking command in '/root/researchv2/build/diagnostic_updater': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node /usr/bin/cmake --install /root/researchv2/build/diagnostic_updater
+[18.480s] -- Install configuration: ""
+[18.481s] -- Installing: /root/researchv2/install/diagnostic_updater/share/diagnostic_updater/environment/pythonpath.sh
+[18.481s] -- Installing: /root/researchv2/install/diagnostic_updater/share/diagnostic_updater/environment/pythonpath.dsv
+[18.481s] -- Installing: /root/researchv2/install/diagnostic_updater/lib/python3.8/site-packages//diagnostic_updater.egg-info
+[18.482s] -- Installing: /root/researchv2/install/diagnostic_updater/lib/python3.8/site-packages//diagnostic_updater.egg-info/PKG-INFO
+[18.482s] -- Installing: /root/researchv2/install/diagnostic_updater/lib/python3.8/site-packages//diagnostic_updater.egg-info/top_level.txt
+[18.482s] -- Installing: /root/researchv2/install/diagnostic_updater/lib/python3.8/site-packages//diagnostic_updater.egg-info/SOURCES.txt
+[18.483s] -- Installing: /root/researchv2/install/diagnostic_updater/lib/python3.8/site-packages//diagnostic_updater.egg-info/dependency_links.txt
+[18.483s] -- Installing: /root/researchv2/install/diagnostic_updater/lib/python3.8/site-packages/diagnostic_updater
+[18.483s] -- Installing: /root/researchv2/install/diagnostic_updater/lib/python3.8/site-packages/diagnostic_updater/_update_functions.py
+[18.484s] -- Installing: /root/researchv2/install/diagnostic_updater/lib/python3.8/site-packages/diagnostic_updater/_diagnostic_status_wrapper.py
+[18.484s] -- Installing: /root/researchv2/install/diagnostic_updater/lib/python3.8/site-packages/diagnostic_updater/_publisher.py
+[18.484s] -- Installing: /root/researchv2/install/diagnostic_updater/lib/python3.8/site-packages/diagnostic_updater/example.py
+[18.484s] -- Installing: /root/researchv2/install/diagnostic_updater/lib/python3.8/site-packages/diagnostic_updater/_diagnostic_updater.py
+[18.485s] -- Installing: /root/researchv2/install/diagnostic_updater/lib/python3.8/site-packages/diagnostic_updater/__init__.py
+[18.562s] Listing '/root/researchv2/install/diagnostic_updater/lib/python3.8/site-packages/diagnostic_updater'...
+[18.563s] Compiling '/root/researchv2/install/diagnostic_updater/lib/python3.8/site-packages/diagnostic_updater/__init__.py'...
+[18.563s] Compiling '/root/researchv2/install/diagnostic_updater/lib/python3.8/site-packages/diagnostic_updater/_diagnostic_status_wrapper.py'...
+[18.563s] Compiling '/root/researchv2/install/diagnostic_updater/lib/python3.8/site-packages/diagnostic_updater/_diagnostic_updater.py'...
+[18.563s] Compiling '/root/researchv2/install/diagnostic_updater/lib/python3.8/site-packages/diagnostic_updater/_publisher.py'...
+[18.563s] Compiling '/root/researchv2/install/diagnostic_updater/lib/python3.8/site-packages/diagnostic_updater/_update_functions.py'...
+[18.563s] Compiling '/root/researchv2/install/diagnostic_updater/lib/python3.8/site-packages/diagnostic_updater/example.py'...
+[18.571s] -- Installing: /root/researchv2/install/diagnostic_updater/lib/diagnostic_updater/example.py
+[18.571s] -- Installing: /root/researchv2/install/diagnostic_updater/lib/diagnostic_updater/example
+[18.576s] -- Set runtime path of "/root/researchv2/install/diagnostic_updater/lib/diagnostic_updater/example" to ""
+[18.576s] -- Installing: /root/researchv2/install/diagnostic_updater/include
+[18.576s] -- Installing: /root/researchv2/install/diagnostic_updater/include/diagnostic_updater
+[18.576s] -- Installing: /root/researchv2/install/diagnostic_updater/include/diagnostic_updater/diagnostic_status_wrapper.hpp
+[18.577s] -- Installing: /root/researchv2/install/diagnostic_updater/include/diagnostic_updater/diagnostic_updater.hpp
+[18.577s] -- Installing: /root/researchv2/install/diagnostic_updater/include/diagnostic_updater/publisher.hpp
+[18.577s] -- Installing: /root/researchv2/install/diagnostic_updater/include/diagnostic_updater/update_functions.hpp
+[18.577s] -- Installing: /root/researchv2/install/diagnostic_updater/share/ament_index/resource_index/package_run_dependencies/diagnostic_updater
+[18.578s] -- Installing: /root/researchv2/install/diagnostic_updater/share/ament_index/resource_index/parent_prefix_path/diagnostic_updater
+[18.578s] -- Installing: /root/researchv2/install/diagnostic_updater/share/diagnostic_updater/environment/ament_prefix_path.sh
+[18.578s] -- Installing: /root/researchv2/install/diagnostic_updater/share/diagnostic_updater/environment/ament_prefix_path.dsv
+[18.579s] -- Installing: /root/researchv2/install/diagnostic_updater/share/diagnostic_updater/environment/path.sh
+[18.579s] -- Installing: /root/researchv2/install/diagnostic_updater/share/diagnostic_updater/environment/path.dsv
+[18.579s] -- Installing: /root/researchv2/install/diagnostic_updater/share/diagnostic_updater/local_setup.bash
+[18.580s] -- Installing: /root/researchv2/install/diagnostic_updater/share/diagnostic_updater/local_setup.sh
+[18.580s] -- Installing: /root/researchv2/install/diagnostic_updater/share/diagnostic_updater/local_setup.zsh
+[18.580s] -- Installing: /root/researchv2/install/diagnostic_updater/share/diagnostic_updater/local_setup.dsv
+[18.581s] -- Installing: /root/researchv2/install/diagnostic_updater/share/diagnostic_updater/package.dsv
+[18.581s] -- Installing: /root/researchv2/install/diagnostic_updater/share/ament_index/resource_index/packages/diagnostic_updater
+[18.582s] -- Installing: /root/researchv2/install/diagnostic_updater/share/diagnostic_updater/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.582s] -- Installing: /root/researchv2/install/diagnostic_updater/share/diagnostic_updater/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.582s] -- Installing: /root/researchv2/install/diagnostic_updater/share/diagnostic_updater/cmake/diagnostic_updaterConfig.cmake
+[18.583s] -- Installing: /root/researchv2/install/diagnostic_updater/share/diagnostic_updater/cmake/diagnostic_updaterConfig-version.cmake
+[18.583s] -- Installing: /root/researchv2/install/diagnostic_updater/share/diagnostic_updater/package.xml
+[18.592s] Invoked command in '/root/researchv2/build/diagnostic_updater' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node /usr/bin/cmake --install /root/researchv2/build/diagnostic_updater

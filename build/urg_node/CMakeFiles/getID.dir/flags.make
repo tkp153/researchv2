@@ -6,5 +6,5 @@ CXX_FLAGS =   -Wall -Wextra -Wpedantic -std=gnu++17
 
 CXX_DEFINES = -DDEFAULT_RMW_IMPLEMENTATION=rmw_cyclonedds_cpp -DRCUTILS_ENABLE_FAULT_INJECTION
 
-CXX_INCLUDES = -I/root/researchv2/src/urg_node/include -I/root/researchv2/install/urg_c/include -I/root/researchv2/install/laser_proc/include -isystem /opt/ros/galactic/include -isystem /root/researchv2/install/urg_node_msgs/include 
+CXX_INCLUDES = -I/root/researchv2/src/urg_node/include -I/root/researchv2/install/urg_c/include -I/root/researchv2/install/laser_proc/include -I/root/researchv2/install/diagnostic_updater/include -isystem /opt/ros/galactic/include -isystem /root/researchv2/install/urg_node_msgs/include 
 

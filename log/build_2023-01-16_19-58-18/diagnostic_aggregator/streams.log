@@ -1,0 +1,63 @@
+[0.096s] Invoking command in '/root/researchv2/build/diagnostic_aggregator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/researchv2/install/chaser_system:/opt/ros/galactic /usr/bin/cmake --build /root/researchv2/build/diagnostic_aggregator -- -j12 -l12
+[0.215s] [  0%] Built target ament_cmake_python_copy_diagnostic_aggregator
+[0.251s] [ 40%] Built target diagnostic_aggregator
+[0.367s] [ 60%] Built target aggregator_node
+[0.389s] [100%] Built target diagnostic_aggregator_analyzers
+[0.770s] running egg_info
+[0.771s] writing diagnostic_aggregator.egg-info/PKG-INFO
+[0.771s] writing dependency_links to diagnostic_aggregator.egg-info/dependency_links.txt
+[0.772s] writing top-level names to diagnostic_aggregator.egg-info/top_level.txt
+[0.852s] reading manifest file 'diagnostic_aggregator.egg-info/SOURCES.txt'
+[0.853s] writing manifest file 'diagnostic_aggregator.egg-info/SOURCES.txt'
+[0.895s] [100%] Built target ament_cmake_python_build_diagnostic_aggregator_egg
+[0.942s] Invoked command in '/root/researchv2/build/diagnostic_aggregator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/researchv2/install/chaser_system:/opt/ros/galactic /usr/bin/cmake --build /root/researchv2/build/diagnostic_aggregator -- -j12 -l12
+[1.074s] Invoking command in '/root/researchv2/build/diagnostic_aggregator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/researchv2/install/chaser_system:/opt/ros/galactic /usr/bin/cmake --install /root/researchv2/build/diagnostic_aggregator
+[1.092s] -- Install configuration: ""
+[1.093s] -- Up-to-date: /root/researchv2/install/diagnostic_aggregator/lib/diagnostic_aggregator/aggregator_node
+[1.094s] -- Up-to-date: /root/researchv2/install/diagnostic_aggregator/lib/libdiagnostic_aggregator.so
+[1.094s] -- Up-to-date: /root/researchv2/install/diagnostic_aggregator/lib/libdiagnostic_aggregator_analyzers.so
+[1.094s] -- Up-to-date: /root/researchv2/install/diagnostic_aggregator/include
+[1.094s] -- Up-to-date: /root/researchv2/install/diagnostic_aggregator/include/diagnostic_aggregator
+[1.095s] -- Up-to-date: /root/researchv2/install/diagnostic_aggregator/include/diagnostic_aggregator/discard_analyzer.hpp
+[1.095s] -- Up-to-date: /root/researchv2/install/diagnostic_aggregator/include/diagnostic_aggregator/generic_analyzer.hpp
+[1.095s] -- Up-to-date: /root/researchv2/install/diagnostic_aggregator/include/diagnostic_aggregator/visibility_control.hpp
+[1.095s] -- Up-to-date: /root/researchv2/install/diagnostic_aggregator/include/diagnostic_aggregator/analyzer.hpp
+[1.095s] -- Up-to-date: /root/researchv2/install/diagnostic_aggregator/include/diagnostic_aggregator/aggregator.hpp
+[1.096s] -- Up-to-date: /root/researchv2/install/diagnostic_aggregator/include/diagnostic_aggregator/status_item.hpp
+[1.096s] -- Up-to-date: /root/researchv2/install/diagnostic_aggregator/include/diagnostic_aggregator/other_analyzer.hpp
+[1.096s] -- Up-to-date: /root/researchv2/install/diagnostic_aggregator/include/diagnostic_aggregator/ignore_analyzer.hpp
+[1.096s] -- Up-to-date: /root/researchv2/install/diagnostic_aggregator/include/diagnostic_aggregator/analyzer_group.hpp
+[1.096s] -- Up-to-date: /root/researchv2/install/diagnostic_aggregator/include/diagnostic_aggregator/generic_analyzer_base.hpp
+[1.096s] -- Up-to-date: /root/researchv2/install/diagnostic_aggregator/share/diagnostic_aggregator/environment/pythonpath.sh
+[1.097s] -- Up-to-date: /root/researchv2/install/diagnostic_aggregator/share/diagnostic_aggregator/environment/pythonpath.dsv
+[1.097s] -- Up-to-date: /root/researchv2/install/diagnostic_aggregator/lib/python3.8/site-packages//diagnostic_aggregator.egg-info
+[1.097s] -- Installing: /root/researchv2/install/diagnostic_aggregator/lib/python3.8/site-packages//diagnostic_aggregator.egg-info/PKG-INFO
+[1.097s] -- Installing: /root/researchv2/install/diagnostic_aggregator/lib/python3.8/site-packages//diagnostic_aggregator.egg-info/top_level.txt
+[1.097s] -- Installing: /root/researchv2/install/diagnostic_aggregator/lib/python3.8/site-packages//diagnostic_aggregator.egg-info/SOURCES.txt
+[1.098s] -- Installing: /root/researchv2/install/diagnostic_aggregator/lib/python3.8/site-packages//diagnostic_aggregator.egg-info/dependency_links.txt
+[1.098s] -- Up-to-date: /root/researchv2/install/diagnostic_aggregator/lib/python3.8/site-packages/diagnostic_aggregator
+[1.098s] -- Up-to-date: /root/researchv2/install/diagnostic_aggregator/lib/python3.8/site-packages/diagnostic_aggregator/__init__.py
+[1.157s] Listing '/root/researchv2/install/diagnostic_aggregator/lib/python3.8/site-packages/diagnostic_aggregator'...
+[1.164s] -- Up-to-date: /root/researchv2/install/diagnostic_aggregator/share/diagnostic_aggregator/example.launch.py
+[1.164s] -- Up-to-date: /root/researchv2/install/diagnostic_aggregator/lib/diagnostic_aggregator/example_pub.py
+[1.165s] -- Up-to-date: /root/researchv2/install/diagnostic_aggregator/share/diagnostic_aggregator/example_analyzers.yaml
+[1.165s] -- Up-to-date: /root/researchv2/install/diagnostic_aggregator/share/diagnostic_aggregator/plugin_description.xml
+[1.165s] -- Up-to-date: /root/researchv2/install/diagnostic_aggregator/share/ament_index/resource_index/package_run_dependencies/diagnostic_aggregator
+[1.165s] -- Up-to-date: /root/researchv2/install/diagnostic_aggregator/share/ament_index/resource_index/parent_prefix_path/diagnostic_aggregator
+[1.165s] -- Up-to-date: /root/researchv2/install/diagnostic_aggregator/share/diagnostic_aggregator/environment/ament_prefix_path.sh
+[1.166s] -- Up-to-date: /root/researchv2/install/diagnostic_aggregator/share/diagnostic_aggregator/environment/ament_prefix_path.dsv
+[1.166s] -- Up-to-date: /root/researchv2/install/diagnostic_aggregator/share/diagnostic_aggregator/environment/path.sh
+[1.167s] -- Up-to-date: /root/researchv2/install/diagnostic_aggregator/share/diagnostic_aggregator/environment/path.dsv
+[1.167s] -- Up-to-date: /root/researchv2/install/diagnostic_aggregator/share/diagnostic_aggregator/local_setup.bash
+[1.167s] -- Up-to-date: /root/researchv2/install/diagnostic_aggregator/share/diagnostic_aggregator/local_setup.sh
+[1.167s] -- Up-to-date: /root/researchv2/install/diagnostic_aggregator/share/diagnostic_aggregator/local_setup.zsh
+[1.167s] -- Up-to-date: /root/researchv2/install/diagnostic_aggregator/share/diagnostic_aggregator/local_setup.dsv
+[1.167s] -- Installing: /root/researchv2/install/diagnostic_aggregator/share/diagnostic_aggregator/package.dsv
+[1.168s] -- Up-to-date: /root/researchv2/install/diagnostic_aggregator/share/ament_index/resource_index/packages/diagnostic_aggregator
+[1.168s] -- Up-to-date: /root/researchv2/install/diagnostic_aggregator/share/ament_index/resource_index/diagnostic_aggregator__pluginlib__plugin/diagnostic_aggregator
+[1.168s] -- Up-to-date: /root/researchv2/install/diagnostic_aggregator/share/diagnostic_aggregator/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.168s] -- Up-to-date: /root/researchv2/install/diagnostic_aggregator/share/diagnostic_aggregator/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.168s] -- Up-to-date: /root/researchv2/install/diagnostic_aggregator/share/diagnostic_aggregator/cmake/diagnostic_aggregatorConfig.cmake
+[1.168s] -- Up-to-date: /root/researchv2/install/diagnostic_aggregator/share/diagnostic_aggregator/cmake/diagnostic_aggregatorConfig-version.cmake
+[1.169s] -- Up-to-date: /root/researchv2/install/diagnostic_aggregator/share/diagnostic_aggregator/package.xml
+[1.175s] Invoked command in '/root/researchv2/build/diagnostic_aggregator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/researchv2/install/chaser_system:/opt/ros/galactic /usr/bin/cmake --install /root/researchv2/build/diagnostic_aggregator
