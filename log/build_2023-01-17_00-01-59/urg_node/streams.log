@@ -1,0 +1,315 @@
+[0.021s] Invoking command in '/root/researchv2/build/urg_node': CMAKE_PREFIX_PATH=/root/researchv2/install/urg_node_msgs:/root/researchv2/install/urg_c:/root/researchv2/install/laser_proc:/root/sirius/sirius_ws/install/kobuki_velocity_smoother:/root/sirius/sirius_ws/install/kobuki_ros:/root/sirius/sirius_ws/install/kobuki_safety_controller:/root/sirius/sirius_ws/install/kobuki_random_walker:/root/sirius/sirius_ws/install/kobuki_node:/root/sirius/sirius_ws/install/kobuki_keyop:/root/sirius/sirius_ws/install/kobuki_bumper2pc:/root/sirius/sirius_ws/install/kobuki_auto_docking:/root/sirius/sirius_ws/install/kobuki_ros_interfaces:/root/sirius/sirius_ws/install/kobuki_description:/root/sirius/sirius_ws/install/kobuki_core:/root/openpifpaf_ros2/install/realsense2_description:/root/openpifpaf_ros2/install/realsense2_camera:/root/openpifpaf_ros2/install/realsense2_camera_msgs:/root/openpifpaf_ros2/install/openpifpaf_ros2_msgs:/root/researchv2/install/urg_node:/root/researchv2/install/mymsg:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node:/root/researchv2/install/chaser_system:/opt/ros/galactic LD_LIBRARY_PATH=/root/researchv2/install/urg_node_msgs/lib:/root/researchv2/install/urg_c/lib:/root/researchv2/install/laser_proc/lib:/root/sirius/sirius_ws/install/kobuki_velocity_smoother/lib:/root/sirius/sirius_ws/install/kobuki_safety_controller/lib:/root/sirius/sirius_ws/install/kobuki_node/lib:/root/sirius/sirius_ws/install/kobuki_keyop/lib:/root/sirius/sirius_ws/install/kobuki_ros_interfaces/lib:/root/sirius/sirius_ws/install/kobuki_core/lib:/root/openpifpaf_ros2/install/realsense2_camera/lib:/root/openpifpaf_ros2/install/realsense2_camera_msgs/lib:/root/openpifpaf_ros2/install/openpifpaf_ros2_msgs/lib:/root/researchv2/install/urg_node/lib:/root/researchv2/install/mymsg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/11.6.0/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 PATH=/root/researchv2/install/urg_c/bin:/root/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/bin/remote-cli:/root/sirius/sirius_ws/install/kobuki_core/bin:/opt/ros/galactic/bin:= /usr/local/11.6.0/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin PYTHONPATH=/root/researchv2/install/urg_node_msgs/lib/python3.8/site-packages:/root/sirius/sirius_ws/install/kobuki_ros_interfaces/lib/python3.8/site-packages:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2/lib/python3.8/site-packages:/root/openpifpaf_ros2/install/realsense2_camera_msgs/lib/python3.8/site-packages:/root/openpifpaf_ros2/install/pose_checker/lib/python3.8/site-packages:/root/openpifpaf_ros2/install/openpifpaf_ros2_node/lib/python3.8/site-packages:/root/openpifpaf_ros2/install/openpifpaf_ros2_msgs/lib/python3.8/site-packages:/root/researchv2/install/chaser_system/lib/python3.8/site-packages:/root/researchv2/install/mymsg/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /root/researchv2/build/urg_node -- -j16 -l16
+[0.045s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.065s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.121s] -- Found diagnostic_updater: 2.1.3 (/root/researchv2/install/diagnostic_updater/share/diagnostic_updater/cmake)
+[0.146s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.148s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.307s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.407s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.408s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.422s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.543s] -- Found laser_proc: 1.0.2 (/root/researchv2/install/laser_proc/share/laser_proc/cmake)
+[0.640s] -- Found rclcpp_components: 9.2.2 (/opt/ros/galactic/share/rclcpp_components/cmake)
+[0.681s] -- Found std_srvs: 2.2.4 (/opt/ros/galactic/share/std_srvs/cmake)
+[0.693s] -- Found urg_c: 1.0.4001 (/root/researchv2/install/urg_c/share/urg_c/cmake)
+[0.694s] -- Found urg_node_msgs: 1.0.1 (/root/researchv2/install/urg_node_msgs/share/urg_node_msgs/cmake)
+[0.754s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[0.818s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.818s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/root/researchv2/src/urg_node/include>
+[0.818s] -- Configured cppcheck exclude dirs and/or files: 
+[0.820s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.820s] -- Configured cpplint exclude dirs and/or files: 
+[0.820s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.821s] -- Added test 'lint_cmake' to check CMake code style
+[0.821s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.824s] -- Added test 'uncrustify' to check C / C++ code style
+[0.824s] -- Configured uncrustify additional arguments: 
+[0.824s] -- Added test 'xmllint' to check XML markup files
+[0.828s] -- Configuring done
+[0.876s] -- Generating done
+[0.877s] -- Build files have been written to: /root/researchv2/build/urg_node
+[0.906s] [35m[1mScanning dependencies of target urg_node[0m
+[0.917s] [ 28%] Built target urg_node_driver
+[0.939s] [ 57%] [32mBuilding CXX object CMakeFiles/urg_node.dir/src/urg_c_wrapper.cpp.o[0m
+[0.939s] [ 57%] [32mBuilding CXX object CMakeFiles/urg_node.dir/src/urg_node.cpp.o[0m
+[2.627s] [01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:[m[K In constructor ‘[01m[Kurg_node::URGCWrapper::URGCWrapper(const urg_node::EthernetConnection&, bool&, bool&, const rclcpp::Logger&)[m[K’:
+[2.627s] [01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:57:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp::Duration::Duration(rcl_duration_value_t)[m[K’ is deprecated: Use Duration::from_nanoseconds instead or std::chrono_literals. For example:rclcpp::Duration::from_nanoseconds(int64_variable);rclcpp::Duration(0ns); [[01;35m[K-Wdeprecated-declarations[m[K]
+[2.627s]    57 |   logger_(logger[01;35m[K)[m[K
+[2.627s]       |                 [01;35m[K^[m[K
+[2.627s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/qos.hpp:20[m[K,
+[2.627s]                  from [01m[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[2.627s]                  from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:34[m[K,
+[2.627s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+[2.628s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[2.628s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[2.628s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.628s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[2.628s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[2.628s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.628s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[2.628s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[2.628s]                  from [01m[K/root/researchv2/src/urg_node/include/urg_node/urg_c_wrapper.hpp:44[m[K,
+[2.629s]                  from [01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:34[m[K:
+[2.629s] [01m[K/opt/ros/galactic/include/rclcpp/duration.hpp:46:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.629s]    46 |   explicit [01;36m[KDuration[m[K(rcl_duration_value_t nanoseconds);
+[2.629s]       |            [01;36m[K^~~~~~~~[m[K
+[2.629s] [01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:57:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp::Duration::Duration(rcl_duration_value_t)[m[K’ is deprecated: Use Duration::from_nanoseconds instead or std::chrono_literals. For example:rclcpp::Duration::from_nanoseconds(int64_variable);rclcpp::Duration(0ns); [[01;35m[K-Wdeprecated-declarations[m[K]
+[2.629s]    57 |   logger_(logger[01;35m[K)[m[K
+[2.629s]       |                 [01;35m[K^[m[K
+[2.629s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/qos.hpp:20[m[K,
+[2.629s]                  from [01m[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[2.629s]                  from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:34[m[K,
+[2.629s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+[2.629s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[2.630s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[2.630s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.630s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[2.630s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[2.630s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.630s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[2.630s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[2.630s]                  from [01m[K/root/researchv2/src/urg_node/include/urg_node/urg_c_wrapper.hpp:44[m[K,
+[2.630s]                  from [01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:34[m[K:
+[2.630s] [01m[K/opt/ros/galactic/include/rclcpp/duration.hpp:46:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.630s]    46 |   explicit [01;36m[KDuration[m[K(rcl_duration_value_t nanoseconds);
+[2.631s]       |            [01;36m[K^~~~~~~~[m[K
+[2.631s] [01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:[m[K In constructor ‘[01m[Kurg_node::URGCWrapper::URGCWrapper(const urg_node::SerialConnection&, bool&, bool&, const rclcpp::Logger&)[m[K’:
+[2.631s] [01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:87:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp::Duration::Duration(rcl_duration_value_t)[m[K’ is deprecated: Use Duration::from_nanoseconds instead or std::chrono_literals. For example:rclcpp::Duration::from_nanoseconds(int64_variable);rclcpp::Duration(0ns); [[01;35m[K-Wdeprecated-declarations[m[K]
+[2.631s]    87 |   logger_(logger[01;35m[K)[m[K
+[2.631s]       |                 [01;35m[K^[m[K
+[2.631s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/qos.hpp:20[m[K,
+[2.631s]                  from [01m[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[2.631s]                  from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:34[m[K,
+[2.631s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+[2.631s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[2.631s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[2.632s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.632s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[2.632s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[2.632s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.632s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[2.632s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[2.632s]                  from [01m[K/root/researchv2/src/urg_node/include/urg_node/urg_c_wrapper.hpp:44[m[K,
+[2.632s]                  from [01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:34[m[K:
+[2.632s] [01m[K/opt/ros/galactic/include/rclcpp/duration.hpp:46:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.632s]    46 |   explicit [01;36m[KDuration[m[K(rcl_duration_value_t nanoseconds);
+[2.632s]       |            [01;36m[K^~~~~~~~[m[K
+[2.633s] [01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:87:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp::Duration::Duration(rcl_duration_value_t)[m[K’ is deprecated: Use Duration::from_nanoseconds instead or std::chrono_literals. For example:rclcpp::Duration::from_nanoseconds(int64_variable);rclcpp::Duration(0ns); [[01;35m[K-Wdeprecated-declarations[m[K]
+[2.633s]    87 |   logger_(logger[01;35m[K)[m[K
+[2.633s]       |                 [01;35m[K^[m[K
+[2.633s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/qos.hpp:20[m[K,
+[2.633s]                  from [01m[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[2.633s]                  from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:34[m[K,
+[2.633s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+[2.633s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[2.633s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[2.633s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.633s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[2.634s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[2.634s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.634s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[2.634s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[2.634s]                  from [01m[K/root/researchv2/src/urg_node/include/urg_node/urg_c_wrapper.hpp:44[m[K,
+[2.634s]                  from [01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:34[m[K:
+[2.634s] [01m[K/opt/ros/galactic/include/rclcpp/duration.hpp:46:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.634s]    46 |   explicit [01;36m[KDuration[m[K(rcl_duration_value_t nanoseconds);
+[2.634s]       |            [01;36m[K^~~~~~~~[m[K
+[2.826s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:40[m[K,
+[2.826s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+[2.826s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[2.826s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[2.826s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.826s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[2.826s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[2.826s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.826s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[2.826s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[2.826s]                  from [01m[K/root/researchv2/src/urg_node/include/urg_node/urg_c_wrapper.hpp:44[m[K,
+[2.827s]                  from [01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:34[m[K:
+[2.827s] [01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:[m[K In member function ‘[01m[Kstd::string urg_node::URGCWrapper::sendCommand(std::string)[m[K’:
+[2.827s] [01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:588:16:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%lu[m[K’ expects argument of type ‘[01m[Klong unsigned int[m[K’, but argument 5 has type ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[2.827s]   588 |       logger_, [01;35m[K"Buffer creation bounds exceeded, shouldn't allocate: %lu bytes"[m[K,
+[2.827s]       |                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.827s]   589 |       [32m[Karr_size[m[K);
+[2.827s]       |       [32m[K~~~~~~~~[m[K  
+[2.827s]       |       [32m[K|[m[K
+[2.827s]       |       [32m[Kuint32_t {aka unsigned int}[m[K
+[2.827s] [01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:588:72:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.827s]   588 |       logger_, "Buffer creation bounds exceeded, shouldn't allocate: [01;36m[K%lu[m[K bytes",
+[2.827s]       |                                                                      [01;36m[K~~^[m[K
+[2.827s]       |                                                                        [01;36m[K|[m[K
+[2.828s]       |                                                                        [01;36m[Klong unsigned int[m[K
+[2.828s]       |                                                                      [32m[K%u[m[K
+[2.828s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:40[m[K,
+[2.828s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+[2.828s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[2.828s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[2.828s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.828s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[2.828s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[2.828s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.828s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[2.828s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[2.828s]                  from [01m[K/root/researchv2/src/urg_node/include/urg_node/urg_c_wrapper.hpp:44[m[K,
+[2.828s]                  from [01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:34[m[K:
+[2.828s] [01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:594:25:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%lu[m[K’ expects argument of type ‘[01m[Klong unsigned int[m[K’, but argument 5 has type ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[2.828s]   594 |   RCLCPP_DEBUG(logger_, [01;35m[K"Creating buffer read of arr_Size: %lu bytes"[m[K, [32m[Karr_size[m[K);
+[2.828s]       |                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~[m[K
+[2.828s]       |                                                                        [32m[K|[m[K
+[2.829s]       |                                                                        [32m[Kuint32_t {aka unsigned int}[m[K
+[2.829s] [01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:594:62:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.829s]   594 |   RCLCPP_DEBUG(logger_, "Creating buffer read of arr_Size: [01;36m[K%lu[m[K bytes", arr_size);
+[2.829s]       |                                                            [01;36m[K~~^[m[K
+[2.829s]       |                                                              [01;36m[K|[m[K
+[2.829s]       |                                                              [01;36m[Klong unsigned int[m[K
+[2.829s]       |                                                            [32m[K%u[m[K
+[2.835s] [01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:[m[K In member function ‘[01m[Kvoid urg_node::URGCWrapper::setUserLatency(double)[m[K’:
+[2.835s] [01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:775:49:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp::Duration::Duration(rcl_duration_value_t)[m[K’ is deprecated: Use Duration::from_nanoseconds instead or std::chrono_literals. For example:rclcpp::Duration::from_nanoseconds(int64_variable);rclcpp::Duration(0ns); [[01;35m[K-Wdeprecated-declarations[m[K]
+[2.835s]   775 |   user_latency_ = rclcpp::Duration(1e9 * latency[01;35m[K)[m[K;
+[2.835s]       |                                                 [01;35m[K^[m[K
+[2.835s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/qos.hpp:20[m[K,
+[2.835s]                  from [01m[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[2.835s]                  from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:34[m[K,
+[2.836s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+[2.836s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[2.836s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[2.836s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.836s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[2.836s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[2.836s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.836s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[2.836s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[2.836s]                  from [01m[K/root/researchv2/src/urg_node/include/urg_node/urg_c_wrapper.hpp:44[m[K,
+[2.836s]                  from [01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:34[m[K:
+[2.837s] [01m[K/opt/ros/galactic/include/rclcpp/duration.hpp:46:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.837s]    46 |   explicit [01;36m[KDuration[m[K(rcl_duration_value_t nanoseconds);
+[2.837s]       |            [01;36m[K^~~~~~~~[m[K
+[2.837s] [01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:[m[K In member function ‘[01m[Krclcpp::Duration urg_node::URGCWrapper::getAngularTimeOffset() const[m[K’:
+[2.837s] [01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:864:68:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp::Duration::Duration(rcl_duration_value_t)[m[K’ is deprecated: Use Duration::from_nanoseconds instead or std::chrono_literals. For example:rclcpp::Duration::from_nanoseconds(int64_variable);rclcpp::Duration(0ns); [[01;35m[K-Wdeprecated-declarations[m[K]
+[2.837s]   864 |   return rclcpp::Duration((circle_fraction * getScanPeriod()) * 1e9[01;35m[K)[m[K;
+[2.837s]       |                                                                    [01;35m[K^[m[K
+[2.837s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/qos.hpp:20[m[K,
+[2.837s]                  from [01m[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[2.837s]                  from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:34[m[K,
+[2.837s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+[2.837s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[2.837s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[2.837s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.837s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[2.837s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[2.837s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.837s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[2.838s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[2.838s]                  from [01m[K/root/researchv2/src/urg_node/include/urg_node/urg_c_wrapper.hpp:44[m[K,
+[2.838s]                  from [01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:34[m[K:
+[2.838s] [01m[K/opt/ros/galactic/include/rclcpp/duration.hpp:46:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.838s]    46 |   explicit [01;36m[KDuration[m[K(rcl_duration_value_t nanoseconds);
+[2.838s]       |            [01;36m[K^~~~~~~~[m[K
+[2.838s] [01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:[m[K In member function ‘[01m[Krclcpp::Duration urg_node::URGCWrapper::computeLatency(size_t)[m[K’:
+[2.838s] [01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:869:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp::Duration::Duration(rcl_duration_value_t)[m[K’ is deprecated: Use Duration::from_nanoseconds instead or std::chrono_literals. For example:rclcpp::Duration::from_nanoseconds(int64_variable);rclcpp::Duration(0ns); [[01;35m[K-Wdeprecated-declarations[m[K]
+[2.838s]   869 |   system_latency_ = rclcpp::Duration(0[01;35m[K)[m[K;
+[2.838s]       |                                       [01;35m[K^[m[K
+[2.838s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/qos.hpp:20[m[K,
+[2.838s]                  from [01m[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[2.839s]                  from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:34[m[K,
+[2.839s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+[2.839s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[2.839s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[2.839s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.839s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[2.839s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[2.839s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.839s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[2.839s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[2.839s]                  from [01m[K/root/researchv2/src/urg_node/include/urg_node/urg_c_wrapper.hpp:44[m[K,
+[2.839s]                  from [01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:34[m[K:
+[2.839s] [01m[K/opt/ros/galactic/include/rclcpp/duration.hpp:46:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.839s]    46 |   explicit [01;36m[KDuration[m[K(rcl_duration_value_t nanoseconds);
+[2.839s]       |            [01;36m[K^~~~~~~~[m[K
+[2.839s] [01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:872:37:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp::Duration::Duration(rcl_duration_value_t)[m[K’ is deprecated: Use Duration::from_nanoseconds instead or std::chrono_literals. For example:rclcpp::Duration::from_nanoseconds(int64_variable);rclcpp::Duration(0ns); [[01;35m[K-Wdeprecated-declarations[m[K]
+[2.839s]   872 |   rclcpp::Duration previous_offset(0[01;35m[K)[m[K;
+[2.840s]       |                                     [01;35m[K^[m[K
+[2.840s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/qos.hpp:20[m[K,
+[2.840s]                  from [01m[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[2.840s]                  from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:34[m[K,
+[2.840s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+[2.840s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[2.840s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[2.840s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.840s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[2.840s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[2.840s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.840s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[2.840s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[2.840s]                  from [01m[K/root/researchv2/src/urg_node/include/urg_node/urg_c_wrapper.hpp:44[m[K,
+[2.840s]                  from [01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:34[m[K:
+[2.840s] [01m[K/opt/ros/galactic/include/rclcpp/duration.hpp:46:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.840s]    46 |   explicit [01;36m[KDuration[m[K(rcl_duration_value_t nanoseconds);
+[2.841s]       |            [01;36m[K^~~~~~~~[m[K
+[2.841s] [01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:881:85:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp::Duration::Duration(rcl_duration_value_t)[m[K’ is deprecated: Use Duration::from_nanoseconds instead or std::chrono_literals. For example:rclcpp::Duration::from_nanoseconds(int64_variable);rclcpp::Duration(0ns); [[01;35m[K-Wdeprecated-declarations[m[K]
+[2.841s]   881 |       adjusted_post_offset.nanoseconds() / 2.0 + previous_offset.nanoseconds() / 2.0[01;35m[K)[m[K;
+[2.841s]       |                                                                                     [01;35m[K^[m[K
+[2.841s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/qos.hpp:20[m[K,
+[2.841s]                  from [01m[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[2.841s]                  from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:34[m[K,
+[2.841s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+[2.841s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[2.841s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[2.841s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.841s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[2.841s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[2.841s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.841s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[2.841s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[2.841s]                  from [01m[K/root/researchv2/src/urg_node/include/urg_node/urg_c_wrapper.hpp:44[m[K,
+[2.841s]                  from [01m[K/root/researchv2/src/urg_node/src/urg_c_wrapper.cpp:34[m[K:
+[2.842s] [01m[K/opt/ros/galactic/include/rclcpp/duration.hpp:46:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.842s]    46 |   explicit [01;36m[KDuration[m[K(rcl_duration_value_t nanoseconds);
+[2.842s]       |            [01;36m[K^~~~~~~~[m[K
+[6.341s] [ 71%] [32m[1mLinking CXX shared library liburg_node.so[0m
+[6.618s] [ 71%] Built target urg_node
+[6.631s] [35m[1mScanning dependencies of target getID[0m
+[6.650s] [ 85%] [32mBuilding CXX object CMakeFiles/getID.dir/src/get_id.cpp.o[0m
+[8.475s] [100%] [32m[1mLinking CXX executable getID[0m
+[8.634s] [100%] Built target getID
+[8.646s] Invoked command in '/root/researchv2/build/urg_node' returned '0': CMAKE_PREFIX_PATH=/root/researchv2/install/urg_node_msgs:/root/researchv2/install/urg_c:/root/researchv2/install/laser_proc:/root/sirius/sirius_ws/install/kobuki_velocity_smoother:/root/sirius/sirius_ws/install/kobuki_ros:/root/sirius/sirius_ws/install/kobuki_safety_controller:/root/sirius/sirius_ws/install/kobuki_random_walker:/root/sirius/sirius_ws/install/kobuki_node:/root/sirius/sirius_ws/install/kobuki_keyop:/root/sirius/sirius_ws/install/kobuki_bumper2pc:/root/sirius/sirius_ws/install/kobuki_auto_docking:/root/sirius/sirius_ws/install/kobuki_ros_interfaces:/root/sirius/sirius_ws/install/kobuki_description:/root/sirius/sirius_ws/install/kobuki_core:/root/openpifpaf_ros2/install/realsense2_description:/root/openpifpaf_ros2/install/realsense2_camera:/root/openpifpaf_ros2/install/realsense2_camera_msgs:/root/openpifpaf_ros2/install/openpifpaf_ros2_msgs:/root/researchv2/install/urg_node:/root/researchv2/install/mymsg:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node:/root/researchv2/install/chaser_system:/opt/ros/galactic LD_LIBRARY_PATH=/root/researchv2/install/urg_node_msgs/lib:/root/researchv2/install/urg_c/lib:/root/researchv2/install/laser_proc/lib:/root/sirius/sirius_ws/install/kobuki_velocity_smoother/lib:/root/sirius/sirius_ws/install/kobuki_safety_controller/lib:/root/sirius/sirius_ws/install/kobuki_node/lib:/root/sirius/sirius_ws/install/kobuki_keyop/lib:/root/sirius/sirius_ws/install/kobuki_ros_interfaces/lib:/root/sirius/sirius_ws/install/kobuki_core/lib:/root/openpifpaf_ros2/install/realsense2_camera/lib:/root/openpifpaf_ros2/install/realsense2_camera_msgs/lib:/root/openpifpaf_ros2/install/openpifpaf_ros2_msgs/lib:/root/researchv2/install/urg_node/lib:/root/researchv2/install/mymsg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/11.6.0/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 PATH=/root/researchv2/install/urg_c/bin:/root/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/bin/remote-cli:/root/sirius/sirius_ws/install/kobuki_core/bin:/opt/ros/galactic/bin:= /usr/local/11.6.0/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin PYTHONPATH=/root/researchv2/install/urg_node_msgs/lib/python3.8/site-packages:/root/sirius/sirius_ws/install/kobuki_ros_interfaces/lib/python3.8/site-packages:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2/lib/python3.8/site-packages:/root/openpifpaf_ros2/install/realsense2_camera_msgs/lib/python3.8/site-packages:/root/openpifpaf_ros2/install/pose_checker/lib/python3.8/site-packages:/root/openpifpaf_ros2/install/openpifpaf_ros2_node/lib/python3.8/site-packages:/root/openpifpaf_ros2/install/openpifpaf_ros2_msgs/lib/python3.8/site-packages:/root/researchv2/install/chaser_system/lib/python3.8/site-packages:/root/researchv2/install/mymsg/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /root/researchv2/build/urg_node -- -j16 -l16
+[8.681s] Invoking command in '/root/researchv2/build/urg_node': CMAKE_PREFIX_PATH=/root/researchv2/install/urg_node_msgs:/root/researchv2/install/urg_c:/root/researchv2/install/laser_proc:/root/sirius/sirius_ws/install/kobuki_velocity_smoother:/root/sirius/sirius_ws/install/kobuki_ros:/root/sirius/sirius_ws/install/kobuki_safety_controller:/root/sirius/sirius_ws/install/kobuki_random_walker:/root/sirius/sirius_ws/install/kobuki_node:/root/sirius/sirius_ws/install/kobuki_keyop:/root/sirius/sirius_ws/install/kobuki_bumper2pc:/root/sirius/sirius_ws/install/kobuki_auto_docking:/root/sirius/sirius_ws/install/kobuki_ros_interfaces:/root/sirius/sirius_ws/install/kobuki_description:/root/sirius/sirius_ws/install/kobuki_core:/root/openpifpaf_ros2/install/realsense2_description:/root/openpifpaf_ros2/install/realsense2_camera:/root/openpifpaf_ros2/install/realsense2_camera_msgs:/root/openpifpaf_ros2/install/openpifpaf_ros2_msgs:/root/researchv2/install/urg_node:/root/researchv2/install/mymsg:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node:/root/researchv2/install/chaser_system:/opt/ros/galactic LD_LIBRARY_PATH=/root/researchv2/install/urg_node_msgs/lib:/root/researchv2/install/urg_c/lib:/root/researchv2/install/laser_proc/lib:/root/sirius/sirius_ws/install/kobuki_velocity_smoother/lib:/root/sirius/sirius_ws/install/kobuki_safety_controller/lib:/root/sirius/sirius_ws/install/kobuki_node/lib:/root/sirius/sirius_ws/install/kobuki_keyop/lib:/root/sirius/sirius_ws/install/kobuki_ros_interfaces/lib:/root/sirius/sirius_ws/install/kobuki_core/lib:/root/openpifpaf_ros2/install/realsense2_camera/lib:/root/openpifpaf_ros2/install/realsense2_camera_msgs/lib:/root/openpifpaf_ros2/install/openpifpaf_ros2_msgs/lib:/root/researchv2/install/urg_node/lib:/root/researchv2/install/mymsg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/11.6.0/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 PATH=/root/researchv2/install/urg_c/bin:/root/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/bin/remote-cli:/root/sirius/sirius_ws/install/kobuki_core/bin:/opt/ros/galactic/bin:= /usr/local/11.6.0/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin PYTHONPATH=/root/researchv2/install/urg_node_msgs/lib/python3.8/site-packages:/root/sirius/sirius_ws/install/kobuki_ros_interfaces/lib/python3.8/site-packages:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2/lib/python3.8/site-packages:/root/openpifpaf_ros2/install/realsense2_camera_msgs/lib/python3.8/site-packages:/root/openpifpaf_ros2/install/pose_checker/lib/python3.8/site-packages:/root/openpifpaf_ros2/install/openpifpaf_ros2_node/lib/python3.8/site-packages:/root/openpifpaf_ros2/install/openpifpaf_ros2_msgs/lib/python3.8/site-packages:/root/researchv2/install/chaser_system/lib/python3.8/site-packages:/root/researchv2/install/mymsg/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --install /root/researchv2/build/urg_node
+[8.687s] -- Install configuration: ""
+[8.687s] -- Up-to-date: /root/researchv2/install/urg_node/lib/urg_node/urg_node_driver
+[8.688s] -- Installing: /root/researchv2/install/urg_node/lib/liburg_node.so
+[8.691s] -- Set runtime path of "/root/researchv2/install/urg_node/lib/liburg_node.so" to ""
+[8.691s] -- Installing: /root/researchv2/install/urg_node/lib/urg_node/getID
+[8.691s] -- Set runtime path of "/root/researchv2/install/urg_node/lib/urg_node/getID" to ""
+[8.692s] -- Up-to-date: /root/researchv2/install/urg_node/include
+[8.692s] -- Up-to-date: /root/researchv2/install/urg_node/include/urg_node
+[8.692s] -- Up-to-date: /root/researchv2/install/urg_node/include/urg_node/urg_node.hpp
+[8.692s] -- Up-to-date: /root/researchv2/install/urg_node/include/urg_node/urg_c_wrapper.hpp
+[8.692s] -- Up-to-date: /root/researchv2/install/urg_node/lib/urg_node/set_urg_ip.py
+[8.692s] -- Up-to-date: /root/researchv2/install/urg_node/share/urg_node/launch
+[8.692s] -- Up-to-date: /root/researchv2/install/urg_node/share/urg_node/launch/urg_node_ethernet.yaml
+[8.692s] -- Up-to-date: /root/researchv2/install/urg_node/share/urg_node/launch/urg_node_serial.yaml
+[8.692s] -- Up-to-date: /root/researchv2/install/urg_node/share/urg_node/launch/hokuyo_laser.urdf
+[8.692s] -- Up-to-date: /root/researchv2/install/urg_node/share/urg_node/launch/urg_lidar.launch.xml
+[8.692s] -- Up-to-date: /root/researchv2/install/urg_node/share/urg_node/launch/urg_node_launch.py
+[8.693s] -- Up-to-date: /root/researchv2/install/urg_node/share/urg_node/environment/library_path.sh
+[8.693s] -- Installing: /root/researchv2/install/urg_node/share/urg_node/environment/library_path.dsv
+[8.693s] -- Up-to-date: /root/researchv2/install/urg_node/share/ament_index/resource_index/package_run_dependencies/urg_node
+[8.693s] -- Installing: /root/researchv2/install/urg_node/share/ament_index/resource_index/parent_prefix_path/urg_node
+[8.693s] -- Up-to-date: /root/researchv2/install/urg_node/share/urg_node/environment/ament_prefix_path.sh
+[8.693s] -- Installing: /root/researchv2/install/urg_node/share/urg_node/environment/ament_prefix_path.dsv
+[8.693s] -- Up-to-date: /root/researchv2/install/urg_node/share/urg_node/environment/path.sh
+[8.693s] -- Installing: /root/researchv2/install/urg_node/share/urg_node/environment/path.dsv
+[8.693s] -- Up-to-date: /root/researchv2/install/urg_node/share/urg_node/local_setup.bash
+[8.693s] -- Up-to-date: /root/researchv2/install/urg_node/share/urg_node/local_setup.sh
+[8.693s] -- Up-to-date: /root/researchv2/install/urg_node/share/urg_node/local_setup.zsh
+[8.693s] -- Installing: /root/researchv2/install/urg_node/share/urg_node/local_setup.dsv
+[8.694s] -- Installing: /root/researchv2/install/urg_node/share/urg_node/package.dsv
+[8.694s] -- Up-to-date: /root/researchv2/install/urg_node/share/ament_index/resource_index/packages/urg_node
+[8.694s] -- Up-to-date: /root/researchv2/install/urg_node/share/ament_index/resource_index/rclcpp_components/urg_node
+[8.694s] -- Up-to-date: /root/researchv2/install/urg_node/share/urg_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.694s] -- Up-to-date: /root/researchv2/install/urg_node/share/urg_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.694s] -- Up-to-date: /root/researchv2/install/urg_node/share/urg_node/cmake/ament_cmake_export_libraries-extras.cmake
+[8.694s] -- Up-to-date: /root/researchv2/install/urg_node/share/urg_node/cmake/urg_nodeConfig.cmake
+[8.694s] -- Up-to-date: /root/researchv2/install/urg_node/share/urg_node/cmake/urg_nodeConfig-version.cmake
+[8.694s] -- Up-to-date: /root/researchv2/install/urg_node/share/urg_node/package.xml
+[8.697s] Invoked command in '/root/researchv2/build/urg_node' returned '0': CMAKE_PREFIX_PATH=/root/researchv2/install/urg_node_msgs:/root/researchv2/install/urg_c:/root/researchv2/install/laser_proc:/root/sirius/sirius_ws/install/kobuki_velocity_smoother:/root/sirius/sirius_ws/install/kobuki_ros:/root/sirius/sirius_ws/install/kobuki_safety_controller:/root/sirius/sirius_ws/install/kobuki_random_walker:/root/sirius/sirius_ws/install/kobuki_node:/root/sirius/sirius_ws/install/kobuki_keyop:/root/sirius/sirius_ws/install/kobuki_bumper2pc:/root/sirius/sirius_ws/install/kobuki_auto_docking:/root/sirius/sirius_ws/install/kobuki_ros_interfaces:/root/sirius/sirius_ws/install/kobuki_description:/root/sirius/sirius_ws/install/kobuki_core:/root/openpifpaf_ros2/install/realsense2_description:/root/openpifpaf_ros2/install/realsense2_camera:/root/openpifpaf_ros2/install/realsense2_camera_msgs:/root/openpifpaf_ros2/install/openpifpaf_ros2_msgs:/root/researchv2/install/urg_node:/root/researchv2/install/mymsg:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node:/root/researchv2/install/chaser_system:/opt/ros/galactic LD_LIBRARY_PATH=/root/researchv2/install/urg_node_msgs/lib:/root/researchv2/install/urg_c/lib:/root/researchv2/install/laser_proc/lib:/root/sirius/sirius_ws/install/kobuki_velocity_smoother/lib:/root/sirius/sirius_ws/install/kobuki_safety_controller/lib:/root/sirius/sirius_ws/install/kobuki_node/lib:/root/sirius/sirius_ws/install/kobuki_keyop/lib:/root/sirius/sirius_ws/install/kobuki_ros_interfaces/lib:/root/sirius/sirius_ws/install/kobuki_core/lib:/root/openpifpaf_ros2/install/realsense2_camera/lib:/root/openpifpaf_ros2/install/realsense2_camera_msgs/lib:/root/openpifpaf_ros2/install/openpifpaf_ros2_msgs/lib:/root/researchv2/install/urg_node/lib:/root/researchv2/install/mymsg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/11.6.0/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 PATH=/root/researchv2/install/urg_c/bin:/root/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/bin/remote-cli:/root/sirius/sirius_ws/install/kobuki_core/bin:/opt/ros/galactic/bin:= /usr/local/11.6.0/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin PYTHONPATH=/root/researchv2/install/urg_node_msgs/lib/python3.8/site-packages:/root/sirius/sirius_ws/install/kobuki_ros_interfaces/lib/python3.8/site-packages:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2/lib/python3.8/site-packages:/root/openpifpaf_ros2/install/realsense2_camera_msgs/lib/python3.8/site-packages:/root/openpifpaf_ros2/install/pose_checker/lib/python3.8/site-packages:/root/openpifpaf_ros2/install/openpifpaf_ros2_node/lib/python3.8/site-packages:/root/openpifpaf_ros2/install/openpifpaf_ros2_msgs/lib/python3.8/site-packages:/root/researchv2/install/chaser_system/lib/python3.8/site-packages:/root/researchv2/install/mymsg/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --install /root/researchv2/build/urg_node

@@ -19,13 +19,13 @@ class ApproachNavi(Node):
         
     def callback(self,waypoints):
 
-        pos_x = waypoints.transform.translation.x
-        pos_y = waypoints.transform.translation.y
-        pos_z = waypoints.transform.translation.z
-        rot_x = waypoints.transform.rotation.x
-        rot_y = waypoints.transform.rotation.y
-        rot_z = waypoints.transform.rotation.z
-        rot_w = waypoints.transform.rotation.w
+        pos_x = waypoints.pose.position.x 
+        pos_y = waypoints.pose.position.y
+        pos_z = waypoints.pose.position.z
+        rot_x = waypoints.pose.orientation.x 
+        rot_y = waypoints.pose.orientation.y 
+        rot_z = waypoints.pose.orientation.z 
+        rot_w = waypoints.pose.orientation.w 
         data_row = [pos_x, pos_y, pos_z, rot_x, rot_y,rot_z,rot_w]
         f =open(self.filename, "w",encoding="utf_8")
         writer = csv.writer(f)
@@ -33,7 +33,9 @@ class ApproachNavi(Node):
         #print("write data to file")
         f.close()
         
-        self.set_waypoint()
+        if(self.count == 0):    
+            self.set_waypoint()
+            self.count += 1
         
     def set_waypoint(self):
         
@@ -61,7 +63,7 @@ class ApproachNavi(Node):
                 CheckPoint.pose.orientation.w = data[6]
         
         CheckPoint_msg.pose = CheckPoint
-        self.count += 1
+        
         
         send_goal_future = nav_to_pose_client.send_goal_async(CheckPoint_msg,feedback_callback=self.feedback_callback)
         rclpy.spin_until_future_complete(self, send_goal_future)
@@ -78,6 +80,7 @@ class ApproachNavi(Node):
         print("OOXOO")
         if future.result().status == GoalStatus.STATUS_SUCCEEDED:
             self.get_logger().info("GOAL POINT SUCCEEDED")
+            self.count = 0
         elif future.result().status == GoalStatus.STATUS_CANCELED:
             self.get_logger().info("GOAL POINT CANCELED")
             
