@@ -75,7 +75,7 @@ class ApproachNavi(Node):
         self.get_logger().info("残り{:.2f}[m]".format(self.feedback.distance_remaining))
         
     def get_result_callback(self, future): 
-        print("OOOXOOO")
+        print("OOXOO")
         if future.result().status == GoalStatus.STATUS_SUCCEEDED:
             self.get_logger().info("GOAL POINT SUCCEEDED")
         elif future.result().status == GoalStatus.STATUS_CANCELED:
