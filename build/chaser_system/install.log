@@ -8,7 +8,8 @@
 /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/three_d_pose_analysis.py
 /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/pose_tf2.py
 /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/__init__.py
-/root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/move.py
+/root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/approachv3.py
+/root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/approachv2.py
 /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/__pycache__/approach_navi.cpython-38.pyc
 /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/__pycache__/rgbd_generator.cpython-38.pyc
 /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/__pycache__/person_check.cpython-38.pyc
@@ -19,10 +20,12 @@
 /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/__pycache__/three_d_pose_analysis.cpython-38.pyc
 /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/__pycache__/pose_tf2.cpython-38.pyc
 /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/__pycache__/__init__.cpython-38.pyc
-/root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/__pycache__/move.cpython-38.pyc
+/root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/__pycache__/approachv3.cpython-38.pyc
+/root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/__pycache__/approachv2.cpython-38.pyc
 /root/researchv2/install/chaser_system/share/ament_index/resource_index/packages/chaser_system
 /root/researchv2/install/chaser_system/share/chaser_system/package.xml
 /root/researchv2/install/chaser_system/share/chaser_system/first_navigation.launch.py
+/root/researchv2/install/chaser_system/share/chaser_system/my_scripts.launch.py
 /root/researchv2/install/chaser_system/share/chaser_system/urdf
 /root/researchv2/install/chaser_system/share/chaser_system/rviz/nav2_view.rviz
 /root/researchv2/install/chaser_system/share/chaser_system/config/first_navigation.yaml
@@ -38,8 +41,9 @@
 /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system-0.0.0-py3.8.egg-info/zip-safe
 /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system-0.0.0-py3.8.egg-info/top_level.txt
 /root/researchv2/install/chaser_system/lib/chaser_system/approach_navi
+/root/researchv2/install/chaser_system/lib/chaser_system/approachv2
+/root/researchv2/install/chaser_system/lib/chaser_system/approachv3
 /root/researchv2/install/chaser_system/lib/chaser_system/image_inputer
-/root/researchv2/install/chaser_system/lib/chaser_system/move
 /root/researchv2/install/chaser_system/lib/chaser_system/person_check
 /root/researchv2/install/chaser_system/lib/chaser_system/pose_tf2
 /root/researchv2/install/chaser_system/lib/chaser_system/raise_navi

@@ -1,7 +1,8 @@
 [console_scripts]
 approach_navi = chaser_system.approach_navi:main
+approachv2 = chaser_system.approachv2:main
+approachv3 = chaser_system.approachv3:main
 image_inputer = chaser_system.image_inputer:main
-move = chaser_system.move:main
 person_check = chaser_system.person_check:main
 pose_tf2 = chaser_system.pose_tf2:main
 raise_navi = chaser_system.raise_navi:main
