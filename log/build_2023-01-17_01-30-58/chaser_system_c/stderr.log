@@ -1,0 +1,12 @@
+[01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:[m[K In constructor ‘[01m[Kapproach_v4_c::approach_v4_c()[m[K’:
+[01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:15:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+   15 |         [01;31m[Ksubscription_[m[K = this -> create_subscription<geometry_msgs::msg::PoseStamped>("waypoints",10,std::bind(&approach_v4_c::topic_callback,this,_1));
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+      |         [32m[Krcl_subscription_t[m[K
+[01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:15:127:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopic_callback[m[K’ is not a member of ‘[01m[Kapproach_v4_c[m[K’
+   15 |  = this -> create_subscription<geometry_msgs::msg::PoseStamped>("waypoints",10,std::bind(&approach_v4_c::[01;31m[Ktopic_callback[m[K,this,_1));
+      |                                                                                                          [01;31m[K^~~~~~~~~~~~~~[m[K
+
+make[2]: *** [CMakeFiles/approachv4_c.dir/build.make:63: CMakeFiles/approachv4_c.dir/src/approachv4_c.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/approachv4_c.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

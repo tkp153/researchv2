@@ -1,0 +1,23 @@
+[0.031s] Invoking command in '/root/researchv2/build/chaser_system_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node:/root/researchv2/install/chaser_system:/opt/ros/galactic /usr/bin/cmake --build /root/researchv2/build/chaser_system_c -- -j16 -l16
+[0.054s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.082s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.162s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[0.183s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.187s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.353s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.412s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.442s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.445s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.460s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.556s] CMake Error at /opt/ros/galactic/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.556s]   ament_target_dependencies() the passed package name 'nav2_msgs' was not
+[0.557s]   found before
+[0.557s] Call Stack (most recent call first):
+[0.557s]   CMakeLists.txt:17 (ament_target_dependencies)
+[0.557s] 
+[0.557s] 
+[0.558s] -- Configuring incomplete, errors occurred!
+[0.558s] See also "/root/researchv2/build/chaser_system_c/CMakeFiles/CMakeOutput.log".
+[0.558s] See also "/root/researchv2/build/chaser_system_c/CMakeFiles/CMakeError.log".
+[0.563s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.564s] Invoked command in '/root/researchv2/build/chaser_system_c' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node:/root/researchv2/install/chaser_system:/opt/ros/galactic /usr/bin/cmake --build /root/researchv2/build/chaser_system_c -- -j16 -l16

@@ -54,13 +54,13 @@ class ApproachNavi(Node):
                 CheckPoint = PoseStamped()
                 CheckPoint.header.frame.id = "map"
                 CheckPoint.header.stamp = self.get_clock().now().to_msg()
-                CheckPoint.pose.position.x = data[0]
-                CheckPoint.pose.position.y = data[1]
-                CheckPoint.pose.position.z = data[2]
-                CheckPoint.pose.orientation.x = data[3]
-                CheckPoint.pose.orientation.y = data[4]
-                CheckPoint.pose.orientation.z = data[5]
-                CheckPoint.pose.orientation.w = data[6]
+                CheckPoint.pose.position.x = float(data[0])
+                CheckPoint.pose.position.y = -1 *float(data[1])
+                CheckPoint.pose.position.z = 0.000000
+                CheckPoint.pose.orientation.x = float(data[3])
+                CheckPoint.pose.orientation.y = float(data[4])
+                CheckPoint.pose.orientation.z = float(data[5])
+                CheckPoint.pose.orientation.w = float(data[6])
         
         CheckPoint_msg.pose = CheckPoint
         

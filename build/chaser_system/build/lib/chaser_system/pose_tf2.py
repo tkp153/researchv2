@@ -6,11 +6,14 @@ from tf2_ros.transform_listener import TransformListener
 import csv
 import time
 import math
-from geometry_msgs.msg import PoseStamped
+from geometry_msgs.msg import PoseStamped,Pose
 from geometry_msgs.msg import TransformStamped
 from mymsg.msg import Transform,MultiTransform
 from mymsg.srv import Waypoints
 from functools import partial
+from rclpy.qos import QoSDurabilityPolicy, QoSHistoryPolicy
+from rclpy.qos import QoSProfile, QoSReliabilityPolicy
+
 
 
 pre_time = 0
@@ -54,8 +57,8 @@ class pose_tf2(Node):
         
         
         
-        video_qos = rclpy.qos.QoSProfile(depth = 10)
-        video_qos.reliability = rclpy.qos.QoSReliabilityPolicy.BEST_EFFORT
+        #video_qos = rclpy.qos.QoSProfile(depth = 10)
+        #video_qos.reliability = rclpy.qos.QoSReliabilityPolicy.BEST_EFFORT
         self.temp = 0
         
         self.target_frame = "odom"
@@ -64,6 +67,12 @@ class pose_tf2(Node):
         self.filename = "waypoint_data.csv"
         #with open(self.filename, "w",encoding="utf_8") as f:
         
+        #video_qos = rclpy.qos.QoSPresetProfiles.SERVICES_DEFAULT.value
+        navi_qos = QoSProfile(
+                        durability=QoSDurabilityPolicy.TRANSIENT_LOCAL,
+                        reliability=QoSReliabilityPolicy.RELIABLE,
+                        history=QoSHistoryPolicy.KEEP_LAST,
+                        depth=1)
         
         #人間
         self.sub = self.create_subscription(MultiTransform,"/person_check",self.human,1)
@@ -71,7 +80,7 @@ class pose_tf2(Node):
         #self.sub3 = self.create_subscription(Imu,"/camera/imu",self.IMU,video_qos)
         self.pub = self.create_publisher(PoseStamped,"goal_data",10)
         
-        self.test_pub = self.create_publisher(PoseStamped,"waypoints",10)
+        self.test_pub = self.create_publisher(Pose,"waypoints",10)
         
         self.completed = True
 
@@ -120,7 +129,7 @@ class pose_tf2(Node):
         
             broadcast3.sendTransform(gsg)
             time_now = time.time()
-            if( time_now - pre_time > 5):
+            if( time_now - pre_time > 2):
                 self.writing_waypoints(gsg)
                 pre_time = time.time()
                 
@@ -157,16 +166,14 @@ class pose_tf2(Node):
             
             
             if(self.completed == True):
-                go = PoseStamped()
-                go.header.frame_id = "map"
-                go.header.stamp = self.get_clock().now().to_msg()
-                go.pose.position.x = data_row[0]
-                go.pose.position.y = data_row[1]
-                go.pose.position.z = data_row[2]
-                go.pose.orientation.x = data_row[3]
-                go.pose.orientation.y = data_row[4]
-                go.pose.orientation.z = data_row[5]
-                go.pose.orientation.w = data_row[6]
+                go = Pose()
+                go.position.x = data_row[0]
+                go.position.y = data_row[1]
+                go.position.z = data_row[2]
+                go.orientation.x = data_row[3]
+                go.orientation.y = data_row[4]
+                go.orientation.z = data_row[5]
+                go.orientation.w = data_row[6]
                 
                 '''
                 #self.completed = False

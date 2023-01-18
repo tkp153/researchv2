@@ -1,0 +1,8 @@
+source;share/chaser_system_c/hook/cmake_prefix_path.ps1
+source;share/chaser_system_c/hook/cmake_prefix_path.dsv
+source;share/chaser_system_c/hook/cmake_prefix_path.sh
+source;share/chaser_system_c/local_setup.bash
+source;share/chaser_system_c/local_setup.dsv
+source;share/chaser_system_c/local_setup.ps1
+source;share/chaser_system_c/local_setup.sh
+source;share/chaser_system_c/local_setup.zsh

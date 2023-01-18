@@ -26,7 +26,11 @@ def generate_launch_description():
         ),
         Node(
         package='chaser_system',
-        executable='approachv3',
+        executable='waypoints_csv',
+        ),
+        Node(
+        package='chaser_system',
+        executable='approachv5',
         output='screen'
         ),
         Node(

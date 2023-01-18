@@ -6,25 +6,32 @@ from rclpy.action import ActionClient
 from action_msgs.msg import GoalStatus
 from rclpy.duration import Duration
 from geometry_msgs.msg import Pose, PoseStamped, PoseWithCovarianceStamped,Point, Quaternion, Twist
+from rclpy.qos import QoSDurabilityPolicy, QoSHistoryPolicy
+from rclpy.qos import QoSProfile, QoSReliabilityPolicy
 
 from nav2_msgs.action import NavigateToPose
 
 class ApproachNavi(Node):
     def __init__(self):
         super().__init__('approach_navigation')
-        
-        self.sub = self.create_subscription(PoseStamped, "waypoints",self.callback,10)
+        #video_qos = rclpy.qos.QoSPresetProfiles.SERVICES_DEFAULT.value
+        navi_qos = QoSProfile(
+                        durability=QoSDurabilityPolicy.TRANSIENT_LOCAL,
+                        reliability=QoSReliabilityPolicy.RELIABLE,
+                        history=QoSHistoryPolicy.KEEP_LAST,
+                        depth=1)
+        self.sub = self.create_subscription(Pose, "waypoints",self.callback,navi_qos)
         self.count = 0
         
     def callback(self,waypoints):
 
-        self.x= waypoints.pose.position.x
-        self.y= waypoints.pose.position.y
+        self.x= waypoints.position.x
+        self.y= waypoints.position.y
         self.z= 0.00
-        self.r_x = waypoints.pose.orientation.x
-        self.r_y= waypoints.pose.orientation.y
-        self.r_z= waypoints.pose.orientation.z
-        self.r_w = waypoints.pose.orientation.w
+        self.r_x = waypoints.orientation.x
+        self.r_y= waypoints.orientation.y
+        self.r_z= waypoints.orientation.z
+        self.r_w = waypoints.orientation.w
         
         self.set_waypoint()
         

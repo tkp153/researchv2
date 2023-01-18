@@ -1,0 +1,50 @@
+[0.033s] Invoking command in '/root/researchv2/build/chaser_system_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node:/root/researchv2/install/chaser_system:/opt/ros/galactic /usr/bin/cmake /root/researchv2/src/chaser_system_c -DCMAKE_INSTALL_PREFIX=/root/researchv2/install/chaser_system_c
+[0.148s] -- The C compiler identification is GNU 9.4.0
+[0.205s] -- The CXX compiler identification is GNU 9.4.0
+[0.210s] -- Check for working C compiler: /usr/bin/cc
+[0.276s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.276s] -- Detecting C compiler ABI info
+[0.338s] -- Detecting C compiler ABI info - done
+[0.346s] -- Detecting C compile features
+[0.347s] -- Detecting C compile features - done
+[0.350s] -- Check for working CXX compiler: /usr/bin/c++
+[0.427s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.427s] -- Detecting CXX compiler ABI info
+[0.496s] -- Detecting CXX compiler ABI info - done
+[0.503s] -- Detecting CXX compile features
+[0.503s] -- Detecting CXX compile features - done
+[0.508s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.538s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.538s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.632s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[0.687s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.698s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.818s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.871s] -- Found FastRTPS: /opt/ros/galactic/include  
+[0.989s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.064s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.160s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.161s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.161s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/root/researchv2/src/chaser_system_c/include>
+[1.161s] -- Configured cppcheck exclude dirs and/or files: 
+[1.162s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.162s] -- Configured cpplint exclude dirs and/or files: 
+[1.163s] -- Added test 'lint_cmake' to check CMake code style
+[1.164s] -- Added test 'uncrustify' to check C / C++ code style
+[1.164s] -- Configured uncrustify additional arguments: 
+[1.164s] -- Added test 'xmllint' to check XML markup files
+[1.167s] -- Configuring done
+[1.171s] -- Generating done
+[1.172s] -- Build files have been written to: /root/researchv2/build/chaser_system_c
+[1.178s] Invoked command in '/root/researchv2/build/chaser_system_c' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node:/root/researchv2/install/chaser_system:/opt/ros/galactic /usr/bin/cmake /root/researchv2/src/chaser_system_c -DCMAKE_INSTALL_PREFIX=/root/researchv2/install/chaser_system_c
+[1.181s] Invoking command in '/root/researchv2/build/chaser_system_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node:/root/researchv2/install/chaser_system:/opt/ros/galactic /usr/bin/cmake --build /root/researchv2/build/chaser_system_c -- -j16 -l16
+[1.220s] [35m[1mScanning dependencies of target approachv4_c[0m
+[1.230s] [ 50%] [32mBuilding CXX object CMakeFiles/approachv4_c.dir/src/approachv4_c.cpp.o[0m
+[1.260s] [01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[1.260s]     4 | #include [01;31m[K<rclcpp/rclcpp.hpp>[m[K
+[1.260s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.260s] compilation terminated.
+[1.261s] make[2]: *** [CMakeFiles/approachv4_c.dir/build.make:63: CMakeFiles/approachv4_c.dir/src/approachv4_c.cpp.o] Error 1
+[1.261s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/approachv4_c.dir/all] Error 2
+[1.261s] make: *** [Makefile:141: all] Error 2
+[1.263s] Invoked command in '/root/researchv2/build/chaser_system_c' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node:/root/researchv2/install/chaser_system:/opt/ros/galactic /usr/bin/cmake --build /root/researchv2/build/chaser_system_c -- -j16 -l16

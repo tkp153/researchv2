@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target approachv4_c[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/approachv4_c.dir/src/approachv4_c.cpp.o[0m
+[01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:[m[K In member function ‘[01m[Kvoid approach_v4_c::topic_callback(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:75:62:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst approach_v4_c[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K-fpermissive[m[K]
+   75 |         this -> send_goal(x_pos,y_pos,x_ori,y_ori,z_ori,w_ori[01;31m[K)[m[K;
+      |                                                              [01;31m[K^[m[K
+[01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:33:10:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kvoid approach_v4_c::send_goal(float, float, float, float, float, float)[m[K’
+   33 |     void [01;36m[Ksend_goal[m[K(float x, float y, float r_x,float r_y,float r_z,float r_w){
+      |          [01;36m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/approachv4_c.dir/build.make:63: CMakeFiles/approachv4_c.dir/src/approachv4_c.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/approachv4_c.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

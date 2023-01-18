@@ -1,0 +1,48 @@
+[0.043s] Invoking command in '/root/researchv2/build/chaser_system_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node:/root/researchv2/install/chaser_system:/opt/ros/galactic /usr/bin/cmake --build /root/researchv2/build/chaser_system_c -- -j16 -l16
+[0.092s] [35m[1mScanning dependencies of target approachv4_c[0m
+[0.147s] [ 50%] [32mBuilding CXX object CMakeFiles/approachv4_c.dir/src/approachv4_c.cpp.o[0m
+[1.790s] [01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:[m[K In member function ‘[01m[Kvoid approach_v4_c::topic_callback(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr) const[m[K’:
+[1.790s] [01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:21:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx_pos[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.790s]    21 |         float [01;35m[Kx_pos[m[K = msg -> pose.position.x;
+[1.790s]       |               [01;35m[K^~~~~[m[K
+[1.790s] [01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:22:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky_pos[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.790s]    22 |         float [01;35m[Ky_pos[m[K = msg -> pose.position.y;
+[1.790s]       |               [01;35m[K^~~~~[m[K
+[1.791s] [01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:23:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kz_pos[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.791s]    23 |         float [01;35m[Kz_pos[m[K = 0.00;
+[1.791s]       |               [01;35m[K^~~~~[m[K
+[1.791s] [01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:24:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx_ori[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.791s]    24 |         float [01;35m[Kx_ori[m[K = msg -> pose.orientation.x;
+[1.791s]       |               [01;35m[K^~~~~[m[K
+[1.791s] [01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:25:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky_ori[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.791s]    25 |         float [01;35m[Ky_ori[m[K = msg -> pose.orientation.y;
+[1.791s]       |               [01;35m[K^~~~~[m[K
+[1.791s] [01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:26:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kz_ori[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.791s]    26 |         float [01;35m[Kz_ori[m[K = msg -> pose.orientation.z;
+[1.791s]       |               [01;35m[K^~~~~[m[K
+[1.791s] [01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:27:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kw_ori[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.791s]    27 |         float [01;35m[Kw_ori[m[K = msg -> pose.orientation.w;
+[1.791s]       |               [01;35m[K^~~~~[m[K
+[5.638s] [100%] [32m[1mLinking CXX executable approachv4_c[0m
+[5.853s] [100%] Built target approachv4_c
+[5.862s] Invoked command in '/root/researchv2/build/chaser_system_c' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node:/root/researchv2/install/chaser_system:/opt/ros/galactic /usr/bin/cmake --build /root/researchv2/build/chaser_system_c -- -j16 -l16
+[5.891s] Invoking command in '/root/researchv2/build/chaser_system_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node:/root/researchv2/install/chaser_system:/opt/ros/galactic /usr/bin/cmake --install /root/researchv2/build/chaser_system_c
+[5.899s] -- Install configuration: ""
+[5.899s] -- Installing: /root/researchv2/install/chaser_system_c/lib/chaser_system_c/approachv4_c
+[5.902s] -- Set runtime path of "/root/researchv2/install/chaser_system_c/lib/chaser_system_c/approachv4_c" to ""
+[5.902s] -- Installing: /root/researchv2/install/chaser_system_c/share/ament_index/resource_index/package_run_dependencies/chaser_system_c
+[5.902s] -- Installing: /root/researchv2/install/chaser_system_c/share/ament_index/resource_index/parent_prefix_path/chaser_system_c
+[5.903s] -- Installing: /root/researchv2/install/chaser_system_c/share/chaser_system_c/environment/ament_prefix_path.sh
+[5.903s] -- Installing: /root/researchv2/install/chaser_system_c/share/chaser_system_c/environment/ament_prefix_path.dsv
+[5.903s] -- Installing: /root/researchv2/install/chaser_system_c/share/chaser_system_c/environment/path.sh
+[5.903s] -- Installing: /root/researchv2/install/chaser_system_c/share/chaser_system_c/environment/path.dsv
+[5.903s] -- Installing: /root/researchv2/install/chaser_system_c/share/chaser_system_c/local_setup.bash
+[5.904s] -- Installing: /root/researchv2/install/chaser_system_c/share/chaser_system_c/local_setup.sh
+[5.904s] -- Installing: /root/researchv2/install/chaser_system_c/share/chaser_system_c/local_setup.zsh
+[5.904s] -- Installing: /root/researchv2/install/chaser_system_c/share/chaser_system_c/local_setup.dsv
+[5.905s] -- Installing: /root/researchv2/install/chaser_system_c/share/chaser_system_c/package.dsv
+[5.905s] -- Installing: /root/researchv2/install/chaser_system_c/share/ament_index/resource_index/packages/chaser_system_c
+[5.905s] -- Installing: /root/researchv2/install/chaser_system_c/share/chaser_system_c/cmake/chaser_system_cConfig.cmake
+[5.906s] -- Installing: /root/researchv2/install/chaser_system_c/share/chaser_system_c/cmake/chaser_system_cConfig-version.cmake
+[5.906s] -- Installing: /root/researchv2/install/chaser_system_c/share/chaser_system_c/package.xml
+[5.910s] Invoked command in '/root/researchv2/build/chaser_system_c' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node:/root/researchv2/install/chaser_system:/opt/ros/galactic /usr/bin/cmake --install /root/researchv2/build/chaser_system_c

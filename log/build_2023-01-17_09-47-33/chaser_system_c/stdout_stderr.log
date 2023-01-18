@@ -1,0 +1,44 @@
+[35m[1mScanning dependencies of target approachv4_c[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/approachv4_c.dir/src/approachv4_c.cpp.o[0m
+[01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:[m[K In member function ‘[01m[Kvoid approach_v4_c::topic_callback(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:21:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx_pos[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   21 |         float [01;35m[Kx_pos[m[K = msg -> pose.position.x;
+      |               [01;35m[K^~~~~[m[K
+[01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:22:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky_pos[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   22 |         float [01;35m[Ky_pos[m[K = msg -> pose.position.y;
+      |               [01;35m[K^~~~~[m[K
+[01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:23:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kz_pos[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   23 |         float [01;35m[Kz_pos[m[K = 0.00;
+      |               [01;35m[K^~~~~[m[K
+[01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:24:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx_ori[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   24 |         float [01;35m[Kx_ori[m[K = msg -> pose.orientation.x;
+      |               [01;35m[K^~~~~[m[K
+[01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:25:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky_ori[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   25 |         float [01;35m[Ky_ori[m[K = msg -> pose.orientation.y;
+      |               [01;35m[K^~~~~[m[K
+[01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:26:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kz_ori[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   26 |         float [01;35m[Kz_ori[m[K = msg -> pose.orientation.z;
+      |               [01;35m[K^~~~~[m[K
+[01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:27:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kw_ori[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   27 |         float [01;35m[Kw_ori[m[K = msg -> pose.orientation.w;
+      |               [01;35m[K^~~~~[m[K
+[100%] [32m[1mLinking CXX executable approachv4_c[0m
+[100%] Built target approachv4_c
+-- Install configuration: ""
+-- Installing: /root/researchv2/install/chaser_system_c/lib/chaser_system_c/approachv4_c
+-- Set runtime path of "/root/researchv2/install/chaser_system_c/lib/chaser_system_c/approachv4_c" to ""
+-- Installing: /root/researchv2/install/chaser_system_c/share/ament_index/resource_index/package_run_dependencies/chaser_system_c
+-- Installing: /root/researchv2/install/chaser_system_c/share/ament_index/resource_index/parent_prefix_path/chaser_system_c
+-- Installing: /root/researchv2/install/chaser_system_c/share/chaser_system_c/environment/ament_prefix_path.sh
+-- Installing: /root/researchv2/install/chaser_system_c/share/chaser_system_c/environment/ament_prefix_path.dsv
+-- Installing: /root/researchv2/install/chaser_system_c/share/chaser_system_c/environment/path.sh
+-- Installing: /root/researchv2/install/chaser_system_c/share/chaser_system_c/environment/path.dsv
+-- Installing: /root/researchv2/install/chaser_system_c/share/chaser_system_c/local_setup.bash
+-- Installing: /root/researchv2/install/chaser_system_c/share/chaser_system_c/local_setup.sh
+-- Installing: /root/researchv2/install/chaser_system_c/share/chaser_system_c/local_setup.zsh
+-- Installing: /root/researchv2/install/chaser_system_c/share/chaser_system_c/local_setup.dsv
+-- Installing: /root/researchv2/install/chaser_system_c/share/chaser_system_c/package.dsv
+-- Installing: /root/researchv2/install/chaser_system_c/share/ament_index/resource_index/packages/chaser_system_c
+-- Installing: /root/researchv2/install/chaser_system_c/share/chaser_system_c/cmake/chaser_system_cConfig.cmake
+-- Installing: /root/researchv2/install/chaser_system_c/share/chaser_system_c/cmake/chaser_system_cConfig-version.cmake
+-- Installing: /root/researchv2/install/chaser_system_c/share/chaser_system_c/package.xml
