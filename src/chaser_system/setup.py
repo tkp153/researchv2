@@ -41,6 +41,8 @@ setup(
             'approachv4 = chaser_system.approachv4:main',
             'waypoints_csv = chaser_system.waypoints_csv:main',
             'approachv5 = chaser_system.approachv5:main',
+            'approachv6 = chaser_system.approachv6:main',
+            'approachv7 = chaser_system.approachv7:main',
             
         ],
     },

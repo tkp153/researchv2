@@ -10,52 +10,37 @@ from geometry_msgs.msg import PoseStamped
 
 import csv
 import pandas as pd
+import numpy as np
 
 class ApproachV5(Node):
     def __init__(self):
         super().__init__("ApproachV5")
         
         timer_period = 10.0
+        timer_period2 = 9.9
         
         self.timer = self.create_timer(timer_period,self.get_waypoints)
+        self.timer2 = self.create_timer(timer_period2,self.set_waypoints)
         
         self.nav_to_pose_client = ActionClient(self, NavigateToPose, 'navigate_to_pose')
         while not self.nav_to_pose_client.wait_for_server(timeout_sec= 1.0):
             print("waiting to connect to server")
         
     def get_waypoints(self):
-        
-        rows = []
-        
-        file = csv.reader("waypoints.csv")
-        reader = csv.reader(file)
-        pandas_data = pd.read_csv("waypoints.csv")
-        
-        #全リスト読み込み
-        for row in reader:
-            rows.append(row)
-        #最後尾のみ抽出    
-        num = len(rows)
-        data = rows[num -1]
-        self.set_waypoints(data)
-        #使わないデータ削除
-        if(num > 1):
-            for i in range(num -1):
-                pandas_data = pandas_data.drop(i,axis = 0)
-        elif (num == 0):
-            print("データがありません")
-        else:
-            print("BAG")
+        print("data received")
+        data = np.loadtxt("waypoints.csv",delimiter=",",dtype= float)
+        return data
             
-    def set_waypoints(self,data):
-        
+    def set_waypoints(self):
+        print("check")
         goal_msg = NavigateToPose.Goal()
         goal = PoseStamped()
+        data = self.get_waypoints()
         goal.header.stamp = self.get_clock().now().to_msg()
         goal.header.frame_id = "map"
-        goal.pose.position.x =data[0]
+        goal.pose.position.x = data[0]
         goal.pose.position.y = data[1]
-        goal.pose.position.z = data[2]
+        goal.pose.position.z = 0.00
         goal.pose.orientation.x = data[3]
         goal.pose.orientation.y = data[4]
         goal.pose.orientation.z = data[5]
@@ -85,10 +70,12 @@ def main():
     rclpy.init()
         
     node = ApproachV5()
-        
-    rclpy.spin(node)
-        
-    node.destroy_node()
+    try:
+        while True:    
+            rclpy.spin_once(node)
+    
+    except KeyboardInterrupt:    
+        node.destroy_node()
         
     rclpy.shutdown()
         

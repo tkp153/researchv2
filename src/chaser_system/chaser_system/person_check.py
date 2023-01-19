@@ -213,10 +213,19 @@ class person_checker(Node):
         #全員分↓
                         
         Output0.id = data.id 
+        #IDの配列化
+        ids = []
+        for i in data.id:
+            ids.append(i)
         
         #もし前回のIDが含まれた場合優先的にパブリッシュを行う。
         if(self.save_id in data.id):
+            #リスト内にそのIDがあるどうか検索にする。
             self.pub_2.publish(self.save_pos)
+
+            #id_num = ids.index(self.save_id)
+            #self.pos = Output0[id_num]
+            #self.pub_2.publish(self.pos)
         elif(len(data_raise_hand_translation) > 0):
             #ソート実施 -- 一番遠い手を挙げている人
             print(data_raise_hand_mater)

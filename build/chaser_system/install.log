@@ -10,8 +10,10 @@
 /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/__init__.py
 /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/waypoints_csv.py
 /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/approachv5.py
+/root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/approachv7.py
 /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/approachv4.py
 /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/approachv3.py
+/root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/approachv6.py
 /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/approachv2.py
 /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/__pycache__/approach_navi.cpython-38.pyc
 /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/__pycache__/rgbd_generator.cpython-38.pyc
@@ -25,8 +27,10 @@
 /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/__pycache__/__init__.cpython-38.pyc
 /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/__pycache__/waypoints_csv.cpython-38.pyc
 /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/__pycache__/approachv5.cpython-38.pyc
+/root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/__pycache__/approachv7.cpython-38.pyc
 /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/__pycache__/approachv4.cpython-38.pyc
 /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/__pycache__/approachv3.cpython-38.pyc
+/root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/__pycache__/approachv6.cpython-38.pyc
 /root/researchv2/install/chaser_system/lib/python3.8/site-packages/chaser_system/__pycache__/approachv2.cpython-38.pyc
 /root/researchv2/install/chaser_system/share/ament_index/resource_index/packages/chaser_system
 /root/researchv2/install/chaser_system/share/chaser_system/package.xml
@@ -51,6 +55,8 @@
 /root/researchv2/install/chaser_system/lib/chaser_system/approachv3
 /root/researchv2/install/chaser_system/lib/chaser_system/approachv4
 /root/researchv2/install/chaser_system/lib/chaser_system/approachv5
+/root/researchv2/install/chaser_system/lib/chaser_system/approachv6
+/root/researchv2/install/chaser_system/lib/chaser_system/approachv7
 /root/researchv2/install/chaser_system/lib/chaser_system/image_inputer
 /root/researchv2/install/chaser_system/lib/chaser_system/person_check
 /root/researchv2/install/chaser_system/lib/chaser_system/pose_tf2

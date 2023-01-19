@@ -20,11 +20,12 @@ class ApproachNavi(Node):
                         reliability=QoSReliabilityPolicy.RELIABLE,
                         history=QoSHistoryPolicy.KEEP_LAST,
                         depth=1)
-        self.sub = self.create_subscription(Pose, "waypoints",self.callback,navi_qos)
+        self.sub = self.create_subscription(Pose, "waypoints",self.callback,1)
         self.count = 0
         
     def callback(self,waypoints):
-
+        #self.get_logger().info("waypoints:{}".format(waypoints))
+        print(waypoints)
         self.x= waypoints.position.x
         self.y= waypoints.position.y
         self.z= 0.00

@@ -29,11 +29,6 @@ def generate_launch_description():
         executable='waypoints_csv',
         ),
         Node(
-        package='chaser_system',
-        executable='approachv5',
-        output='screen'
-        ),
-        Node(
         package='tf2_ros',
         namespace='camera',
         executable='static_transform_publisher',

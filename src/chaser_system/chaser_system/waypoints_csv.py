@@ -15,12 +15,12 @@ class waypoints_csv(Node):
         pos_y = data.position.y
         pos_z = 0.00000
         
-        rot_x = data.rotation.x
-        rot_y = data.rotation.y
-        rot_z = data.rotation.z
-        rot_w = data.rotation.w
+        rot_x = data.orientation.x
+        rot_y = data.orientation.y
+        rot_z = data.orientation.z
+        rot_w = data.orientation.w
         
-        file = open("waypoints.csv", "a",encoding="utf-8")
+        file = open("waypoints.csv", "w",encoding="utf-8")
         writer = csv.writer(file)
         writer.writerow([pos_x,pos_y,pos_z,rot_x,rot_y,rot_z,rot_w])
         print("Writing......")
