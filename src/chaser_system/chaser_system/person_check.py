@@ -4,6 +4,8 @@ import numpy as np
 from mymsg.msg import Poses,MultiTransform,Transform
 import time
 import math
+import tf_transformations
+from tf_transformations import euler_from_quaternion
 '''
 <Memo>
 このプログラムは、openpifpafの3次元のデータのkeypointsのデータをサブスクライバーし、keypointsの重心を求めそれぞれの人の座標を入手するのを加えて人が挙手したらその情報を記録するプログラムである。
@@ -100,6 +102,12 @@ class person_checker(Node):
                     z_sum_list.append(z_pos)
                     key_points_count += 1
                     
+                    # 外積計算用
+                    if(key_num == 5):
+                        Point_E = np.array([x_pos,y_pos,z_pos])
+                    if(key_num == 6):
+                        Point_F = np.array([x_pos,y_pos,z_pos])
+                    
                     
                     #重心計算処理条件分岐
                     if(key_num == num_keypoints -1 and key_points_count == 4):
@@ -178,10 +186,15 @@ class person_checker(Node):
                     #print(Result_Of_Center_Gravity)
                     if Result_Of_Center_Gravity is not None:
                         Output1.transform.translation.x,Output1.transform.translation.y,Output1.transform.translation.z = Result_Of_Center_Gravity
-                        Output1.transform.rotation.x = 0.0
-                        Output1.transform.rotation.y = 0.0
-                        Output1.transform.rotation.z = 0.0
-                        Output1.transform.rotation.w = 1.0
+                        
+                        dir= self.center_arrow(Output1.transform.translation.x,Output1.transform.translation.y,Output1.transform.translation.z,Point_E,Point_F)
+                        yaw_rotate= self.yaw_calc(dir,Result_Of_Center_Gravity)
+                        #self.get_logger().info("{}".format(yaw_rotate))
+                        q = tf_transformations.quaternion_from_euler(0, 0, yaw_rotate)
+                        Output1.transform.rotation.x = q[0]
+                        Output1.transform.rotation.y = q[1]
+                        Output1.transform.rotation.z = q[2]
+                        Output1.transform.rotation.w = q[3]
                         
                         Publish_Checker = True
                         
@@ -223,15 +236,15 @@ class person_checker(Node):
             #リスト内にそのIDがあるどうか検索にする。
             self.pub_2.publish(self.save_pos)
 
-            #id_num = ids.index(self.save_id)
-            #self.pos = Output0[id_num]
-            #self.pub_2.publish(self.pos)
+            id_num = ids.index(self.save_id)
+            self.pos = Output0[id_num]
+            self.pub_2.publish(self.pos)
         elif(len(data_raise_hand_translation) > 0):
             #ソート実施 -- 一番遠い手を挙げている人
             print(data_raise_hand_mater)
             print(data_raise_hand_translation)
-            max_value = max(data_raise_hand_mater)
-            max_index = data_raise_hand_mater.index(max_value)
+            min_value = min(data_raise_hand_mater)
+            max_index = data_raise_hand_mater.index(min_value)
             self.pub_2.publish(data_raise_hand_translation[max_index])
             
             #self.pub_2.publish(data_raise_hand_translation(data_raise_hand_mater.index(max(data_raise_hand_mater))))
@@ -346,6 +359,53 @@ class person_checker(Node):
         mater = math.sqrt(x * x + y * y + z * z)
         
         return mater
+    #　重心から向きベクトル算出計算関数
+    def center_arrow(self,pos_x,pos_y,pos_z,point_a,point_b):
+        
+        # 点 O,A,B生成
+        O = np.array([pos_x, pos_y, pos_z])
+        A = point_a
+        B = point_b
+        # ベクトルOA,ベクトルOB
+        Vector_OA = A - O
+        Vector_OB = B - O
+        
+        arrow = np.cross(Vector_OB,Vector_OA)
+        arrow = arrow.T
+        return arrow
+    
+    def yaw_calc(self,dir,center):
+        dir_x = dir[0]
+        dir_y = dir[1]
+        dir_z = dir[2]
+        center_x = center[0]
+        center_y = center[1]
+        center_z = center[2]
+        
+        #H の　Y座標を重心座標に変換した点
+        G = np.array([dir_x, dir_y,dir_z])
+        Vector_OG = G
+        #　基準線
+        Z = np.array([-50, 0, 0])
+        Vector_OZ = Z
+        
+        #ベクトル長さ
+        Length3 = np.linalg.norm(Vector_OG)
+        Length4 = np.linalg.norm(Vector_OZ)
+        
+        #内積の計算
+        Dot = np.dot(Vector_OG,Vector_OZ)
+        
+        #COSθを計算
+        COS_Theta = Dot / (Length3 * Length4)
+        Theta = np.arccos(COS_Theta) * 180 / np.pi
+        #print(Theta)
+        if Theta is None:
+            Theta = 180
+        if math.isnan(Theta):
+            Theta = 90
+        return Theta
+        
         
             
 def main():
