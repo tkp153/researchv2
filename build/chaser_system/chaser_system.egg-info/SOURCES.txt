@@ -16,6 +16,7 @@ chaser_system/approachv4.py
 chaser_system/approachv5.py
 chaser_system/approachv6.py
 chaser_system/approachv7.py
+chaser_system/approachv8.py
 chaser_system/image_cutter.py
 chaser_system/image_inputer.py
 chaser_system/person_check.py

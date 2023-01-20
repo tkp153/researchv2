@@ -43,6 +43,7 @@ setup(
             'approachv5 = chaser_system.approachv5:main',
             'approachv6 = chaser_system.approachv6:main',
             'approachv7 = chaser_system.approachv7:main',
+            'approachv8 = chaser_system.approachv8:main'
             
         ],
     },

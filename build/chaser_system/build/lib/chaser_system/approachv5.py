@@ -70,10 +70,12 @@ def main():
     rclpy.init()
         
     node = ApproachV5()
-        
-    rclpy.spin(node)
-        
-    node.destroy_node()
+    try:
+        while True:    
+            rclpy.spin_once(node)
+    
+    except KeyboardInterrupt:    
+        node.destroy_node()
         
     rclpy.shutdown()
         
