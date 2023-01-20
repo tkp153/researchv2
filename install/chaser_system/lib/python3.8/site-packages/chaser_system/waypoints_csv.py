@@ -23,7 +23,7 @@ class waypoints_csv(Node):
         file = open("waypoints.csv", "w",encoding="utf-8")
         writer = csv.writer(file)
         writer.writerow([pos_x,pos_y,pos_z,rot_x,rot_y,rot_z,rot_w])
-        print("Writing......")
+        self.get_logger().info("CSV Writing......")
         file.close()
         
 def main():
