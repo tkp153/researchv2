@@ -212,11 +212,11 @@ class person_checker(Node):
                         Output0.transforms.append(Output1)
                         if(self.save_id == target_id):
                             
-                            Output2.translation.x,Output2.translation.y,Output2.translation.z = Result_Of_Center_Gravity
-                            Output2.rotation.x = 0.0
-                            Output2.rotation.y = 0.0
-                            Output2.rotation.z = 0.0
-                            Output2.rotation.w = 1.0
+                            Output2.transform.translation.x,Output2.transform.translation.y,Output2.transform.translation.z = Result_Of_Center_Gravity
+                            Output2.transform.rotation.x = 0.0
+                            Output2.transform.rotation.y = 0.0
+                            Output2.transform.rotation.z = 0.0
+                            Output2.transform.rotation.w = 1.0
                             
                             self.save_id = target_id
                         

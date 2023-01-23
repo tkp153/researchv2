@@ -12,11 +12,14 @@ from geometry_msgs.msg import PoseStamped
 import numpy as np
 import os
 
+from gtts import gTTS
+from pygame import mixer
+
 class ApproachV8(Node):
     def __init__(self,executor):
         super().__init__("ApproachV8")
         self.executor = executor
-        timer_period1 = 10.00
+        timer_period1 = 5.00
         self.timer1 = self.create_timer(timer_period1,self.navigation_system,callback_group= ReentrantCallbackGroup())
         self.nav_to_pose_client = ActionClient(self,
                                             NavigateToPose, 'navigate_to_pose',
@@ -55,16 +58,25 @@ class ApproachV8(Node):
             goal.pose.orientation.w = data[6]
             os.remove('waypoints.csv')
             self.get_logger().info("CSVデータのキャッシュ削除完了....")
-        
+            self.text_generation('Kobuki is going to {}{}'.format(goal.pose.position.x,goal.pose.position.y))
             goal_msg.pose = goal
             goal_result = self.nav_to_pose_client.send_goal(goal_msg)
             self.get_logger().info('ウェイポイント承認.....ナビゲーション２システム実行中.....')
             status = goal_result.status
             if status == GoalStatus.STATUS_SUCCEEDED:
                 self.get_logger().info("GOAL POINT SUCCEEDED")
+                self.text_generation('Kobuki has reached the waypoint')
             elif status == GoalStatus.STATUS_CANCELED:
                 self.get_logger().info("GOAL POINT CANCELED")
-
+                self.text_generation('Kobuki has canceled the waypoint')
+    
+    def text_generation(self,word):
+        tts = gTTS(word,lang='en')
+        tts.save('text_2.mp3')
+        mixer.init()
+        mixer.music.load('text_2.mp3')
+        mixer.music.play()
+        os.remove('text_2.mp3')
         
                                             
 def main():
@@ -76,11 +88,18 @@ def main():
     try:
         print("")
         node.get_logger().info("起動中 ----> 終了する場合はCTRL-Cを押してください。")
+        tts = gTTS('Kobuki navigation System launching',lang='en')
+        tts.save('launch.mp3')
+        mixer.init()
+        mixer.music.load('launch.mp3')
+        mixer.music.play()
+        os.remove('launch.mp3')
         executor.spin()
     except KeyboardInterrupt:
         node.get_logger().info("KeyBoardinterrupted, シャットダウン中")
         node.destroy_node()
         rclpy.shutdown()
+        
 
 if __name__ == "__main__":
     main()

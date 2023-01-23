@@ -49,7 +49,7 @@ class person_checker(Node):
         
         #　人の重心座標（すべて）
         Output0 = MultiTransform()
-        #挙手された人の重心座標
+        #挙手された人の重心座標(人の追跡)
         Output2 = Transform()
         timer = time.time()
         
@@ -61,6 +61,11 @@ class person_checker(Node):
         # 手を上げた人のデータ
         data_raise_hand_translation = []
         data_raise_hand_mater = []
+        
+        #IDの配列化
+        ids = []
+        for i in data.id:
+            ids.append(i)
         
         
         for person in data.poses:
@@ -87,12 +92,18 @@ class person_checker(Node):
             L_Raise_Hand = False
             R_Raise_Hand = False
             
+            #　人数のカウント
+            person_count = 0
+            
             
             #一人の処理↓
             for k in keypoints:
                 float_value = np.array(k[:3] / 1050.0,dtype=float)
                 #座標抽出
                 x_pos,y_pos,z_pos = float_value
+                
+                # ID 抽出
+                target_id = ids[person_count]
                 
                 #重心のポイント判別
                 if( key_num == 5 or key_num == 6 or key_num == 11 or key_num == 12):
@@ -189,17 +200,26 @@ class person_checker(Node):
                         
                         dir= self.center_arrow(Output1.transform.translation.x,Output1.transform.translation.y,Output1.transform.translation.z,Point_E,Point_F)
                         yaw_rotate= self.yaw_calc(dir,Result_Of_Center_Gravity)
-                        self.get_logger().info("{}".format(yaw_rotate))
+                        #self.get_logger().info("{}".format(yaw_rotate))
                         q = tf_transformations.quaternion_from_euler(0, 0, yaw_rotate)
-                        Output1.transform.rotation.x = q[0]
-                        Output1.transform.rotation.y = q[1]
-                        Output1.transform.rotation.z = q[2]
-                        Output1.transform.rotation.w = q[3]
+                        Output1.transform.rotation.x = 0.0
+                        Output1.transform.rotation.y = 0.0
+                        Output1.transform.rotation.z = 0.0
+                        Output1.transform.rotation.w = 1.0
                         
                         Publish_Checker = True
                         
                         Output0.transforms.append(Output1)
-                    
+                        if(self.save_id == target_id):
+                            
+                            Output2.transform.translation.x,Output2.transform.translation.y,Output2.transform.translation.z = Result_Of_Center_Gravity
+                            Output2.transform.rotation.x = 0.0
+                            Output2.transform.rotation.y = 0.0
+                            Output2.transform.rotation.z = 0.0
+                            Output2.transform.rotation.w = 1.0
+                            
+                            self.save_id = target_id
+                        
                     
                     #print("timer: {}".format(timer))
                     #print("pre_timer:{}".format(timer_previous) )
@@ -234,11 +254,8 @@ class person_checker(Node):
         #もし前回のIDが含まれた場合優先的にパブリッシュを行う。
         if(self.save_id in data.id):
             #リスト内にそのIDがあるどうか検索にする。
-            self.pub_2.publish(self.save_pos)
+            self.pub_2.publish(Output2)
 
-            id_num = ids.index(self.save_id)
-            self.pos = Output0[id_num]
-            self.pub_2.publish(self.pos)
         elif(len(data_raise_hand_translation) > 0):
             #ソート実施 -- 一番遠い手を挙げている人
             print(data_raise_hand_mater)

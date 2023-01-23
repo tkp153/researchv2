@@ -129,7 +129,7 @@ class pose_tf2(Node):
         
             broadcast3.sendTransform(gsg)
             time_now = time.time()
-            if( time_now - pre_time > 2):
+            if( time_now - pre_time > 1):
                 self.writing_waypoints(gsg)
                 pre_time = time.time()
                 
