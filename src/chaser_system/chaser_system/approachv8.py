@@ -16,7 +16,7 @@ class ApproachV8(Node):
     def __init__(self,executor):
         super().__init__("ApproachV8")
         self.executor = executor
-        timer_period1 = 10.00
+        timer_period1 = 5.00
         self.timer1 = self.create_timer(timer_period1,self.navigation_system,callback_group= ReentrantCallbackGroup())
         self.nav_to_pose_client = ActionClient(self,
                                             NavigateToPose, 'navigate_to_pose',
