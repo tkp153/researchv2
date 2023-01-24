@@ -45,8 +45,8 @@ class ApproachV8(Node):
         goal_msg = NavigateToPose.Goal()
         goal = PoseStamped()
         
+        data = self.get_waypoints()
         if data != "データが存在しません":
-            data = self.get_waypoints()
             goal.header.stamp = self.get_clock().now().to_msg()
             goal.header.frame_id = "map"
             goal.pose.position.x = data[0]
@@ -58,14 +58,14 @@ class ApproachV8(Node):
             goal.pose.orientation.w = data[6]
             os.remove('waypoints.csv')
             self.get_logger().info("CSVデータのキャッシュ削除完了....")
-            self.text_generation('Kobuki is going to {}{}'.format(goal.pose.position.x,goal.pose.position.y))
+            #self.text_generation('Kobuki is going to {}{}'.format(goal.pose.position.x,goal.pose.position.y))
             goal_msg.pose = goal
             goal_result = self.nav_to_pose_client.send_goal(goal_msg)
             self.get_logger().info('ウェイポイント承認.....ナビゲーション２システム実行中.....')
             status = goal_result.status
             if status == GoalStatus.STATUS_SUCCEEDED:
                 self.get_logger().info("GOAL POINT SUCCEEDED")
-                self.text_generation('Kobuki has reached the waypoint')
+                #self.text_generation('Kobuki has reached the waypoint')
             elif status == GoalStatus.STATUS_CANCELED:
                 self.get_logger().info("GOAL POINT CANCELED")
                 self.text_generation('Kobuki has canceled the waypoint')
@@ -88,12 +88,15 @@ def main():
     try:
         print("")
         node.get_logger().info("起動中 ----> 終了する場合はCTRL-Cを押してください。")
+        '''
         tts = gTTS('Kobuki navigation System launching',lang='en')
         tts.save('launch.mp3')
         mixer.init()
         mixer.music.load('launch.mp3')
         mixer.music.play()
         os.remove('launch.mp3')
+        '''
+        
         executor.spin()
     except KeyboardInterrupt:
         node.get_logger().info("KeyBoardinterrupted, シャットダウン中")
