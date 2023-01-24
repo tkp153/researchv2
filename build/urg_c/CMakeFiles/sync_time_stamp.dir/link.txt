@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/sync_time_stamp.dir/current/samples/sync_time_stamp.c.o  -o sync_time_stamp  -Wl,-rpath,/root/researchv2/build/urg_c: libopen_urg_sensor.a liburg_c.so -lrt -lm 

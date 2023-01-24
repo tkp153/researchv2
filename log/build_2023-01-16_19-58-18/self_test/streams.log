@@ -1,0 +1,33 @@
+[0.076s] Invoking command in '/root/researchv2/build/self_test': CMAKE_PREFIX_PATH=/root/researchv2/install/diagnostic_updater:/root/researchv2/install/urg_node:/root/researchv2/install/urg_node_msgs:/root/researchv2/install/urg_c:/root/researchv2/install/diagnostics:/root/researchv2/install/self_test:/root/researchv2/install/mymsg:/root/researchv2/install/laser_proc:/root/researchv2/install/diagnostic_common_diagnostics:/root/researchv2/install/diagnostic_aggregator:/root/researchv2/install/chaser_system:/opt/ros/galactic PYTHONPATH=/root/researchv2/install/diagnostic_updater/lib/python3.8/site-packages:/root/researchv2/install/urg_node_msgs/lib/python3.8/site-packages:/root/researchv2/install/chaser_system/lib/python3.8/site-packages:/root/researchv2/install/mymsg/lib/python3.8/site-packages:/root/researchv2/install/diagnostic_common_diagnostics/lib/python3.8/site-packages:/root/researchv2/install/diagnostic_aggregator/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /root/researchv2/build/self_test -- -j12 -l12
+[0.581s] [ 12%] Built target gtest
+[0.582s] [ 25%] Built target gtest_main
+[0.583s] [ 37%] Built target selftest_example
+[0.584s] [ 50%] Built target run_selftest
+[0.585s] [ 62%] Built target test_exception_selftest
+[0.585s] [ 75%] Built target test_nominal_selftest
+[0.587s] [ 87%] Built target test_no_id_selftest
+[0.587s] [100%] Built target test_error_selftest
+[0.588s] Invoked command in '/root/researchv2/build/self_test' returned '0': CMAKE_PREFIX_PATH=/root/researchv2/install/diagnostic_updater:/root/researchv2/install/urg_node:/root/researchv2/install/urg_node_msgs:/root/researchv2/install/urg_c:/root/researchv2/install/diagnostics:/root/researchv2/install/self_test:/root/researchv2/install/mymsg:/root/researchv2/install/laser_proc:/root/researchv2/install/diagnostic_common_diagnostics:/root/researchv2/install/diagnostic_aggregator:/root/researchv2/install/chaser_system:/opt/ros/galactic PYTHONPATH=/root/researchv2/install/diagnostic_updater/lib/python3.8/site-packages:/root/researchv2/install/urg_node_msgs/lib/python3.8/site-packages:/root/researchv2/install/chaser_system/lib/python3.8/site-packages:/root/researchv2/install/mymsg/lib/python3.8/site-packages:/root/researchv2/install/diagnostic_common_diagnostics/lib/python3.8/site-packages:/root/researchv2/install/diagnostic_aggregator/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /root/researchv2/build/self_test -- -j12 -l12
+[0.628s] Invoking command in '/root/researchv2/build/self_test': CMAKE_PREFIX_PATH=/root/researchv2/install/diagnostic_updater:/root/researchv2/install/urg_node:/root/researchv2/install/urg_node_msgs:/root/researchv2/install/urg_c:/root/researchv2/install/diagnostics:/root/researchv2/install/self_test:/root/researchv2/install/mymsg:/root/researchv2/install/laser_proc:/root/researchv2/install/diagnostic_common_diagnostics:/root/researchv2/install/diagnostic_aggregator:/root/researchv2/install/chaser_system:/opt/ros/galactic PYTHONPATH=/root/researchv2/install/diagnostic_updater/lib/python3.8/site-packages:/root/researchv2/install/urg_node_msgs/lib/python3.8/site-packages:/root/researchv2/install/chaser_system/lib/python3.8/site-packages:/root/researchv2/install/mymsg/lib/python3.8/site-packages:/root/researchv2/install/diagnostic_common_diagnostics/lib/python3.8/site-packages:/root/researchv2/install/diagnostic_aggregator/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --install /root/researchv2/build/self_test
+[0.642s] -- Install configuration: ""
+[0.642s] -- Up-to-date: /root/researchv2/install/self_test/include
+[0.643s] -- Up-to-date: /root/researchv2/install/self_test/include/self_test
+[0.643s] -- Up-to-date: /root/researchv2/install/self_test/include/self_test/test_runner.hpp
+[0.643s] -- Up-to-date: /root/researchv2/install/self_test/lib/self_test/run_selftest
+[0.644s] -- Up-to-date: /root/researchv2/install/self_test/lib/self_test/selftest_example
+[0.644s] -- Up-to-date: /root/researchv2/install/self_test/share/ament_index/resource_index/package_run_dependencies/self_test
+[0.644s] -- Up-to-date: /root/researchv2/install/self_test/share/ament_index/resource_index/parent_prefix_path/self_test
+[0.645s] -- Up-to-date: /root/researchv2/install/self_test/share/self_test/environment/ament_prefix_path.sh
+[0.645s] -- Up-to-date: /root/researchv2/install/self_test/share/self_test/environment/ament_prefix_path.dsv
+[0.645s] -- Up-to-date: /root/researchv2/install/self_test/share/self_test/environment/path.sh
+[0.645s] -- Up-to-date: /root/researchv2/install/self_test/share/self_test/environment/path.dsv
+[0.645s] -- Up-to-date: /root/researchv2/install/self_test/share/self_test/local_setup.bash
+[0.646s] -- Up-to-date: /root/researchv2/install/self_test/share/self_test/local_setup.sh
+[0.646s] -- Up-to-date: /root/researchv2/install/self_test/share/self_test/local_setup.zsh
+[0.646s] -- Up-to-date: /root/researchv2/install/self_test/share/self_test/local_setup.dsv
+[0.646s] -- Installing: /root/researchv2/install/self_test/share/self_test/package.dsv
+[0.646s] -- Up-to-date: /root/researchv2/install/self_test/share/ament_index/resource_index/packages/self_test
+[0.646s] -- Up-to-date: /root/researchv2/install/self_test/share/self_test/cmake/self_testConfig.cmake
+[0.647s] -- Up-to-date: /root/researchv2/install/self_test/share/self_test/cmake/self_testConfig-version.cmake
+[0.647s] -- Up-to-date: /root/researchv2/install/self_test/share/self_test/package.xml
+[0.654s] Invoked command in '/root/researchv2/build/self_test' returned '0': CMAKE_PREFIX_PATH=/root/researchv2/install/diagnostic_updater:/root/researchv2/install/urg_node:/root/researchv2/install/urg_node_msgs:/root/researchv2/install/urg_c:/root/researchv2/install/diagnostics:/root/researchv2/install/self_test:/root/researchv2/install/mymsg:/root/researchv2/install/laser_proc:/root/researchv2/install/diagnostic_common_diagnostics:/root/researchv2/install/diagnostic_aggregator:/root/researchv2/install/chaser_system:/opt/ros/galactic PYTHONPATH=/root/researchv2/install/diagnostic_updater/lib/python3.8/site-packages:/root/researchv2/install/urg_node_msgs/lib/python3.8/site-packages:/root/researchv2/install/chaser_system/lib/python3.8/site-packages:/root/researchv2/install/mymsg/lib/python3.8/site-packages:/root/researchv2/install/diagnostic_common_diagnostics/lib/python3.8/site-packages:/root/researchv2/install/diagnostic_aggregator/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --install /root/researchv2/build/self_test

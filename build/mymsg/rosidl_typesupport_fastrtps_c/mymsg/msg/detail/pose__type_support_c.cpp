@@ -80,14 +80,15 @@ static bool _Pose__cdr_deserialize(
       rosidl_runtime_c__float__Sequence__fini(&ros_message->keypoints);
     }
     if (!rosidl_runtime_c__float__Sequence__init(&ros_message->keypoints, size)) {
-      return "failed to create array for field 'keypoints'";
+      fprintf(stderr, "failed to create array for field 'keypoints'");
+      return false;
     }
     auto array_ptr = ros_message->keypoints.data;
     cdr.deserializeArray(array_ptr, size);
   }
 
   return true;
-}
+}  // NOLINT(readability/fn_size)
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_mymsg
 size_t get_serialized_size_mymsg__msg__Pose(

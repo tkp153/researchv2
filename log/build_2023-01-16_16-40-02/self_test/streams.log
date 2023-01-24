@@ -1,0 +1,53 @@
+[0.071s] Invoking command in '/root/researchv2/build/self_test': AMENT_PREFIX_PATH=/root/researchv2/install/diagnostic_updater:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/researchv2/install/diagnostic_updater:/root/openpifpaf_ros2/install/realsense2_description:/root/openpifpaf_ros2/install/realsense2_camera:/root/openpifpaf_ros2/install/realsense2_camera_msgs:/root/openpifpaf_ros2/install/openpifpaf_ros2_msgs:/opt/ros/galactic:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node PYTHONPATH=/root/researchv2/install/diagnostic_updater/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /root/researchv2/src/diagnostics/self_test -DCMAKE_INSTALL_PREFIX=/root/researchv2/install/self_test
+[0.209s] -- The C compiler identification is GNU 9.4.0
+[0.338s] -- The CXX compiler identification is GNU 9.4.0
+[0.349s] -- Check for working C compiler: /usr/bin/cc
+[0.477s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.479s] -- Detecting C compiler ABI info
+[0.616s] -- Detecting C compiler ABI info - done
+[0.643s] -- Detecting C compile features
+[0.643s] -- Detecting C compile features - done
+[0.648s] -- Check for working CXX compiler: /usr/bin/c++
+[0.806s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.809s] -- Detecting CXX compiler ABI info
+[0.975s] -- Detecting CXX compiler ABI info - done
+[1.003s] -- Detecting CXX compile features
+[1.004s] -- Detecting CXX compile features - done
+[1.012s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.075s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.076s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.268s] -- Found diagnostic_msgs: 2.2.4 (/opt/ros/galactic/share/diagnostic_msgs/cmake)
+[1.353s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.371s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.610s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.758s] -- Found FastRTPS: /opt/ros/galactic/include  
+[2.027s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.246s] -- Found diagnostic_updater: 2.1.3 (/root/researchv2/install/diagnostic_updater/share/diagnostic_updater/cmake)
+[2.416s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[2.423s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[2.488s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.490s] -- Looking for pthread.h
+[2.619s] -- Looking for pthread.h - found
+[2.620s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.753s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.753s] -- Looking for pthread_create in pthreads
+[2.878s] -- Looking for pthread_create in pthreads - not found
+[2.878s] -- Looking for pthread_create in pthread
+[3.003s] -- Looking for pthread_create in pthread - found
+[3.005s] -- Found Threads: TRUE  
+[3.459s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[3.654s] -- Found gtest sources under '/opt/ros/galactic/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.658s] -- Check if compiler accepts -pthread
+[3.792s] -- Check if compiler accepts -pthread - yes
+[4.009s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.010s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/root/researchv2/src/diagnostics/self_test/include>
+[4.010s] -- Configured cppcheck exclude dirs and/or files: 
+[4.012s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.012s] -- Configured cpplint exclude dirs and/or files: 
+[4.014s] -- Added test 'lint_cmake' to check CMake code style
+[4.017s] -- Added test 'uncrustify' to check C / C++ code style
+[4.018s] -- Configured uncrustify additional arguments: 
+[4.019s] -- Added test 'xmllint' to check XML markup files
+[4.026s] -- Configuring done
+[4.199s] -- Generating done
+[4.204s] -- Build files have been written to: /root/researchv2/build/self_test

@@ -168,7 +168,8 @@ static bool _Poses__cdr_deserialize(
       mymsg__msg__Pose__Sequence__fini(&ros_message->poses);
     }
     if (!mymsg__msg__Pose__Sequence__init(&ros_message->poses, size)) {
-      return "failed to create array for field 'poses'";
+      fprintf(stderr, "failed to create array for field 'poses'");
+      return false;
     }
     auto array_ptr = ros_message->poses.data;
     for (size_t i = 0; i < size; ++i) {
@@ -189,7 +190,8 @@ static bool _Poses__cdr_deserialize(
       rosidl_runtime_c__String__Sequence__fini(&ros_message->id);
     }
     if (!rosidl_runtime_c__String__Sequence__init(&ros_message->id, size)) {
-      return "failed to create array for field 'id'";
+      fprintf(stderr, "failed to create array for field 'id'");
+      return false;
     }
     auto array_ptr = ros_message->id.data;
     for (size_t i = 0; i < size; ++i) {
@@ -210,7 +212,7 @@ static bool _Poses__cdr_deserialize(
   }
 
   return true;
-}
+}  // NOLINT(readability/fn_size)
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_mymsg
 size_t get_serialized_size_mymsg__msg__Poses(

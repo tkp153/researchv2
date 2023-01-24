@@ -6,5 +6,5 @@ C_FLAGS = -fPIC   -Wall -Wextra -std=gnu99
 
 C_DEFINES = -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"mymsg\" -Dmymsg__python_EXPORTS
 
-C_INCLUDES = -I/root/researchv2/build/mymsg/rosidl_generator_c -I/root/researchv2/build/mymsg/rosidl_generator_py -I/usr/include/python3.8 -I/root/researchv2/build/mymsg/rosidl_typesupport_c -isystem /opt/ros/foxy/include 
+C_INCLUDES = -I/root/researchv2/build/mymsg/rosidl_generator_c -I/root/researchv2/build/mymsg/rosidl_generator_py -I/usr/include/python3.8 -I/root/researchv2/build/mymsg/rosidl_typesupport_c -isystem /opt/ros/galactic/include 
 

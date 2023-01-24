@@ -9,6 +9,14 @@ setup.py
 ../../build/chaser_system/chaser_system.egg-info/top_level.txt
 ../../build/chaser_system/chaser_system.egg-info/zip-safe
 chaser_system/__init__.py
+chaser_system/approach_navi.py
+chaser_system/approachv2.py
+chaser_system/approachv3.py
+chaser_system/approachv4.py
+chaser_system/approachv5.py
+chaser_system/approachv6.py
+chaser_system/approachv7.py
+chaser_system/approachv8.py
 chaser_system/image_cutter.py
 chaser_system/image_inputer.py
 chaser_system/person_check.py
@@ -16,9 +24,12 @@ chaser_system/pose_tf2.py
 chaser_system/raise_navi.py
 chaser_system/rgbd_generator.py
 chaser_system/three_d_pose_analysis.py
+chaser_system/waypoints_csv.py
 chaser_system/xbox.py
 config/first_navigation.yaml
+config/new_param.yaml
 launch/first_navigation.launch.py
+launch/my_scripts.launch.py
 map/hayashi_15_com.pgm
 map/hayashi_15_com.yaml
 resource/chaser_system

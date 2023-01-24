@@ -8,8 +8,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "rcutils/allocator.h"
-
 // Include directives for member types
 // Member `waypoints`
 #include "geometry_msgs/msg/detail/pose_stamped__functions.h"
@@ -73,15 +71,14 @@ mymsg__srv__Waypoints_Request__copy(
 mymsg__srv__Waypoints_Request *
 mymsg__srv__Waypoints_Request__create()
 {
-  rcutils_allocator_t allocator = rcutils_get_default_allocator();
-  mymsg__srv__Waypoints_Request * msg = (mymsg__srv__Waypoints_Request *)allocator.allocate(sizeof(mymsg__srv__Waypoints_Request), allocator.state);
+  mymsg__srv__Waypoints_Request * msg = (mymsg__srv__Waypoints_Request *)malloc(sizeof(mymsg__srv__Waypoints_Request));
   if (!msg) {
     return NULL;
   }
   memset(msg, 0, sizeof(mymsg__srv__Waypoints_Request));
   bool success = mymsg__srv__Waypoints_Request__init(msg);
   if (!success) {
-    allocator.deallocate(msg, allocator.state);
+    free(msg);
     return NULL;
   }
   return msg;
@@ -90,11 +87,10 @@ mymsg__srv__Waypoints_Request__create()
 void
 mymsg__srv__Waypoints_Request__destroy(mymsg__srv__Waypoints_Request * msg)
 {
-  rcutils_allocator_t allocator = rcutils_get_default_allocator();
   if (msg) {
     mymsg__srv__Waypoints_Request__fini(msg);
   }
-  allocator.deallocate(msg, allocator.state);
+  free(msg);
 }
 
 
@@ -104,11 +100,9 @@ mymsg__srv__Waypoints_Request__Sequence__init(mymsg__srv__Waypoints_Request__Seq
   if (!array) {
     return false;
   }
-  rcutils_allocator_t allocator = rcutils_get_default_allocator();
   mymsg__srv__Waypoints_Request * data = NULL;
-
   if (size) {
-    data = (mymsg__srv__Waypoints_Request *)allocator.zero_allocate(size, sizeof(mymsg__srv__Waypoints_Request), allocator.state);
+    data = (mymsg__srv__Waypoints_Request *)calloc(size, sizeof(mymsg__srv__Waypoints_Request));
     if (!data) {
       return false;
     }
@@ -125,7 +119,7 @@ mymsg__srv__Waypoints_Request__Sequence__init(mymsg__srv__Waypoints_Request__Seq
       for (; i > 0; --i) {
         mymsg__srv__Waypoints_Request__fini(&data[i - 1]);
       }
-      allocator.deallocate(data, allocator.state);
+      free(data);
       return false;
     }
   }
@@ -141,8 +135,6 @@ mymsg__srv__Waypoints_Request__Sequence__fini(mymsg__srv__Waypoints_Request__Seq
   if (!array) {
     return;
   }
-  rcutils_allocator_t allocator = rcutils_get_default_allocator();
-
   if (array->data) {
     // ensure that data and capacity values are consistent
     assert(array->capacity > 0);
@@ -150,7 +142,7 @@ mymsg__srv__Waypoints_Request__Sequence__fini(mymsg__srv__Waypoints_Request__Seq
     for (size_t i = 0; i < array->capacity; ++i) {
       mymsg__srv__Waypoints_Request__fini(&array->data[i]);
     }
-    allocator.deallocate(array->data, allocator.state);
+    free(array->data);
     array->data = NULL;
     array->size = 0;
     array->capacity = 0;
@@ -164,14 +156,13 @@ mymsg__srv__Waypoints_Request__Sequence__fini(mymsg__srv__Waypoints_Request__Seq
 mymsg__srv__Waypoints_Request__Sequence *
 mymsg__srv__Waypoints_Request__Sequence__create(size_t size)
 {
-  rcutils_allocator_t allocator = rcutils_get_default_allocator();
-  mymsg__srv__Waypoints_Request__Sequence * array = (mymsg__srv__Waypoints_Request__Sequence *)allocator.allocate(sizeof(mymsg__srv__Waypoints_Request__Sequence), allocator.state);
+  mymsg__srv__Waypoints_Request__Sequence * array = (mymsg__srv__Waypoints_Request__Sequence *)malloc(sizeof(mymsg__srv__Waypoints_Request__Sequence));
   if (!array) {
     return NULL;
   }
   bool success = mymsg__srv__Waypoints_Request__Sequence__init(array, size);
   if (!success) {
-    allocator.deallocate(array, allocator.state);
+    free(array);
     return NULL;
   }
   return array;
@@ -180,11 +171,10 @@ mymsg__srv__Waypoints_Request__Sequence__create(size_t size)
 void
 mymsg__srv__Waypoints_Request__Sequence__destroy(mymsg__srv__Waypoints_Request__Sequence * array)
 {
-  rcutils_allocator_t allocator = rcutils_get_default_allocator();
   if (array) {
     mymsg__srv__Waypoints_Request__Sequence__fini(array);
   }
-  allocator.deallocate(array, allocator.state);
+  free(array);
 }
 
 bool
@@ -293,15 +283,14 @@ mymsg__srv__Waypoints_Response__copy(
 mymsg__srv__Waypoints_Response *
 mymsg__srv__Waypoints_Response__create()
 {
-  rcutils_allocator_t allocator = rcutils_get_default_allocator();
-  mymsg__srv__Waypoints_Response * msg = (mymsg__srv__Waypoints_Response *)allocator.allocate(sizeof(mymsg__srv__Waypoints_Response), allocator.state);
+  mymsg__srv__Waypoints_Response * msg = (mymsg__srv__Waypoints_Response *)malloc(sizeof(mymsg__srv__Waypoints_Response));
   if (!msg) {
     return NULL;
   }
   memset(msg, 0, sizeof(mymsg__srv__Waypoints_Response));
   bool success = mymsg__srv__Waypoints_Response__init(msg);
   if (!success) {
-    allocator.deallocate(msg, allocator.state);
+    free(msg);
     return NULL;
   }
   return msg;
@@ -310,11 +299,10 @@ mymsg__srv__Waypoints_Response__create()
 void
 mymsg__srv__Waypoints_Response__destroy(mymsg__srv__Waypoints_Response * msg)
 {
-  rcutils_allocator_t allocator = rcutils_get_default_allocator();
   if (msg) {
     mymsg__srv__Waypoints_Response__fini(msg);
   }
-  allocator.deallocate(msg, allocator.state);
+  free(msg);
 }
 
 
@@ -324,11 +312,9 @@ mymsg__srv__Waypoints_Response__Sequence__init(mymsg__srv__Waypoints_Response__S
   if (!array) {
     return false;
   }
-  rcutils_allocator_t allocator = rcutils_get_default_allocator();
   mymsg__srv__Waypoints_Response * data = NULL;
-
   if (size) {
-    data = (mymsg__srv__Waypoints_Response *)allocator.zero_allocate(size, sizeof(mymsg__srv__Waypoints_Response), allocator.state);
+    data = (mymsg__srv__Waypoints_Response *)calloc(size, sizeof(mymsg__srv__Waypoints_Response));
     if (!data) {
       return false;
     }
@@ -345,7 +331,7 @@ mymsg__srv__Waypoints_Response__Sequence__init(mymsg__srv__Waypoints_Response__S
       for (; i > 0; --i) {
         mymsg__srv__Waypoints_Response__fini(&data[i - 1]);
       }
-      allocator.deallocate(data, allocator.state);
+      free(data);
       return false;
     }
   }
@@ -361,8 +347,6 @@ mymsg__srv__Waypoints_Response__Sequence__fini(mymsg__srv__Waypoints_Response__S
   if (!array) {
     return;
   }
-  rcutils_allocator_t allocator = rcutils_get_default_allocator();
-
   if (array->data) {
     // ensure that data and capacity values are consistent
     assert(array->capacity > 0);
@@ -370,7 +354,7 @@ mymsg__srv__Waypoints_Response__Sequence__fini(mymsg__srv__Waypoints_Response__S
     for (size_t i = 0; i < array->capacity; ++i) {
       mymsg__srv__Waypoints_Response__fini(&array->data[i]);
     }
-    allocator.deallocate(array->data, allocator.state);
+    free(array->data);
     array->data = NULL;
     array->size = 0;
     array->capacity = 0;
@@ -384,14 +368,13 @@ mymsg__srv__Waypoints_Response__Sequence__fini(mymsg__srv__Waypoints_Response__S
 mymsg__srv__Waypoints_Response__Sequence *
 mymsg__srv__Waypoints_Response__Sequence__create(size_t size)
 {
-  rcutils_allocator_t allocator = rcutils_get_default_allocator();
-  mymsg__srv__Waypoints_Response__Sequence * array = (mymsg__srv__Waypoints_Response__Sequence *)allocator.allocate(sizeof(mymsg__srv__Waypoints_Response__Sequence), allocator.state);
+  mymsg__srv__Waypoints_Response__Sequence * array = (mymsg__srv__Waypoints_Response__Sequence *)malloc(sizeof(mymsg__srv__Waypoints_Response__Sequence));
   if (!array) {
     return NULL;
   }
   bool success = mymsg__srv__Waypoints_Response__Sequence__init(array, size);
   if (!success) {
-    allocator.deallocate(array, allocator.state);
+    free(array);
     return NULL;
   }
   return array;
@@ -400,11 +383,10 @@ mymsg__srv__Waypoints_Response__Sequence__create(size_t size)
 void
 mymsg__srv__Waypoints_Response__Sequence__destroy(mymsg__srv__Waypoints_Response__Sequence * array)
 {
-  rcutils_allocator_t allocator = rcutils_get_default_allocator();
   if (array) {
     mymsg__srv__Waypoints_Response__Sequence__fini(array);
   }
-  allocator.deallocate(array, allocator.state);
+  free(array);
 }
 
 bool

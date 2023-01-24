@@ -1,0 +1,63 @@
+[0.047s] Invoking command in '/root/researchv2/build/laser_proc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node:/root/researchv2/install/chaser_system:/opt/ros/galactic /usr/bin/cmake --build /root/researchv2/build/laser_proc -- -j16 -l16
+[0.127s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.152s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.222s] -- Found class_loader: 2.1.2 (/opt/ros/galactic/share/class_loader/cmake)
+[0.243s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.275s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.277s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.457s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.517s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.522s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.542s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.679s] -- Found rclcpp_components: 9.2.2 (/opt/ros/galactic/share/rclcpp_components/cmake)
+[0.720s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[0.807s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[0.888s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.888s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/root/researchv2/src/laser_proc/include>
+[0.888s] -- Configured cppcheck exclude dirs and/or files: 
+[0.890s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.890s] -- Configured cpplint exclude dirs and/or files: 
+[0.891s] -- Added test 'lint_cmake' to check CMake code style
+[0.894s] -- Added test 'uncrustify' to check C / C++ code style
+[0.894s] -- Configured uncrustify additional arguments: 
+[0.895s] -- Added test 'xmllint' to check XML markup files
+[0.900s] -- Configuring done
+[0.916s] -- Generating done
+[0.918s] -- Build files have been written to: /root/researchv2/build/laser_proc
+[0.964s] [ 28%] Built target laser_proc_node
+[0.964s] [ 71%] Built target laser_proc
+[0.987s] [100%] Built target laser_proc_component
+[0.996s] Invoked command in '/root/researchv2/build/laser_proc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node:/root/researchv2/install/chaser_system:/opt/ros/galactic /usr/bin/cmake --build /root/researchv2/build/laser_proc -- -j16 -l16
+[1.030s] Invoking command in '/root/researchv2/build/laser_proc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node:/root/researchv2/install/chaser_system:/opt/ros/galactic /usr/bin/cmake --install /root/researchv2/build/laser_proc
+[1.037s] -- Install configuration: ""
+[1.037s] -- Up-to-date: /root/researchv2/install/laser_proc/lib/laser_proc/laser_proc_node
+[1.038s] -- Up-to-date: /root/researchv2/install/laser_proc/lib/liblaser_proc.so
+[1.039s] -- Up-to-date: /root/researchv2/install/laser_proc/lib/liblaser_proc_component.so
+[1.039s] -- Up-to-date: /root/researchv2/install/laser_proc/include
+[1.039s] -- Up-to-date: /root/researchv2/install/laser_proc/include/laser_proc
+[1.040s] -- Up-to-date: /root/researchv2/install/laser_proc/include/laser_proc/laser_proc.hpp
+[1.040s] -- Up-to-date: /root/researchv2/install/laser_proc/include/laser_proc/laser_publisher.hpp
+[1.040s] -- Up-to-date: /root/researchv2/install/laser_proc/include/laser_proc/visibility_control.hpp
+[1.040s] -- Up-to-date: /root/researchv2/install/laser_proc/include/laser_proc/laser_proc_component.hpp
+[1.040s] -- Up-to-date: /root/researchv2/install/laser_proc/share/laser_proc/environment/library_path.sh
+[1.040s] -- Installing: /root/researchv2/install/laser_proc/share/laser_proc/environment/library_path.dsv
+[1.040s] -- Up-to-date: /root/researchv2/install/laser_proc/share/ament_index/resource_index/package_run_dependencies/laser_proc
+[1.040s] -- Installing: /root/researchv2/install/laser_proc/share/ament_index/resource_index/parent_prefix_path/laser_proc
+[1.040s] -- Up-to-date: /root/researchv2/install/laser_proc/share/laser_proc/environment/ament_prefix_path.sh
+[1.040s] -- Installing: /root/researchv2/install/laser_proc/share/laser_proc/environment/ament_prefix_path.dsv
+[1.041s] -- Up-to-date: /root/researchv2/install/laser_proc/share/laser_proc/environment/path.sh
+[1.041s] -- Installing: /root/researchv2/install/laser_proc/share/laser_proc/environment/path.dsv
+[1.041s] -- Up-to-date: /root/researchv2/install/laser_proc/share/laser_proc/local_setup.bash
+[1.041s] -- Up-to-date: /root/researchv2/install/laser_proc/share/laser_proc/local_setup.sh
+[1.041s] -- Up-to-date: /root/researchv2/install/laser_proc/share/laser_proc/local_setup.zsh
+[1.041s] -- Installing: /root/researchv2/install/laser_proc/share/laser_proc/local_setup.dsv
+[1.041s] -- Installing: /root/researchv2/install/laser_proc/share/laser_proc/package.dsv
+[1.041s] -- Up-to-date: /root/researchv2/install/laser_proc/share/ament_index/resource_index/packages/laser_proc
+[1.041s] -- Up-to-date: /root/researchv2/install/laser_proc/share/ament_index/resource_index/rclcpp_components/laser_proc
+[1.041s] -- Up-to-date: /root/researchv2/install/laser_proc/share/laser_proc/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.041s] -- Up-to-date: /root/researchv2/install/laser_proc/share/laser_proc/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.041s] -- Up-to-date: /root/researchv2/install/laser_proc/share/laser_proc/cmake/ament_cmake_export_libraries-extras.cmake
+[1.041s] -- Up-to-date: /root/researchv2/install/laser_proc/share/laser_proc/cmake/laser_procConfig.cmake
+[1.042s] -- Up-to-date: /root/researchv2/install/laser_proc/share/laser_proc/cmake/laser_procConfig-version.cmake
+[1.042s] -- Up-to-date: /root/researchv2/install/laser_proc/share/laser_proc/package.xml
+[1.042s] Invoked command in '/root/researchv2/build/laser_proc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node:/root/researchv2/install/chaser_system:/opt/ros/galactic /usr/bin/cmake --install /root/researchv2/build/laser_proc

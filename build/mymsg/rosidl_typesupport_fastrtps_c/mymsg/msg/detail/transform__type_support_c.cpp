@@ -104,7 +104,7 @@ static bool _Transform__cdr_deserialize(
   }
 
   return true;
-}
+}  // NOLINT(readability/fn_size)
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_mymsg
 size_t get_serialized_size_mymsg__msg__Transform(

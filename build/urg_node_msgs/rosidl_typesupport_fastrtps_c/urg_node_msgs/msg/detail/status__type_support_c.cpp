@@ -136,7 +136,7 @@ static bool _Status__cdr_deserialize(
   }
 
   return true;
-}
+}  // NOLINT(readability/fn_size)
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_urg_node_msgs
 size_t get_serialized_size_urg_node_msgs__msg__Status(

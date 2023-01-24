@@ -1,0 +1,73 @@
+[35m[1mScanning dependencies of target approachv4_c[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/approachv4_c.dir/src/approachv4_c.cpp.o[0m
+[01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:54:5:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
+   54 |     [01;31m[Kauto[m[K goal_msg = NavigateToPose::Goal();
+      |     [01;31m[K^~~~[m[K
+[01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:55:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_msg[m[K’ does not name a type
+   55 |     [01;31m[Kgoal_msg[m[K.pose.header.stamp = this->now();
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:56:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_msg[m[K’ does not name a type
+   56 |     [01;31m[Kgoal_msg[m[K.pose.header.frame_id = "map";
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:58:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_msg[m[K’ does not name a type
+   58 |     [01;31m[Kgoal_msg[m[K.pose.pose.position.x = x;
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:59:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_msg[m[K’ does not name a type
+   59 |     [01;31m[Kgoal_msg[m[K.pose.pose.position.y = y;
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:60:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_msg[m[K’ does not name a type
+   60 |     [01;31m[Kgoal_msg[m[K.pose.pose.orientation.x = r_x;
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:61:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_msg[m[K’ does not name a type
+   61 |     [01;31m[Kgoal_msg[m[K.pose.pose.orientation.y = r_y;
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:62:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_msg[m[K’ does not name a type
+   62 |     [01;31m[Kgoal_msg[m[K.pose.pose.orientation.w = r_z;
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:63:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_msg[m[K’ does not name a type
+   63 |     [01;31m[Kgoal_msg[m[K.pose.pose.orientation.z = r_w;
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:[m[K In member function ‘[01m[Kvoid approach_v4_c::send_goal(float, float, float, float, float, float)[m[K’:
+[01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:33:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   33 |     void send_goal([01;35m[Kfloat x[m[K, float y, float r_x,float r_y,float r_z,float r_w){
+      |                    [01;35m[K~~~~~~^[m[K
+[01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:33:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   33 |     void send_goal(float x, [01;35m[Kfloat y[m[K, float r_x,float r_y,float r_z,float r_w){
+      |                             [01;35m[K~~~~~~^[m[K
+[01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:33:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kr_x[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   33 |     void send_goal(float x, float y, [01;35m[Kfloat r_x[m[K,float r_y,float r_z,float r_w){
+      |                                      [01;35m[K~~~~~~^~~[m[K
+[01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:33:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kr_y[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   33 |     void send_goal(float x, float y, float r_x,[01;35m[Kfloat r_y[m[K,float r_z,float r_w){
+      |                                                [01;35m[K~~~~~~^~~[m[K
+[01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:33:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kr_z[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   33 |     void send_goal(float x, float y, float r_x,float r_y,[01;35m[Kfloat r_z[m[K,float r_w){
+      |                                                          [01;35m[K~~~~~~^~~[m[K
+[01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:33:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kr_w[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   33 |     void send_goal(float x, float y, float r_x,float r_y,float r_z,[01;35m[Kfloat r_w[m[K){
+      |                                                                    [01;35m[K~~~~~~^~~[m[K
+[01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:[m[K In member function ‘[01m[Kvoid approach_v4_c::topic_callback(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:67:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx_pos[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   67 |         float [01;35m[Kx_pos[m[K = msg -> pose.position.x;
+      |               [01;35m[K^~~~~[m[K
+[01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:68:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky_pos[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   68 |         float [01;35m[Ky_pos[m[K = msg -> pose.position.y;
+      |               [01;35m[K^~~~~[m[K
+[01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:69:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kz_pos[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   69 |         float [01;35m[Kz_pos[m[K = 0.00;
+      |               [01;35m[K^~~~~[m[K
+[01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:70:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx_ori[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   70 |         float [01;35m[Kx_ori[m[K = msg -> pose.orientation.x;
+      |               [01;35m[K^~~~~[m[K
+[01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:71:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky_ori[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   71 |         float [01;35m[Ky_ori[m[K = msg -> pose.orientation.y;
+      |               [01;35m[K^~~~~[m[K
+[01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:72:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kz_ori[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   72 |         float [01;35m[Kz_ori[m[K = msg -> pose.orientation.z;
+      |               [01;35m[K^~~~~[m[K
+[01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:73:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kw_ori[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   73 |         float [01;35m[Kw_ori[m[K = msg -> pose.orientation.w;
+      |               [01;35m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/approachv4_c.dir/build.make:63: CMakeFiles/approachv4_c.dir/src/approachv4_c.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/approachv4_c.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

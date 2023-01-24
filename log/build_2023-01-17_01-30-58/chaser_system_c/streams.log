@@ -1,0 +1,39 @@
+[0.032s] Invoking command in '/root/researchv2/build/chaser_system_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node:/root/researchv2/install/chaser_system:/opt/ros/galactic /usr/bin/cmake --build /root/researchv2/build/chaser_system_c -- -j16 -l16
+[0.068s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.104s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.187s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[0.213s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.214s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.413s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.499s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.534s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.536s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.551s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.656s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[0.725s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.725s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/root/researchv2/src/chaser_system_c/include>
+[0.725s] -- Configured cppcheck exclude dirs and/or files: 
+[0.726s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.726s] -- Configured cpplint exclude dirs and/or files: 
+[0.726s] -- Added test 'lint_cmake' to check CMake code style
+[0.727s] -- Added test 'uncrustify' to check C / C++ code style
+[0.727s] -- Configured uncrustify additional arguments: 
+[0.727s] -- Added test 'xmllint' to check XML markup files
+[0.729s] -- Configuring done
+[0.735s] -- Generating done
+[0.736s] -- Build files have been written to: /root/researchv2/build/chaser_system_c
+[0.760s] [35m[1mScanning dependencies of target approachv4_c[0m
+[0.786s] [ 50%] [32mBuilding CXX object CMakeFiles/approachv4_c.dir/src/approachv4_c.cpp.o[0m
+[2.089s] [01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:[m[K In constructor ‘[01m[Kapproach_v4_c::approach_v4_c()[m[K’:
+[2.089s] [01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:15:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+[2.089s]    15 |         [01;31m[Ksubscription_[m[K = this -> create_subscription<geometry_msgs::msg::PoseStamped>("waypoints",10,std::bind(&approach_v4_c::topic_callback,this,_1));
+[2.089s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[2.090s]       |         [32m[Krcl_subscription_t[m[K
+[2.090s] [01m[K/root/researchv2/src/chaser_system_c/src/approachv4_c.cpp:15:127:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopic_callback[m[K’ is not a member of ‘[01m[Kapproach_v4_c[m[K’
+[2.090s]    15 |  = this -> create_subscription<geometry_msgs::msg::PoseStamped>("waypoints",10,std::bind(&approach_v4_c::[01;31m[Ktopic_callback[m[K,this,_1));
+[2.090s]       |                                                                                                          [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.090s] 
+[2.612s] make[2]: *** [CMakeFiles/approachv4_c.dir/build.make:63: CMakeFiles/approachv4_c.dir/src/approachv4_c.cpp.o] Error 1
+[2.612s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/approachv4_c.dir/all] Error 2
+[2.613s] make: *** [Makefile:141: all] Error 2
+[2.614s] Invoked command in '/root/researchv2/build/chaser_system_c' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node:/root/researchv2/install/chaser_system:/opt/ros/galactic /usr/bin/cmake --build /root/researchv2/build/chaser_system_c -- -j16 -l16

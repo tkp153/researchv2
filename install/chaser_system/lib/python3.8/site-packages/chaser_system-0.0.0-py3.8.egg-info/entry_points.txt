@@ -1,9 +1,18 @@
 [console_scripts]
+approach_navi = chaser_system.approach_navi:main
+approachv2 = chaser_system.approachv2:main
+approachv3 = chaser_system.approachv3:main
+approachv4 = chaser_system.approachv4:main
+approachv5 = chaser_system.approachv5:main
+approachv6 = chaser_system.approachv6:main
+approachv7 = chaser_system.approachv7:main
+approachv8 = chaser_system.approachv8:main
 image_inputer = chaser_system.image_inputer:main
 person_check = chaser_system.person_check:main
 pose_tf2 = chaser_system.pose_tf2:main
 raise_navi = chaser_system.raise_navi:main
 rgbd_generator = chaser_system.rgbd_generator:main
 three_d_pose_analysis = chaser_system.three_d_pose_analysis:main
+waypoints_csv = chaser_system.waypoints_csv:main
 xbox = chaser_system.xbox:main
 

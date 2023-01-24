@@ -1,0 +1,57 @@
+[0.103s] Invoking command in '/root/researchv2/build/diagnostic_updater': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/researchv2/install/chaser_system:/opt/ros/galactic /usr/bin/cmake --build /root/researchv2/build/diagnostic_updater -- -j12 -l12
+[0.216s] [ 25%] Built target example
+[0.218s] [ 50%] Built target gtest_main
+[0.222s] [ 50%] Built target ament_cmake_python_copy_diagnostic_updater
+[0.225s] [ 75%] Built target gtest
+[0.307s] [100%] Built target diagnostic_updater_test
+[0.804s] running egg_info
+[0.805s] writing diagnostic_updater.egg-info/PKG-INFO
+[0.805s] writing dependency_links to diagnostic_updater.egg-info/dependency_links.txt
+[0.805s] writing top-level names to diagnostic_updater.egg-info/top_level.txt
+[0.877s] reading manifest file 'diagnostic_updater.egg-info/SOURCES.txt'
+[0.877s] writing manifest file 'diagnostic_updater.egg-info/SOURCES.txt'
+[0.925s] [100%] Built target ament_cmake_python_build_diagnostic_updater_egg
+[1.042s] Invoked command in '/root/researchv2/build/diagnostic_updater' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/researchv2/install/chaser_system:/opt/ros/galactic /usr/bin/cmake --build /root/researchv2/build/diagnostic_updater -- -j12 -l12
+[1.107s] Invoking command in '/root/researchv2/build/diagnostic_updater': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/researchv2/install/chaser_system:/opt/ros/galactic /usr/bin/cmake --install /root/researchv2/build/diagnostic_updater
+[1.127s] -- Install configuration: ""
+[1.128s] -- Up-to-date: /root/researchv2/install/diagnostic_updater/share/diagnostic_updater/environment/pythonpath.sh
+[1.128s] -- Up-to-date: /root/researchv2/install/diagnostic_updater/share/diagnostic_updater/environment/pythonpath.dsv
+[1.128s] -- Up-to-date: /root/researchv2/install/diagnostic_updater/lib/python3.8/site-packages//diagnostic_updater.egg-info
+[1.129s] -- Installing: /root/researchv2/install/diagnostic_updater/lib/python3.8/site-packages//diagnostic_updater.egg-info/PKG-INFO
+[1.129s] -- Installing: /root/researchv2/install/diagnostic_updater/lib/python3.8/site-packages//diagnostic_updater.egg-info/top_level.txt
+[1.129s] -- Installing: /root/researchv2/install/diagnostic_updater/lib/python3.8/site-packages//diagnostic_updater.egg-info/SOURCES.txt
+[1.129s] -- Installing: /root/researchv2/install/diagnostic_updater/lib/python3.8/site-packages//diagnostic_updater.egg-info/dependency_links.txt
+[1.130s] -- Up-to-date: /root/researchv2/install/diagnostic_updater/lib/python3.8/site-packages/diagnostic_updater
+[1.130s] -- Up-to-date: /root/researchv2/install/diagnostic_updater/lib/python3.8/site-packages/diagnostic_updater/_update_functions.py
+[1.130s] -- Up-to-date: /root/researchv2/install/diagnostic_updater/lib/python3.8/site-packages/diagnostic_updater/_diagnostic_status_wrapper.py
+[1.131s] -- Up-to-date: /root/researchv2/install/diagnostic_updater/lib/python3.8/site-packages/diagnostic_updater/_publisher.py
+[1.131s] -- Up-to-date: /root/researchv2/install/diagnostic_updater/lib/python3.8/site-packages/diagnostic_updater/example.py
+[1.132s] -- Up-to-date: /root/researchv2/install/diagnostic_updater/lib/python3.8/site-packages/diagnostic_updater/_diagnostic_updater.py
+[1.132s] -- Up-to-date: /root/researchv2/install/diagnostic_updater/lib/python3.8/site-packages/diagnostic_updater/__init__.py
+[1.194s] Listing '/root/researchv2/install/diagnostic_updater/lib/python3.8/site-packages/diagnostic_updater'...
+[1.195s] -- Up-to-date: /root/researchv2/install/diagnostic_updater/lib/diagnostic_updater/example.py
+[1.195s] -- Up-to-date: /root/researchv2/install/diagnostic_updater/lib/diagnostic_updater/example
+[1.195s] -- Up-to-date: /root/researchv2/install/diagnostic_updater/include
+[1.196s] -- Up-to-date: /root/researchv2/install/diagnostic_updater/include/diagnostic_updater
+[1.196s] -- Up-to-date: /root/researchv2/install/diagnostic_updater/include/diagnostic_updater/diagnostic_status_wrapper.hpp
+[1.196s] -- Up-to-date: /root/researchv2/install/diagnostic_updater/include/diagnostic_updater/diagnostic_updater.hpp
+[1.196s] -- Up-to-date: /root/researchv2/install/diagnostic_updater/include/diagnostic_updater/publisher.hpp
+[1.197s] -- Up-to-date: /root/researchv2/install/diagnostic_updater/include/diagnostic_updater/update_functions.hpp
+[1.197s] -- Up-to-date: /root/researchv2/install/diagnostic_updater/share/ament_index/resource_index/package_run_dependencies/diagnostic_updater
+[1.197s] -- Up-to-date: /root/researchv2/install/diagnostic_updater/share/ament_index/resource_index/parent_prefix_path/diagnostic_updater
+[1.197s] -- Up-to-date: /root/researchv2/install/diagnostic_updater/share/diagnostic_updater/environment/ament_prefix_path.sh
+[1.198s] -- Up-to-date: /root/researchv2/install/diagnostic_updater/share/diagnostic_updater/environment/ament_prefix_path.dsv
+[1.198s] -- Up-to-date: /root/researchv2/install/diagnostic_updater/share/diagnostic_updater/environment/path.sh
+[1.198s] -- Up-to-date: /root/researchv2/install/diagnostic_updater/share/diagnostic_updater/environment/path.dsv
+[1.199s] -- Up-to-date: /root/researchv2/install/diagnostic_updater/share/diagnostic_updater/local_setup.bash
+[1.199s] -- Up-to-date: /root/researchv2/install/diagnostic_updater/share/diagnostic_updater/local_setup.sh
+[1.199s] -- Up-to-date: /root/researchv2/install/diagnostic_updater/share/diagnostic_updater/local_setup.zsh
+[1.199s] -- Up-to-date: /root/researchv2/install/diagnostic_updater/share/diagnostic_updater/local_setup.dsv
+[1.199s] -- Installing: /root/researchv2/install/diagnostic_updater/share/diagnostic_updater/package.dsv
+[1.200s] -- Up-to-date: /root/researchv2/install/diagnostic_updater/share/ament_index/resource_index/packages/diagnostic_updater
+[1.200s] -- Up-to-date: /root/researchv2/install/diagnostic_updater/share/diagnostic_updater/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.200s] -- Up-to-date: /root/researchv2/install/diagnostic_updater/share/diagnostic_updater/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.200s] -- Up-to-date: /root/researchv2/install/diagnostic_updater/share/diagnostic_updater/cmake/diagnostic_updaterConfig.cmake
+[1.200s] -- Up-to-date: /root/researchv2/install/diagnostic_updater/share/diagnostic_updater/cmake/diagnostic_updaterConfig-version.cmake
+[1.201s] -- Up-to-date: /root/researchv2/install/diagnostic_updater/share/diagnostic_updater/package.xml
+[1.237s] Invoked command in '/root/researchv2/build/diagnostic_updater' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/researchv2/install/chaser_system:/opt/ros/galactic /usr/bin/cmake --install /root/researchv2/build/diagnostic_updater

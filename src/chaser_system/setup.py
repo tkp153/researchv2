@@ -34,7 +34,17 @@ setup(
             'rgbd_generator = chaser_system.rgbd_generator:main',
             'person_check = chaser_system.person_check:main',
             'xbox = chaser_system.xbox:main',
-            'raise_navi = chaser_system.raise_navi:main'
+            'raise_navi = chaser_system.raise_navi:main',
+            'approach_navi = chaser_system.approach_navi:main',
+            'approachv2 = chaser_system.approachv2:main',
+            'approachv3 = chaser_system.approachv3:main',
+            'approachv4 = chaser_system.approachv4:main',
+            'waypoints_csv = chaser_system.waypoints_csv:main',
+            'approachv5 = chaser_system.approachv5:main',
+            'approachv6 = chaser_system.approachv6:main',
+            'approachv7 = chaser_system.approachv7:main',
+            'approachv8 = chaser_system.approachv8:main'
+            
         ],
     },
 )

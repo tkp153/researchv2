@@ -1,0 +1,71 @@
+[0.072s] Invoking command in '/root/researchv2/build/diagnostic_common_diagnostics': AMENT_PREFIX_PATH=/root/researchv2/install/diagnostic_updater:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/researchv2/install/diagnostic_updater:/root/openpifpaf_ros2/install/realsense2_description:/root/openpifpaf_ros2/install/realsense2_camera:/root/openpifpaf_ros2/install/realsense2_camera_msgs:/root/openpifpaf_ros2/install/openpifpaf_ros2_msgs:/opt/ros/galactic:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node PYTHONPATH=/root/researchv2/install/diagnostic_updater/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /root/researchv2/src/diagnostics/diagnostic_common_diagnostics -DCMAKE_INSTALL_PREFIX=/root/researchv2/install/diagnostic_common_diagnostics
+[0.195s] -- The C compiler identification is GNU 9.4.0
+[0.303s] -- The CXX compiler identification is GNU 9.4.0
+[0.314s] -- Check for working C compiler: /usr/bin/cc
+[0.464s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.465s] -- Detecting C compiler ABI info
+[0.583s] -- Detecting C compiler ABI info - done
+[0.610s] -- Detecting C compile features
+[0.610s] -- Detecting C compile features - done
+[0.615s] -- Check for working CXX compiler: /usr/bin/c++
+[0.780s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.782s] -- Detecting CXX compiler ABI info
+[0.935s] -- Detecting CXX compiler ABI info - done
+[0.966s] -- Detecting CXX compile features
+[0.966s] -- Detecting CXX compile features - done
+[0.974s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.042s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.044s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.255s] -- Found rclpy: 1.9.3 (/opt/ros/galactic/share/rclpy/cmake)
+[1.516s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.700s] -- Added test 'xmllint' to check XML markup files
+[1.702s] -- Added test 'lint_cmake' to check CMake code style
+[1.707s] -- Configuring done
+[1.714s] -- Generating done
+[1.716s] -- Build files have been written to: /root/researchv2/build/diagnostic_common_diagnostics
+[1.732s] Invoked command in '/root/researchv2/build/diagnostic_common_diagnostics' returned '0': AMENT_PREFIX_PATH=/root/researchv2/install/diagnostic_updater:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/researchv2/install/diagnostic_updater:/root/openpifpaf_ros2/install/realsense2_description:/root/openpifpaf_ros2/install/realsense2_camera:/root/openpifpaf_ros2/install/realsense2_camera_msgs:/root/openpifpaf_ros2/install/openpifpaf_ros2_msgs:/opt/ros/galactic:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node PYTHONPATH=/root/researchv2/install/diagnostic_updater/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /root/researchv2/src/diagnostics/diagnostic_common_diagnostics -DCMAKE_INSTALL_PREFIX=/root/researchv2/install/diagnostic_common_diagnostics
+[1.734s] Invoking command in '/root/researchv2/build/diagnostic_common_diagnostics': AMENT_PREFIX_PATH=/root/researchv2/install/diagnostic_updater:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/researchv2/install/diagnostic_updater:/root/openpifpaf_ros2/install/realsense2_description:/root/openpifpaf_ros2/install/realsense2_camera:/root/openpifpaf_ros2/install/realsense2_camera_msgs:/root/openpifpaf_ros2/install/openpifpaf_ros2_msgs:/opt/ros/galactic:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node PYTHONPATH=/root/researchv2/install/diagnostic_updater/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/researchv2/build/diagnostic_common_diagnostics -- -j12 -l12
+[1.819s] [35m[1mScanning dependencies of target ament_cmake_python_copy_diagnostic_common_diagnostics[0m
+[1.864s] Built target ament_cmake_python_copy_diagnostic_common_diagnostics
+[1.885s] [35m[1mScanning dependencies of target ament_cmake_python_build_diagnostic_common_diagnostics_egg[0m
+[2.484s] running egg_info
+[2.485s] creating diagnostic_common_diagnostics.egg-info
+[2.486s] writing diagnostic_common_diagnostics.egg-info/PKG-INFO
+[2.486s] writing dependency_links to diagnostic_common_diagnostics.egg-info/dependency_links.txt
+[2.486s] writing top-level names to diagnostic_common_diagnostics.egg-info/top_level.txt
+[2.489s] writing manifest file 'diagnostic_common_diagnostics.egg-info/SOURCES.txt'
+[2.568s] reading manifest file 'diagnostic_common_diagnostics.egg-info/SOURCES.txt'
+[2.569s] writing manifest file 'diagnostic_common_diagnostics.egg-info/SOURCES.txt'
+[2.613s] Built target ament_cmake_python_build_diagnostic_common_diagnostics_egg
+[2.634s] Invoked command in '/root/researchv2/build/diagnostic_common_diagnostics' returned '0': AMENT_PREFIX_PATH=/root/researchv2/install/diagnostic_updater:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/researchv2/install/diagnostic_updater:/root/openpifpaf_ros2/install/realsense2_description:/root/openpifpaf_ros2/install/realsense2_camera:/root/openpifpaf_ros2/install/realsense2_camera_msgs:/root/openpifpaf_ros2/install/openpifpaf_ros2_msgs:/opt/ros/galactic:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node PYTHONPATH=/root/researchv2/install/diagnostic_updater/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/researchv2/build/diagnostic_common_diagnostics -- -j12 -l12
+[2.684s] Invoking command in '/root/researchv2/build/diagnostic_common_diagnostics': AMENT_PREFIX_PATH=/root/researchv2/install/diagnostic_updater:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/researchv2/install/diagnostic_updater:/root/openpifpaf_ros2/install/realsense2_description:/root/openpifpaf_ros2/install/realsense2_camera:/root/openpifpaf_ros2/install/realsense2_camera_msgs:/root/openpifpaf_ros2/install/openpifpaf_ros2_msgs:/opt/ros/galactic:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node PYTHONPATH=/root/researchv2/install/diagnostic_updater/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/researchv2/build/diagnostic_common_diagnostics
+[2.700s] -- Install configuration: ""
+[2.701s] -- Installing: /root/researchv2/install/diagnostic_common_diagnostics/share/diagnostic_common_diagnostics/environment/pythonpath.sh
+[2.701s] -- Installing: /root/researchv2/install/diagnostic_common_diagnostics/share/diagnostic_common_diagnostics/environment/pythonpath.dsv
+[2.701s] -- Installing: /root/researchv2/install/diagnostic_common_diagnostics/lib/python3.8/site-packages//diagnostic_common_diagnostics.egg-info
+[2.702s] -- Installing: /root/researchv2/install/diagnostic_common_diagnostics/lib/python3.8/site-packages//diagnostic_common_diagnostics.egg-info/PKG-INFO
+[2.702s] -- Installing: /root/researchv2/install/diagnostic_common_diagnostics/lib/python3.8/site-packages//diagnostic_common_diagnostics.egg-info/top_level.txt
+[2.703s] -- Installing: /root/researchv2/install/diagnostic_common_diagnostics/lib/python3.8/site-packages//diagnostic_common_diagnostics.egg-info/SOURCES.txt
+[2.703s] -- Installing: /root/researchv2/install/diagnostic_common_diagnostics/lib/python3.8/site-packages//diagnostic_common_diagnostics.egg-info/dependency_links.txt
+[2.703s] -- Installing: /root/researchv2/install/diagnostic_common_diagnostics/lib/python3.8/site-packages/diagnostic_common_diagnostics
+[2.703s] -- Installing: /root/researchv2/install/diagnostic_common_diagnostics/lib/python3.8/site-packages/diagnostic_common_diagnostics/__init__.py
+[2.704s] -- Installing: /root/researchv2/install/diagnostic_common_diagnostics/lib/python3.8/site-packages/diagnostic_common_diagnostics/ntp_monitor.py
+[2.766s] Listing '/root/researchv2/install/diagnostic_common_diagnostics/lib/python3.8/site-packages/diagnostic_common_diagnostics'...
+[2.766s] Compiling '/root/researchv2/install/diagnostic_common_diagnostics/lib/python3.8/site-packages/diagnostic_common_diagnostics/__init__.py'...
+[2.766s] Compiling '/root/researchv2/install/diagnostic_common_diagnostics/lib/python3.8/site-packages/diagnostic_common_diagnostics/ntp_monitor.py'...
+[2.775s] -- Installing: /root/researchv2/install/diagnostic_common_diagnostics/lib/diagnostic_common_diagnostics/ntp_monitor.py
+[2.776s] -- Installing: /root/researchv2/install/diagnostic_common_diagnostics/share/ament_index/resource_index/package_run_dependencies/diagnostic_common_diagnostics
+[2.776s] -- Installing: /root/researchv2/install/diagnostic_common_diagnostics/share/ament_index/resource_index/parent_prefix_path/diagnostic_common_diagnostics
+[2.777s] -- Installing: /root/researchv2/install/diagnostic_common_diagnostics/share/diagnostic_common_diagnostics/environment/ament_prefix_path.sh
+[2.777s] -- Installing: /root/researchv2/install/diagnostic_common_diagnostics/share/diagnostic_common_diagnostics/environment/ament_prefix_path.dsv
+[2.778s] -- Installing: /root/researchv2/install/diagnostic_common_diagnostics/share/diagnostic_common_diagnostics/environment/path.sh
+[2.778s] -- Installing: /root/researchv2/install/diagnostic_common_diagnostics/share/diagnostic_common_diagnostics/environment/path.dsv
+[2.779s] -- Installing: /root/researchv2/install/diagnostic_common_diagnostics/share/diagnostic_common_diagnostics/local_setup.bash
+[2.779s] -- Installing: /root/researchv2/install/diagnostic_common_diagnostics/share/diagnostic_common_diagnostics/local_setup.sh
+[2.779s] -- Installing: /root/researchv2/install/diagnostic_common_diagnostics/share/diagnostic_common_diagnostics/local_setup.zsh
+[2.780s] -- Installing: /root/researchv2/install/diagnostic_common_diagnostics/share/diagnostic_common_diagnostics/local_setup.dsv
+[2.780s] -- Installing: /root/researchv2/install/diagnostic_common_diagnostics/share/diagnostic_common_diagnostics/package.dsv
+[2.781s] -- Installing: /root/researchv2/install/diagnostic_common_diagnostics/share/ament_index/resource_index/packages/diagnostic_common_diagnostics
+[2.781s] -- Installing: /root/researchv2/install/diagnostic_common_diagnostics/share/diagnostic_common_diagnostics/cmake/diagnostic_common_diagnosticsConfig.cmake
+[2.781s] -- Installing: /root/researchv2/install/diagnostic_common_diagnostics/share/diagnostic_common_diagnostics/cmake/diagnostic_common_diagnosticsConfig-version.cmake
+[2.782s] -- Installing: /root/researchv2/install/diagnostic_common_diagnostics/share/diagnostic_common_diagnostics/package.xml

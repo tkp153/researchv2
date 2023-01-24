@@ -6,12 +6,46 @@
 #define MYMSG__MSG__DETAIL__POSE__TRAITS_HPP_
 
 #include "mymsg/msg/detail/pose__struct.hpp"
-#include <rosidl_runtime_cpp/traits.hpp>
 #include <stdint.h>
+#include <rosidl_runtime_cpp/traits.hpp>
+#include <sstream>
+#include <string>
 #include <type_traits>
 
 namespace rosidl_generator_traits
 {
+
+inline void to_yaml(
+  const mymsg::msg::Pose & msg,
+  std::ostream & out, size_t indentation = 0)
+{
+  // member: keypoints
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    if (msg.keypoints.size() == 0) {
+      out << "keypoints: []\n";
+    } else {
+      out << "keypoints:\n";
+      for (auto item : msg.keypoints) {
+        if (indentation > 0) {
+          out << std::string(indentation, ' ');
+        }
+        out << "- ";
+        value_to_yaml(item, out);
+        out << "\n";
+      }
+    }
+  }
+}  // NOLINT(readability/fn_size)
+
+inline std::string to_yaml(const mymsg::msg::Pose & msg)
+{
+  std::ostringstream out;
+  to_yaml(msg, out);
+  return out.str();
+}
 
 template<>
 inline const char * data_type<mymsg::msg::Pose>()

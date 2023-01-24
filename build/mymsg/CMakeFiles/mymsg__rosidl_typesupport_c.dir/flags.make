@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC   -Wall -std=gnu++14
 
 CXX_DEFINES = -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"mymsg\" -Dmymsg__rosidl_typesupport_c_EXPORTS
 
-CXX_INCLUDES = -I/root/researchv2/build/mymsg/rosidl_generator_c -I/root/researchv2/build/mymsg/rosidl_typesupport_c -isystem /opt/ros/foxy/include 
+CXX_INCLUDES = -I/root/researchv2/build/mymsg/rosidl_generator_c -I/root/researchv2/build/mymsg/rosidl_typesupport_c -isystem /opt/ros/galactic/include 
 

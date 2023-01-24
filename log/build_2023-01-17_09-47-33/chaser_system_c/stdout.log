@@ -1,0 +1,22 @@
+[35m[1mScanning dependencies of target approachv4_c[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/approachv4_c.dir/src/approachv4_c.cpp.o[0m
+[100%] [32m[1mLinking CXX executable approachv4_c[0m
+[100%] Built target approachv4_c
+-- Install configuration: ""
+-- Installing: /root/researchv2/install/chaser_system_c/lib/chaser_system_c/approachv4_c
+-- Set runtime path of "/root/researchv2/install/chaser_system_c/lib/chaser_system_c/approachv4_c" to ""
+-- Installing: /root/researchv2/install/chaser_system_c/share/ament_index/resource_index/package_run_dependencies/chaser_system_c
+-- Installing: /root/researchv2/install/chaser_system_c/share/ament_index/resource_index/parent_prefix_path/chaser_system_c
+-- Installing: /root/researchv2/install/chaser_system_c/share/chaser_system_c/environment/ament_prefix_path.sh
+-- Installing: /root/researchv2/install/chaser_system_c/share/chaser_system_c/environment/ament_prefix_path.dsv
+-- Installing: /root/researchv2/install/chaser_system_c/share/chaser_system_c/environment/path.sh
+-- Installing: /root/researchv2/install/chaser_system_c/share/chaser_system_c/environment/path.dsv
+-- Installing: /root/researchv2/install/chaser_system_c/share/chaser_system_c/local_setup.bash
+-- Installing: /root/researchv2/install/chaser_system_c/share/chaser_system_c/local_setup.sh
+-- Installing: /root/researchv2/install/chaser_system_c/share/chaser_system_c/local_setup.zsh
+-- Installing: /root/researchv2/install/chaser_system_c/share/chaser_system_c/local_setup.dsv
+-- Installing: /root/researchv2/install/chaser_system_c/share/chaser_system_c/package.dsv
+-- Installing: /root/researchv2/install/chaser_system_c/share/ament_index/resource_index/packages/chaser_system_c
+-- Installing: /root/researchv2/install/chaser_system_c/share/chaser_system_c/cmake/chaser_system_cConfig.cmake
+-- Installing: /root/researchv2/install/chaser_system_c/share/chaser_system_c/cmake/chaser_system_cConfig-version.cmake
+-- Installing: /root/researchv2/install/chaser_system_c/share/chaser_system_c/package.xml
