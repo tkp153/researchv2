@@ -58,14 +58,14 @@ class ApproachV8(Node):
             goal.pose.orientation.w = data[6]
             os.remove('waypoints.csv')
             self.get_logger().info("CSVデータのキャッシュ削除完了....")
-            #self.text_generation('Kobuki is going to {}{}'.format(goal.pose.position.x,goal.pose.position.y))
+            self.text_generation('Robot is going to waypoints')
             goal_msg.pose = goal
             goal_result = self.nav_to_pose_client.send_goal(goal_msg)
             self.get_logger().info('ウェイポイント承認.....ナビゲーション２システム実行中.....')
             status = goal_result.status
             if status == GoalStatus.STATUS_SUCCEEDED:
                 self.get_logger().info("GOAL POINT SUCCEEDED")
-                #self.text_generation('Kobuki has reached the waypoint')
+                self.text_generation('Kobuki has reached the waypoint')
             elif status == GoalStatus.STATUS_CANCELED:
                 self.get_logger().info("GOAL POINT CANCELED")
                 self.text_generation('Kobuki has canceled the waypoint')
@@ -88,14 +88,14 @@ def main():
     try:
         print("")
         node.get_logger().info("起動中 ----> 終了する場合はCTRL-Cを押してください。")
-        '''
-        tts = gTTS('Kobuki navigation System launching',lang='en')
+        
+        tts = gTTS('navigation System launching',lang='en')
         tts.save('launch.mp3')
         mixer.init()
         mixer.music.load('launch.mp3')
         mixer.music.play()
         os.remove('launch.mp3')
-        '''
+        
         
         executor.spin()
     except KeyboardInterrupt:
