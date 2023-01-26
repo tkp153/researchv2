@@ -56,9 +56,7 @@ class ApproachV8(Node):
             goal.pose.orientation.y = data[4]
             goal.pose.orientation.z = data[5]
             goal.pose.orientation.w = data[6]
-            os.remove('waypoints.csv')
-            self.get_logger().info("CSVデータのキャッシュ削除完了....")
-            self.text_generation('Robot is going to waypoints')
+            self.text_generation('waypoints updated')
             goal_msg.pose = goal
             goal_result = self.nav_to_pose_client.send_goal(goal_msg)
             self.get_logger().info('ウェイポイント承認.....ナビゲーション２システム実行中.....')
@@ -66,10 +64,17 @@ class ApproachV8(Node):
             if status == GoalStatus.STATUS_SUCCEEDED:
                 self.get_logger().info("GOAL POINT SUCCEEDED")
                 self.text_generation('Kobuki has reached the waypoint')
+                os.remove('waypoints.csv')
+                self.get_logger().info("CSVデータのキャッシュ削除完了....")
             elif status == GoalStatus.STATUS_CANCELED:
                 self.get_logger().info("GOAL POINT CANCELED")
                 self.text_generation('Kobuki has canceled the waypoint')
-    
+                os.remove('waypoints.csv')
+                self.get_logger().info("CSVデータのキャッシュ削除完了....")
+        else:
+            self.text_generation('Robot is not update waypoints')
+                
+                
     def text_generation(self,word):
         tts = gTTS(word,lang='en')
         tts.save('text_2.mp3')
