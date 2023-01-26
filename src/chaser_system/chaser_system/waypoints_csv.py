@@ -37,7 +37,7 @@ class waypoints_csv(Node):
     def distance_calc(self,x1,y1,pre_x,pre_y):
         meter = math.sqrt((x1-pre_x)**2+(y1-pre_y)**2)
         
-        if meter > 0.5:
+        if meter > 0.125:
             return True
         else:
             return False
