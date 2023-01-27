@@ -18,12 +18,17 @@ from pygame import mixer
 class ApproachV8(Node):
     def __init__(self,executor):
         super().__init__("ApproachV8")
+        if os.path.isfile("waypoints.csv"):
+            #os.remove("waypoints.csv")
+            pass
         self.executor = executor
-        timer_period1 = 5.00
+        timer_period1 = 6.00
         self.timer1 = self.create_timer(timer_period1,self.navigation_system,callback_group= ReentrantCallbackGroup())
         self.nav_to_pose_client = ActionClient(self,
                                             NavigateToPose, 'navigate_to_pose',
                                             callback_group=ReentrantCallbackGroup())
+        self.num = 0
+        self.data =[]
             
     def get_waypoints(self):
         self.get_logger().info("CSVデータ検索中")
@@ -31,12 +36,15 @@ class ApproachV8(Node):
         #CSV file あるかどうか？
         if os.path.isfile(path):
             self.get_logger().info("CSVデータ読み込み...")
-            data = np.loadtxt("waypoints.csv",delimiter=",",dtype= float)
-            return data
+            source = np.loadtxt("waypoints.csv",delimiter=",",dtype= float)
+            for i in source:
+                self.data.append(i)
+            ans = "データあります"
+            return ans
         else:
             self.get_logger().info("データが存在しません....")
-            data = "データが存在しません"
-            return data
+            ans = "データが存在しません"
+            return ans
     
     async def navigation_system(self):
         self.get_logger().info("ナビゲーション2システム起動.....")
@@ -46,30 +54,33 @@ class ApproachV8(Node):
         goal = PoseStamped()
         
         data = self.get_waypoints()
-        if data != "データが存在しません":
-            goal.header.stamp = self.get_clock().now().to_msg()
-            goal.header.frame_id = "map"
-            goal.pose.position.x = data[0]
-            goal.pose.position.y = data[1]
-            goal.pose.position.z = 0.00
-            goal.pose.orientation.x = data[3]
-            goal.pose.orientation.y = data[4]
-            goal.pose.orientation.z = data[5]
-            goal.pose.orientation.w = data[6]
-            os.remove('waypoints.csv')
-            self.get_logger().info("CSVデータのキャッシュ削除完了....")
-            self.text_generation('Robot is going to waypoints')
-            goal_msg.pose = goal
-            goal_result = self.nav_to_pose_client.send_goal(goal_msg)
-            self.get_logger().info('ウェイポイント承認.....ナビゲーション２システム実行中.....')
-            status = goal_result.status
-            if status == GoalStatus.STATUS_SUCCEEDED:
-                self.get_logger().info("GOAL POINT SUCCEEDED")
-                self.text_generation('Kobuki has reached the waypoint')
-            elif status == GoalStatus.STATUS_CANCELED:
-                self.get_logger().info("GOAL POINT CANCELED")
-                self.text_generation('Kobuki has canceled the waypoint')
-    
+        i = self.num
+        #last_waypoint = self.data.length 
+        goal.header.stamp = self.get_clock().now().to_msg()
+        goal.header.frame_id = "map"
+        goal.pose.position.x = self.data[i][0]
+        goal.pose.position.y = self.data[i][1]
+        goal.pose.position.z = 0.00
+        goal.pose.orientation.x = self.data[i][3]
+        goal.pose.orientation.y = self.data[i][4]
+        goal.pose.orientation.z = self.data[i][5]
+        goal.pose.orientation.w = self.data[i][6]
+        print(goal)
+        self.text_generation('waypoints updated')
+        goal_msg.pose = goal
+        goal_result = self.nav_to_pose_client.send_goal(goal_msg)
+        self.get_logger().info('ウェイポイント承認.....ナビゲーション２システム実行中.....')
+        status = goal_result.status
+        if status == GoalStatus.STATUS_SUCCEEDED:
+            self.get_logger().info("GOAL POINT SUCCEEDED")
+            self.text_generation('Kobuki has reached the waypoint')
+            self.num += 1
+        elif status == GoalStatus.STATUS_CANCELED:
+            self.get_logger().info("GOAL POINT CANCELED")
+            self.text_generation('Kobuki has canceled the waypoint')
+            
+                
+                
     def text_generation(self,word):
         tts = gTTS(word,lang='en')
         tts.save('text_2.mp3')

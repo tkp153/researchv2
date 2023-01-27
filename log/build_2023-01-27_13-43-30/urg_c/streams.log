@@ -1,0 +1,63 @@
+[0.111s] Invoking command in '/root/researchv2/build/urg_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node:/root/researchv2/install/chaser_system:/opt/ros/galactic /usr/bin/cmake --build /root/researchv2/build/urg_c -- -j12 -l12
+[0.265s] [ 29%] Built target urg_c
+[0.391s] [ 35%] Built target open_urg_sensor
+[0.478s] [ 41%] Built target sync_time_stamp
+[0.486s] [ 47%] Built target timeout_test
+[0.535s] [ 52%] Built target reboot_test
+[0.541s] [ 58%] Built target find_port
+[0.599s] [ 64%] Built target get_multiecho_intensity
+[0.601s] [ 70%] Built target get_multiecho
+[0.657s] [ 76%] Built target calculate_xy
+[0.669s] [ 82%] Built target angle_convert_test
+[0.717s] [ 88%] Built target get_distance
+[0.728s] [ 94%] Built target sensor_parameter
+[0.773s] [100%] Built target get_distance_intensity
+[0.797s] Invoked command in '/root/researchv2/build/urg_c' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node:/root/researchv2/install/chaser_system:/opt/ros/galactic /usr/bin/cmake --build /root/researchv2/build/urg_c -- -j12 -l12
+[1.038s] Invoking command in '/root/researchv2/build/urg_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node:/root/researchv2/install/chaser_system:/opt/ros/galactic /usr/bin/cmake --install /root/researchv2/build/urg_c
+[1.060s] -- Install configuration: ""
+[1.061s] -- Up-to-date: /root/researchv2/install/urg_c/lib/liburg_c.so
+[1.062s] -- Up-to-date: /root/researchv2/install/urg_c/lib/libopen_urg_sensor.a
+[1.062s] -- Up-to-date: /root/researchv2/install/urg_c/bin/angle_convert_test
+[1.063s] -- Up-to-date: /root/researchv2/install/urg_c/bin/calculate_xy
+[1.064s] -- Up-to-date: /root/researchv2/install/urg_c/bin/find_port
+[1.065s] -- Up-to-date: /root/researchv2/install/urg_c/bin/get_distance
+[1.067s] -- Up-to-date: /root/researchv2/install/urg_c/bin/get_distance_intensity
+[1.067s] -- Up-to-date: /root/researchv2/install/urg_c/bin/get_multiecho
+[1.068s] -- Up-to-date: /root/researchv2/install/urg_c/bin/get_multiecho_intensity
+[1.069s] -- Up-to-date: /root/researchv2/install/urg_c/bin/reboot_test
+[1.070s] -- Up-to-date: /root/researchv2/install/urg_c/bin/sensor_parameter
+[1.071s] -- Up-to-date: /root/researchv2/install/urg_c/bin/sync_time_stamp
+[1.071s] -- Up-to-date: /root/researchv2/install/urg_c/bin/timeout_test
+[1.072s] -- Up-to-date: /root/researchv2/install/urg_c/include
+[1.073s] -- Up-to-date: /root/researchv2/install/urg_c/include/urg_c
+[1.073s] -- Up-to-date: /root/researchv2/install/urg_c/include/urg_c/urg_tcpclient.h
+[1.073s] -- Up-to-date: /root/researchv2/install/urg_c/include/urg_c/urg_time.h
+[1.074s] -- Up-to-date: /root/researchv2/install/urg_c/include/urg_c/urg_sensor.h
+[1.074s] -- Up-to-date: /root/researchv2/install/urg_c/include/urg_c/urg_ring_buffer.h
+[1.074s] -- Up-to-date: /root/researchv2/install/urg_c/include/urg_c/urg_serial_utils.h
+[1.074s] -- Up-to-date: /root/researchv2/install/urg_c/include/urg_c/urg_errno.h
+[1.075s] -- Up-to-date: /root/researchv2/install/urg_c/include/urg_c/urg_serial.h
+[1.075s] -- Up-to-date: /root/researchv2/install/urg_c/include/urg_c/urg_detect_os.h
+[1.076s] -- Up-to-date: /root/researchv2/install/urg_c/include/urg_c/urg_utils.h
+[1.076s] -- Up-to-date: /root/researchv2/install/urg_c/include/urg_c/urg_debug.h
+[1.076s] -- Up-to-date: /root/researchv2/install/urg_c/include/urg_c/urg_connection.h
+[1.076s] -- Up-to-date: /root/researchv2/install/urg_c/share/urg_c/environment/library_path.sh
+[1.076s] -- Up-to-date: /root/researchv2/install/urg_c/share/urg_c/environment/library_path.dsv
+[1.077s] -- Up-to-date: /root/researchv2/install/urg_c/share/ament_index/resource_index/package_run_dependencies/urg_c
+[1.077s] -- Up-to-date: /root/researchv2/install/urg_c/share/ament_index/resource_index/parent_prefix_path/urg_c
+[1.078s] -- Up-to-date: /root/researchv2/install/urg_c/share/urg_c/environment/ament_prefix_path.sh
+[1.078s] -- Up-to-date: /root/researchv2/install/urg_c/share/urg_c/environment/ament_prefix_path.dsv
+[1.078s] -- Up-to-date: /root/researchv2/install/urg_c/share/urg_c/environment/path.sh
+[1.082s] -- Up-to-date: /root/researchv2/install/urg_c/share/urg_c/environment/path.dsv
+[1.083s] -- Up-to-date: /root/researchv2/install/urg_c/share/urg_c/local_setup.bash
+[1.083s] -- Up-to-date: /root/researchv2/install/urg_c/share/urg_c/local_setup.sh
+[1.084s] -- Up-to-date: /root/researchv2/install/urg_c/share/urg_c/local_setup.zsh
+[1.086s] -- Up-to-date: /root/researchv2/install/urg_c/share/urg_c/local_setup.dsv
+[1.092s] -- Installing: /root/researchv2/install/urg_c/share/urg_c/package.dsv
+[1.095s] -- Up-to-date: /root/researchv2/install/urg_c/share/ament_index/resource_index/packages/urg_c
+[1.095s] -- Up-to-date: /root/researchv2/install/urg_c/share/urg_c/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.096s] -- Up-to-date: /root/researchv2/install/urg_c/share/urg_c/cmake/ament_cmake_export_libraries-extras.cmake
+[1.096s] -- Up-to-date: /root/researchv2/install/urg_c/share/urg_c/cmake/urg_cConfig.cmake
+[1.096s] -- Up-to-date: /root/researchv2/install/urg_c/share/urg_c/cmake/urg_cConfig-version.cmake
+[1.097s] -- Up-to-date: /root/researchv2/install/urg_c/share/urg_c/package.xml
+[1.099s] Invoked command in '/root/researchv2/build/urg_c' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/openpifpaf_ros2/install/rgbd_openpifpaf_ros2:/root/openpifpaf_ros2/install/pose_checker:/root/openpifpaf_ros2/install/openpifpaf_ros2_node:/root/researchv2/install/chaser_system:/opt/ros/galactic /usr/bin/cmake --install /root/researchv2/build/urg_c
